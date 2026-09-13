@@ -1,0 +1,4681 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PetaBoard — メモも、仕事の段取りも。ブラウザーに保存する、個人のための付箋ボード。">
+<meta name="theme-color" content="#f7f8f4">
+<title>PetaBoard</title>
+<style>
+  :root {
+    color-scheme: light;
+    --pb-primary: oklch(0.50 0.12 151);
+    --pb-primary-hover: color-mix(in oklch, var(--pb-primary) 84%, black);
+    --pb-primary-soft: color-mix(in oklch, var(--pb-primary) 18%, white);
+    --pb-primary-faint: color-mix(in oklch, var(--pb-primary) 7%, white);
+    --pb-focus-ring: color-mix(in oklch, var(--pb-primary) 24%, transparent);
+    --pb-bg: oklch(0.99 0.004 170);
+    --pb-bg-soft: oklch(0.97 0.006 200);
+    --pb-surface: oklch(1 0 0);
+    --pb-surface-muted: oklch(0.965 0.008 205);
+    --pb-header-bg: oklch(0.96 0.006 200);
+    --pb-border: oklch(0.89 0.011 210);
+    --pb-border-strong: oklch(0.78 0.018 210);
+    --pb-text: oklch(0.25 0.018 210);
+    --pb-text-muted: oklch(0.48 0.018 210);
+    --pb-text-tertiary: oklch(0.52 0.016 210);
+    --pb-text-on-primary: oklch(1 0 0);
+    --pb-danger: oklch(0.58 0.18 29);
+    --pb-danger-soft: oklch(0.95 0.04 29);
+    --pb-calendar-saturday: oklch(0.5 0.14 245);
+    --pb-calendar-holiday: var(--pb-danger);
+    --pb-shadow-menu: 0 0 0 1px oklch(0 0 0 / 0.06), 0 8px 24px oklch(0 0 0 / 0.14);
+    --pb-shadow-note: 0 1px 2px oklch(0 0 0 / 0.05), 0 8px 18px oklch(0 0 0 / 0.07);
+    --pb-shadow-modal: 0 20px 60px oklch(0 0 0 / 0.3);
+    --pb-radius-sm: 5px;
+    --pb-radius-md: 8px;
+    --pb-radius-lg: 12px;
+    --pb-radius-pill: 9999px;
+    --pb-topbar-height: 72px;
+    --pb-column-width: 306px;
+    --pb-board-gap: 14px;
+    --pb-note-body-lines: 4;
+    --pb-note-paper: oklch(1 0.006 97);
+    --pb-note-yellow: oklch(0.96 0.075 93);
+    --pb-note-blue: oklch(0.94 0.045 242);
+    --pb-note-mint: oklch(0.94 0.055 152);
+    --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --pb-primary: oklch(0.72 0.14 151);
+    --pb-text-on-primary: oklch(0.18 0.008 210);
+    --pb-primary-hover: color-mix(in oklch, var(--pb-primary) 86%, white);
+    --pb-primary-soft: color-mix(in oklch, var(--pb-primary) 30%, black);
+    --pb-primary-faint: color-mix(in oklch, var(--pb-primary) 17%, var(--pb-surface));
+    --pb-focus-ring: color-mix(in oklch, var(--pb-primary) 28%, transparent);
+    --pb-bg: oklch(0.18 0.008 210);
+    --pb-bg-soft: oklch(0.22 0.01 210);
+    --pb-surface: oklch(0.21 0.01 210);
+    --pb-surface-muted: oklch(0.255 0.012 210);
+    --pb-header-bg: oklch(0.26 0.012 210);
+    --pb-border: oklch(0.35 0.014 210);
+    --pb-border-strong: oklch(0.45 0.016 210);
+    --pb-text: oklch(0.9 0.006 210);
+    --pb-text-muted: oklch(0.76 0.01 210);
+    --pb-text-tertiary: oklch(0.72 0.011 210);
+    --pb-danger: oklch(0.68 0.18 29);
+    --pb-danger-soft: oklch(0.29 0.06 29);
+    --pb-calendar-saturday: oklch(0.72 0.11 245);
+    --pb-calendar-holiday: oklch(0.76 0.15 29);
+    --pb-shadow-menu: 0 0 0 1px oklch(0 0 0 / 0.24), 0 8px 24px oklch(0 0 0 / 0.36);
+    --pb-shadow-note: 0 1px 2px oklch(0 0 0 / 0.2), 0 10px 20px oklch(0 0 0 / 0.22);
+    --pb-shadow-modal: 0 20px 60px oklch(0 0 0 / 0.42);
+    --pb-note-paper: oklch(0.28 0.012 210);
+    --pb-note-yellow: oklch(0.34 0.06 91);
+    --pb-note-blue: oklch(0.32 0.05 242);
+    --pb-note-mint: oklch(0.32 0.055 152);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    background: var(--pb-bg);
+    color: var(--pb-text);
+    font-family: var(--font-family-base);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  button {
+    color: inherit;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  ::selection {
+    background: color-mix(in oklch, var(--pb-primary) 24%, transparent);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    min-height: 44px;
+    border: 3px solid transparent;
+    border-radius: var(--pb-radius-pill);
+    background: color-mix(in oklch, var(--pb-border-strong) 82%, transparent);
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pb-primary);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .app-shell {
+    display: flex;
+    height: 100%;
+    min-width: 0;
+    background: var(--pb-bg);
+  }
+
+  .section-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 24px;
+    color: var(--pb-text-tertiary);
+    font-size: 0.75rem;
+    font-weight: 680;
+  }
+
+  .field-input,
+  .field-textarea {
+    width: 100%;
+    min-width: 0;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-surface);
+    color: var(--pb-text);
+    outline: none;
+    transition: border-color 120ms ease, box-shadow 120ms ease, background 120ms ease;
+  }
+
+  .field-input {
+    height: 36px;
+    padding: 7px 10px;
+  }
+
+  .field-textarea {
+    min-height: 160px;
+    resize: vertical;
+    padding: 10px;
+    line-height: 1.55;
+  }
+
+  .field-input:focus,
+  .field-textarea:focus,
+  .column-title:focus {
+    border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border));
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .color-picker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .color-picker {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+    min-height: 32px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--chip-color, var(--pb-surface));
+    color: var(--pb-text);
+    cursor: pointer;
+    transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+  }
+
+  .color-picker {
+    width: 34px;
+    height: 34px;
+    min-height: 34px;
+    padding: 0;
+  }
+
+  .color-picker:hover {
+    border-color: var(--pb-border-strong);
+    transform: translateY(-1px);
+  }
+
+  .color-picker.is-active {
+    border-color: color-mix(in oklch, var(--pb-primary) 62%, var(--pb-border-strong));
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .color-picker .check-mark {
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+  }
+
+  .color-picker.is-active .check-mark {
+    opacity: 1;
+  }
+
+  .top-actions,
+  .column-actions,
+  .drawer-actions,
+  .settings-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .workspace {
+    display: flex;
+    min-width: 0;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: var(--pb-topbar-height);
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--pb-border);
+    background: color-mix(in oklch, var(--pb-header-bg) 88%, var(--pb-surface));
+  }
+
+  .storage-status {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--pb-border);
+    background: var(--pb-surface);
+    color: var(--pb-text);
+    font-size: 0.85rem;
+    overflow-wrap: anywhere;
+  }
+
+  .storage-status-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  .board-heading {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    flex: 1;
+    gap: 10px;
+  }
+
+  .brand-mark {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    border-radius: 11px;
+    background: var(--pb-primary-faint);
+    color: var(--pb-primary);
+  }
+
+  .brand-mark svg { width: 30px; height: 30px; }
+  .board-identity { display: grid; gap: 4px; min-width: 0; }
+
+  .save-indicator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--pb-text-muted);
+    font-size: 0.70rem;
+    line-height: 1.4;
+  }
+
+  .save-indicator::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    flex: 0 0 6px;
+    border-radius: 50%;
+    background: var(--pb-primary);
+  }
+
+  .save-indicator[data-state="pending"]::before { background: var(--pb-text-tertiary); }
+  .save-indicator[data-state="error"] { color: var(--pb-danger); }
+  .save-indicator[data-state="error"]::before { background: var(--pb-danger); }
+
+  .board-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    gap: 6px 12px;
+    padding: 10px 20px;
+    background: var(--pb-bg);
+    border-bottom: 1px solid var(--pb-border);
+  }
+
+  .board-summary { margin: 0; color: var(--pb-text-muted); font-size: 0.78rem; }
+  .board-tools { display: flex; gap: 6px; margin-left: auto; }
+  .board-tools .text-btn { min-height: 32px; font-size: 0.76rem; }
+
+  .welcome-panel {
+    position: sticky;
+    left: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(220px, 1fr);
+    width: min(960px, 100%);
+    flex: 0 0 auto;
+    gap: 20px 32px;
+    padding: 28px 30px 18px;
+    margin-bottom: 20px;
+    border: 1px solid var(--pb-border);
+    border-radius: 16px;
+    background: var(--pb-surface);
+  }
+
+  .welcome-eyebrow { color: var(--pb-primary); font-size: 0.74rem; font-weight: 650; }
+  .welcome-copy h2 { margin: 8px 0 10px; font-size: clamp(1.2rem, 2.4vw, 1.6rem); line-height: 1.5; letter-spacing: -.02em; }
+  .welcome-copy p { max-width: 400px; margin: 0 0 20px; color: var(--pb-text-muted); font-size: 0.84rem; line-height: 1.8; }
+  .welcome-guide { align-self: center; display: grid; gap: 14px; }
+  .welcome-guide p { display: flex; align-items: flex-start; gap: 12px; margin: 0; font-size: 0.83rem; font-weight: 650; }
+  .welcome-guide strong { color: var(--pb-primary); font-size: 0.75rem; line-height: 1.8; font-variant-numeric: tabular-nums; }
+  .welcome-guide small { display: block; margin-top: 3px; color: var(--pb-text-muted); font-size: 0.74rem; font-weight: 400; }
+  .welcome-storage { grid-column: 1 / -1; margin: 0; padding-top: 14px; border-top: 1px solid var(--pb-border); color: var(--pb-text-muted); font-size: 0.72rem; line-height: 1.7; }
+  .search-empty { position: sticky; left: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; width: min(960px, 100%); margin-bottom: 16px; padding: 16px; border: 1px solid var(--pb-border); border-radius: var(--pb-radius-lg); background: var(--pb-surface); color: var(--pb-text-muted); font-size: .82rem; }
+  kbd { padding: 1px 5px; border: 1px solid var(--pb-border); border-radius: 4px; background: var(--pb-surface-muted); font: inherit; font-size: .85em; }
+
+  .board-title {
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    color: var(--pb-text);
+    font-size: 1.16rem;
+    font-weight: 760;
+    line-height: 1.24;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .search-shell {
+    position: relative;
+    display: flex;
+    width: min(320px, 28vw);
+    min-width: 190px;
+    height: 36px;
+    flex: 0 1 320px;
+    align-items: center;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-surface);
+    color: var(--pb-text-tertiary);
+    transition: border-color 120ms ease, box-shadow 120ms ease, background 120ms ease;
+  }
+
+  .search-shell:focus-within {
+    border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border));
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .search-shell > [data-icon] {
+    margin-left: 10px;
+  }
+
+  .search-input {
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    color: var(--pb-text);
+    outline: none;
+    padding: 0 36px 0 8px;
+    font-size: 0.86rem;
+  }
+
+  .search-input::placeholder {
+    color: var(--pb-text-tertiary);
+  }
+
+  .search-input::-webkit-search-cancel-button {
+    appearance: none;
+  }
+
+  .search-clear {
+    position: absolute;
+    right: 3px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-color: transparent;
+    background: transparent;
+  }
+
+  .search-hit {
+    border-radius: 3px;
+    background: color-mix(in oklch, var(--pb-primary) 22%, transparent);
+    color: inherit;
+    padding: 0 1px;
+  }
+
+  .board-shell {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+    padding: 16px;
+    background:
+      linear-gradient(90deg, color-mix(in oklch, var(--pb-primary-faint) 50%, transparent), transparent 42%),
+      radial-gradient(circle at top right, color-mix(in oklch, var(--pb-note-blue) 36%, transparent), transparent 32%),
+      var(--pb-bg);
+  }
+
+  .kanban-board {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--pb-board-gap);
+    min-width: min-content;
+    min-height: 0;
+  }
+
+  .column {
+    display: flex;
+    width: var(--pb-column-width);
+    max-height: calc(100dvh - var(--pb-topbar-height) - 88px);
+    min-height: 210px;
+    flex: 0 0 var(--pb-column-width);
+    flex-direction: column;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: color-mix(in oklch, var(--pb-surface-muted) 88%, var(--pb-bg));
+    box-shadow: 0 1px 1px oklch(0 0 0 / 0.025);
+  }
+
+  .column.is-column-dragging {
+    opacity: 0.42;
+    transform: rotate(0.6deg);
+  }
+
+  .column-drop-marker {
+    align-self: stretch;
+    width: 6px;
+    min-height: 210px;
+    flex: 0 0 6px;
+    border-radius: var(--pb-radius-pill);
+    background: var(--pb-primary);
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .column.is-drop-target {
+    border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border-strong));
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .column-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 10px;
+    border-bottom: 1px solid var(--pb-border);
+  }
+
+  .column-title-row {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .column-handle {
+    display: grid;
+    flex: 0 0 18px;
+    width: 18px;
+    height: 28px;
+    place-items: center;
+    color: var(--pb-text-tertiary);
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+  }
+
+  .column-handle:active {
+    cursor: grabbing;
+  }
+
+  .column-title-wrap {
+    display: grid;
+    min-width: 0;
+    gap: 1px;
+  }
+
+  .column-title {
+    min-width: 0;
+    width: 100%;
+    height: 28px;
+    border: 1px solid transparent;
+    border-radius: var(--pb-radius-sm);
+    background: transparent;
+    color: var(--pb-text);
+    font-size: 0.92rem;
+    font-weight: 720;
+    outline: none;
+    padding: 2px 5px;
+  }
+
+  .column-count {
+    color: var(--pb-text-tertiary);
+    font-size: 0.74rem;
+    line-height: 1.2;
+    padding-left: 5px;
+  }
+
+  .note-list {
+    display: grid;
+    align-content: start;
+    gap: 9px;
+    min-height: 96px;
+    overflow: auto;
+    padding: 10px;
+  }
+
+  .note-card {
+    position: relative;
+    display: grid;
+    gap: 8px;
+    min-height: 84px;
+    border: 1px solid color-mix(in oklch, var(--pb-border-strong) 62%, transparent);
+    border-radius: var(--pb-radius-lg);
+    background: var(--note-bg, var(--pb-note-paper));
+    box-shadow: var(--pb-shadow-note);
+    color: var(--pb-text);
+    cursor: grab;
+    outline: none;
+    padding: 11px 12px 10px;
+    touch-action: manipulation;
+    user-select: none;
+    transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease, opacity 120ms ease;
+  }
+
+  .note-card:hover,
+  .note-card:focus-visible {
+    border-color: color-mix(in oklch, var(--pb-primary) 52%, var(--pb-border-strong));
+    box-shadow: 0 0 0 3px var(--pb-focus-ring), var(--pb-shadow-note);
+    transform: translateY(-1px);
+  }
+
+  .note-card:active {
+    cursor: grabbing;
+  }
+
+  .note-card.is-dragging {
+    opacity: 0.45;
+    transform: rotate(1deg) scale(0.99);
+  }
+
+  .note-drag-handle {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: var(--pb-radius-md);
+    background: transparent;
+    color: var(--pb-text-muted);
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .note-drag-handle:hover,
+  .note-drag-handle:focus-visible {
+    background: oklch(0 0 0 / 0.06);
+    outline: 2px solid var(--pb-focus-ring);
+  }
+
+  .note-title {
+    min-height: 34px;
+    overflow-wrap: anywhere;
+    color: var(--pb-text);
+    font-size: 0.92rem;
+    font-weight: 720;
+    line-height: 1.35;
+    margin: 0;
+    padding-right: 36px;
+  }
+
+  .note-body {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--pb-note-body-lines);
+    color: var(--pb-text-muted);
+    font-size: 0.84rem;
+    line-height: 1.48;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+
+  .note-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    min-height: 20px;
+  }
+
+  .tag-pill,
+  .due-pill,
+  .progress-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    max-width: 100%;
+    min-height: 20px;
+    border: 1px solid oklch(0 0 0 / 0.07);
+    border-radius: var(--pb-radius-pill);
+    background: oklch(1 0 0 / 0.36);
+    color: var(--pb-text-muted);
+    font-size: 0.72rem;
+    line-height: 1.2;
+    padding: 2px 7px;
+  }
+
+  :root[data-theme="dark"] .tag-pill,
+  :root[data-theme="dark"] .due-pill,
+  :root[data-theme="dark"] .progress-pill {
+    background: oklch(0 0 0 / 0.16);
+    border-color: oklch(1 0 0 / 0.07);
+  }
+
+  .due-pill.is-overdue {
+    color: var(--pb-danger);
+    border-color: color-mix(in oklch, var(--pb-danger) 36%, transparent);
+    background: var(--pb-danger-soft);
+  }
+
+  .note-progress {
+    width: 100%;
+    height: 4px;
+    overflow: hidden;
+    border-radius: var(--pb-radius-pill);
+    background: oklch(0 0 0 / 0.08);
+  }
+
+  .note-progress-bar {
+    height: 100%;
+    border-radius: inherit;
+    background: color-mix(in oklch, var(--pb-primary) 72%, var(--pb-text));
+  }
+
+  .drop-marker {
+    height: 4px;
+    border-radius: var(--pb-radius-pill);
+    background: var(--pb-primary);
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .column-empty {
+    display: grid;
+    min-height: 78px;
+    place-items: center;
+    border: 1px dashed var(--pb-border-strong);
+    border-radius: var(--pb-radius-lg);
+    color: var(--pb-text-tertiary);
+    font-size: 0.82rem;
+  }
+
+  .column-footer {
+    padding: 0 10px 10px;
+  }
+
+  .icon-btn,
+  .text-btn,
+  .primary-btn,
+  .danger-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 34px;
+    height: 34px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-surface);
+    color: var(--pb-text-muted);
+    cursor: pointer;
+    outline: none;
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+  }
+
+  .icon-btn svg,
+  .text-btn svg,
+  .primary-btn svg,
+  .danger-btn svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .icon-btn:hover,
+  .text-btn:hover {
+    border-color: var(--pb-border-strong);
+    background: var(--pb-primary-faint);
+    color: var(--pb-text);
+  }
+
+  .icon-btn:focus-visible,
+  .text-btn:focus-visible,
+  .primary-btn:focus-visible,
+  .danger-btn:focus-visible,
+  .color-picker:focus-visible {
+    outline: 2px solid var(--pb-primary);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .icon-btn:disabled,
+  .text-btn:disabled,
+  .primary-btn:disabled,
+  .danger-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  .top-actions .icon-btn {
+    min-width: 36px;
+    height: 36px;
+  }
+
+  .text-btn,
+  .primary-btn,
+  .danger-btn {
+    gap: 7px;
+    min-width: 0;
+    padding: 0 10px;
+    font-size: 0.82rem;
+    font-weight: 650;
+    white-space: nowrap;
+  }
+
+  .settings-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .settings-actions .text-btn,
+  .settings-actions .danger-btn {
+    flex: 0 0 auto;
+  }
+
+  .primary-btn {
+    border-color: color-mix(in oklch, var(--pb-primary) 74%, var(--pb-border));
+    background: var(--pb-primary);
+    color: var(--pb-text-on-primary);
+  }
+
+  .primary-btn:hover {
+    background: var(--pb-primary-hover);
+  }
+
+  .danger-btn {
+    border-color: color-mix(in oklch, var(--pb-danger) 48%, var(--pb-border));
+    color: var(--pb-danger);
+  }
+
+  .danger-btn:hover {
+    background: var(--pb-danger-soft);
+  }
+
+  .add-note-btn {
+    width: 100%;
+  }
+
+  .add-column-panel {
+    display: grid;
+    width: 260px;
+    min-height: 120px;
+    flex: 0 0 260px;
+    place-items: center;
+    border: 1px dashed var(--pb-border-strong);
+    border-radius: var(--pb-radius-lg);
+    background: color-mix(in oklch, var(--pb-surface) 55%, transparent);
+  }
+
+  .drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    pointer-events: none;
+  }
+
+  .drawer.is-open {
+    pointer-events: auto;
+  }
+
+  .drawer-backdrop {
+    position: absolute;
+    inset: 0;
+    background: oklch(0 0 0 / 0.28);
+    opacity: 0;
+    transition: opacity 140ms ease;
+  }
+
+  .drawer-panel {
+    position: relative;
+    display: flex;
+    width: min(620px, calc(100vw - 32px));
+    max-height: min(720px, calc(100dvh - 48px));
+    min-height: 0;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface);
+    box-shadow: var(--pb-shadow-modal);
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+    transition: opacity 140ms ease, transform 140ms ease;
+  }
+
+  .drawer.is-open .drawer-backdrop,
+  .drawer.is-open .drawer-panel {
+    opacity: 1;
+  }
+
+  .drawer.is-open .drawer-panel {
+    transform: translateY(0) scale(1);
+  }
+
+  .drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 58px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--pb-border);
+  }
+
+  .drawer-header > .icon-btn,
+  .settings-header > .icon-btn {
+    flex: 0 0 auto;
+  }
+
+  .drawer-title-group {
+    display: grid;
+    min-width: 0;
+    gap: 1px;
+  }
+
+  .drawer-title {
+    overflow: hidden;
+    color: var(--pb-text);
+    font-size: 0.98rem;
+    font-weight: 740;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .drawer-subtitle {
+    overflow: hidden;
+    color: var(--pb-text-tertiary);
+    font-size: 0.75rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .drawer-context {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .drawer-save-status {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 5px;
+    color: var(--pb-text-muted);
+    font-size: 0.72rem;
+  }
+
+  .drawer-save-status::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--pb-primary);
+  }
+
+  .drawer-save-status[data-state="pending"]::before { background: var(--pb-text-tertiary); }
+  .drawer-save-status[data-state="error"] { color: var(--pb-danger); }
+  .drawer-save-status[data-state="error"]::before { background: var(--pb-danger); }
+
+  .drawer-body {
+    display: grid;
+    align-content: start;
+    gap: 16px;
+    min-height: 0;
+    overflow: auto;
+    padding: 14px;
+  }
+
+  .field-group {
+    display: grid;
+    gap: 7px;
+  }
+
+  .metadata-fields {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(142px, 164px);
+    gap: 12px;
+    align-items: start;
+  }
+
+  .field-label {
+    color: var(--pb-text-tertiary);
+    font-size: 0.76rem;
+    font-weight: 680;
+  }
+
+  .date-picker-group,
+  .date-picker-shell,
+  .date-picker-input {
+    cursor: pointer;
+  }
+
+  .date-picker-shell {
+    position: relative;
+    display: block;
+  }
+
+  .date-picker-input {
+    padding-right: 38px;
+    caret-color: transparent;
+  }
+
+  .date-picker-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: grid;
+    width: 18px;
+    height: 18px;
+    color: var(--pb-text-tertiary);
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+
+  .date-popover {
+    position: fixed;
+    z-index: 70;
+    display: grid;
+    width: min(296px, calc(100vw - 24px));
+    max-height: calc(100dvh - 20px);
+    gap: 10px;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface);
+    box-shadow: var(--pb-shadow-menu);
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 100ms ease, transform 100ms ease;
+  }
+
+  .date-popover.is-open {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .date-calendar-header,
+  .date-calendar-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .date-calendar-title {
+    min-width: 0;
+    color: var(--pb-text);
+    font-size: 0.9rem;
+    font-weight: 720;
+    text-align: center;
+  }
+
+  .date-weekdays,
+  .date-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  .date-weekday {
+    display: grid;
+    height: 24px;
+    place-items: center;
+    color: var(--pb-text-tertiary);
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .date-weekday:first-child {
+    color: var(--pb-calendar-holiday);
+  }
+
+  .date-weekday:last-child {
+    color: var(--pb-calendar-saturday);
+  }
+
+  .date-day {
+    display: grid;
+    aspect-ratio: 1;
+    min-width: 0;
+    border: 1px solid transparent;
+    border-radius: var(--pb-radius-sm);
+    background: transparent;
+    color: var(--pb-text);
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 650;
+    outline: none;
+    place-items: center;
+  }
+
+  .date-day.is-saturday {
+    color: var(--pb-calendar-saturday);
+  }
+
+  .date-day.is-sunday,
+  .date-day.is-holiday {
+    color: var(--pb-calendar-holiday);
+  }
+
+  .date-day:hover,
+  .date-day:focus-visible {
+    border-color: var(--pb-border-strong);
+    background: var(--pb-primary-faint);
+  }
+
+  .date-day.is-outside {
+    color: var(--pb-text-tertiary);
+    opacity: 0.58;
+  }
+
+  .date-day.is-today {
+    border-color: color-mix(in oklch, var(--pb-primary) 48%, var(--pb-border));
+  }
+
+  .date-day.is-selected {
+    border-color: var(--pb-primary);
+    background: var(--pb-primary);
+    color: var(--pb-text-on-primary);
+  }
+
+  .date-day.is-selected.is-saturday,
+  .date-day.is-selected.is-sunday,
+  .date-day.is-selected.is-holiday {
+    color: var(--pb-text-on-primary);
+  }
+
+  .checklist {
+    display: grid;
+    gap: 7px;
+  }
+
+  .check-row {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr) 34px;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .check-row input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    accent-color: var(--pb-primary);
+  }
+
+  .checklist-undo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 10px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-primary-faint);
+    color: var(--pb-text-muted);
+    font-size: 0.78rem;
+  }
+
+  .checklist-undo .text-btn { flex: 0 0 auto; }
+
+  .drawer-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 14px;
+    border-top: 1px solid var(--pb-border);
+  }
+
+  .settings-modal,
+  .help-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    pointer-events: none;
+  }
+
+  .settings-modal.is-open,
+  .help-modal.is-open {
+    pointer-events: auto;
+  }
+
+  .settings-backdrop,
+  .help-backdrop {
+    position: absolute;
+    inset: 0;
+    background: oklch(0 0 0 / 0.3);
+    opacity: 0;
+    transition: opacity 140ms ease;
+  }
+
+  .settings-panel {
+    position: relative;
+    display: flex;
+    width: min(560px, calc(100vw - 32px));
+    max-height: min(680px, calc(100dvh - 48px));
+    min-height: 0;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface);
+    box-shadow: var(--pb-shadow-modal);
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+    transition: opacity 140ms ease, transform 140ms ease;
+  }
+
+  .settings-modal.is-open .settings-backdrop,
+  .settings-modal.is-open .settings-panel,
+  .help-modal.is-open .help-backdrop,
+  .help-modal.is-open .help-panel {
+    opacity: 1;
+  }
+
+  .settings-modal.is-open .settings-panel,
+  .help-modal.is-open .help-panel {
+    transform: translateY(0) scale(1);
+  }
+
+  .settings-header,
+  .settings-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  .settings-header {
+    min-height: 58px;
+    border-bottom: 1px solid var(--pb-border);
+  }
+
+  .settings-title-group {
+    display: grid;
+    min-width: 0;
+    gap: 1px;
+  }
+
+  .settings-title {
+    color: var(--pb-text);
+    font-size: 0.98rem;
+    font-weight: 740;
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  .settings-subtitle {
+    color: var(--pb-text-tertiary);
+    font-size: 0.75rem;
+  }
+
+  .settings-body {
+    display: grid;
+    align-content: start;
+    gap: 0;
+    min-height: 0;
+    overflow: auto;
+    padding: 0 14px;
+  }
+
+  .settings-section {
+    display: grid;
+    gap: 12px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--pb-border);
+  }
+
+  .settings-section:last-child {
+    border-bottom: 0;
+  }
+
+  .setting-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .setting-copy {
+    display: grid;
+    min-width: 0;
+    gap: 2px;
+  }
+
+  .setting-title {
+    color: var(--pb-text);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .setting-desc {
+    color: var(--pb-text-tertiary);
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .segmented-control {
+    display: inline-flex;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-surface-muted);
+  }
+
+  .segment-btn {
+    min-width: 74px;
+    height: 32px;
+    border: 0;
+    border-right: 1px solid var(--pb-border);
+    background: transparent;
+    color: var(--pb-text-muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 680;
+    outline: none;
+    padding: 0 10px;
+    transition: background 120ms ease, color 120ms ease, box-shadow 120ms ease;
+  }
+
+  .segment-btn:last-child {
+    border-right: 0;
+  }
+
+  .segment-btn:hover {
+    background: var(--pb-primary-faint);
+    color: var(--pb-text);
+  }
+
+  .segment-btn:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  .segment-btn.is-active {
+    background: var(--pb-primary);
+    color: var(--pb-text-on-primary);
+  }
+
+  .settings-color-grid {
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+    max-width: 180px;
+  }
+
+  .settings-footer {
+    border-top: 1px solid var(--pb-border);
+  }
+
+  .help-panel { width: min(640px, calc(100vw - 32px)); }
+  .help-body { padding: 18px; }
+
+  .help-intro {
+    margin: 0 0 16px;
+    color: var(--pb-text-muted);
+    font-size: 0.84rem;
+    line-height: 1.7;
+  }
+
+  .help-steps {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .help-step {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 10px;
+    padding: 13px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface-muted);
+  }
+
+  .help-step-number {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--pb-primary-soft);
+    color: var(--pb-primary);
+    font-size: 0.72rem;
+    font-weight: 760;
+  }
+
+  .help-step h3 { margin: 2px 0 5px; font-size: 0.84rem; }
+  .help-step p { margin: 0; color: var(--pb-text-muted); font-size: 0.76rem; line-height: 1.6; }
+
+  .help-storage {
+    margin-top: 12px;
+    padding: 14px 16px;
+    border-radius: var(--pb-radius-md);
+    background: var(--pb-primary-faint);
+    color: var(--pb-text-muted);
+    font-size: 0.77rem;
+    line-height: 1.7;
+  }
+
+  .help-storage strong {
+    color: var(--pb-text);
+    font-size: 0.8rem;
+  }
+
+  .help-shortcuts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin: 14px 0 0;
+    color: var(--pb-text-muted);
+    font-size: 0.75rem;
+  }
+
+  .confirm-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 80;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    pointer-events: none;
+  }
+
+  .confirm-modal.is-open {
+    pointer-events: auto;
+  }
+
+  .confirm-backdrop {
+    position: absolute;
+    inset: 0;
+    background: oklch(0 0 0 / 0.34);
+    opacity: 0;
+    transition: opacity 140ms ease;
+  }
+
+  .confirm-panel {
+    position: relative;
+    display: grid;
+    width: min(420px, calc(100vw - 32px));
+    gap: 16px;
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface);
+    box-shadow: var(--pb-shadow-modal);
+    opacity: 0;
+    padding: 18px;
+    transform: translateY(8px) scale(0.985);
+    transition: opacity 140ms ease, transform 140ms ease;
+  }
+
+  .confirm-modal.is-open .confirm-backdrop,
+  .confirm-modal.is-open .confirm-panel {
+    opacity: 1;
+  }
+
+  .confirm-modal.is-open .confirm-panel {
+    transform: translateY(0) scale(1);
+  }
+
+  .confirm-title {
+    color: var(--pb-text);
+    font-size: 1rem;
+    font-weight: 760;
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  .confirm-message {
+    color: var(--pb-text-muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+
+  .confirm-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    z-index: 70;
+    max-width: min(420px, calc(100vw - 32px));
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-lg);
+    background: var(--pb-surface);
+    box-shadow: var(--pb-shadow-menu);
+    color: var(--pb-text);
+    font-size: 0.86rem;
+    opacity: 0;
+    padding: 10px 12px;
+    pointer-events: none;
+    transform: translate(-50%, 8px);
+    transition: opacity 140ms ease, transform 140ms ease;
+  }
+
+  .toast.is-visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+
+  .tooltip-layer {
+    position: fixed;
+    z-index: 90;
+    max-width: min(260px, calc(100vw - 24px));
+    border: 1px solid var(--pb-border);
+    border-radius: var(--pb-radius-md);
+    background: color-mix(in oklch, var(--pb-text) 92%, black);
+    box-shadow: var(--pb-shadow-menu);
+    color: var(--pb-surface);
+    font-size: 0.75rem;
+    line-height: 1.3;
+    opacity: 0;
+    padding: 6px 8px;
+    pointer-events: none;
+    transform: translateY(3px);
+    transition: opacity 90ms ease, transform 90ms ease;
+    white-space: nowrap;
+  }
+
+  :root[data-theme="dark"] .tooltip-layer {
+    background: color-mix(in oklch, var(--pb-surface) 92%, white);
+    color: var(--pb-text);
+  }
+
+  .tooltip-layer.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .icon-slot svg,
+  [data-icon] svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+
+  [data-icon] {
+    display: inline-flex;
+    width: 17px;
+    height: 17px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 900px) {
+    .drawer, .settings-modal, .help-modal { padding: 12px; }
+    .confirm-modal { padding: 16px; }
+
+    .topbar {
+      padding-inline: 10px;
+    }
+
+    .search-shell {
+      min-width: 140px;
+      flex-basis: 220px;
+    }
+
+    .top-actions {
+      gap: 4px;
+    }
+
+    .text-btn .btn-text {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+
+    .board-shell {
+      padding: 12px;
+    }
+
+    .column {
+      width: min(82vw, var(--pb-column-width));
+      flex-basis: min(82vw, var(--pb-column-width));
+    }
+
+    .drawer-panel {
+      width: min(620px, calc(100vw - 24px));
+      max-height: min(720px, calc(100dvh - 24px));
+    }
+
+    .settings-panel {
+      width: min(560px, calc(100vw - 24px));
+      max-height: min(680px, calc(100dvh - 24px));
+    }
+
+    .setting-row {
+      display: grid;
+      gap: 9px;
+    }
+
+    .segmented-control,
+    .settings-color-grid,
+    .settings-actions {
+      justify-self: start;
+    }
+  }
+
+  @media (max-width: 720px) {
+    :root {
+      --pb-topbar-height: 116px;
+    }
+
+    .topbar {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .board-heading {
+      flex: 1 1 calc(100% - 92px);
+    }
+
+    .top-actions {
+      margin-left: auto;
+    }
+
+    .search-shell {
+      order: 4;
+      width: 100%;
+      max-width: none;
+      min-width: 0;
+      flex: 1 1 100%;
+    }
+
+    input, textarea, select, .column-title, .search-input { font-size: 16px; }
+
+    .icon-btn,
+    .text-btn,
+    .primary-btn,
+    .danger-btn {
+      min-height: 44px;
+    }
+
+    .icon-btn { min-width: 44px; }
+    .top-actions .icon-btn { min-width: 44px; height: 44px; }
+    .board-tools .text-btn { min-height: 44px; }
+    .search-shell { height: 44px; }
+    .column-handle { width: 44px; height: 44px; flex-basis: 44px; }
+    .check-row { grid-template-columns: 32px minmax(0, 1fr) 44px; }
+    .check-row input[type="checkbox"] { width: 22px; height: 22px; }
+  }
+
+  @media (max-width: 480px) {
+    .board-toolbar { padding: 8px 12px; }
+    .welcome-panel { grid-template-columns: minmax(0, 1fr); padding: 20px; gap: 18px; }
+    .welcome-guide { display: none; }
+    .welcome-copy p { margin-bottom: 16px; }
+    .welcome-storage { padding-top: 12px; }
+    .help-steps { grid-template-columns: minmax(0, 1fr); }
+    .help-body { padding: 14px; }
+
+    .metadata-fields {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .drawer-footer {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="app-shell">
+  <main class="workspace">
+    <header class="topbar">
+      <div class="board-heading">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="6" y="5" width="19" height="22" rx="4" fill="currentColor" opacity=".22" transform="rotate(-10 16 16)"/><path d="M10 6h15v14l-7 7h-8a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3Z" fill="currentColor"/><path d="M18 27v-5a2 2 0 0 1 2-2h5" stroke="var(--pb-surface)" stroke-width="1.5"/></svg></span>
+        <div class="board-identity">
+          <h1 class="board-title" id="board-title"></h1>
+          <span class="save-indicator" id="save-indicator" role="status" aria-live="polite" aria-atomic="true">読み込み中…</span>
+        </div>
+      </div>
+      <label class="search-shell" aria-label="付箋を検索">
+        <span data-icon="search"></span>
+        <input class="search-input" id="search-input" type="search" autocomplete="off" placeholder="付箋・タグを検索" aria-keyshortcuts="/">
+        <button class="icon-btn search-clear" id="clear-search-btn" type="button" aria-label="検索をクリア" data-tooltip="検索をクリア" hidden>
+          <span data-icon="x"></span>
+        </button>
+      </label>
+      <div class="top-actions">
+        <button class="icon-btn" id="theme-btn" type="button" aria-label="テーマ切替" data-tooltip="テーマ切替">
+          <span data-icon="moon"></span>
+        </button>
+        <button class="icon-btn" id="settings-btn" type="button" aria-label="設定" data-tooltip="設定">
+          <span data-icon="settings"></span>
+        </button>
+      </div>
+    </header>
+    <div class="board-toolbar">
+      <p class="board-summary" id="board-summary" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="board-tools">
+        <button class="text-btn" id="quick-export-btn" type="button"><span data-icon="download"></span><span>バックアップ</span></button>
+        <button class="text-btn" id="help-btn" type="button">使い方</button>
+      </div>
+    </div>
+    <aside class="storage-status" id="storage-status" hidden>
+      <p id="storage-status-message" role="status" aria-live="polite"></p>
+      <div class="storage-status-actions">
+        <button class="text-btn" id="storage-export-btn" type="button">現在のボードを書き出す</button>
+        <button class="text-btn" id="storage-original-btn" type="button" hidden>元の保存データを書き出す</button>
+        <button class="text-btn" id="storage-retry-btn" type="button">保存を再試行</button>
+        <button class="text-btn" id="storage-reload-btn" type="button">保存済みの内容を開く</button>
+      </div>
+    </aside>
+    <section class="board-shell" aria-label="付箋ボード">
+      <section class="welcome-panel" id="welcome-panel" aria-labelledby="welcome-title" hidden>
+        <div class="welcome-copy">
+          <span class="welcome-eyebrow">あなたの仕事に、小さな余白を。</span>
+          <h2 id="welcome-title">まずは、ひとつ書き出そう。</h2>
+          <p>気になることを付箋に。列に分けて、次にやることを見つけましょう。</p>
+          <button class="primary-btn" id="first-note-btn" type="button"><span data-icon="plus"></span><span>最初の付箋を作る</span></button>
+        </div>
+        <div class="welcome-guide">
+          <p><strong>01</strong><span>メモを残す<small>タイトルだけでも大丈夫。</small></span></p>
+          <p><strong>02</strong><span>列で整理する<small>列名はクリックして変更できます。</small></span></p>
+          <p><strong>03</strong><span>自分のペースで進める<small>期限やチェックリストで、次の一歩を。</small></span></p>
+        </div>
+        <p class="welcome-storage">データはこのブラウザーに保存されます。大切なメモは「バックアップ」で手元にも。</p>
+      </section>
+      <div class="search-empty" id="search-empty" hidden>
+        <span>一致する付箋がありません。別の言葉で検索してみてください。</span>
+        <button class="text-btn" id="empty-clear-search-btn" type="button">検索をクリア</button>
+      </div>
+      <div class="kanban-board" id="kanban-board"></div>
+    </section>
+  </main>
+</div>
+
+<div class="drawer" id="note-drawer" hidden>
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <section class="drawer-panel" role="dialog" aria-modal="true" aria-label="付箋編集">
+    <header class="drawer-header">
+      <div class="drawer-title-group">
+        <div class="drawer-title" id="drawer-title">付箋</div>
+        <div class="drawer-context">
+          <div class="drawer-subtitle" id="drawer-subtitle">編集中</div>
+          <span class="drawer-save-status" id="drawer-save-status" role="status" aria-live="polite" aria-atomic="true">読み込み中…</span>
+        </div>
+      </div>
+      <button class="icon-btn" id="close-drawer-btn" type="button" aria-label="閉じる" data-tooltip="閉じる">
+        <span data-icon="x"></span>
+      </button>
+    </header>
+    <div class="drawer-body">
+      <label class="field-group">
+        <span class="field-label">タイトル</span>
+        <input class="field-input" id="note-title-input" type="text" autocomplete="off" placeholder="無題">
+      </label>
+      <label class="field-group">
+        <span class="field-label">本文</span>
+        <textarea class="field-textarea" id="note-body-input" placeholder="メモ"></textarea>
+      </label>
+      <label class="field-group">
+        <span class="field-label">移動先の列</span>
+        <select class="field-input" id="note-column-input"></select>
+      </label>
+      <div class="field-group">
+        <span class="field-label">色</span>
+        <div class="color-picker-grid" id="note-color-grid"></div>
+      </div>
+      <div class="metadata-fields">
+        <label class="field-group">
+          <span class="field-label" id="note-tags-label">タグ</span>
+          <input class="field-input" id="note-tags-input" type="text" autocomplete="off" placeholder="設計, 重要" aria-labelledby="note-tags-label">
+        </label>
+        <label class="field-group date-picker-group" id="note-due-field">
+          <span class="field-label">期限</span>
+          <span class="date-picker-shell">
+            <input class="field-input date-picker-input" id="note-due-input" type="text" autocomplete="off" placeholder="未設定" readonly aria-haspopup="dialog" aria-expanded="false" aria-controls="date-popover">
+            <span class="date-picker-icon" data-icon="calendar" aria-hidden="true"></span>
+          </span>
+        </label>
+      </div>
+      <div class="field-group">
+        <span class="field-label">チェックリスト</span>
+        <div class="checklist" id="checklist"></div>
+        <div class="checklist-undo" id="checklist-undo" role="status" hidden>
+          <span id="checklist-undo-message">項目を削除しました</span>
+          <button class="text-btn" id="checklist-undo-btn" type="button">元に戻す</button>
+        </div>
+        <button class="text-btn" id="add-check-btn" type="button" title="チェック項目を追加">
+          <span data-icon="plus"></span>
+          <span>項目</span>
+        </button>
+      </div>
+    </div>
+    <footer class="drawer-footer">
+      <div class="drawer-actions">
+        <button class="text-btn" id="duplicate-note-btn" type="button" title="複製">
+          <span data-icon="copy"></span>
+          <span>複製</span>
+        </button>
+      </div>
+      <button class="danger-btn" id="delete-note-btn" type="button" title="削除">
+        <span data-icon="trash"></span>
+        <span>削除</span>
+      </button>
+    </footer>
+  </section>
+</div>
+
+<div class="date-popover" id="date-popover" role="dialog" aria-modal="true" aria-labelledby="date-popover-title" hidden>
+  <header class="date-calendar-header">
+    <button class="icon-btn" id="date-prev-month-btn" type="button" aria-label="前の月" data-tooltip="前の月">
+      <span data-icon="arrow-left"></span>
+    </button>
+    <div class="date-calendar-title" id="date-popover-title" aria-live="polite"></div>
+    <button class="icon-btn" id="date-next-month-btn" type="button" aria-label="次の月" data-tooltip="次の月">
+      <span data-icon="arrow-right"></span>
+    </button>
+  </header>
+  <div class="date-weekdays" aria-hidden="true">
+    <div class="date-weekday">日</div>
+    <div class="date-weekday">月</div>
+    <div class="date-weekday">火</div>
+    <div class="date-weekday">水</div>
+    <div class="date-weekday">木</div>
+    <div class="date-weekday">金</div>
+    <div class="date-weekday">土</div>
+  </div>
+  <div class="date-calendar-grid" id="date-calendar-grid" role="grid" aria-labelledby="date-popover-title"></div>
+  <footer class="date-calendar-footer">
+    <button class="text-btn" id="date-today-btn" type="button">今日</button>
+    <button class="text-btn" id="date-clear-btn" type="button">クリア</button>
+  </footer>
+</div>
+
+<div class="settings-modal" id="settings-modal" hidden>
+  <div class="settings-backdrop" id="settings-backdrop"></div>
+  <section class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+    <header class="settings-header">
+      <div class="settings-title-group">
+        <h2 class="settings-title" id="settings-title">設定</h2>
+        <div class="settings-subtitle">表示とデータ管理</div>
+      </div>
+      <button class="icon-btn" id="close-settings-btn" type="button" aria-label="閉じる" data-tooltip="閉じる">
+        <span data-icon="x"></span>
+      </button>
+    </header>
+    <div class="settings-body">
+      <section class="settings-section" aria-label="ボード設定">
+        <label class="field-group">
+          <span class="field-label" id="board-name-label">ボード名</span>
+          <input class="field-input" id="board-name-input" type="text" autocomplete="off" placeholder="PetaBoard" aria-labelledby="board-name-label" aria-describedby="board-name-hint">
+          <span class="setting-desc" id="board-name-hint">仕事や用途に合わせて、80文字までで名前を付けられます。</span>
+        </label>
+      </section>
+      <section class="settings-section" aria-label="表示設定">
+        <div class="setting-row">
+          <div class="setting-copy">
+            <div class="setting-title">テーマ</div>
+            <div class="setting-desc">明るい表示と暗い表示を切り替えます。</div>
+          </div>
+          <div class="segmented-control" role="group" aria-label="テーマ">
+            <button class="segment-btn" type="button" data-settings-theme="light">ライト</button>
+            <button class="segment-btn" type="button" data-settings-theme="dark">ダーク</button>
+          </div>
+        </div>
+        <div class="setting-row">
+          <div class="setting-copy">
+            <div class="setting-title">表示密度</div>
+            <div class="setting-desc">列幅と本文プレビュー量を調整します。</div>
+          </div>
+          <div class="segmented-control" role="group" aria-label="表示密度">
+            <button class="segment-btn" type="button" data-settings-density="comfortable">通常</button>
+            <button class="segment-btn" type="button" data-settings-density="compact">コンパクト</button>
+          </div>
+        </div>
+        <div class="setting-row">
+          <div class="setting-copy">
+            <div class="setting-title">付箋の初期色</div>
+            <div class="setting-desc">新規付箋に最初から適用する色です。</div>
+          </div>
+          <div class="settings-color-grid" id="default-color-grid"></div>
+        </div>
+      </section>
+      <section class="settings-section" aria-label="データ管理">
+        <div class="setting-row">
+          <div class="setting-copy">
+            <div class="setting-title">ボードデータ</div>
+            <div class="setting-desc">データはこのブラウザーに保存され、HTMLファイル自体には書き込まれません。別の端末・ブラウザーへの移動や、閲覧データの削除前にはJSONを書き出してください。</div>
+          </div>
+          <div class="settings-actions">
+            <button class="text-btn" id="export-board-btn" type="button">
+              <span data-icon="download"></span>
+              <span>書き出し</span>
+            </button>
+            <button class="text-btn" id="import-board-btn" type="button">
+              <span data-icon="upload"></span>
+              <span>読み込み</span>
+            </button>
+            <button class="danger-btn" id="reset-board-btn" type="button">
+              <span data-icon="refresh-ccw"></span>
+              <span>初期化</span>
+            </button>
+            <input id="import-board-file" type="file" accept="application/json,.json" hidden>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="settings-footer">
+      <span class="settings-subtitle" id="settings-save-status">変更は自動保存されます。</span>
+      <button class="primary-btn" id="settings-done-btn" type="button">完了</button>
+    </footer>
+  </section>
+</div>
+
+<div class="help-modal" id="help-modal" hidden>
+  <div class="help-backdrop" id="help-backdrop"></div>
+  <section class="settings-panel help-panel" role="dialog" aria-modal="true" aria-labelledby="help-title" aria-describedby="help-intro">
+    <header class="settings-header">
+      <div class="settings-title-group">
+        <h2 class="settings-title" id="help-title">PetaBoardの使い方</h2>
+        <div class="settings-subtitle">仕事を迷わず整理するための基本操作</div>
+      </div>
+      <button class="icon-btn" id="close-help-btn" type="button" aria-label="使い方を閉じる" data-tooltip="閉じる">
+        <span data-icon="x"></span>
+      </button>
+    </header>
+    <div class="settings-body help-body">
+      <p class="help-intro" id="help-intro">思いついたことを付箋に書き、仕事の段階に合わせて列を移動します。すべての変更は自動保存されます。</p>
+      <div class="help-steps">
+        <section class="help-step">
+          <span class="help-step-number">1</span>
+          <div><h3>付箋を作る</h3><p>列の「付箋を追加」から、タイトルや本文を書きます。何も書かずに閉じた付箋は残りません。</p></div>
+        </section>
+        <section class="help-step">
+          <span class="help-step-number">2</span>
+          <div><h3>仕事を移動する</h3><p>付箋をドラッグするか、編集画面の「移動先の列」を選びます。タッチでは付箋右上のハンドルを使います。</p></div>
+        </section>
+        <section class="help-step">
+          <span class="help-step-number">3</span>
+          <div><h3>期限と手順を決める</h3><p>期限やチェックリストを追加すると、次にやることを具体的にできます。誤って消した項目はすぐ元に戻せます。</p></div>
+        </section>
+        <section class="help-step">
+          <span class="help-step-number">4</span>
+          <div><h3>必要な付箋を探す</h3><p>タイトル・本文・タグ・チェック項目・列名を検索できます。新規作成時は検索を自動で解除します。</p></div>
+        </section>
+      </div>
+      <div class="help-storage"><strong>保存とバックアップ</strong><br>データはこの端末の、このブラウザー内に保存されます。クラウド同期はありません。大切なボードは画面上部の「バックアップ」でJSONを書き出してください。復元は設定の「読み込み」から行えます。</div>
+      <p class="help-shortcuts"><span><kbd>/</kbd> 検索へ移動</span><span><kbd>Esc</kbd> 画面を閉じる・検索解除</span><span><kbd>Tab</kbd> 次の操作へ</span><span><kbd>Enter</kbd> 付箋を編集</span></p>
+    </div>
+    <footer class="settings-footer">
+      <span class="settings-subtitle">困ったときは、保存状態を画面上部で確認できます。</span>
+      <button class="primary-btn" id="help-done-btn" type="button">閉じる</button>
+    </footer>
+  </section>
+</div>
+
+<div class="confirm-modal" id="confirm-modal" hidden>
+  <div class="confirm-backdrop" id="confirm-backdrop"></div>
+  <section class="confirm-panel" role="dialog" aria-modal="true" aria-labelledby="confirm-title" aria-describedby="confirm-message">
+    <div>
+      <h2 class="confirm-title" id="confirm-title">確認</h2>
+      <p class="confirm-message" id="confirm-message"></p>
+    </div>
+    <footer class="confirm-actions">
+      <button class="text-btn" id="confirm-cancel-btn" type="button">キャンセル</button>
+      <button class="primary-btn" id="confirm-ok-btn" type="button">OK</button>
+    </footer>
+  </section>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="tooltip-layer" id="tooltip" role="tooltip" hidden></div>
+
+<script>
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "petaborad.state.v1";
+  const CORRUPT_BACKUP_KEY = `${STORAGE_KEY}.corrupt`;
+  const SAVE_DELAY = 160;
+  const NOTE_DRAG_THRESHOLD = 8;
+  const SAFE_ID_RE = /^[A-Za-z0-9_-]{1,96}$/;
+  const LIMITS = Object.freeze({
+    boardTitle: 80,
+    columnTitle: 48,
+    noteTitle: 120,
+    noteBody: 4000,
+    tags: 8,
+    tag: 32,
+    dueDate: 10,
+    checklistItems: 30,
+    checklistText: 140,
+    columns: 12,
+    notes: 500,
+    search: 80,
+    // All 500 notes, 30 checklist items and 8 tags at their limits, 96-character
+    // IDs and six-byte JSON escapes serialize below 28 MiB, including indentation.
+    importBytes: 32 * 1024 * 1024
+  });
+  const NOTE_COLORS = [
+    { id: "paper", label: "白", css: "var(--pb-note-paper)" },
+    { id: "yellow", label: "黄", css: "var(--pb-note-yellow)" },
+    { id: "blue", label: "青", css: "var(--pb-note-blue)" },
+    { id: "mint", label: "緑", css: "var(--pb-note-mint)" }
+  ];
+  const LEGACY_COLOR_MAP = {
+    rose: "yellow",
+    violet: "blue",
+    apricot: "yellow"
+  };
+  const DEFAULT_SETTINGS = {
+    density: "comfortable",
+    defaultColor: "paper"
+  };
+
+  const ICONS = {
+    archive: '<path d="M21 8v13H3V8"/><path d="M1 3h22v5H1z"/><path d="M10 12h4"/>',
+    arrowLeft: '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
+    arrowRight: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+    calendar: '<path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 10h18"/>',
+    check: '<path d="m20 6-11 11-5-5"/>',
+    columns: '<rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/>',
+    copy: '<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',
+    download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/>',
+    refreshCcw: '<path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/>',
+    grip: '<circle cx="9" cy="5" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="19" r="1"/>',
+    moon: '<path d="M12 3a6 6 0 0 0 9 7.5A9 9 0 1 1 12 3Z"/>',
+    plus: '<path d="M12 5v14"/><path d="M5 12h14"/>',
+    search: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>',
+    settings: '<path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.73l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.09a2 2 0 0 1-1-1.73v-.51a2 2 0 0 1 1-1.72l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2Z"/><circle cx="12" cy="12" r="3"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>',
+    trash: '<path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/>',
+    upload: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/>',
+    x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>'
+  };
+
+  const els = {
+    body: document.body,
+    html: document.documentElement,
+    board: document.getElementById("kanban-board"),
+    boardTitle: document.getElementById("board-title"),
+    searchInput: document.getElementById("search-input"),
+    clearSearch: document.getElementById("clear-search-btn"),
+    toast: document.getElementById("toast"),
+    tooltip: document.getElementById("tooltip"),
+    confirmModal: document.getElementById("confirm-modal"),
+    confirmBackdrop: document.getElementById("confirm-backdrop"),
+    confirmTitle: document.getElementById("confirm-title"),
+    confirmMessage: document.getElementById("confirm-message"),
+    confirmCancel: document.getElementById("confirm-cancel-btn"),
+    confirmOk: document.getElementById("confirm-ok-btn"),
+    drawer: document.getElementById("note-drawer"),
+    drawerTitle: document.getElementById("drawer-title"),
+    drawerSubtitle: document.getElementById("drawer-subtitle"),
+    drawerSaveStatus: document.getElementById("drawer-save-status"),
+    noteTitle: document.getElementById("note-title-input"),
+    noteBody: document.getElementById("note-body-input"),
+    noteColumn: document.getElementById("note-column-input"),
+    noteTags: document.getElementById("note-tags-input"),
+    noteDueField: document.getElementById("note-due-field"),
+    noteDue: document.getElementById("note-due-input"),
+    drawerBody: document.querySelector("#note-drawer .drawer-body"),
+    datePopover: document.getElementById("date-popover"),
+    dateTitle: document.getElementById("date-popover-title"),
+    dateGrid: document.getElementById("date-calendar-grid"),
+    datePrevMonth: document.getElementById("date-prev-month-btn"),
+    dateNextMonth: document.getElementById("date-next-month-btn"),
+    dateToday: document.getElementById("date-today-btn"),
+    dateClear: document.getElementById("date-clear-btn"),
+    noteColorGrid: document.getElementById("note-color-grid"),
+    checklist: document.getElementById("checklist"),
+    checklistUndo: document.getElementById("checklist-undo"),
+    checklistUndoButton: document.getElementById("checklist-undo-btn"),
+    settingsBtn: document.getElementById("settings-btn"),
+    settingsModal: document.getElementById("settings-modal"),
+    settingsBackdrop: document.getElementById("settings-backdrop"),
+    settingsClose: document.getElementById("close-settings-btn"),
+    settingsDone: document.getElementById("settings-done-btn"),
+    helpModal: document.getElementById("help-modal"),
+    helpBackdrop: document.getElementById("help-backdrop"),
+    helpClose: document.getElementById("close-help-btn"),
+    helpDone: document.getElementById("help-done-btn"),
+    defaultColorGrid: document.getElementById("default-color-grid"),
+    exportBoardBtn: document.getElementById("export-board-btn"),
+    importBoardBtn: document.getElementById("import-board-btn"),
+    importBoardFile: document.getElementById("import-board-file"),
+    resetBoardBtn: document.getElementById("reset-board-btn")
+  };
+
+  let storageLoadStatus = { shouldSaveOnStart: true, message: "" };
+  let lastStoredText = null;
+  let pendingRecoveryText = null;
+  let storageReadBlocked = false;
+  let storageIssueMessage = "";
+  let storageReady = false;
+  let storageEpoch = 0;
+  let state = createDefaultState();
+  let stateDirty = false;
+  let activeNoteId = null;
+  let newDraftNoteId = null;
+  let lastValidTagsInput = "";
+  let tagsInputComposing = false;
+  const checklistActivePointers = new Set();
+  const checklistPointerRows = new Map();
+  let checklistRowCleanupPending = false;
+  let checklistUndo = null;
+  let checklistUndoTimer = null;
+  let searchQuery = "";
+  let saveTimer = null;
+  let toastTimer = null;
+  let suppressFocusTooltip = false;
+  let draggedNoteId = null;
+  let pointerDrag = null;
+  let columnPointerDrag = null;
+  let confirmResolve = null;
+  let confirmReturnFocus = null;
+  let drawerReturnFocus = null;
+  let settingsReturnFocus = null;
+  let helpReturnFocus = null;
+  let suppressClickNoteId = null;
+  let calendarMonth = null;
+  let calendarFocusedDate = null;
+  const japaneseHolidayCache = new Map();
+  const dropMarker = document.createElement("div");
+  dropMarker.className = "drop-marker";
+  const columnDropMarker = document.createElement("div");
+  columnDropMarker.className = "column-drop-marker";
+
+  function uid(prefix) {
+    return `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+  }
+
+  function plain(value, fallback = "") {
+    return typeof value === "string" ? value : fallback;
+  }
+
+  function truncateText(value, maxLength, fallback = "") {
+    return plain(value, fallback).slice(0, maxLength);
+  }
+
+  function trimText(value, maxLength, fallback = "") {
+    return truncateText(value, maxLength, fallback).trim();
+  }
+
+  function isSafeId(value) {
+    return typeof value === "string" && SAFE_ID_RE.test(value);
+  }
+
+  function isObjectRecord(value) {
+    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function isImportableBoardState(raw) {
+    if (!isObjectRecord(raw) || !isObjectRecord(raw.board)) return false;
+    if (!Array.isArray(raw.board.columns) || !raw.board.columns.length) return false;
+    return raw.board.columns.every((column) => (
+      isObjectRecord(column)
+      && Array.isArray(column.notes)
+      && column.notes.every((note) => isObjectRecord(note))
+    ));
+  }
+
+  function normalizeUniqueId(value, prefix, usedIds) {
+    const candidate = typeof value === "string" || typeof value === "number" ? String(value) : "";
+    if (isSafeId(candidate) && !usedIds.has(candidate)) {
+      usedIds.add(candidate);
+      return candidate;
+    }
+    let nextId = uid(prefix);
+    while (usedIds.has(nextId)) nextId = uid(prefix);
+    usedIds.add(nextId);
+    return nextId;
+  }
+
+  function normalizeNoteColor(value, fallback = "paper") {
+    const colorId = plain(value);
+    const mappedColor = LEGACY_COLOR_MAP[colorId] || colorId;
+    return NOTE_COLORS.some((color) => color.id === mappedColor) ? mappedColor : fallback;
+  }
+
+  function normalizeSettings(value = {}) {
+    const settings = value && typeof value === "object" ? value : {};
+    const defaultColor = normalizeNoteColor(settings.defaultColor, DEFAULT_SETTINGS.defaultColor);
+    return {
+      density: settings.density === "compact" ? "compact" : DEFAULT_SETTINGS.density,
+      defaultColor
+    };
+  }
+
+  function normalizeTags(value) {
+    const rawTags = Array.isArray(value) ? value : plain(value).split(",");
+    return rawTags
+      .map((tag) => truncateText(plain(tag).trim(), LIMITS.tag))
+      .filter(Boolean)
+      .slice(0, LIMITS.tags);
+  }
+
+  function normalizeDueDate(value) {
+    const date = parseDateValue(truncateText(value, LIMITS.dueDate));
+    return date ? dateValue(date) : "";
+  }
+
+  function createNote(overrides = {}, usedIds = null) {
+    const now = Date.now();
+    return {
+      id: usedIds ? normalizeUniqueId(overrides.id, "note", usedIds) : (isSafeId(overrides.id) ? String(overrides.id) : uid("note")),
+      title: truncateText(overrides.title, LIMITS.noteTitle),
+      body: truncateText(overrides.body, LIMITS.noteBody),
+      color: normalizeNoteColor(overrides.color),
+      tags: normalizeTags(overrides.tags),
+      dueDate: normalizeDueDate(overrides.dueDate),
+      checklist: normalizeChecklist(overrides.checklist, usedIds),
+      createdAt: Number.isFinite(overrides.createdAt) ? overrides.createdAt : now,
+      updatedAt: Number.isFinite(overrides.updatedAt) ? overrides.updatedAt : now
+    };
+  }
+
+  function normalizeChecklist(items, usedIds = null) {
+    if (!Array.isArray(items)) return [];
+    const normalized = [];
+    for (const item of items) {
+      if (normalized.length >= LIMITS.checklistItems) break;
+      const text = trimText(item && item.text, LIMITS.checklistText);
+      if (!text) continue;
+      normalized.push({
+        id: usedIds ? normalizeUniqueId(item && item.id, "check", usedIds) : (isSafeId(item && item.id) ? String(item.id) : uid("check")),
+        text,
+        done: Boolean(item && item.done === true)
+      });
+    }
+    return normalized;
+  }
+
+  function createColumn(title, notes = [], options = {}) {
+    const usedIds = options.usedIds || null;
+    return {
+      id: usedIds ? normalizeUniqueId(options.id, "col", usedIds) : uid("col"),
+      title: trimText(title, LIMITS.columnTitle, "新しい列") || "新しい列",
+      notes
+    };
+  }
+
+  function createDefaultState() {
+    const now = Date.now();
+    return {
+      version: 1,
+      theme: "light",
+      settings: { ...DEFAULT_SETTINGS },
+      board: {
+        title: "PetaBoard",
+        createdAt: now,
+        updatedAt: now,
+        columns: [
+          createColumn("メモ"),
+          createColumn("タスク"),
+          createColumn("あとで")
+        ]
+      }
+    };
+  }
+
+  function normalizeState(raw) {
+    const fallback = createDefaultState();
+    if (!raw || typeof raw !== "object") return fallback;
+    const board = raw.board && typeof raw.board === "object" ? raw.board : {};
+    const rawColumns = Array.isArray(board.columns) ? board.columns : [];
+    const usedIds = new Set();
+    const columns = [];
+    let remainingNotes = LIMITS.notes;
+    for (const column of rawColumns) {
+      if (columns.length >= LIMITS.columns) break;
+      const source = column && typeof column === "object" ? column : {};
+      const notes = [];
+      if (Array.isArray(source.notes) && remainingNotes > 0) {
+        for (const note of source.notes) {
+          if (remainingNotes <= 0) break;
+          notes.push(createNote(note && typeof note === "object" ? note : {}, usedIds));
+          remainingNotes -= 1;
+        }
+      }
+      columns.push(createColumn(source.title, notes, { id: source.id, usedIds }));
+    }
+
+    return {
+      version: 1,
+      theme: raw.theme === "dark" ? "dark" : "light",
+      settings: normalizeSettings(raw.settings),
+      board: {
+        title: trimText(board.title, LIMITS.boardTitle, fallback.board.title) || fallback.board.title,
+        createdAt: Number.isFinite(board.createdAt) ? board.createdAt : fallback.board.createdAt,
+        updatedAt: Number.isFinite(board.updatedAt) ? board.updatedAt : Date.now(),
+        columns: columns.length ? columns : fallback.board.columns
+      }
+    };
+  }
+
+  function countStoredNotes(raw) {
+    if (!isImportableBoardState(raw)) return 0;
+    return raw.board.columns.reduce((total, column) => total + column.notes.length, 0);
+  }
+
+  function countStateNotes(nextState) {
+    return nextState.board.columns.reduce((total, column) => total + column.notes.length, 0);
+  }
+
+  function hasStoredIdChange(value, normalizedId) {
+    const candidate = typeof value === "string" || typeof value === "number" ? String(value) : "";
+    return Boolean(candidate) && candidate !== normalizedId;
+  }
+
+  function hasStringNormalizationLoss(value, normalizedValue) {
+    return typeof value === "string" && value !== normalizedValue;
+  }
+
+  function hasDueDateNormalizationLoss(value, normalizedValue) {
+    if (value === undefined || value === null || value === "") return false;
+    return typeof value !== "string" || value !== normalizedValue;
+  }
+
+  function hasTagsNormalizationLoss(value, normalizedTags) {
+    const rawTags = Array.isArray(value) ? value : plain(value).split(",");
+    const storedTags = rawTags.filter((tag) => {
+      if (typeof tag === "string") return Boolean(tag.trim());
+      return tag !== undefined && tag !== null;
+    });
+    if (storedTags.length > normalizedTags.length) return true;
+    return storedTags.some((tag, index) => (
+      typeof tag !== "string" || tag !== normalizedTags[index]
+    ));
+  }
+
+  function hasChecklistNormalizationLoss(items, normalizedItems) {
+    if (!Array.isArray(items)) return false;
+    const storedItems = items.filter((item) => {
+      if (!isObjectRecord(item)) return item !== undefined && item !== null;
+      if (typeof item.text === "string") return Boolean(item.text.trim());
+      return item.text !== undefined && item.text !== null;
+    });
+    if (storedItems.length > normalizedItems.length) return true;
+    return storedItems.some((item, index) => {
+      const normalizedItem = normalizedItems[index];
+      if (!isObjectRecord(item) || !normalizedItem) return true;
+      return hasStoredIdChange(item.id, normalizedItem.id)
+        || hasStringNormalizationLoss(item.text, normalizedItem.text)
+        || (typeof item.text !== "string" && item.text !== undefined && item.text !== null)
+        || hasChecklistDoneNormalizationLoss(item.done, normalizedItem.done);
+    });
+  }
+
+  function hasChecklistDoneNormalizationLoss(value, normalizedDone) {
+    if (value === undefined || value === null || value === false) return false;
+    return value !== normalizedDone;
+  }
+
+  function hasStoredStateReduction(raw, normalized) {
+    if (!isImportableBoardState(raw)) return true;
+    if (raw.board.columns.length > normalized.board.columns.length) return true;
+    if (countStoredNotes(raw) > countStateNotes(normalized)) return true;
+    if (hasStringNormalizationLoss(raw.board.title, normalized.board.title)) return true;
+
+    return normalized.board.columns.some((column, columnIndex) => {
+      const sourceColumn = raw.board.columns[columnIndex];
+      if (hasStoredIdChange(sourceColumn.id, column.id)) return true;
+      if (hasStringNormalizationLoss(sourceColumn.title, column.title)) return true;
+
+      return column.notes.some((note, noteIndex) => {
+        const sourceNote = sourceColumn.notes[noteIndex];
+        return hasStoredIdChange(sourceNote.id, note.id)
+          || hasStringNormalizationLoss(sourceNote.title, note.title)
+          || hasStringNormalizationLoss(sourceNote.body, note.body)
+          || hasDueDateNormalizationLoss(sourceNote.dueDate, note.dueDate)
+          || hasTagsNormalizationLoss(sourceNote.tags, note.tags)
+          || hasChecklistNormalizationLoss(sourceNote.checklist, note.checklist);
+      });
+    });
+  }
+
+  function loadState() {
+    handleResetQueryParam();
+    let stored = "";
+    try {
+      lastStoredText = localStorage.getItem(STORAGE_KEY);
+      stored = lastStoredText || "";
+      storageReadBlocked = false;
+    } catch (_) {
+      storageReadBlocked = true;
+      storageLoadStatus = {
+        shouldSaveOnStart: false,
+        message: "保存データを読み込めませんでした"
+      };
+      return createDefaultState();
+    }
+    if (!stored) return createDefaultState();
+    try {
+      const parsed = JSON.parse(stored);
+      if (!isImportableBoardState(parsed)) {
+        recoverStoredState(stored, "保存データを退避し、初期状態で開きました");
+        return createDefaultState();
+      }
+      const normalized = normalizeState(parsed);
+      if (hasStoredStateReduction(parsed, normalized)) {
+        recoverStoredState(stored, "正規化が必要な保存データを退避し、表示できる範囲で開きました");
+      }
+      return normalized;
+    } catch (_) {
+      recoverStoredState(stored, "破損した保存データを退避し、初期状態で開きました");
+      return createDefaultState();
+    }
+  }
+
+  function handleResetQueryParam() {
+    try {
+      const url = new URL(location.href);
+      if (url.searchParams.get("reset") !== "1") return;
+      url.searchParams.delete("reset");
+      const nextUrl = `${url.pathname}${url.search}${url.hash}`;
+      history.replaceState(null, "", nextUrl || location.pathname);
+      storageLoadStatus.message = "URLからの自動初期化は無効化しました";
+    } catch (_) {
+    }
+  }
+
+  function backupCorruptStoredState(stored) {
+    try {
+      // All callers hold the same origin-wide lock, including startup recovery.
+      // Never evict an older recovery copy to make room for a newer one.
+      let backupKey = CORRUPT_BACKUP_KEY;
+      const existing = localStorage.getItem(backupKey);
+      if (existing !== null && existing !== stored) {
+        const reusableKey = Object.keys(localStorage).find((key) => (
+          key.startsWith(`${CORRUPT_BACKUP_KEY}.`) && localStorage.getItem(key) === stored
+        ));
+        backupKey = reusableKey || `${CORRUPT_BACKUP_KEY}.${uid("backup")}`;
+        while (!reusableKey && localStorage.getItem(backupKey) !== null) {
+          backupKey = `${CORRUPT_BACKUP_KEY}.${uid("backup")}`;
+        }
+      }
+      if (localStorage.getItem(backupKey) !== stored) localStorage.setItem(backupKey, stored);
+      if (localStorage.getItem(backupKey) !== stored || localStorage.getItem(STORAGE_KEY) !== stored) return false;
+      // Keep the source in its primary slot until a later successful save.
+      // Otherwise reopening a recovered board twice turns it into an empty one.
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function recoverStoredState(stored, message) {
+    const backedUp = Boolean(navigator.locks) && backupCorruptStoredState(stored);
+    pendingRecoveryText = backedUp ? null : stored;
+    storageLoadStatus = {
+      shouldSaveOnStart: false,
+      message: backedUp ? message : "保存データの退避に失敗しました。元データを保護し、自動保存を停止しています。空き容量を確保して保存を再試行してください。"
+    };
+    if (!backedUp) storageIssueMessage = storageLoadStatus.message;
+  }
+
+  function showStorageIssue(message, showError = true) {
+    storageIssueMessage = message;
+    const status = document.getElementById("storage-status");
+    document.getElementById("storage-status-message").textContent = message;
+    document.getElementById("storage-original-btn").hidden = pendingRecoveryText === null;
+    status.hidden = !message;
+    renderMeta();
+    if (message && showError) showToast(message);
+  }
+
+  function saveStateLocked(options = {}) {
+    try {
+      if (storageReadBlocked) {
+        showStorageIssue("保存データを読み込めなかったため、元データを保護しています。現在のボードを書き出してから、保存済みの内容を開き直してください。", options.showError !== false);
+        return false;
+      }
+      const latest = localStorage.getItem(STORAGE_KEY);
+      if (latest !== lastStoredText) {
+        showStorageIssue("別のタブでボードが更新されたため保存を停止しました。未保存の編集はこの画面に残っています。現在のボードを書き出してから、保存済みの内容を開いてください。", options.showError !== false);
+        return false;
+      }
+      if (pendingRecoveryText !== null) {
+        if (!backupCorruptStoredState(pendingRecoveryText)) {
+          showStorageIssue(storageLoadStatus.message, options.showError !== false);
+          return false;
+        }
+        pendingRecoveryText = null;
+      }
+      const serialized = JSON.stringify(state);
+      if (serialized !== lastStoredText) localStorage.setItem(STORAGE_KEY, serialized);
+      lastStoredText = serialized;
+      stateDirty = false;
+      storageLoadStatus.shouldSaveOnStart = true;
+      showStorageIssue("", false);
+      renderMeta();
+      return true;
+    } catch (_) {
+      showStorageIssue("保存できませんでした。編集はこの画面に残っています。現在のボードを書き出すか、空き容量を確保して保存を再試行してください。", options.showError !== false);
+      return false;
+    }
+  }
+
+  async function saveStateNow(options = {}) {
+    if (!storageReady) return false;
+    if (!navigator.locks) {
+      showStorageIssue("この環境では安全な自動保存を利用できません。HTTPSまたはローカルHTMLで開いてください。現在のボードは書き出せます。", options.showError !== false);
+      return false;
+    }
+    const epoch = storageEpoch;
+    try {
+      return await navigator.locks.request(STORAGE_KEY, () => epoch === storageEpoch && saveStateLocked(options));
+    } catch (_) {
+      showStorageIssue("保存できませんでした。現在のボードを書き出してから開き直してください。", options.showError !== false);
+      return false;
+    }
+  }
+
+  async function syncStoredState() {
+    if (!storageReady || !navigator.locks) return;
+    try {
+      await navigator.locks.request(STORAGE_KEY, () => {
+        const latest = localStorage.getItem(STORAGE_KEY);
+        if (latest === lastStoredText) return;
+        if (stateDirty || tagsInputComposing || pendingRecoveryText !== null || storageReadBlocked || confirmResolve || pointerDrag || columnPointerDrag || checklistActivePointers.size) {
+          showStorageIssue("別のタブでボードが更新されたため保存を停止しました。未保存の編集はこの画面に残っています。現在のボードを書き出してから、保存済みの内容を開いてください。");
+          return;
+        }
+        const parsed = latest === null ? null : JSON.parse(latest);
+        const nextState = latest === null ? createDefaultState() : normalizeState(parsed);
+        if (latest !== null && (!isImportableBoardState(parsed) || hasStoredStateReduction(parsed, nextState))) {
+          showStorageIssue("別のタブの保存データを安全に読み込めません。現在のボードを書き出してから、保存済みの内容を開き直してください。");
+          return;
+        }
+        state = nextState;
+        lastStoredText = latest;
+        storageLoadStatus.shouldSaveOnStart = true;
+        showStorageIssue("", false);
+        renderAll();
+        if (activeNoteId) {
+          const found = findNote(activeNoteId);
+          if (found) fillDrawer(found.note, found.column);
+          else closeDrawer();
+        }
+      });
+    } catch (_) {
+      showStorageIssue("別のタブの保存データを読み込めませんでした。現在のボードを書き出してから開き直してください。");
+    }
+  }
+
+  function scheduleSave() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(saveStateNow, SAVE_DELAY);
+  }
+
+  function touch() {
+    stateDirty = true;
+    state.board.updatedAt = Date.now();
+    renderMeta();
+    scheduleSave();
+  }
+
+  function iconMarkup(name) {
+    const key = name.replace(/-([a-z])/g, (_, char) => char.toUpperCase());
+    return `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[key] || ""}</svg>`;
+  }
+
+  function mountIcons(root = document) {
+    root.querySelectorAll("[data-icon]").forEach((slot) => {
+      slot.innerHTML = iconMarkup(slot.dataset.icon || "");
+    });
+  }
+
+  function configureInputLimits() {
+    document.getElementById("board-name-input").maxLength = LIMITS.boardTitle;
+    els.searchInput.maxLength = LIMITS.search;
+    els.noteTitle.maxLength = LIMITS.noteTitle;
+    els.noteBody.maxLength = LIMITS.noteBody;
+    els.noteTags.maxLength = LIMITS.tags * (LIMITS.tag + 2);
+    const tagsHelp = document.createElement("div");
+    tagsHelp.id = "note-tags-help";
+    tagsHelp.className = "setting-desc";
+    tagsHelp.setAttribute("role", "status");
+    tagsHelp.textContent = `カンマで区切って${LIMITS.tags}個まで。1個${LIMITS.tag}文字以内。`;
+    els.noteTags.setAttribute("aria-describedby", tagsHelp.id);
+    els.noteTags.after(tagsHelp);
+    els.noteDue.maxLength = LIMITS.dueDate;
+  }
+
+  function colorById(id) {
+    return NOTE_COLORS.find((color) => color.id === id) || NOTE_COLORS[0];
+  }
+
+  function padDatePart(value) {
+    return String(value).padStart(2, "0");
+  }
+
+  function startOfLocalDay(date = new Date()) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  }
+
+  function dateValue(date) {
+    return `${date.getFullYear()}-${padDatePart(date.getMonth() + 1)}-${padDatePart(date.getDate())}`;
+  }
+
+  function parseDateValue(value) {
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(plain(value));
+    if (!match) return null;
+    const year = Number(match[1]);
+    const month = Number(match[2]) - 1;
+    const day = Number(match[3]);
+    const date = new Date(year, month, day);
+    if (date.getFullYear() !== year || date.getMonth() !== month || date.getDate() !== day) return null;
+    return date;
+  }
+
+  function addLocalDays(date, amount) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate() + amount);
+  }
+
+  function daysInMonth(year, month) {
+    return new Date(year, month + 1, 0).getDate();
+  }
+
+  function addLocalMonths(date, amount) {
+    const target = new Date(date.getFullYear(), date.getMonth() + amount, 1);
+    const day = Math.min(date.getDate(), daysInMonth(target.getFullYear(), target.getMonth()));
+    return new Date(target.getFullYear(), target.getMonth(), day);
+  }
+
+  function formatCalendarTitle(date) {
+    return `${date.getFullYear()}年${date.getMonth() + 1}月`;
+  }
+
+  function formatDateLabel(date) {
+    const weekdays = ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"];
+    return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${weekdays[date.getDay()]}`;
+  }
+
+  function nthWeekdayOfMonth(year, month, weekday, nth) {
+    const first = new Date(year, month, 1);
+    const offset = (weekday - first.getDay() + 7) % 7;
+    return new Date(year, month, 1 + offset + (nth - 1) * 7);
+  }
+
+  function springEquinoxDay(year) {
+    if (year < 1980) return Math.floor(20.8357 + 0.242194 * (year - 1980) - Math.floor((year - 1983) / 4));
+    if (year < 2100) return Math.floor(20.8431 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+    return Math.floor(21.851 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+  }
+
+  function autumnEquinoxDay(year) {
+    if (year < 1980) return Math.floor(23.2588 + 0.242194 * (year - 1980) - Math.floor((year - 1983) / 4));
+    if (year < 2100) return Math.floor(23.2488 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+    return Math.floor(24.2488 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+  }
+
+  function addHoliday(holidays, date, name) {
+    holidays.set(dateValue(date), name);
+  }
+
+  function baseJapaneseHolidays(year) {
+    const holidays = new Map();
+    addHoliday(holidays, new Date(year, 0, 1), "元日");
+    addHoliday(holidays, nthWeekdayOfMonth(year, 0, 1, 2), "成人の日");
+    addHoliday(holidays, new Date(year, 1, 11), "建国記念の日");
+    if (year >= 2020) addHoliday(holidays, new Date(year, 1, 23), "天皇誕生日");
+    addHoliday(holidays, new Date(year, 2, springEquinoxDay(year)), "春分の日");
+    addHoliday(holidays, new Date(year, 3, 29), "昭和の日");
+    addHoliday(holidays, new Date(year, 4, 3), "憲法記念日");
+    addHoliday(holidays, new Date(year, 4, 4), "みどりの日");
+    addHoliday(holidays, new Date(year, 4, 5), "こどもの日");
+    if (year === 2020) {
+      addHoliday(holidays, new Date(year, 6, 23), "海の日");
+      addHoliday(holidays, new Date(year, 6, 24), "スポーツの日");
+      addHoliday(holidays, new Date(year, 7, 10), "山の日");
+    } else if (year === 2021) {
+      addHoliday(holidays, new Date(year, 6, 22), "海の日");
+      addHoliday(holidays, new Date(year, 6, 23), "スポーツの日");
+      addHoliday(holidays, new Date(year, 7, 8), "山の日");
+    } else {
+      addHoliday(holidays, nthWeekdayOfMonth(year, 6, 1, 3), "海の日");
+      addHoliday(holidays, new Date(year, 7, 11), "山の日");
+      addHoliday(holidays, nthWeekdayOfMonth(year, 9, 1, 2), "スポーツの日");
+    }
+    addHoliday(holidays, nthWeekdayOfMonth(year, 8, 1, 3), "敬老の日");
+    addHoliday(holidays, new Date(year, 8, autumnEquinoxDay(year)), "秋分の日");
+    addHoliday(holidays, new Date(year, 10, 3), "文化の日");
+    addHoliday(holidays, new Date(year, 10, 23), "勤労感謝の日");
+    if (year === 2019) {
+      addHoliday(holidays, new Date(year, 4, 1), "天皇の即位の日");
+      addHoliday(holidays, new Date(year, 9, 22), "即位礼正殿の儀");
+    }
+    return holidays;
+  }
+
+  function japaneseHolidays(year) {
+    if (japaneseHolidayCache.has(year)) return japaneseHolidayCache.get(year);
+    const base = baseJapaneseHolidays(year);
+    const holidays = new Map(base);
+
+    [...base.entries()].forEach(([value]) => {
+      const holiday = parseDateValue(value);
+      if (!holiday || holiday.getDay() !== 0) return;
+      let substitute = addLocalDays(holiday, 1);
+      while (base.has(dateValue(substitute))) substitute = addLocalDays(substitute, 1);
+      if (!holidays.has(dateValue(substitute))) holidays.set(dateValue(substitute), "振替休日");
+    });
+
+    const start = new Date(year, 0, 2);
+    const end = new Date(year, 11, 30);
+    for (let day = start; day <= end; day = addLocalDays(day, 1)) {
+      const value = dateValue(day);
+      if (holidays.has(value)) continue;
+      if (base.has(dateValue(addLocalDays(day, -1))) && base.has(dateValue(addLocalDays(day, 1)))) {
+        holidays.set(value, "国民の休日");
+      }
+    }
+
+    japaneseHolidayCache.set(year, holidays);
+    return holidays;
+  }
+
+  function japaneseHolidayName(date) {
+    return japaneseHolidays(date.getFullYear()).get(dateValue(date)) || "";
+  }
+
+  function allNotes() {
+    return state.board.columns.flatMap((column) => column.notes.map((note) => ({ note, column })));
+  }
+
+  function noteCount() {
+    return state.board.columns.reduce((total, column) => total + column.notes.length, 0);
+  }
+
+  function noteHasContent(note) {
+    return Boolean(note && (
+      note.title.trim()
+      || note.body.trim()
+      || note.tags.length
+      || note.dueDate
+      || note.checklist.some((item) => item.text.trim())
+    ));
+  }
+
+  function canAddColumn() {
+    return state.board.columns.length < LIMITS.columns;
+  }
+
+  function canAddNote() {
+    return noteCount() < LIMITS.notes;
+  }
+
+  function findColumn(columnId) {
+    return state.board.columns.find((column) => column.id === columnId) || null;
+  }
+
+  function findNote(noteId) {
+    for (const column of state.board.columns) {
+      const index = column.notes.findIndex((note) => note.id === noteId);
+      if (index !== -1) return { note: column.notes[index], column, index };
+    }
+    return null;
+  }
+
+  function renderAll() {
+    applySettings();
+    applyTheme();
+    renderTitle();
+    renderMeta();
+    renderSearchControl();
+    renderBoard();
+    renderSettingsControls();
+    mountIcons();
+  }
+
+  function renderTitle() {
+    els.boardTitle.textContent = state.board.title === "PetaBorad" ? "PetaBoard" : state.board.title;
+    els.boardTitle.title = els.boardTitle.textContent;
+  }
+
+  function renderMeta() {
+    const title = state.board.title;
+    document.title = title && !["PetaBoard", "PetaBorad"].includes(title) ? `${title} - PetaBoard` : "PetaBoard";
+    const indicator = document.getElementById("save-indicator");
+    let label = "このブラウザーに保存済み";
+    let status = "saved";
+    if (!storageReady) {
+      label = "読み込み中…";
+      status = "pending";
+    } else if (storageIssueMessage || storageReadBlocked || pendingRecoveryText !== null || !navigator.locks) {
+      label = "保存を停止しています";
+      status = "error";
+    } else if (stateDirty || tagsInputComposing) {
+      label = "保存中…";
+      status = "pending";
+    } else if (!storageLoadStatus.shouldSaveOnStart) {
+      label = "復旧した内容を表示中";
+      status = "pending";
+    }
+    if (indicator.textContent !== label) indicator.textContent = label;
+    indicator.dataset.state = status;
+    if (els.drawerSaveStatus.textContent !== label) els.drawerSaveStatus.textContent = label;
+    els.drawerSaveStatus.dataset.state = status;
+    document.getElementById("settings-save-status").textContent = label;
+    renderBoardSummary();
+  }
+
+  function renderBoardSummary() {
+    const total = noteCount();
+    const searching = searchTerms().length > 0;
+    const visible = state.board.columns.reduce((count, column) => count + visibleNotesForColumn(column).length, 0);
+    const summary = searching ? `検索結果 ${visible}件 / 付箋 ${total}件` : `付箋 ${total}件 · ${state.board.columns.length}列`;
+    const summaryElement = document.getElementById("board-summary");
+    if (summaryElement.textContent !== summary) summaryElement.textContent = summary;
+    document.getElementById("welcome-panel").hidden = total > 0 || searching || Boolean(storageIssueMessage) || !storageLoadStatus.shouldSaveOnStart;
+    document.getElementById("search-empty").hidden = !searching || visible > 0;
+  }
+
+  function renderSearchControl() {
+    const hasQuery = Boolean(searchQuery.trim());
+    if (document.activeElement !== els.searchInput) {
+      els.searchInput.value = searchQuery;
+    }
+    els.clearSearch.hidden = !hasQuery;
+    const shell = els.searchInput.closest(".search-shell");
+    if (shell) shell.classList.toggle("has-query", hasQuery);
+  }
+
+  function setSearchQuery(value) {
+    searchQuery = truncateText(value, LIMITS.search);
+    renderSearchControl();
+    renderBoard();
+  }
+
+  function clearSearch() {
+    setSearchQuery("");
+    els.searchInput.focus();
+  }
+
+  function searchTerms() {
+    return searchQuery
+      .trim()
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 8);
+  }
+
+  function noteSearchText(note, column) {
+    return [
+      note.title,
+      note.body,
+      note.tags.join(" "),
+      note.dueDate,
+      column.title,
+      note.checklist.map((item) => item.text).join(" ")
+    ].join(" ").toLowerCase();
+  }
+
+  function noteMatches(note, column) {
+    if (!note) return false;
+    const terms = searchTerms();
+    if (!terms.length) return true;
+    const text = noteSearchText(note, column);
+    return terms.every((term) => text.includes(term));
+  }
+
+  function appendHighlightedText(parent, text) {
+    const value = plain(text);
+    const terms = searchTerms();
+    parent.textContent = "";
+    if (!terms.length || !value) {
+      parent.textContent = value;
+      return;
+    }
+
+    const lower = value.toLowerCase();
+    let cursor = 0;
+    while (cursor < value.length) {
+      let matchIndex = -1;
+      let matchTerm = "";
+      terms.forEach((term) => {
+        const index = lower.indexOf(term, cursor);
+        if (index === -1) return;
+        if (matchIndex === -1 || index < matchIndex || (index === matchIndex && term.length > matchTerm.length)) {
+          matchIndex = index;
+          matchTerm = term;
+        }
+      });
+
+      if (matchIndex === -1) {
+        parent.append(document.createTextNode(value.slice(cursor)));
+        break;
+      }
+
+      if (matchIndex > cursor) parent.append(document.createTextNode(value.slice(cursor, matchIndex)));
+      const mark = document.createElement("mark");
+      mark.className = "search-hit";
+      mark.textContent = value.slice(matchIndex, matchIndex + matchTerm.length);
+      parent.append(mark);
+      cursor = matchIndex + matchTerm.length;
+    }
+  }
+
+  function renderBoard() {
+    renderBoardSummary();
+    els.board.textContent = "";
+
+    state.board.columns.forEach((column, index) => {
+      els.board.append(renderColumn(column, index));
+    });
+
+    const addPanel = document.createElement("div");
+    addPanel.className = "add-column-panel";
+    const addButton = document.createElement("button");
+    addButton.className = "text-btn";
+    addButton.type = "button";
+    addButton.title = canAddColumn() ? "列を追加" : `列は${LIMITS.columns}件までです`;
+    addButton.disabled = !canAddColumn();
+    addButton.innerHTML = '<span data-icon="plus"></span><span>列を追加</span>';
+    addButton.addEventListener("click", addColumn);
+    addPanel.append(addButton);
+    els.board.append(addPanel);
+    mountIcons(els.board);
+  }
+
+  function visibleNotesForColumn(column) {
+    return column.notes.filter((note) => noteMatches(note, column));
+  }
+
+  function renderColumnNoteList(list, column) {
+    list.textContent = "";
+    const visibleNotes = visibleNotesForColumn(column);
+    if (visibleNotes.length) {
+      visibleNotes.forEach((note) => list.append(renderNote(note, column.id)));
+      return;
+    }
+    const empty = document.createElement("div");
+    empty.className = "column-empty";
+    empty.textContent = column.notes.length ? "該当する付箋はありません" : "ここに付箋を置いて整理しましょう";
+    list.append(empty);
+  }
+
+  function renderColumn(column, index) {
+    const article = document.createElement("article");
+    article.className = "column";
+    article.dataset.columnId = column.id;
+
+    const header = document.createElement("header");
+    header.className = "column-header";
+
+    const titleRow = document.createElement("div");
+    titleRow.className = "column-title-row";
+    const handle = document.createElement("span");
+    handle.className = "column-handle";
+    handle.innerHTML = '<span data-icon="grip"></span>';
+    handle.setAttribute("aria-hidden", "true");
+    handle.addEventListener("pointerdown", (event) => beginColumnDrag(event, column.id, article));
+
+    const titleWrap = document.createElement("div");
+    titleWrap.className = "column-title-wrap";
+    const titleInput = document.createElement("input");
+    titleInput.className = "column-title";
+    titleInput.type = "text";
+    titleInput.maxLength = LIMITS.columnTitle;
+    titleInput.value = column.title;
+    titleInput.setAttribute("aria-label", "列名");
+    titleInput.addEventListener("input", () => {
+      if (titleInput.value.length > LIMITS.columnTitle) {
+        titleInput.value = truncateText(titleInput.value, LIMITS.columnTitle);
+      }
+      column.title = trimText(titleInput.value, LIMITS.columnTitle) || "新しい列";
+      touch();
+      renderMeta();
+      if (searchTerms().length) {
+        count.textContent = `${visibleNotesForColumn(column).length} / ${column.notes.length}`;
+        renderColumnNoteList(list, column);
+      }
+    });
+    titleInput.addEventListener("blur", () => {
+      titleInput.value = column.title;
+    });
+    const count = document.createElement("span");
+    count.className = "column-count";
+    const visibleCount = visibleNotesForColumn(column).length;
+    count.textContent = searchTerms().length ? `${visibleCount} / ${column.notes.length}` : `${column.notes.length}件`;
+    titleWrap.append(titleInput, count);
+    titleRow.append(handle, titleWrap);
+
+    const actions = document.createElement("div");
+    actions.className = "column-actions";
+    actions.append(
+      iconButton("arrow-left", "左へ移動", (event) => moveColumn(column.id, -1, event.currentTarget), index === 0),
+      iconButton("arrow-right", "右へ移動", (event) => moveColumn(column.id, 1, event.currentTarget), index === state.board.columns.length - 1),
+      iconButton("trash", "列を削除", (event) => deleteColumn(column.id, event.currentTarget), state.board.columns.length <= 1)
+    );
+
+    header.append(titleRow, actions);
+    article.append(header);
+
+    const list = document.createElement("div");
+    list.className = "note-list";
+    list.dataset.columnId = column.id;
+    attachDropHandlers(list, article);
+    renderColumnNoteList(list, column);
+    article.append(list);
+
+    const footer = document.createElement("footer");
+    footer.className = "column-footer";
+    const add = document.createElement("button");
+    add.className = "text-btn add-note-btn";
+    add.type = "button";
+    add.title = canAddNote() ? "付箋を追加" : `付箋は${LIMITS.notes}件までです`;
+    add.disabled = !canAddNote();
+    add.innerHTML = '<span data-icon="plus"></span><span>付箋を追加</span>';
+    add.addEventListener("click", () => addNote(column.id));
+    footer.append(add);
+    article.append(footer);
+
+    return article;
+  }
+
+  function iconButton(icon, label, onClick, disabled = false) {
+    const button = document.createElement("button");
+    button.className = "icon-btn";
+    button.type = "button";
+    button.setAttribute("aria-label", label);
+    button.dataset.tooltip = label;
+    button.disabled = disabled;
+    button.innerHTML = `<span data-icon="${icon}"></span>`;
+    button.addEventListener("click", onClick);
+    return button;
+  }
+
+  function renderNote(note, columnId) {
+    const article = document.createElement("article");
+    article.className = "note-card";
+    article.tabIndex = 0;
+    article.draggable = false;
+    article.dataset.noteId = note.id;
+    article.dataset.columnId = columnId;
+    article.style.setProperty("--note-bg", colorById(note.color).css);
+
+    const handle = document.createElement("button");
+    handle.type = "button";
+    handle.className = "note-drag-handle";
+    handle.setAttribute("aria-label", "付箋を編集（ドラッグで移動）");
+    handle.dataset.tooltip = "ドラッグして移動";
+    handle.innerHTML = '<span data-icon="grip"></span>';
+    article.append(handle);
+
+    const title = document.createElement("h3");
+    title.className = "note-title";
+    appendHighlightedText(title, note.title || "無題");
+    article.append(title);
+
+    if (note.body.trim()) {
+      const body = document.createElement("p");
+      body.className = "note-body";
+      appendHighlightedText(body, note.body);
+      article.append(body);
+    }
+
+    const checklistTotal = note.checklist.length;
+    if (checklistTotal) {
+      const done = note.checklist.filter((item) => item.done).length;
+      const progress = document.createElement("div");
+      progress.className = "note-progress";
+      const bar = document.createElement("div");
+      bar.className = "note-progress-bar";
+      bar.style.width = `${Math.round((done / checklistTotal) * 100)}%`;
+      progress.append(bar);
+      article.append(progress);
+    }
+
+    const footer = document.createElement("footer");
+    footer.className = "note-footer";
+    note.tags.slice(0, 3).forEach((tag) => {
+      const pill = document.createElement("span");
+      pill.className = "tag-pill";
+      appendHighlightedText(pill, tag);
+      footer.append(pill);
+    });
+    if (note.dueDate) footer.append(renderDuePill(note.dueDate));
+    if (checklistTotal) {
+      const done = note.checklist.filter((item) => item.done).length;
+      const pill = document.createElement("span");
+      pill.className = "progress-pill";
+      pill.textContent = `${done}/${checklistTotal}`;
+      footer.append(pill);
+    }
+    if (footer.childElementCount) article.append(footer);
+
+    article.addEventListener("click", (event) => {
+      if (suppressClickNoteId === note.id) {
+        event.preventDefault();
+        return;
+      }
+      openNote(note.id, false, article);
+    });
+    article.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openNote(note.id);
+      }
+    });
+    article.addEventListener("pointerdown", (event) => beginPointerDrag(event, note.id, article));
+
+    return article;
+  }
+
+  function renderDuePill(dueDate) {
+    const pill = document.createElement("span");
+    pill.className = "due-pill";
+    appendHighlightedText(pill, dueDate);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const due = new Date(`${dueDate}T00:00:00`);
+    if (!Number.isNaN(due.getTime()) && due < today) pill.classList.add("is-overdue");
+    return pill;
+  }
+
+  function attachDropHandlers(list, columnEl) {
+    list.addEventListener("dragover", (event) => {
+      if (!draggedNoteId) return;
+      event.preventDefault();
+      columnEl.classList.add("is-drop-target");
+      const before = getBeforeCard(list, event.clientY);
+      if (before) list.insertBefore(dropMarker, before);
+      else list.append(dropMarker);
+    });
+    list.addEventListener("drop", (event) => {
+      if (!draggedNoteId) return;
+      event.preventDefault();
+      const beforeId = dropMarker.nextElementSibling && dropMarker.nextElementSibling.classList.contains("note-card")
+        ? dropMarker.nextElementSibling.dataset.noteId
+        : null;
+      moveNote(draggedNoteId, list.dataset.columnId, beforeId);
+      cleanupDrag();
+    });
+    list.addEventListener("dragleave", (event) => {
+      if (!columnEl.contains(event.relatedTarget)) columnEl.classList.remove("is-drop-target");
+    });
+  }
+
+  function getBeforeCard(list, y) {
+    const cards = [...list.querySelectorAll(".note-card:not(.is-dragging)")];
+    return cards.reduce((closest, card) => {
+      const rect = card.getBoundingClientRect();
+      const offset = y - rect.top - rect.height / 2;
+      if (offset < 0 && offset > closest.offset) return { offset, card };
+      return closest;
+    }, { offset: Number.NEGATIVE_INFINITY, card: null }).card;
+  }
+
+  function cleanupDrag() {
+    document.querySelectorAll(".note-card.is-dragging").forEach((card) => card.classList.remove("is-dragging"));
+    document.querySelectorAll(".column.is-drop-target").forEach((column) => column.classList.remove("is-drop-target"));
+    dropMarker.remove();
+    draggedNoteId = null;
+  }
+
+  function beginPointerDrag(event, noteId, card) {
+    if (event.button !== 0 || pointerDrag) return;
+    if (event.pointerType !== "mouse" && !event.target.closest(".note-drag-handle")) return;
+    pointerDrag = {
+      noteId,
+      card,
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      started: false
+    };
+    try { card.setPointerCapture(event.pointerId); } catch (_) {}
+  }
+
+  function startPointerDrag(drag) {
+    if (drag.started) return;
+    drag.started = true;
+    draggedNoteId = drag.noteId;
+    drag.card.classList.add("is-dragging");
+  }
+
+  function updatePointerDrag(event) {
+    if (!pointerDrag || pointerDrag.pointerId !== event.pointerId) return;
+    const dx = event.clientX - pointerDrag.startX;
+    const dy = event.clientY - pointerDrag.startY;
+    if (!pointerDrag.started && Math.hypot(dx, dy) < NOTE_DRAG_THRESHOLD) return;
+    startPointerDrag(pointerDrag);
+    event.preventDefault();
+    previewPointerDrop(event.clientX, event.clientY);
+  }
+
+  function getPointerDropList(x, y) {
+    const target = document.elementFromPoint(x, y);
+    if (!target) return null;
+    const list = target.closest(".note-list");
+    if (list) return list;
+    const column = target.closest(".column");
+    return column ? column.querySelector(".note-list") : null;
+  }
+
+  function previewPointerDrop(x, y) {
+    document.querySelectorAll(".column.is-drop-target").forEach((column) => column.classList.remove("is-drop-target"));
+    const list = getPointerDropList(x, y);
+    if (!list) {
+      dropMarker.remove();
+      return;
+    }
+    const columnEl = list.closest(".column");
+    if (columnEl) columnEl.classList.add("is-drop-target");
+    const before = getBeforeCard(list, y);
+    if (before) list.insertBefore(dropMarker, before);
+    else list.append(dropMarker);
+  }
+
+  function finishPointerDrag(event) {
+    if (!pointerDrag || pointerDrag.pointerId !== event.pointerId) return;
+    const drag = pointerDrag;
+    pointerDrag = null;
+    try { drag.card.releasePointerCapture(event.pointerId); } catch (_) {}
+    const dx = event.clientX - drag.startX;
+    const dy = event.clientY - drag.startY;
+    if (!drag.started && Math.hypot(dx, dy) >= NOTE_DRAG_THRESHOLD) startPointerDrag(drag);
+    if (!drag.started) return;
+    event.preventDefault();
+    suppressClickNoteId = drag.noteId;
+    setTimeout(() => {
+      if (suppressClickNoteId === drag.noteId) suppressClickNoteId = null;
+    }, 250);
+    previewPointerDrop(event.clientX, event.clientY);
+    const targetList = dropMarker.parentElement && dropMarker.parentElement.classList.contains("note-list")
+      ? dropMarker.parentElement
+      : null;
+    const beforeId = dropMarker.nextElementSibling && dropMarker.nextElementSibling.classList.contains("note-card")
+      ? dropMarker.nextElementSibling.dataset.noteId
+      : null;
+    if (targetList) moveNote(drag.noteId, targetList.dataset.columnId, beforeId);
+    cleanupDrag();
+  }
+
+  function cancelPointerDrag(event) {
+    if (pointerDrag && pointerDrag.pointerId === event.pointerId) {
+      try { pointerDrag.card.releasePointerCapture(event.pointerId); } catch (_) {}
+      pointerDrag = null;
+    }
+    cleanupDrag();
+  }
+
+  function beginColumnDrag(event, columnId, columnEl) {
+    if (event.button !== 0) return;
+    event.preventDefault();
+    columnPointerDrag = {
+      columnId,
+      columnEl,
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      started: false
+    };
+    try { event.currentTarget.setPointerCapture(event.pointerId); } catch (_) {}
+  }
+
+  function updateColumnDrag(event) {
+    if (!columnPointerDrag || columnPointerDrag.pointerId !== event.pointerId) return;
+    const dx = event.clientX - columnPointerDrag.startX;
+    const dy = event.clientY - columnPointerDrag.startY;
+    if (!columnPointerDrag.started && Math.hypot(dx, dy) < 8) return;
+    if (!columnPointerDrag.started) {
+      columnPointerDrag.started = true;
+      columnPointerDrag.columnEl.classList.add("is-column-dragging");
+    }
+    event.preventDefault();
+    previewColumnDrop(event.clientX);
+  }
+
+  function previewColumnDrop(x) {
+    const before = getBeforeColumn(x);
+    if (before) els.board.insertBefore(columnDropMarker, before);
+    else {
+      const addPanel = els.board.querySelector(".add-column-panel");
+      if (addPanel) els.board.insertBefore(columnDropMarker, addPanel);
+      else els.board.append(columnDropMarker);
+    }
+  }
+
+  function getBeforeColumn(x) {
+    const columns = [...els.board.querySelectorAll(".column:not(.is-column-dragging)")];
+    return columns.reduce((closest, column) => {
+      const rect = column.getBoundingClientRect();
+      const offset = x - rect.left - rect.width / 2;
+      if (offset < 0 && offset > closest.offset) return { offset, column };
+      return closest;
+    }, { offset: Number.NEGATIVE_INFINITY, column: null }).column;
+  }
+
+  function finishColumnDrag(event) {
+    if (!columnPointerDrag || columnPointerDrag.pointerId !== event.pointerId) return;
+    const drag = columnPointerDrag;
+    columnPointerDrag = null;
+    if (!drag.started) {
+      try { event.target.releasePointerCapture(event.pointerId); } catch (_) {}
+      return;
+    }
+    event.preventDefault();
+    const beforeColumnId = columnDropMarker.nextElementSibling && columnDropMarker.nextElementSibling.classList.contains("column")
+      ? columnDropMarker.nextElementSibling.dataset.columnId
+      : null;
+    moveColumnBefore(drag.columnId, beforeColumnId);
+    cleanupColumnDrag();
+  }
+
+  function cancelColumnDrag() {
+    columnPointerDrag = null;
+    cleanupColumnDrag();
+  }
+
+  function cleanupColumnDrag() {
+    document.querySelectorAll(".column.is-column-dragging").forEach((column) => column.classList.remove("is-column-dragging"));
+    columnDropMarker.remove();
+  }
+
+  function addColumn() {
+    if (!canAddColumn()) {
+      showToast(`列は${LIMITS.columns}件までです`);
+      return;
+    }
+    const column = createColumn("新しい列", []);
+    state.board.columns.push(column);
+    touch();
+    renderBoard();
+    requestAnimationFrame(() => {
+      const input = document.querySelector(`[data-column-id="${column.id}"] .column-title`);
+      if (input) {
+        input.focus();
+        input.select();
+      }
+    });
+  }
+
+  async function deleteColumn(columnId, trigger) {
+    if (state.board.columns.length <= 1) return;
+    const column = findColumn(columnId);
+    if (!column) return;
+    const ok = await showConfirmDialog({
+      title: "列を削除",
+      returnFocus: trigger,
+      message: `「${column.title}」を削除しますか？\nこの列にある付箋も削除されます。`,
+      confirmText: "削除",
+      danger: true
+    });
+    if (!ok) return;
+    state.board.columns = state.board.columns.filter((item) => item.id !== columnId);
+    touch();
+    renderBoard();
+  }
+
+  function moveColumn(columnId, direction, trigger) {
+    const returnFocus = focusOrigin(trigger);
+    const index = state.board.columns.findIndex((column) => column.id === columnId);
+    const nextIndex = index + direction;
+    if (index < 0 || nextIndex < 0 || nextIndex >= state.board.columns.length) return;
+    const [column] = state.board.columns.splice(index, 1);
+    state.board.columns.splice(nextIndex, 0, column);
+    touch();
+    renderBoard();
+    restoreFocusTarget(returnFocus, { columnId });
+  }
+
+  function moveColumnBefore(columnId, beforeColumnId) {
+    const currentIndex = state.board.columns.findIndex((column) => column.id === columnId);
+    if (currentIndex < 0) return;
+    const [column] = state.board.columns.splice(currentIndex, 1);
+    let nextIndex = beforeColumnId
+      ? state.board.columns.findIndex((item) => item.id === beforeColumnId)
+      : state.board.columns.length;
+    if (nextIndex < 0) nextIndex = state.board.columns.length;
+    state.board.columns.splice(nextIndex, 0, column);
+    touch();
+    renderBoard();
+  }
+
+  function addNote(columnId) {
+    const column = findColumn(columnId) || state.board.columns[0];
+    if (!column) return;
+    if (!canAddNote()) {
+      showToast(`付箋は${LIMITS.notes}件までです`);
+      return;
+    }
+    const hadSearch = Boolean(searchTerms().length);
+    if (hadSearch) setSearchQuery("");
+    const note = createNote({ color: normalizeSettings(state.settings).defaultColor });
+    column.notes.push(note);
+    newDraftNoteId = note.id;
+    touch();
+    renderBoard();
+    openNote(note.id, true);
+    if (hadSearch) showToast("新しい付箋を表示するため、検索を解除しました");
+  }
+
+  function moveNote(noteId, targetColumnId, beforeNoteId) {
+    const found = findNote(noteId);
+    const targetColumn = findColumn(targetColumnId);
+    if (!found || !targetColumn) return;
+    const [note] = found.column.notes.splice(found.index, 1);
+    let insertIndex = targetColumn.notes.length;
+    if (beforeNoteId) {
+      const beforeIndex = targetColumn.notes.findIndex((item) => item.id === beforeNoteId);
+      if (beforeIndex >= 0) insertIndex = beforeIndex;
+    }
+    targetColumn.notes.splice(insertIndex, 0, note);
+    note.updatedAt = Date.now();
+    touch();
+    renderBoard();
+  }
+
+  function openNote(noteId, focusTitle = false, trigger) {
+    const found = findNote(noteId);
+    if (!found) return;
+    if (!isModalOpen(els.drawer)) {
+      drawerReturnFocus = focusOrigin(trigger);
+    }
+    activeNoteId = noteId;
+    fillDrawer(found.note, found.column);
+    delete els.drawer.dataset.closing;
+    els.drawer.hidden = false;
+    syncModalAccessibility();
+    requestAnimationFrame(() => {
+      if (!isModalOpen(els.drawer)) return;
+      els.drawer.classList.add("is-open");
+      els.noteTitle.focus();
+      if (focusTitle) els.noteTitle.select();
+    });
+  }
+
+  function closeDrawer() {
+    if (!isModalOpen(els.drawer)) return;
+    if (tagsInputComposing) {
+      tagsInputComposing = false;
+      commitTagsInput();
+    }
+    const noteId = activeNoteId;
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (found) {
+      const normalized = normalizeChecklist(found.note.checklist);
+      if (JSON.stringify(normalized) !== JSON.stringify(found.note.checklist)) {
+        withActiveNote((note) => { note.checklist = normalized; });
+      }
+    }
+    let discardedDraft = false;
+    if (found && noteId === newDraftNoteId && !noteHasContent(found.note)) {
+      found.column.notes.splice(found.index, 1);
+      touch();
+      renderBoard();
+      discardedDraft = true;
+    }
+    if (noteId === newDraftNoteId) newDraftNoteId = null;
+    clearChecklistUndo();
+    closeDuePicker({ restoreFocus: false });
+    const returnFocus = drawerReturnFocus;
+    drawerReturnFocus = null;
+    els.drawer.dataset.closing = "true";
+    els.drawer.classList.remove("is-open");
+    activeNoteId = null;
+    syncModalAccessibility();
+    setTimeout(() => {
+      if (!els.drawer.classList.contains("is-open")) els.drawer.hidden = true;
+    }, 160);
+    requestAnimationFrame(() => restoreFocusTarget(returnFocus, { noteId, columnId: found?.column.id }));
+    if (discardedDraft) showToast("空の付箋は追加しませんでした");
+  }
+
+  function openDuePicker() {
+    if (!activeNoteId) return;
+    const selected = parseDateValue(els.noteDue.value);
+    calendarFocusedDate = selected || startOfLocalDay();
+    calendarMonth = new Date(calendarFocusedDate.getFullYear(), calendarFocusedDate.getMonth(), 1);
+    renderDatePopover();
+    els.datePopover.hidden = false;
+    syncModalAccessibility();
+    els.noteDue.setAttribute("aria-expanded", "true");
+    positionDatePopover();
+    requestAnimationFrame(() => {
+      if (els.datePopover.hidden) return;
+      els.datePopover.classList.add("is-open");
+      focusCalendarDate();
+    });
+    document.addEventListener("pointerdown", handleDueOutsidePointer, true);
+    window.addEventListener("resize", positionDatePopover);
+    els.drawerBody.addEventListener("scroll", positionDatePopover, { passive: true });
+  }
+
+  function closeDuePicker(options = {}) {
+    if (els.datePopover.hidden) return;
+    const restoreFocus = options.restoreFocus !== false;
+    els.datePopover.classList.remove("is-open");
+    els.datePopover.hidden = true;
+    syncModalAccessibility();
+    els.noteDue.setAttribute("aria-expanded", "false");
+    document.removeEventListener("pointerdown", handleDueOutsidePointer, true);
+    window.removeEventListener("resize", positionDatePopover);
+    els.drawerBody.removeEventListener("scroll", positionDatePopover);
+    if (restoreFocus) els.noteDue.focus();
+  }
+
+  function positionDatePopover() {
+    if (els.datePopover.hidden) return;
+    const margin = 10;
+    const gap = 8;
+    const anchor = els.noteDueField.getBoundingClientRect();
+    const popover = els.datePopover.getBoundingClientRect();
+    let top = anchor.top - popover.height - gap;
+    if (top < margin) top = Math.min(anchor.bottom + gap, window.innerHeight - popover.height - margin);
+    let left = anchor.right - popover.width;
+    left = Math.max(margin, Math.min(left, window.innerWidth - popover.width - margin));
+    els.datePopover.style.top = `${Math.max(margin, top)}px`;
+    els.datePopover.style.left = `${left}px`;
+  }
+
+  function renderDatePopover() {
+    const selectedValue = els.noteDue.value;
+    const todayValue = dateValue(startOfLocalDay());
+    const focusedValue = calendarFocusedDate ? dateValue(calendarFocusedDate) : "";
+    const month = calendarMonth || startOfLocalDay();
+    const firstOfMonth = new Date(month.getFullYear(), month.getMonth(), 1);
+    const firstVisible = addLocalDays(firstOfMonth, -firstOfMonth.getDay());
+    els.dateTitle.textContent = formatCalendarTitle(month);
+    els.dateGrid.textContent = "";
+
+    for (let index = 0; index < 42; index += 1) {
+      const day = addLocalDays(firstVisible, index);
+      const value = dateValue(day);
+      const holidayName = japaneseHolidayName(day);
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "date-day";
+      button.textContent = String(day.getDate());
+      button.dataset.date = value;
+      button.setAttribute("role", "gridcell");
+      button.setAttribute("aria-label", holidayName ? `${formatDateLabel(day)}、${holidayName}` : formatDateLabel(day));
+      button.tabIndex = value === focusedValue ? 0 : -1;
+      if (day.getDay() === 0) button.classList.add("is-sunday");
+      if (day.getDay() === 6) button.classList.add("is-saturday");
+      if (holidayName) {
+        button.classList.add("is-holiday");
+        button.title = holidayName;
+      }
+      if (day.getMonth() !== month.getMonth()) button.classList.add("is-outside");
+      if (value === todayValue) button.classList.add("is-today");
+      if (value === selectedValue) {
+        button.classList.add("is-selected");
+        button.setAttribute("aria-selected", "true");
+      }
+      button.addEventListener("click", () => selectDueDate(value));
+      els.dateGrid.append(button);
+    }
+  }
+
+  function focusCalendarDate() {
+    const focusedValue = calendarFocusedDate ? dateValue(calendarFocusedDate) : "";
+    const focused = els.dateGrid.querySelector(`[data-date="${focusedValue}"]`);
+    if (focused) focused.focus({ preventScroll: true });
+  }
+
+  function setCalendarFocus(date) {
+    calendarFocusedDate = startOfLocalDay(date);
+    calendarMonth = new Date(calendarFocusedDate.getFullYear(), calendarFocusedDate.getMonth(), 1);
+    renderDatePopover();
+    positionDatePopover();
+    focusCalendarDate();
+  }
+
+  function selectDueDate(value) {
+    els.noteDue.value = normalizeDueDate(value);
+    withActiveNote((note) => {
+      note.dueDate = normalizeDueDate(value);
+    });
+    closeDuePicker();
+  }
+
+  function clearDueDate() {
+    els.noteDue.value = "";
+    withActiveNote((note) => {
+      note.dueDate = "";
+    });
+    closeDuePicker();
+  }
+
+  function handleDueOutsidePointer(event) {
+    if (els.datePopover.contains(event.target) || els.noteDueField.contains(event.target)) return;
+    closeDuePicker();
+  }
+
+  function handleDateGridKeydown(event) {
+    if (isComposingKeyEvent(event)) return;
+    if (!calendarFocusedDate) return;
+    const key = event.key;
+    if (key === "Escape") {
+      event.preventDefault();
+      event.stopPropagation();
+      closeDuePicker();
+      return;
+    }
+    if (key === "Enter" || key === " ") {
+      event.preventDefault();
+      selectDueDate(dateValue(calendarFocusedDate));
+      return;
+    }
+    const movements = {
+      ArrowLeft: -1,
+      ArrowRight: 1,
+      ArrowUp: -7,
+      ArrowDown: 7
+    };
+    if (key in movements) {
+      event.preventDefault();
+      setCalendarFocus(addLocalDays(calendarFocusedDate, movements[key]));
+      return;
+    }
+    if (key === "Home") {
+      event.preventDefault();
+      setCalendarFocus(addLocalDays(calendarFocusedDate, -calendarFocusedDate.getDay()));
+      return;
+    }
+    if (key === "End") {
+      event.preventDefault();
+      setCalendarFocus(addLocalDays(calendarFocusedDate, 6 - calendarFocusedDate.getDay()));
+      return;
+    }
+    if (key === "PageUp" || key === "PageDown") {
+      event.preventDefault();
+      const direction = key === "PageUp" ? -1 : 1;
+      setCalendarFocus(addLocalMonths(calendarFocusedDate, event.shiftKey ? direction * 12 : direction));
+    }
+  }
+
+  function handleDueKeydown(event) {
+    if (isComposingKeyEvent(event)) return;
+    if (event.key === "Tab") {
+      closeDuePicker({ restoreFocus: false });
+      return;
+    }
+    if (event.key === "Escape") {
+      event.preventDefault();
+      event.stopPropagation();
+      closeDuePicker();
+      return;
+    }
+    if (event.key === "Enter" || event.key === " " || event.key === "ArrowDown" || event.key === "ArrowUp") {
+      event.preventDefault();
+      openDuePicker();
+      return;
+    }
+    event.preventDefault();
+  }
+
+  function changeCalendarMonth(amount) {
+    const base = calendarFocusedDate || parseDateValue(els.noteDue.value) || startOfLocalDay();
+    setCalendarFocus(addLocalMonths(base, amount));
+  }
+
+  function chooseToday() {
+    selectDueDate(dateValue(startOfLocalDay()));
+  }
+
+  function handleDatePopoverKeydown(event) {
+    if (isComposingKeyEvent(event)) return;
+    if (event.key !== "Escape") return;
+    event.preventDefault();
+    event.stopPropagation();
+    closeDuePicker();
+  }
+
+  function noopDueEdit(event) {
+    event.preventDefault();
+  }
+
+  function isComposingKeyEvent(event) {
+    return Boolean(event.isComposing || event.keyCode === 229 || event.which === 229);
+  }
+
+  function fillDrawer(note, column) {
+    clearChecklistUndo();
+    els.drawerTitle.textContent = note.title || "無題";
+    els.drawerSubtitle.textContent = column.title;
+    els.noteTitle.value = note.title;
+    els.noteBody.value = note.body;
+    els.noteTags.value = note.tags.join(", ");
+    lastValidTagsInput = els.noteTags.value;
+    tagsInputComposing = false;
+    document.getElementById("note-tags-help").textContent = `カンマで区切って${LIMITS.tags}個まで。1個${LIMITS.tag}文字以内。`;
+    els.noteDue.value = note.dueDate;
+    els.noteColumn.replaceChildren(...state.board.columns.map((item) => {
+      const option = document.createElement("option");
+      option.value = item.id;
+      option.textContent = item.title;
+      return option;
+    }));
+    els.noteColumn.value = column.id;
+    const duplicateButton = document.getElementById("duplicate-note-btn");
+    duplicateButton.disabled = !canAddNote();
+    duplicateButton.title = canAddNote() ? "複製" : `付箋は${LIMITS.notes}件までです`;
+    renderNoteColors(note);
+    renderChecklist(note);
+  }
+
+  function withActiveNote(mutator, shouldRenderChecklist = false) {
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (!found) return;
+    mutator(found.note, found.column);
+    found.note.updatedAt = Date.now();
+    touch();
+    renderBoard();
+    els.drawerTitle.textContent = found.note.title || "無題";
+    els.drawerSubtitle.textContent = found.column.title;
+    if (shouldRenderChecklist) renderChecklist(found.note);
+  }
+
+  function commitTagsInput() {
+    const tags = els.noteTags.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+    const tagsHelp = document.getElementById("note-tags-help");
+    if (tags.length > LIMITS.tags || tags.some((tag) => tag.length > LIMITS.tag)) {
+      els.noteTags.value = lastValidTagsInput;
+      tagsHelp.textContent = `タグは${LIMITS.tags}個まで、1個${LIMITS.tag}文字以内です。上限を超えた入力は反映していません。`;
+      renderMeta();
+      return;
+    }
+    // Firefox emits input after compositionend. If the composition was
+    // rejected, that event contains the restored value and must keep the error.
+    if (els.noteTags.value !== lastValidTagsInput) {
+      tagsHelp.textContent = `カンマで区切って${LIMITS.tags}個まで。1個${LIMITS.tag}文字以内。`;
+    }
+    lastValidTagsInput = els.noteTags.value;
+    const normalizedTags = normalizeTags(els.noteTags.value);
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (found && JSON.stringify(found.note.tags) !== JSON.stringify(normalizedTags)) {
+      withActiveNote((note) => { note.tags = normalizedTags; });
+    } else {
+      renderMeta();
+    }
+  }
+
+  function renderNoteColors(note) {
+    const restoreFocus = els.noteColorGrid.contains(document.activeElement);
+    els.noteColorGrid.textContent = "";
+    NOTE_COLORS.forEach((color) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "color-picker";
+      button.style.setProperty("--chip-color", color.css);
+      button.setAttribute("aria-label", color.label);
+      button.setAttribute("aria-pressed", String(note.color === color.id));
+      button.dataset.tooltip = color.label;
+      if (note.color === color.id) button.classList.add("is-active");
+      button.innerHTML = '<span class="check-mark" data-icon="check"></span>';
+      button.addEventListener("click", () => {
+        withActiveNote((active) => {
+          active.color = color.id;
+        });
+        const found = findNote(activeNoteId);
+        if (found) renderNoteColors(found.note);
+      });
+      els.noteColorGrid.append(button);
+    });
+    mountIcons(els.noteColorGrid);
+    if (restoreFocus) els.noteColorGrid.querySelector('[aria-pressed="true"]')?.focus();
+  }
+
+  function cleanupChecklistRows() {
+    if (!checklistRowCleanupPending || checklistActivePointers.size) return;
+    checklistRowCleanupPending = false;
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (!found) return;
+    const itemIds = new Set(found.note.checklist.map((item) => item.id));
+    els.checklist.querySelectorAll(".check-row").forEach((row) => {
+      if (!itemIds.has(row.dataset.checkId)) row.remove();
+    });
+    if (!found.note.checklist.length) renderChecklist(found.note);
+  }
+
+  function bindChecklistPointerEvents() {
+    document.addEventListener("pointerdown", (event) => {
+      checklistActivePointers.add(event.pointerId);
+      const row = event.target instanceof Element ? event.target.closest(".check-row") : null;
+      checklistPointerRows.set(event.pointerId, row?.dataset.checkId || null);
+    }, true);
+    const finishPointer = (event) => {
+      checklistActivePointers.delete(event.pointerId);
+      checklistPointerRows.delete(event.pointerId);
+      // Keep the pressed control at the same coordinates through mouseup/click.
+      setTimeout(cleanupChecklistRows, 0);
+    };
+    document.addEventListener("pointerup", finishPointer, true);
+    document.addEventListener("pointercancel", finishPointer, true);
+    window.addEventListener("blur", () => {
+      checklistActivePointers.clear();
+      checklistPointerRows.clear();
+      cleanupChecklistRows();
+      if (pointerDrag) cancelPointerDrag({ pointerId: pointerDrag.pointerId });
+      cancelColumnDrag();
+    });
+  }
+
+  function clearChecklistUndo() {
+    clearTimeout(checklistUndoTimer);
+    checklistUndoTimer = null;
+    checklistUndo = null;
+    els.checklistUndo.hidden = true;
+  }
+
+  function offerChecklistUndo(noteId, item, index) {
+    clearChecklistUndo();
+    checklistUndo = { noteId, item: { ...item }, index };
+    document.getElementById("checklist-undo-message").textContent = `「${item.text || "空の項目"}」を削除しました`;
+    els.checklistUndo.hidden = false;
+    checklistUndoTimer = setTimeout(clearChecklistUndo, 6000);
+  }
+
+  function restoreChecklistItem() {
+    const pending = checklistUndo;
+    if (!pending || activeNoteId !== pending.noteId) return;
+    const found = findNote(pending.noteId);
+    if (!found || found.note.checklist.some((item) => item.id === pending.item.id)) {
+      clearChecklistUndo();
+      return;
+    }
+    withActiveNote((note) => {
+      const index = Math.max(0, Math.min(pending.index, note.checklist.length));
+      note.checklist.splice(index, 0, pending.item);
+    }, true);
+    clearChecklistUndo();
+    showToast("チェック項目を元に戻しました");
+    requestAnimationFrame(() => {
+      els.checklist.querySelector(`[data-check-id="${pending.item.id}"] input[type="text"]`)?.focus();
+    });
+  }
+
+  function renderChecklist(note) {
+    checklistRowCleanupPending = false;
+    els.checklist.textContent = "";
+    if (!note.checklist.length) {
+      const empty = document.createElement("div");
+      empty.className = "column-empty";
+      empty.textContent = "未設定";
+      els.checklist.append(empty);
+      return;
+    }
+    note.checklist.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "check-row";
+      row.dataset.checkId = item.id;
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = item.done;
+      checkbox.setAttribute("aria-label", "完了");
+      checkbox.addEventListener("change", () => {
+        withActiveNote((active) => {
+          const target = active.checklist.find((entry) => entry.id === item.id);
+          if (target) target.done = checkbox.checked;
+        });
+      });
+
+      const input = document.createElement("input");
+      input.className = "field-input";
+      input.type = "text";
+      input.maxLength = LIMITS.checklistText;
+      input.value = item.text;
+      input.setAttribute("aria-label", "チェック項目");
+      input.addEventListener("input", () => {
+        if (input.value.length > LIMITS.checklistText) {
+          input.value = truncateText(input.value, LIMITS.checklistText);
+        }
+        withActiveNote((active) => {
+          const target = active.checklist.find((entry) => entry.id === item.id);
+          if (target) target.text = trimText(input.value, LIMITS.checklistText);
+        });
+      });
+      row.addEventListener("focusout", (event) => {
+        if (event.relatedTarget instanceof Node && row.contains(event.relatedTarget)) return;
+        if ([...checklistPointerRows.values()].includes(item.id)) return;
+        withActiveNote((active) => {
+          const target = active.checklist.find((entry) => entry.id === item.id);
+          if (!target) return;
+          target.text = trimText(target.text, LIMITS.checklistText);
+          input.value = target.text;
+          if (!target.text) {
+            active.checklist = active.checklist.filter((entry) => entry.id !== item.id);
+            checklistRowCleanupPending = true;
+          }
+        });
+        cleanupChecklistRows();
+      });
+
+      const remove = iconButton("x", "項目を削除", () => {
+        let removed = null;
+        let removedIndex = -1;
+        withActiveNote((active) => {
+          removedIndex = active.checklist.findIndex((entry) => entry.id === item.id);
+          if (removedIndex < 0) return;
+          removed = active.checklist[removedIndex];
+          active.checklist.splice(removedIndex, 1);
+        }, true);
+        if (removed) offerChecklistUndo(note.id, removed, removedIndex);
+      });
+      row.append(checkbox, input, remove);
+      els.checklist.append(row);
+    });
+    mountIcons(els.checklist);
+  }
+
+  function duplicateActiveNote() {
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (!found) return;
+    if (found.note.id === newDraftNoteId && !noteHasContent(found.note)) {
+      showToast("内容を入力してから複製できます");
+      return;
+    }
+    if (!canAddNote()) {
+      showToast(`付箋は${LIMITS.notes}件までです`);
+      fillDrawer(found.note, found.column);
+      return;
+    }
+    const clone = createNote({
+      ...found.note,
+      id: uid("note"),
+      title: found.note.title ? `${found.note.title} copy` : "",
+      checklist: found.note.checklist.map((item) => ({ ...item, id: uid("check") })),
+      createdAt: Date.now(),
+      updatedAt: Date.now()
+    });
+    found.column.notes.splice(found.index + 1, 0, clone);
+    if (found.note.id === newDraftNoteId) newDraftNoteId = null;
+    touch();
+    renderBoard();
+    openNote(clone.id);
+  }
+
+  async function deleteActiveNote(event) {
+    const found = activeNoteId ? findNote(activeNoteId) : null;
+    if (!found) return;
+    const ok = await showConfirmDialog({
+      title: "付箋を削除",
+      returnFocus: focusOrigin(event),
+      message: "この付箋を削除しますか？",
+      confirmText: "削除",
+      danger: true
+    });
+    if (!ok) return;
+    found.column.notes.splice(found.index, 1);
+    touch();
+    closeDrawer();
+    renderBoard();
+  }
+
+  function applySettings() {
+    const settings = normalizeSettings(state.settings);
+    state.settings = settings;
+    const compact = settings.density === "compact";
+    els.html.style.setProperty("--pb-column-width", compact ? "270px" : "306px");
+    els.html.style.setProperty("--pb-board-gap", compact ? "10px" : "14px");
+    els.html.style.setProperty("--pb-note-body-lines", compact ? "2" : "4");
+  }
+
+  function renderSettingsControls() {
+    if (!els.settingsModal) return;
+    const boardNameInput = document.getElementById("board-name-input");
+    if (document.activeElement !== boardNameInput) boardNameInput.value = state.board.title === "PetaBorad" ? "PetaBoard" : state.board.title;
+    const settings = normalizeSettings(state.settings);
+    document.querySelectorAll("[data-settings-theme]").forEach((button) => {
+      const active = button.dataset.settingsTheme === state.theme;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    document.querySelectorAll("[data-settings-density]").forEach((button) => {
+      const active = button.dataset.settingsDensity === settings.density;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    renderDefaultColorPicker(settings.defaultColor);
+  }
+
+  function renderDefaultColorPicker(activeColorId) {
+    const restoreFocus = els.defaultColorGrid.contains(document.activeElement);
+    els.defaultColorGrid.textContent = "";
+    NOTE_COLORS.forEach((color) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "color-picker";
+      button.style.setProperty("--chip-color", color.css);
+      button.setAttribute("aria-label", `付箋の初期色: ${color.label}`);
+      button.setAttribute("aria-pressed", String(activeColorId === color.id));
+      button.dataset.tooltip = color.label;
+      if (activeColorId === color.id) button.classList.add("is-active");
+      button.innerHTML = '<span class="check-mark" data-icon="check"></span>';
+      button.addEventListener("click", () => setDefaultColor(color.id));
+      els.defaultColorGrid.append(button);
+    });
+    mountIcons(els.defaultColorGrid);
+    if (restoreFocus) els.defaultColorGrid.querySelector('[aria-pressed="true"]')?.focus();
+  }
+
+  function openSettings(trigger) {
+    settingsReturnFocus = focusOrigin(trigger);
+    renderSettingsControls();
+    hideTooltip();
+    delete els.settingsModal.dataset.closing;
+    els.settingsModal.hidden = false;
+    syncModalAccessibility();
+    requestAnimationFrame(() => {
+      if (!isModalOpen(els.settingsModal)) return;
+      els.settingsModal.classList.add("is-open");
+      focusWithoutTooltip(els.settingsClose);
+    });
+  }
+
+  function closeSettings() {
+    if (!isModalOpen(els.settingsModal)) return;
+    const returnFocus = settingsReturnFocus;
+    settingsReturnFocus = null;
+    els.settingsModal.dataset.closing = "true";
+    els.settingsModal.classList.remove("is-open");
+    syncModalAccessibility();
+    setTimeout(() => {
+      if (!els.settingsModal.classList.contains("is-open")) els.settingsModal.hidden = true;
+    }, 160);
+    requestAnimationFrame(() => restoreFocusTarget(returnFocus));
+  }
+
+  function openHelp(trigger) {
+    helpReturnFocus = focusOrigin(trigger);
+    hideTooltip();
+    delete els.helpModal.dataset.closing;
+    els.helpModal.hidden = false;
+    syncModalAccessibility();
+    requestAnimationFrame(() => {
+      if (!isModalOpen(els.helpModal)) return;
+      els.helpModal.classList.add("is-open");
+      focusWithoutTooltip(els.helpClose);
+    });
+  }
+
+  function closeHelp() {
+    if (!isModalOpen(els.helpModal)) return;
+    const returnFocus = helpReturnFocus;
+    helpReturnFocus = null;
+    els.helpModal.dataset.closing = "true";
+    els.helpModal.classList.remove("is-open");
+    syncModalAccessibility();
+    setTimeout(() => {
+      if (!els.helpModal.classList.contains("is-open")) els.helpModal.hidden = true;
+    }, 160);
+    requestAnimationFrame(() => restoreFocusTarget(returnFocus));
+  }
+
+  function applyTheme() {
+    els.html.dataset.theme = state.theme === "dark" ? "dark" : "light";
+    const themeSlot = document.querySelector("#theme-btn [data-icon]");
+    if (themeSlot) {
+      themeSlot.dataset.icon = state.theme === "dark" ? "sun" : "moon";
+      mountIcons(document.getElementById("theme-btn"));
+    }
+  }
+
+  function setTheme(theme) {
+    if (theme !== "light" && theme !== "dark") return;
+    if (state.theme === theme) {
+      renderSettingsControls();
+      return;
+    }
+    state.theme = theme;
+    applyTheme();
+    renderSettingsControls();
+    touch();
+  }
+
+  function toggleTheme() {
+    setTheme(state.theme === "dark" ? "light" : "dark");
+  }
+
+  function setDensity(density) {
+    if (density !== "comfortable" && density !== "compact") return;
+    state.settings = normalizeSettings({ ...state.settings, density });
+    applySettings();
+    renderSettingsControls();
+    touch();
+  }
+
+  function setDefaultColor(colorId) {
+    if (!NOTE_COLORS.some((color) => color.id === colorId)) return;
+    state.settings = normalizeSettings({ ...state.settings, defaultColor: colorId });
+    renderSettingsControls();
+    touch();
+  }
+
+  function downloadJson(text, filename) {
+    const blob = new Blob([text], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function exportBoard() {
+    const stamp = new Date().toISOString().slice(0, 10);
+    downloadJson(JSON.stringify(state, null, 2), `petaboard-${stamp}.json`);
+    showToast("ボードを書き出しました");
+  }
+
+  function hasValidImportValues(raw) {
+    const isText = (value) => typeof value === "string";
+    const matches = (record, fields) => Object.entries(fields).every(([key, validate]) => (
+      !Object.prototype.hasOwnProperty.call(record, key) || validate(record[key])
+    ));
+    // Missing fields keep the existing defaults. Only these explicit legacy
+    // representations may change type or value during an import.
+    const validId = (value) => isSafeId(value)
+      || (Number.isFinite(value) && isSafeId(String(value)));
+    const validColor = (value) => isText(value) && (
+      NOTE_COLORS.some((color) => color.id === value)
+      || Object.prototype.hasOwnProperty.call(LEGACY_COLOR_MAP, value)
+    );
+    const timestamps = { createdAt: Number.isFinite, updatedAt: Number.isFinite };
+    const checklistFields = {
+      id: validId,
+      text: isText,
+      done: (value) => typeof value === "boolean"
+    };
+    const noteFields = {
+      id: validId,
+      title: isText,
+      body: isText,
+      color: validColor,
+      tags: (value) => isText(value) || (Array.isArray(value) && value.every(isText)),
+      dueDate: isText,
+      checklist: (value) => Array.isArray(value) && value.every((item) => (
+        isObjectRecord(item) && matches(item, checklistFields)
+      )),
+      ...timestamps
+    };
+    return matches(raw, {
+      version: (value) => value === 1,
+      theme: (value) => value === "light" || value === "dark",
+      settings: (value) => isObjectRecord(value) && matches(value, {
+        density: (density) => density === "comfortable" || density === "compact",
+        defaultColor: validColor
+      })
+    }) && matches(raw.board, { title: isText, ...timestamps })
+      && raw.board.columns.every((column) => (
+        matches(column, { id: validId, title: isText })
+        && column.notes.every((note) => matches(note, noteFields))
+      ));
+  }
+
+  async function importBoard(file) {
+    if (!file) return;
+    const sizeMessage = `読み込めるJSONは${LIMITS.importBytes / (1024 * 1024)}MBまでです`;
+    const lossMessage = "上限超過や不正な値で内容が変わるため、読み込みを中止しました";
+    if (file.size > LIMITS.importBytes) {
+      showToast(sizeMessage);
+      els.importBoardFile.value = "";
+      return;
+    }
+    try {
+      const text = await file.text();
+      if (new Blob([text]).size > LIMITS.importBytes) {
+        showToast(sizeMessage);
+        return;
+      }
+      const parsed = JSON.parse(text);
+      if (!isImportableBoardState(parsed)) {
+        showToast("PetaBoardのJSON形式ではありません");
+        return;
+      }
+      if (!hasValidImportValues(parsed)) {
+        showToast(lossMessage);
+        return;
+      }
+      const nextState = normalizeState(parsed);
+      if (hasStoredStateReduction(parsed, nextState)) {
+        showToast(lossMessage);
+        return;
+      }
+      const ok = await showConfirmDialog({
+        title: "ボードを読み込み",
+        returnFocus: els.importBoardBtn,
+        message: "現在のボードを、読み込んだ内容で置き換えますか？",
+        confirmText: "読み込み"
+      });
+      if (!ok) return;
+      state = nextState;
+      stateDirty = true;
+      activeNoteId = null;
+      newDraftNoteId = null;
+      closeDrawer();
+      closeSettings();
+      renderAll();
+      if (await saveStateNow({ showError: false })) {
+        showToast("ボードを読み込みました");
+      } else {
+        showToast("読み込みましたが保存できませんでした");
+      }
+    } catch (_) {
+      showToast("読み込めないJSONファイルです");
+    } finally {
+      els.importBoardFile.value = "";
+    }
+  }
+
+  async function resetBoard(event) {
+    const ok = await showConfirmDialog({
+      title: "ボードを初期化",
+      returnFocus: focusOrigin(event),
+      message: "現在のボードを初期状態に戻しますか？\nこの操作はローカル保存データを置き換えます。",
+      confirmText: "初期化",
+      danger: true
+    });
+    if (!ok) return;
+    state = createDefaultState();
+    stateDirty = true;
+    activeNoteId = null;
+    newDraftNoteId = null;
+    closeDrawer();
+    closeSettings();
+    renderAll();
+    if (await saveStateNow({ showError: false })) {
+      showToast("ボードを初期化しました");
+    } else {
+      showToast("初期化しましたが保存できませんでした");
+    }
+  }
+
+  function showToast(message) {
+    clearTimeout(toastTimer);
+    els.toast.textContent = message;
+    els.toast.classList.add("is-visible");
+    toastTimer = setTimeout(() => els.toast.classList.remove("is-visible"), 1800);
+  }
+
+  function showConfirmDialog(options = {}) {
+    if (confirmResolve) closeConfirmDialog(false);
+    confirmReturnFocus = focusOrigin(options.returnFocus);
+    els.confirmTitle.textContent = options.title || "確認";
+    els.confirmMessage.textContent = options.message || "";
+    els.confirmCancel.textContent = options.cancelText || "キャンセル";
+    els.confirmOk.textContent = options.confirmText || "OK";
+    els.confirmOk.className = options.danger ? "danger-btn" : "primary-btn";
+    hideTooltip();
+    delete els.confirmModal.dataset.closing;
+    els.confirmModal.hidden = false;
+    syncModalAccessibility();
+    requestAnimationFrame(() => {
+      if (!isModalOpen(els.confirmModal)) return;
+      els.confirmModal.classList.add("is-open");
+      els.confirmCancel.focus();
+    });
+    return new Promise((resolve) => {
+      confirmResolve = resolve;
+    });
+  }
+
+  function closeConfirmDialog(result) {
+    if (!confirmResolve) return;
+    const resolve = confirmResolve;
+    const returnFocus = confirmReturnFocus;
+    confirmResolve = null;
+    confirmReturnFocus = null;
+    els.confirmModal.dataset.closing = "true";
+    els.confirmModal.classList.remove("is-open");
+    syncModalAccessibility();
+    setTimeout(() => {
+      if (!els.confirmModal.classList.contains("is-open")) els.confirmModal.hidden = true;
+    }, 160);
+    resolve(Boolean(result));
+    requestAnimationFrame(() => restoreFocusTarget(returnFocus));
+  }
+
+  function showTooltip(target) {
+    const text = target && target.dataset.tooltip;
+    if (!text || !els.tooltip) return;
+    els.tooltip.textContent = text;
+    els.tooltip.hidden = false;
+    els.tooltip.classList.remove("is-visible");
+    const targetRect = target.getBoundingClientRect();
+    const tooltipRect = els.tooltip.getBoundingClientRect();
+    const margin = 8;
+    let left = targetRect.left + targetRect.width / 2 - tooltipRect.width / 2;
+    left = Math.max(margin, Math.min(left, window.innerWidth - tooltipRect.width - margin));
+    let top = targetRect.top - tooltipRect.height - margin;
+    if (top < margin) top = targetRect.bottom + margin;
+    els.tooltip.style.left = `${Math.round(left)}px`;
+    els.tooltip.style.top = `${Math.round(top)}px`;
+    requestAnimationFrame(() => els.tooltip.classList.add("is-visible"));
+  }
+
+  function focusWithoutTooltip(element) {
+    suppressFocusTooltip = true;
+    element.focus();
+    hideTooltip();
+    queueMicrotask(() => { suppressFocusTooltip = false; });
+  }
+
+  function hideTooltip() {
+    if (!els.tooltip) return;
+    els.tooltip.classList.remove("is-visible");
+    setTimeout(() => {
+      if (!els.tooltip.classList.contains("is-visible")) els.tooltip.hidden = true;
+    }, 100);
+  }
+
+  function isModalOpen(modal) {
+    return !modal.hidden && modal.dataset.closing !== "true";
+  }
+
+  function activeModal() {
+    return [els.confirmModal, els.helpModal, els.settingsModal, els.datePopover, els.drawer].find(isModalOpen);
+  }
+
+  function syncModalAccessibility() {
+    const active = activeModal();
+    document.querySelector(".app-shell").inert = Boolean(active);
+    [els.drawer, els.datePopover, els.settingsModal, els.helpModal, els.confirmModal].forEach((modal) => {
+      modal.inert = modal !== active;
+    });
+    hideTooltip();
+  }
+
+  function restoreFocusTarget(target, fallback = {}) {
+    const noteId = fallback.noteId || target?.closest?.(".note-card")?.dataset.noteId;
+    const columnId = fallback.columnId || target?.closest?.(".column")?.dataset.columnId;
+    const column = columnId ? els.board.querySelector(`.column[data-column-id="${columnId}"]`) : null;
+    const controlLabel = target?.getAttribute?.("aria-label");
+    const matchingControl = column && controlLabel
+      ? [...column.querySelectorAll("[aria-label]")].find((element) => element.getAttribute("aria-label") === controlLabel)
+      : null;
+    const active = activeModal();
+    const candidates = [
+      target,
+      noteId ? els.board.querySelector(`.note-card[data-note-id="${noteId}"]`) : null,
+      matchingControl,
+      column?.querySelector(".column-title"),
+      active ? focusableElements(active)[0] : els.searchInput
+    ];
+    const next = candidates.find((element) => element instanceof HTMLElement
+      && element !== document.body && element.isConnected && !element.matches(":disabled")
+      && !element.closest("[hidden], [inert]") && (!active || active.contains(element)));
+    next?.focus();
+  }
+
+  function focusOrigin(trigger) {
+    if (trigger instanceof HTMLElement) return trigger;
+    if (trigger?.currentTarget instanceof HTMLElement) return trigger.currentTarget;
+    return document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  }
+
+  function focusableElements(container) {
+    return [...container.querySelectorAll('a[href], button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])')]
+      .filter((element) => {
+        if (!(element instanceof HTMLElement) || element.matches(":disabled") || element.tabIndex < 0 || element.closest("[hidden], [inert]")) return false;
+        const style = getComputedStyle(element);
+        return style.display !== "none" && style.visibility !== "hidden" && element.getClientRects().length > 0;
+      });
+  }
+
+  function trapTabFocus(event, container) {
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    const items = focusableElements(container);
+    if (!items.length) return;
+    const current = items.indexOf(document.activeElement);
+    const next = current < 0 ? (event.shiftKey ? items.length - 1 : 0)
+      : (current + (event.shiftKey ? -1 : 1) + items.length) % items.length;
+    // WebKit may omit buttons from native Tab navigation depending on the OS
+    // keyboard preference. Every visible dialog control must remain reachable.
+    event.preventDefault();
+    items[next].focus();
+  }
+
+  function bindEvents() {
+    bindChecklistPointerEvents();
+    document.getElementById("storage-export-btn").addEventListener("click", exportBoard);
+    document.getElementById("storage-original-btn").addEventListener("click", () => {
+      if (pendingRecoveryText === null) return;
+      const stamp = new Date().toISOString().slice(0, 10);
+      downloadJson(pendingRecoveryText, `petaboard-recovery-${stamp}.json`);
+      showToast("元の保存データを書き出しました");
+    });
+    document.getElementById("storage-retry-btn").addEventListener("click", () => saveStateNow());
+    document.getElementById("storage-reload-btn").addEventListener("click", async (event) => {
+      const ok = await showConfirmDialog({
+        title: "保存済みの内容を開く",
+        returnFocus: event.currentTarget,
+        message: "この画面の未保存の編集を破棄して、保存済みの内容を開きますか？必要な編集は先に書き出してください。",
+        confirmText: "開く",
+        danger: true
+      });
+      if (!ok) return;
+      storageEpoch += 1;
+      clearTimeout(saveTimer);
+      stateDirty = false;
+      location.reload();
+    });
+    document.getElementById("theme-btn").addEventListener("click", toggleTheme);
+    els.settingsBtn.addEventListener("click", openSettings);
+    els.searchInput.addEventListener("input", () => setSearchQuery(els.searchInput.value));
+    els.searchInput.addEventListener("keydown", (event) => {
+      if (isComposingKeyEvent(event)) return;
+      if (event.key === "Escape" && searchQuery.trim()) {
+        event.preventDefault();
+        clearSearch();
+      }
+    });
+    els.clearSearch.addEventListener("click", clearSearch);
+
+    document.getElementById("drawer-backdrop").addEventListener("click", closeDrawer);
+    document.getElementById("close-drawer-btn").addEventListener("click", closeDrawer);
+    document.getElementById("duplicate-note-btn").addEventListener("click", duplicateActiveNote);
+    document.getElementById("delete-note-btn").addEventListener("click", deleteActiveNote);
+    els.confirmBackdrop.addEventListener("click", () => closeConfirmDialog(false));
+    els.confirmCancel.addEventListener("click", () => closeConfirmDialog(false));
+    els.confirmOk.addEventListener("click", () => closeConfirmDialog(true));
+    els.settingsBackdrop.addEventListener("click", closeSettings);
+    els.settingsClose.addEventListener("click", closeSettings);
+    els.settingsDone.addEventListener("click", closeSettings);
+    els.helpBackdrop.addEventListener("click", closeHelp);
+    els.helpClose.addEventListener("click", closeHelp);
+    els.helpDone.addEventListener("click", closeHelp);
+    els.checklistUndoButton.addEventListener("click", restoreChecklistItem);
+    document.querySelectorAll("[data-settings-theme]").forEach((button) => {
+      button.addEventListener("click", () => setTheme(button.dataset.settingsTheme));
+    });
+    document.querySelectorAll("[data-settings-density]").forEach((button) => {
+      button.addEventListener("click", () => setDensity(button.dataset.settingsDensity));
+    });
+    els.exportBoardBtn.addEventListener("click", exportBoard);
+    els.importBoardBtn.addEventListener("click", () => els.importBoardFile.click());
+    els.importBoardFile.addEventListener("change", () => importBoard(els.importBoardFile.files[0]));
+    els.resetBoardBtn.addEventListener("click", resetBoard);
+
+    els.noteTitle.addEventListener("input", () => {
+      if (els.noteTitle.value.length > LIMITS.noteTitle) {
+        els.noteTitle.value = truncateText(els.noteTitle.value, LIMITS.noteTitle);
+      }
+      withActiveNote((note) => {
+        note.title = truncateText(els.noteTitle.value, LIMITS.noteTitle);
+      });
+    });
+    els.noteBody.addEventListener("input", () => {
+      if (els.noteBody.value.length > LIMITS.noteBody) {
+        els.noteBody.value = truncateText(els.noteBody.value, LIMITS.noteBody);
+      }
+      withActiveNote((note) => {
+        note.body = truncateText(els.noteBody.value, LIMITS.noteBody);
+      });
+    });
+
+    els.noteColumn.addEventListener("change", () => {
+      const found = activeNoteId ? findNote(activeNoteId) : null;
+      const targetColumn = findColumn(els.noteColumn.value);
+      if (!found || !targetColumn || found.column.id === targetColumn.id) return;
+      moveNote(found.note.id, targetColumn.id, null);
+      els.drawerSubtitle.textContent = targetColumn.title;
+      els.noteColumn.value = targetColumn.id;
+      showToast(`「${targetColumn.title}」へ移動しました`);
+    });
+    els.noteTags.addEventListener("compositionstart", () => {
+      tagsInputComposing = true;
+      renderMeta();
+    });
+    els.noteTags.addEventListener("compositionend", () => {
+      tagsInputComposing = false;
+      commitTagsInput();
+    });
+    els.noteTags.addEventListener("blur", () => {
+      if (!tagsInputComposing) return;
+      tagsInputComposing = false;
+      commitTagsInput();
+    });
+    els.noteTags.addEventListener("input", (event) => {
+      if (tagsInputComposing || event.isComposing) {
+        tagsInputComposing = true;
+        return;
+      }
+      commitTagsInput();
+    });
+    const syncDueDate = () => {
+      withActiveNote((note) => {
+        note.dueDate = normalizeDueDate(els.noteDue.value);
+      });
+    };
+    els.noteDueField.addEventListener("click", openDuePicker);
+    els.noteDue.addEventListener("keydown", handleDueKeydown);
+    els.noteDue.addEventListener("beforeinput", noopDueEdit);
+    els.noteDue.addEventListener("paste", noopDueEdit);
+    els.noteDue.addEventListener("drop", noopDueEdit);
+    els.noteDue.addEventListener("wheel", noopDueEdit, { passive: false });
+    els.noteDue.addEventListener("input", syncDueDate);
+    els.noteDue.addEventListener("change", syncDueDate);
+    els.datePrevMonth.addEventListener("click", () => changeCalendarMonth(-1));
+    els.dateNextMonth.addEventListener("click", () => changeCalendarMonth(1));
+    els.dateToday.addEventListener("click", chooseToday);
+    els.dateClear.addEventListener("click", clearDueDate);
+    els.dateGrid.addEventListener("keydown", handleDateGridKeydown);
+    els.datePopover.addEventListener("keydown", handleDatePopoverKeydown);
+    document.getElementById("add-check-btn").addEventListener("click", () => {
+      const found = activeNoteId ? findNote(activeNoteId) : null;
+      if (!found) return;
+      if (found.note.checklist.length >= LIMITS.checklistItems) {
+        showToast("チェック項目は30件までです");
+        return;
+      }
+      withActiveNote((note) => {
+        note.checklist.push({ id: uid("check"), text: "", done: false });
+      }, true);
+      requestAnimationFrame(() => {
+        const inputs = els.checklist.querySelectorAll('.check-row input[type="text"]');
+        const last = inputs[inputs.length - 1];
+        if (last) last.focus();
+      });
+    });
+
+    document.addEventListener("pointermove", updatePointerDrag);
+    document.addEventListener("pointerup", finishPointerDrag);
+    document.addEventListener("pointercancel", cancelPointerDrag);
+    document.addEventListener("pointermove", updateColumnDrag);
+    document.addEventListener("pointerup", finishColumnDrag);
+    document.addEventListener("pointercancel", cancelColumnDrag);
+
+    document.addEventListener("keydown", (event) => {
+      if (isComposingKeyEvent(event)) return;
+      if (event.key === "Tab") {
+        const modal = activeModal();
+        if (modal) trapTabFocus(event, modal);
+        return;
+      }
+      if (event.key !== "Escape") return;
+      if (!els.datePopover.hidden) {
+        closeDuePicker();
+        event.preventDefault();
+        return;
+      }
+      if (isModalOpen(els.confirmModal)) {
+        closeConfirmDialog(false);
+        event.preventDefault();
+        return;
+      }
+      if (isModalOpen(els.settingsModal)) {
+        closeSettings();
+        event.preventDefault();
+        return;
+      }
+      if (isModalOpen(els.helpModal)) {
+        closeHelp();
+        event.preventDefault();
+        return;
+      }
+      if (isModalOpen(els.drawer)) {
+        closeDrawer();
+        event.preventDefault();
+      }
+    });
+
+    document.addEventListener("pointerover", (event) => {
+      const target = event.target.closest("[data-tooltip]");
+      if (target) showTooltip(target);
+    }, true);
+    document.addEventListener("pointerout", (event) => {
+      const target = event.target.closest("[data-tooltip]");
+      if (target && !target.contains(event.relatedTarget)) hideTooltip();
+    }, true);
+    document.addEventListener("focusin", (event) => {
+      const target = event.target.closest("[data-tooltip]");
+      if (!suppressFocusTooltip && target?.matches(":focus-visible")) showTooltip(target);
+    });
+    document.addEventListener("focusout", (event) => {
+      if (event.target.closest("[data-tooltip]")) hideTooltip();
+    });
+    window.addEventListener("scroll", hideTooltip, true);
+    window.addEventListener("resize", hideTooltip);
+
+    window.addEventListener("storage", (event) => {
+      if (event.key === STORAGE_KEY || event.key === null) syncStoredState();
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden" && stateDirty) saveStateNow({ showError: false });
+    });
+    window.addEventListener("beforeunload", (event) => {
+      // An asynchronous lock cannot be awaited during unload. Never bypass it.
+      if (!stateDirty && !tagsInputComposing) return;
+      event.preventDefault();
+      event.returnValue = "";
+    });
+  }
+
+  function bindWorkspaceEvents() {
+    document.getElementById("first-note-btn").addEventListener("click", () => addNote(state.board.columns[0]?.id));
+    document.getElementById("quick-export-btn").addEventListener("click", exportBoard);
+    document.getElementById("empty-clear-search-btn").addEventListener("click", clearSearch);
+    document.getElementById("help-btn").addEventListener("click", (event) => {
+      openHelp(event.currentTarget);
+    });
+    const boardNameInput = document.getElementById("board-name-input");
+    boardNameInput.addEventListener("input", () => {
+      state.board.title = trimText(boardNameInput.value, LIMITS.boardTitle) || "PetaBoard";
+      renderTitle();
+      touch();
+    });
+    boardNameInput.addEventListener("blur", () => { boardNameInput.value = state.board.title; });
+    document.addEventListener("keydown", (event) => {
+      if (isComposingKeyEvent(event) || event.defaultPrevented || event.ctrlKey || event.metaKey || event.altKey) return;
+      if (event.key !== "/" || !els.drawer.hidden || !els.settingsModal.hidden || !els.helpModal.hidden || !els.confirmModal.hidden) return;
+      if (event.target instanceof HTMLElement && (event.target.matches("input, textarea, select") || event.target.isContentEditable)) return;
+      event.preventDefault();
+      els.searchInput.focus();
+    });
+  }
+
+  function installTestHook() {
+    Object.defineProperty(window, "__PETA_BOARD_TEST__", {
+      value: Object.freeze({
+        STORAGE_KEY,
+        CORRUPT_BACKUP_KEY,
+        LIMITS,
+        SAFE_ID_RE,
+        createDefaultState,
+        createNote,
+        normalizeChecklist,
+        isImportableBoardState,
+        hasStoredStateReduction,
+        normalizeState,
+        normalizeDueDate,
+        parseDateValue,
+        dateValue,
+        noteCount,
+        getState: () => state,
+        setState: (nextState) => {
+          state = normalizeState(nextState);
+          stateDirty = true;
+          activeNoteId = null;
+          newDraftNoteId = null;
+          renderAll();
+        },
+        saveStateNow
+      }),
+      configurable: true
+    });
+  }
+
+  configureInputLimits();
+  installTestHook();
+  bindEvents();
+  bindWorkspaceEvents();
+  function initializeStorage(allowSave) {
+    state = loadState();
+    storageReady = true;
+    renderAll();
+    const savedOnStart = allowSave && storageLoadStatus.shouldSaveOnStart ? saveStateLocked() : false;
+    if (storageLoadStatus.message && (!storageLoadStatus.shouldSaveOnStart || savedOnStart)) {
+      showToast(storageLoadStatus.message);
+    }
+    if (storageIssueMessage || storageReadBlocked) {
+      showStorageIssue(storageIssueMessage || storageLoadStatus.message, false);
+    }
+    if (!allowSave) showStorageIssue("この環境では安全な自動保存を利用できません。HTTPSまたはローカルHTMLで開いてください。現在のボードは書き出せます。", false);
+  }
+  if (navigator.locks) {
+    navigator.locks.request(STORAGE_KEY, () => initializeStorage(true)).catch(() => {
+      storageReadBlocked = true;
+      storageReady = true;
+      renderAll();
+      showStorageIssue("保存データを安全に開けませんでした。ページを開き直してください。", false);
+    });
+  } else {
+    initializeStorage(false);
+  }
+})();
+</script>
+</body>
+</html>

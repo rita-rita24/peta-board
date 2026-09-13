@@ -1,0 +1,202 @@
+
+> peta-board@0.1.0 test
+> playwright test tests/e2e/product-experience.spec.mjs tests/e2e/responsive.spec.mjs tests/e2e/checklist-touch.spec.mjs tests/e2e/keyboard-navigation.spec.mjs --workers=6
+
+
+Running 120 tests using 6 workers
+
+(node:18479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18482) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18480) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18483) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18482) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18480) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18483) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    3 [chromium] › tests/e2e/checklist-touch.spec.mjs:66:3 › checklist focus and stable item identity › editing a later item keeps its input focused when an empty row is removed (993ms)
+  ✓    1 [chromium] › tests/e2e/checklist-touch.spec.mjs:44:3 › checklist focus and stable item identity › checking a later item after emptying the first updates only that item (1.3s)
+  ✓    5 [chromium] › tests/e2e/checklist-touch.spec.mjs:83:3 › checklist focus and stable item identity › Tab preserves the next control while leaving an empty checklist row (1.3s)
+  ✓    4 [chromium] › tests/e2e/checklist-touch.spec.mjs:78:3 › checklist focus and stable item identity › deleting a different row after emptying the first removes the intended IDs (1.3s)
+  ✓    2 [chromium] › tests/e2e/checklist-touch.spec.mjs:73:3 › checklist focus and stable item identity › deleting the empty row preserves both following items (1.3s)
+  ✓    6 [chromium] › tests/e2e/checklist-touch.spec.mjs:50:3 › checklist focus and stable item identity › the pressed checkbox stays in place until the pointer click completes (1.5s)
+  ✓    7 [chromium] › tests/e2e/checklist-touch.spec.mjs:94:3 › checklist focus and stable item identity › moving within the same row permits completing an unfinished edit (941ms)
+  ✓   10 [chromium] › tests/e2e/checklist-touch.spec.mjs:170:3 › touch scrolling and note drag handle › a real touch pan beginning on a card scrolls its list without moving notes (780ms)
+  ✓   14 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:30:1 › column movement keeps keyboard focus on the moved column (169ms)
+  ✓   13 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:20:1 › editing a note restores focus to its replacement card when the dialog closes (414ms)
+  ✓   12 [chromium] › tests/e2e/checklist-touch.spec.mjs:198:1 › mouse users can still drag from the card body outside the handle (835ms)
+  ✓   11 [chromium] › tests/e2e/checklist-touch.spec.mjs:187:3 › touch scrolling and note drag handle › a real touch drag on the handle moves and saves a note (1.2s)
+  ✓    8 [chromium] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › Escape commits checklist whitespace so the exported board can be imported again (1.2s)
+  ✓    9 [chromium] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › backdrop commits checklist whitespace so the exported board can be imported again (1.3s)
+  ✓   15 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:41:1 › calendar Tab reaches today and clear and stays within the active dialog (473ms)
+  ✓   17 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:83:1 › nested confirmation isolates background controls and returns to the note dialog (680ms)
+  ✓   16 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:62:1 › note column selection moves the note, keeps focus, and persists after reload (695ms)
+  ✓   19 [chromium] › tests/e2e/product-experience.spec.mjs:5:1 › the first note action starts editing and the saved board replaces the introduction (723ms)
+  ✓   18 [chromium] › tests/e2e/keyboard-navigation.spec.mjs:97:1 › color selection exposes its state and retains keyboard focus in both dialogs (811ms)
+  ✓   20 [chromium] › tests/e2e/product-experience.spec.mjs:21:1 › saving indicator stays pending until the storage lock has actually committed the edit (771ms)
+  ✓   21 [chromium] › tests/e2e/product-experience.spec.mjs:38:1 › a failed write is visible and retry confirms a successful durable save (763ms)
+  ✓   24 [chromium] › tests/e2e/product-experience.spec.mjs:98:1 › backup is available from the board and downloads the full current state (406ms)
+  ✓   22 [chromium] › tests/e2e/product-experience.spec.mjs:75:1 › search offers result counts, a useful zero state and a keyboard entry point (660ms)
+  ✓   26 [chromium] › tests/e2e/product-experience.spec.mjs:130:1 › creating while searching clears the filter so the new note cannot appear lost (628ms)
+  ✓   23 [chromium] › tests/e2e/product-experience.spec.mjs:57:1 › a personal board name persists and an empty name has a stable fallback (944ms)
+  ✓   25 [chromium] › tests/e2e/product-experience.spec.mjs:112:1 › help is separate from settings, traps keyboard focus, and returns to its trigger (681ms)
+  ✓   29 [chromium] › tests/e2e/product-experience.spec.mjs:194:1 › legacy board identity is displayed correctly without changing stored data or losing notes (296ms)
+  ✓   32 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-390 (192ms)
+  ✓   33 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-430 (177ms)
+  ✓   30 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-320 (202ms)
+  ✓   31 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-375 (201ms)
+  ✓   27 [chromium] › tests/e2e/product-experience.spec.mjs:150:1 › closing a newly created empty note leaves no untitled card or saved draft (902ms)
+  ✓   36 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on desktop-1280 (211ms)
+  ✓   35 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on laptop-1024 (230ms)
+  ✓   34 [chromium] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on tablet-768 (227ms)
+  ✓   37 [chromium] › tests/e2e/responsive.spec.mjs:44:1 › note drawer fits on mobile and metadata fields collapse (370ms)
+  ✓   28 [chromium] › tests/e2e/product-experience.spec.mjs:167:1 › a deleted checklist item can be undone and remains restored after reload (899ms)
+  ✓   40 [chromium] › tests/e2e/responsive.spec.mjs:190:1 › primary mobile controls have comfortable touch targets and help stays readable (241ms)
+(node:18557) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18557) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18559) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18559) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   38 [chromium] › tests/e2e/responsive.spec.mjs:133:1 › settings and confirm modals stay inside a narrow mobile viewport (521ms)
+  ✓   39 [chromium] › tests/e2e/responsive.spec.mjs:88:1 › date popover remains inside a short mobile viewport (527ms)
+(node:18560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18565) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18565) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   41 [firefox] › tests/e2e/checklist-touch.spec.mjs:44:3 › checklist focus and stable item identity › checking a later item after emptying the first updates only that item (1.8s)
+  ✓   45 [firefox] › tests/e2e/checklist-touch.spec.mjs:78:3 › checklist focus and stable item identity › deleting a different row after emptying the first removes the intended IDs (2.2s)
+  ✓   47 [firefox] › tests/e2e/checklist-touch.spec.mjs:94:3 › checklist focus and stable item identity › moving within the same row permits completing an unfinished edit (1.5s)
+  ✓   46 [firefox] › tests/e2e/checklist-touch.spec.mjs:83:3 › checklist focus and stable item identity › Tab preserves the next control while leaving an empty checklist row (2.8s)
+  -   50 [firefox] › tests/e2e/checklist-touch.spec.mjs:170:3 › touch scrolling and note drag handle › a real touch pan beginning on a card scrolls its list without moving notes
+  -   51 [firefox] › tests/e2e/checklist-touch.spec.mjs:187:3 › touch scrolling and note drag handle › a real touch drag on the handle moves and saves a note
+  ✓   44 [firefox] › tests/e2e/checklist-touch.spec.mjs:73:3 › checklist focus and stable item identity › deleting the empty row preserves both following items (2.7s)
+  ✓   48 [firefox] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › Escape commits checklist whitespace so the exported board can be imported again (1.8s)
+  ✓   54 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:30:1 › column movement keeps keyboard focus on the moved column (592ms)
+  ✓   43 [firefox] › tests/e2e/checklist-touch.spec.mjs:66:3 › checklist focus and stable item identity › editing a later item keeps its input focused when an empty row is removed (2.2s)
+  ✓   53 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:20:1 › editing a note restores focus to its replacement card when the dialog closes (1.2s)
+  ✓   52 [firefox] › tests/e2e/checklist-touch.spec.mjs:198:1 › mouse users can still drag from the card body outside the handle (1.6s)
+  ✓   42 [firefox] › tests/e2e/checklist-touch.spec.mjs:50:3 › checklist focus and stable item identity › the pressed checkbox stays in place until the pointer click completes (3.4s)
+  ✓   49 [firefox] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › backdrop commits checklist whitespace so the exported board can be imported again (1.8s)
+  ✓   55 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:41:1 › calendar Tab reaches today and clear and stays within the active dialog (1.1s)
+  ✓   56 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:62:1 › note column selection moves the note, keeps focus, and persists after reload (1.2s)
+  ✓   57 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:83:1 › nested confirmation isolates background controls and returns to the note dialog (1.1s)
+  ✓   60 [firefox] › tests/e2e/product-experience.spec.mjs:21:1 › saving indicator stays pending until the storage lock has actually committed the edit (1.0s)
+  ✓   59 [firefox] › tests/e2e/product-experience.spec.mjs:5:1 › the first note action starts editing and the saved board replaces the introduction (1.1s)
+  ✓   58 [firefox] › tests/e2e/keyboard-navigation.spec.mjs:97:1 › color selection exposes its state and retains keyboard focus in both dialogs (1.4s)
+  ✓   64 [firefox] › tests/e2e/product-experience.spec.mjs:98:1 › backup is available from the board and downloads the full current state (656ms)
+  ✓   61 [firefox] › tests/e2e/product-experience.spec.mjs:38:1 › a failed write is visible and retry confirms a successful durable save (1.2s)
+  ✓   63 [firefox] › tests/e2e/product-experience.spec.mjs:75:1 › search offers result counts, a useful zero state and a keyboard entry point (1.3s)
+  ✓   62 [firefox] › tests/e2e/product-experience.spec.mjs:57:1 › a personal board name persists and an empty name has a stable fallback (1.5s)
+  ✓   65 [firefox] › tests/e2e/product-experience.spec.mjs:112:1 › help is separate from settings, traps keyboard focus, and returns to its trigger (1.3s)
+  ✓   66 [firefox] › tests/e2e/product-experience.spec.mjs:130:1 › creating while searching clears the filter so the new note cannot appear lost (1.1s)
+  ✓   67 [firefox] › tests/e2e/product-experience.spec.mjs:150:1 › closing a newly created empty note leaves no untitled card or saved draft (1.2s)
+  ✓   72 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-390 (533ms)
+  ✓   69 [firefox] › tests/e2e/product-experience.spec.mjs:194:1 › legacy board identity is displayed correctly without changing stored data or losing notes (749ms)
+  ✓   70 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-320 (670ms)
+  ✓   71 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-375 (604ms)
+  ✓   77 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on laptop-1024 (526ms)
+  ✓   75 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on desktop-1280 (607ms)
+  ✓   74 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on tablet-768 (665ms)
+  ✓   76 [firefox] › tests/e2e/responsive.spec.mjs:44:1 › note drawer fits on mobile and metadata fields collapse (766ms)
+  ✓   73 [firefox] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-430 (1.4s)
+  ✓   68 [firefox] › tests/e2e/product-experience.spec.mjs:167:1 › a deleted checklist item can be undone and remains restored after reload (2.5s)
+(node:18680) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   79 [firefox] › tests/e2e/responsive.spec.mjs:133:1 › settings and confirm modals stay inside a narrow mobile viewport (755ms)
+(node:18680) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   80 [firefox] › tests/e2e/responsive.spec.mjs:190:1 › primary mobile controls have comfortable touch targets and help stays readable (1.6s)
+  ✓   78 [firefox] › tests/e2e/responsive.spec.mjs:88:1 › date popover remains inside a short mobile viewport (2.5s)
+(node:18729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   81 [webkit] › tests/e2e/checklist-touch.spec.mjs:44:3 › checklist focus and stable item identity › checking a later item after emptying the first updates only that item (1.8s)
+(node:18732) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   84 [webkit] › tests/e2e/checklist-touch.spec.mjs:66:3 › checklist focus and stable item identity › editing a later item keeps its input focused when an empty row is removed (1.4s)
+(node:18732) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   83 [webkit] › tests/e2e/checklist-touch.spec.mjs:73:3 › checklist focus and stable item identity › deleting the empty row preserves both following items (1.5s)
+  ✓   82 [webkit] › tests/e2e/checklist-touch.spec.mjs:50:3 › checklist focus and stable item identity › the pressed checkbox stays in place until the pointer click completes (2.0s)
+  -   90 [webkit] › tests/e2e/checklist-touch.spec.mjs:170:3 › touch scrolling and note drag handle › a real touch pan beginning on a card scrolls its list without moving notes
+  -   91 [webkit] › tests/e2e/checklist-touch.spec.mjs:187:3 › touch scrolling and note drag handle › a real touch drag on the handle moves and saves a note
+  ✓   86 [webkit] › tests/e2e/checklist-touch.spec.mjs:94:3 › checklist focus and stable item identity › moving within the same row permits completing an unfinished edit (1.5s)
+  ✓   85 [webkit] › tests/e2e/checklist-touch.spec.mjs:78:3 › checklist focus and stable item identity › deleting a different row after emptying the first removes the intended IDs (1.5s)
+  ✓   92 [webkit] › tests/e2e/checklist-touch.spec.mjs:198:1 › mouse users can still drag from the card body outside the handle (1.1s)
+  ✓   89 [webkit] › tests/e2e/checklist-touch.spec.mjs:83:3 › checklist focus and stable item identity › Tab preserves the next control while leaving an empty checklist row (1.2s)
+  ✓   87 [webkit] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › Escape commits checklist whitespace so the exported board can be imported again (1.8s)
+  ✓   93 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:20:1 › editing a note restores focus to its replacement card when the dialog closes (800ms)
+  ✓   88 [webkit] › tests/e2e/checklist-touch.spec.mjs:102:5 › checklist focus and stable item identity › backdrop commits checklist whitespace so the exported board can be imported again (1.9s)
+  ✓   94 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:30:1 › column movement keeps keyboard focus on the moved column (642ms)
+  ✓   95 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:41:1 › calendar Tab reaches today and clear and stays within the active dialog (839ms)
+  ✓   97 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:83:1 › nested confirmation isolates background controls and returns to the note dialog (842ms)
+  ✓   96 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:62:1 › note column selection moves the note, keeps focus, and persists after reload (1.1s)
+  ✓   99 [webkit] › tests/e2e/product-experience.spec.mjs:5:1 › the first note action starts editing and the saved board replaces the introduction (866ms)
+  ✓  100 [webkit] › tests/e2e/product-experience.spec.mjs:21:1 › saving indicator stays pending until the storage lock has actually committed the edit (925ms)
+  ✓   98 [webkit] › tests/e2e/keyboard-navigation.spec.mjs:97:1 › color selection exposes its state and retains keyboard focus in both dialogs (1.0s)
+  ✓  101 [webkit] › tests/e2e/product-experience.spec.mjs:38:1 › a failed write is visible and retry confirms a successful durable save (994ms)
+  ✓  104 [webkit] › tests/e2e/product-experience.spec.mjs:98:1 › backup is available from the board and downloads the full current state (655ms)
+  ✓  103 [webkit] › tests/e2e/product-experience.spec.mjs:75:1 › search offers result counts, a useful zero state and a keyboard entry point (936ms)
+  ✓  106 [webkit] › tests/e2e/product-experience.spec.mjs:130:1 › creating while searching clears the filter so the new note cannot appear lost (904ms)
+  ✓  105 [webkit] › tests/e2e/product-experience.spec.mjs:112:1 › help is separate from settings, traps keyboard focus, and returns to its trigger (1.0s)
+  ✓  102 [webkit] › tests/e2e/product-experience.spec.mjs:57:1 › a personal board name persists and an empty name has a stable fallback (1.3s)
+  ✓  110 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-320 (433ms)
+  ✓  109 [webkit] › tests/e2e/product-experience.spec.mjs:194:1 › legacy board identity is displayed correctly without changing stored data or losing notes (632ms)
+  ✓  107 [webkit] › tests/e2e/product-experience.spec.mjs:150:1 › closing a newly created empty note leaves no untitled card or saved draft (1.1s)
+  ✓  111 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-375 (554ms)
+  ✓  112 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-390 (558ms)
+  ✓  108 [webkit] › tests/e2e/product-experience.spec.mjs:167:1 › a deleted checklist item can be undone and remains restored after reload (1.3s)
+  ✓  113 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on mobile-430 (443ms)
+  ✓  114 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on tablet-768 (474ms)
+  ✓  115 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on laptop-1024 (492ms)
+  ✓  116 [webkit] › tests/e2e/responsive.spec.mjs:13:3 › responsive shell fits without document-level horizontal overflow on desktop-1280 (539ms)
+  ✓  117 [webkit] › tests/e2e/responsive.spec.mjs:44:1 › note drawer fits on mobile and metadata fields collapse (641ms)
+  ✓  120 [webkit] › tests/e2e/responsive.spec.mjs:190:1 › primary mobile controls have comfortable touch targets and help stays readable (432ms)
+  ✓  119 [webkit] › tests/e2e/responsive.spec.mjs:133:1 › settings and confirm modals stay inside a narrow mobile viewport (742ms)
+  ✓  118 [webkit] › tests/e2e/responsive.spec.mjs:88:1 › date popover remains inside a short mobile viewport (759ms)
+
+  4 skipped
+  116 passed (24.3s)

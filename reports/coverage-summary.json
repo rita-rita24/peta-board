@@ -1,0 +1,8 @@
+{
+  "target": "PetaBoard.html inline script",
+  "lineCoverage": 100,
+  "branchCoverage": null,
+  "coveredLines": 1930,
+  "totalLines": 1930,
+  "note": "Playwright/V8 coverage does not provide branch coverage for this inline single-file app."
+}
