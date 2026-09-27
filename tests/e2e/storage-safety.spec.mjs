@@ -180,8 +180,8 @@ test('simultaneous saves serialize the comparison and preserve the losing tab ed
   await openBoard(first);
   const second = await context.newPage();
   await openBoard(second);
+  // Playwrightの時計は、このブラウザーコンテキスト内の全ページで共有される。
   await pauseAutosave(first);
-  await pauseAutosave(second);
   await first.locator('.column-title').first().fill('一つ目のタブの編集');
   await second.locator('.column-title').first().fill('二つ目のタブの編集');
 
@@ -293,7 +293,7 @@ test('saving resumes only after the previously blocked original can be backed up
   await expect(page.locator('.column-title').first()).toHaveValue('退避成功後に保存する編集');
 });
 
-test('a remote save during delete confirmation cannot remove the last remaining column', async ({ context }) => {
+test('a remote save during delete confirmation cannot be overwritten by the stale deletion', async ({ context }) => {
   const first = await prepareStorage(context);
   await openBoard(first);
   const second = await context.newPage();
@@ -314,6 +314,23 @@ test('a remote save during delete confirmation cannot remove the last remaining 
   expect(JSON.parse(latest).board.columns.map((column) => column.id)).toEqual(['col_todo']);
   await expect(second.locator('.column')).toHaveCount(1);
   expect(await second.evaluate(() => window.__PETA_BOARD_TEST__.getState().board.columns.length)).toBe(1);
+});
+
+test('accepting another tab update clears deletion undo from the old board state', async ({ context }) => {
+  const first = await prepareStorage(context);
+  await openBoard(first);
+  const second = await context.newPage();
+  await openBoard(second);
+  await first.locator('[data-column-id="col_done"]').getByRole('button', { name: '列を削除' }).click();
+  await first.locator('#confirm-ok-btn').click();
+  expect(await saveNow(first)).toBe(true);
+  await expect(first.locator('#deletion-undo')).toBeVisible();
+  await expect(second.locator('.column')).toHaveCount(1);
+  await second.locator('.column-title').fill('別タブの変更');
+  expect(await saveNow(second)).toBe(true);
+  await expect(first.locator('.column-title')).toHaveValue('別タブの変更');
+  await expect(first.locator('#deletion-undo')).toBeHidden();
+  expect((JSON.parse(await savedRaw(first))).board.columns.map((column) => column.id)).toEqual(['col_todo']);
 });
 
 test('an environment without Web Locks keeps corrupt data and reports saving as unavailable', async ({ context }) => {
@@ -376,29 +393,27 @@ test('a startup read failure protects existing data until the user explicitly re
   expect(await savedRaw(page)).toBe(original);
 });
 
-test('invalid external storage values cannot replace the displayed board or be overwritten by edits', async ({ context }) => {
-  for (const invalid of ['null', 'false', '0', '""', '{"board":']) {
-    await test.step(`external value ${invalid}`, async () => {
-      const writer = await prepareStorage(context);
-      await openBoard(writer);
-      const observer = await context.newPage();
-      await openBoard(observer);
-      const before = await observer.evaluate(() => window.__PETA_BOARD_TEST__.getState());
+for (const invalid of ['null', 'false', '0', '""', '{"board":']) {
+  test(`invalid external storage value ${invalid} cannot replace the displayed board or be overwritten by edits`, async ({ context }) => {
+    const writer = await prepareStorage(context);
+    await openBoard(writer);
+    const observer = await context.newPage();
+    await openBoard(observer);
+    const before = await observer.evaluate(() => window.__PETA_BOARD_TEST__.getState());
 
-      await writer.evaluate(({ key, value }) => localStorage.setItem(key, value), { key: storageKey, value: invalid });
+    await writer.evaluate(({ key, value }) => localStorage.setItem(key, value), { key: storageKey, value: invalid });
 
-      await expect(observer.locator('#storage-status')).toBeVisible();
-      await expect(observer.locator('#storage-status')).toContainText(/読み込めません/);
-      expect(await observer.evaluate(() => window.__PETA_BOARD_TEST__.getState())).toEqual(before);
-      await expect(observer.locator('.column-title').first()).toHaveValue('Todo');
-      expect(await savedRaw(writer)).toBe(invalid);
+    await expect(observer.locator('#storage-status')).toBeVisible();
+    await expect(observer.locator('#storage-status')).toContainText(/読み込めません/);
+    expect(await observer.evaluate(() => window.__PETA_BOARD_TEST__.getState())).toEqual(before);
+    await expect(observer.locator('.column-title').first()).toHaveValue('Todo');
+    expect(await savedRaw(writer)).toBe(invalid);
 
-      await observer.locator('.column-title').first().fill('異常な別タブ保存から保護する編集');
-      expect(await saveNow(observer)).toBe(false);
-      expect(await savedRaw(writer)).toBe(invalid);
-      await expect(observer.locator('.column-title').first()).toHaveValue('異常な別タブ保存から保護する編集');
-      await observer.close();
-      await writer.close();
-    });
-  }
-});
+    await observer.locator('.column-title').first().fill('異常な別タブ保存から保護する編集');
+    expect(await saveNow(observer)).toBe(false);
+    expect(await savedRaw(writer)).toBe(invalid);
+    await expect(observer.locator('.column-title').first()).toHaveValue('異常な別タブ保存から保護する編集');
+    await observer.close();
+    await writer.close();
+  });
+}

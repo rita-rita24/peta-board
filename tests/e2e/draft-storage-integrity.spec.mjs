@@ -97,7 +97,7 @@ test('a recovered tab shows saved status after adopting a successful save from a
   await other.locator('.column-title').first().fill('別タブで保存済み');
   await expect.poll(async () => (await savedState(other)).board.columns[0].title).toBe('別タブで保存済み');
   await expect(page.locator('.column-title').first()).toHaveValue('別タブで保存済み');
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
   expect(await page.evaluate((key) => JSON.stringify(window.__PETA_BOARD_TEST__.getState()) === localStorage.getItem(key), storageKey)).toBe(true);
 });
 
@@ -113,7 +113,7 @@ for (const completion of ['compositionend', 'drawer-close']) {
     await tags.evaluate((input, value) => {
       input.dispatchEvent(new CompositionEvent('compositionstart', { bubbles: true }));
       input.value = `${value}にほんご`;
-      // Some browsers omit isComposing on an intermediate input event.
+      // ブラウザーによっては変換途中のinputイベントにisComposingが付かない。
       input.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'insertCompositionText', data: 'にほんご' }));
     }, prefix);
     await expect(tags).toHaveValue(`${prefix}にほんご`);

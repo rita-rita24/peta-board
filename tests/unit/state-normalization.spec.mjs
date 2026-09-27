@@ -225,7 +225,7 @@ test('import format validation rejects JSON without board columns', async ({ pag
     ];
   });
 
-  expect(results).toEqual([false, false, false, false, false, true, true]);
+  expect(results).toEqual([false, false, true, false, false, true, true]);
 });
 
 test('stored state reduction detects lossy startup normalization only', async ({ page }) => {

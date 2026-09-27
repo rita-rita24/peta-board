@@ -41,7 +41,7 @@ for (const viewport of [
   });
 }
 
-test('note drawer fits on mobile and metadata fields collapse', async ({ page }) => {
+test('note drawer fits on mobile with paired metadata fields', async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 667 });
   const state = makeMinimalState({
     columns: [
@@ -81,9 +81,68 @@ test('note drawer fits on mobile and metadata fields collapse', async ({ page })
   expect(metrics.panelRight).toBeLessThanOrEqual(metrics.viewportWidth + 1);
   expect(metrics.panelScrollWidth).toBeLessThanOrEqual(metrics.panelClientWidth + 1);
   expect(metrics.bodyScrollWidth).toBeLessThanOrEqual(metrics.bodyClientWidth + 1);
-  expect(metrics.metadataColumns).toBe(1);
+  expect(metrics.metadataColumns).toBe(2);
   expect(metrics.footerRight).toBeLessThanOrEqual(metrics.panelRight + 1);
 });
+
+for (const viewport of [
+  { width: 1280, height: 900, visibleItems: 5 },
+  { width: 1024, height: 768, visibleItems: 5 },
+  { width: 375, height: 667, visibleItems: 3 },
+  { width: 320, height: 568, visibleItems: 1 }
+]) {
+  test(`note editor avoids outer scrolling as checklist grows at ${viewport.width}x${viewport.height}`, async ({ page }) => {
+    await page.setViewportSize(viewport);
+    await seedState(page, makeMinimalState({ columns: [{ id: 'col_work', title: '進行中', notes: [
+      makeNote({ id: 'note_layout', title: 'チェックリストを追加' })
+    ] }] }));
+    await page.locator('.note-card').click();
+    await expect(page.locator('#note-title-input')).toBeFocused();
+    const metrics = () => page.evaluate(() => {
+      const body = document.querySelector('.drawer-body');
+      const list = document.querySelector('#checklist');
+      const panel = document.querySelector('.drawer-panel');
+      return {
+        bodyOverflow: body.scrollHeight - body.clientHeight,
+        bodyHorizontalOverflow: body.scrollWidth - body.clientWidth,
+        listOverflow: list.scrollHeight - list.clientHeight,
+        panelHeight: panel.offsetHeight,
+        viewportHeight: window.innerHeight
+      };
+    });
+    let measured = await metrics();
+    expect(measured.bodyOverflow).toBeLessThanOrEqual(1);
+    expect(measured.listOverflow).toBeLessThanOrEqual(1);
+    for (let index = 0; index < viewport.visibleItems; index += 1) {
+      await page.locator('#add-check-btn').click();
+      const added = page.locator('#checklist input[type="text"]').last();
+      await expect(added).toBeFocused();
+      await added.fill(`確認項目 ${index + 1}`);
+      measured = await metrics();
+      expect(measured.bodyOverflow).toBeLessThanOrEqual(1);
+      expect(measured.listOverflow).toBeLessThanOrEqual(1);
+    }
+    await page.locator('#close-drawer-btn').click();
+    await seedState(page, makeMinimalState({ columns: [{ id: 'col_work', title: '進行中', notes: [
+      makeNote({ id: 'note_layout', title: '最大件数の確認', checklist: Array.from({ length: 30 }, (_, index) => ({
+        id: `check_${index}`, text: `確認項目 ${index + 1}`, done: false
+      })) })
+    ] }] }));
+    await page.locator('.note-card').click();
+    await expect(page.locator('#note-title-input')).toBeFocused();
+    measured = await metrics();
+    expect(measured.bodyOverflow).toBeLessThanOrEqual(1);
+    expect(measured.bodyHorizontalOverflow).toBeLessThanOrEqual(1);
+    expect(measured.listOverflow).toBeGreaterThan(0);
+    expect(measured.panelHeight).toBeLessThanOrEqual(measured.viewportHeight - 24);
+    const last = page.locator('#checklist input[type="text"]').last();
+    await last.focus();
+    await expect(last).toBeInViewport();
+    await expect(page.locator('#add-check-btn')).toBeInViewport();
+    await expect(page.locator('#delete-note-btn')).toBeInViewport();
+    expect(await page.locator('.drawer-body').evaluate((element) => element.scrollTop)).toBe(0);
+  });
+}
 
 test('date popover remains inside a short mobile viewport', async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 320 });

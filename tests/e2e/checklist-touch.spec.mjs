@@ -53,7 +53,7 @@ test.describe('checklist focus and stable item identity', () => {
     const before = await checkbox.boundingBox();
     await page.mouse.move(before.x + before.width / 2, before.y + before.height / 2);
     await page.mouse.down();
-    // A held pointer must not lose its click target to delayed blur cleanup.
+    // ポインターを押している間は、blur後の遅延処理でクリック対象が失われないようにする。
     await page.waitForTimeout(200);
     const pressed = await checkbox.boundingBox();
     expect(pressed).toEqual(before);

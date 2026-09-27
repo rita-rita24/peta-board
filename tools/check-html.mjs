@@ -1,12 +1,12 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
+import { appPath } from './app-path.mjs';
 
-const htmlPath = new URL('../PetaBoard.html', import.meta.url);
-const html = fs.readFileSync(htmlPath, 'utf8');
+const html = fs.readFileSync(appPath, 'utf8');
 const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
 
 if (!html.includes('<!DOCTYPE html>')) {
-  throw new Error('PetaBoard.html must be a complete HTML document.');
+  throw new Error(`${appPath} must be a complete HTML document.`);
 }
 
 if (!scripts.length) {
@@ -15,8 +15,8 @@ if (!scripts.length) {
 
 for (const [index, match] of scripts.entries()) {
   new vm.Script(match[1], {
-    filename: `PetaBoard.html<script:${index + 1}>`
+    filename: `${appPath}<script:${index + 1}>`
   });
 }
 
-console.log(`Checked ${scripts.length} inline script block(s) in PetaBoard.html.`);
+console.log(`Checked ${scripts.length} inline script block(s) in ${appPath}.`);

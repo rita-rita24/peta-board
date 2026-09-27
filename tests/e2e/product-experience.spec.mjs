@@ -2,23 +2,52 @@ import fs from 'node:fs/promises';
 import { expect, test } from '@playwright/test';
 import { makeMinimalState, makeNote, openApp, seedState, storageKey } from '../helpers/peta-page.mjs';
 
-test('the first note action starts editing and the saved board replaces the introduction', async ({ page }) => {
+test('color selection follows the active note and preserves keyboard focus', async ({ page }) => {
+  await seedState(page, makeMinimalState({ columns: [
+    { id: 'col_work', title: '仕事', notes: [
+      makeNote({ id: 'note_first', title: '最初の付箋' }),
+      makeNote({ id: 'note_second', title: '次の付箋', color: 'mint' })
+    ] }
+  ] }));
+
+  for (const [noteId, initialColor, nextColor] of [
+    ['note_first', 'paper', 'blue'],
+    ['note_second', 'mint', 'yellow']
+  ]) {
+    await page.locator(`[data-note-id="${noteId}"]`).click();
+    await expect(page.locator('#note-color-grid [aria-pressed="true"]')).toHaveAttribute('data-color-id', initialColor);
+    const color = page.locator(`#note-color-grid [data-color-id="${nextColor}"]`);
+    await color.focus();
+    await page.keyboard.press('Space');
+    await expect(color).toBeFocused();
+    await expect(color).toHaveAttribute('aria-pressed', 'true');
+    await page.locator('#close-drawer-btn').click();
+  }
+
+  await expect.poll(() => page.evaluate((key) => (
+    JSON.parse(localStorage.getItem(key)).board.columns[0].notes.map((note) => note.color)
+  ), storageKey)).toEqual(['blue', 'yellow']);
+  await page.reload();
+  await page.locator('[data-note-id="note_first"]').click();
+  await expect(page.locator('#note-color-grid [aria-pressed="true"]')).toHaveAttribute('data-color-id', 'blue');
+});
+
+test('an empty board starts directly with columns and added notes persist', async ({ page }) => {
   await openApp(page);
   await expect(page).toHaveTitle('PetaBoard');
-  await expect(page.locator('#welcome-panel')).toBeVisible();
-  await page.getByRole('button', { name: '最初の付箋を作る' }).click();
+  await expect(page.locator('#welcome-panel')).toHaveCount(0);
+  await page.locator('.add-note-btn').first().click();
   await expect(page.locator('#note-title-input')).toBeFocused();
   await page.locator('#note-title-input').fill('来週の提案をまとめる');
   await page.keyboard.press('Escape');
-  await expect(page.locator('#welcome-panel')).toBeHidden();
-  await expect(page.locator('#board-summary')).toHaveText('付箋 1件 · 3列');
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#board-summary')).toHaveText('付箋 1件 · 4列');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   await page.reload();
   await expect(page.locator('.note-title')).toHaveText('来週の提案をまとめる');
-  await expect(page.locator('#welcome-panel')).toBeHidden();
 });
 
-test('saving indicator stays pending until the storage lock has actually committed the edit', async ({ page }) => {
+test('saving stays hidden while the storage lock delays the write', async ({ page }) => {
   await seedState(page, makeMinimalState({ columns: [{ id: 'col_work', title: '仕事', notes: [makeNote({ title: '変更前' })] }] }));
   await page.locator('.note-card').click();
   await page.evaluate((key) => {
@@ -26,11 +55,11 @@ test('saving indicator stays pending until the storage lock has actually committ
   }, storageKey);
   await page.waitForFunction(() => Boolean(window.releaseSaveLock));
   await page.locator('#note-title-input').fill('変更を保存する');
-  await expect(page.locator('#save-indicator')).toHaveText('保存中…');
-  await expect(page.locator('#drawer-save-status')).toHaveText('保存中…');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'pending');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   await page.evaluate(() => window.releaseSaveLock());
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
-  await expect(page.locator('#drawer-save-status')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   const saved = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)), storageKey);
   expect(saved.board.columns[0].notes[0].title).toBe('変更を保存する');
 });
@@ -41,14 +70,22 @@ test('a failed write is visible and retry confirms a successful durable save', a
     window.originalStorageSet = Storage.prototype.setItem;
     Storage.prototype.setItem = function () { throw new DOMException('Full', 'QuotaExceededError'); };
   });
-  await page.locator('#first-note-btn').click();
+  await page.locator('.add-note-btn').first().click();
   await page.locator('#note-title-input').fill('失敗しても残す仕事');
   await page.keyboard.press('Escape');
   await expect(page.locator('#save-indicator')).toHaveText('保存を停止しています');
+  await expect(page.locator('#save-indicator')).toBeVisible();
   await expect(page.locator('#storage-status')).toBeVisible();
-  await page.evaluate(() => { Storage.prototype.setItem = window.originalStorageSet; });
+  // 実際に再試行ボタンをクリックするまで、書き込みエラーを維持する。
+  // 先にAPIを戻すと、待機中の自動保存が成功し、クリックの途中でボタンが消える場合がある。
+  await page.locator('#storage-retry-btn').evaluate((button) => {
+    button.addEventListener('click', () => {
+      Storage.prototype.setItem = window.originalStorageSet;
+    }, { capture: true, once: true });
+  });
   await page.locator('#storage-retry-btn').click();
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   await expect(page.locator('#storage-status')).toBeHidden();
   await page.reload();
   await expect(page.locator('.note-title')).toHaveText('失敗しても残す仕事');
@@ -60,14 +97,16 @@ test('a personal board name persists and an empty name has a stable fallback', a
   await page.getByRole('textbox', { name: 'ボード名', exact: true }).fill('企画と日々の仕事');
   await page.locator('#settings-done-btn').click();
   await expect(page.locator('#board-title')).toHaveText('企画と日々の仕事');
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   await page.reload();
   await expect(page).toHaveTitle('企画と日々の仕事 - PetaBoard');
   await page.locator('#settings-btn').click();
   await page.locator('#board-name-input').fill('   ');
   await page.locator('#settings-done-btn').click();
   await expect(page.locator('#board-title')).toHaveText('PetaBoard');
-  await expect(page.locator('#save-indicator')).toHaveText('このブラウザーに保存済み');
+  await expect(page.locator('#save-indicator')).toHaveAttribute('data-state', 'saved');
+  await expect(page.locator('#save-indicator')).toBeHidden();
   await page.reload();
   await expect(page).toHaveTitle('PetaBoard');
 });
@@ -151,7 +190,7 @@ test('creating while searching clears the filter so the new note cannot appear l
 
 test('closing a newly created empty note leaves no untitled card or saved draft', async ({ page }) => {
   await openApp(page);
-  await page.locator('#first-note-btn').click();
+  await page.locator('.add-note-btn').first().click();
   await expect(page.locator('#note-drawer')).toBeVisible();
   await page.locator('#close-drawer-btn').click();
   await expect(page.locator('#note-drawer')).toBeHidden();
@@ -163,7 +202,7 @@ test('closing a newly created empty note leaves no untitled card or saved draft'
   }, storageKey)).toBe(0);
   await page.reload();
   await expect(page.locator('.note-card')).toHaveCount(0);
-  await expect(page.locator('#welcome-panel')).toBeVisible();
+  await expect(page.locator('.add-note-btn').first()).toBeVisible();
 });
 
 test('a deleted checklist item can be undone and remains restored after reload', async ({ page }) => {

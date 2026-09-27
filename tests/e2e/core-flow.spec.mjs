@@ -32,11 +32,11 @@ async function openSettings(page) {
   await expect(page.locator('#settings-modal')).toBeVisible();
 }
 
-test('default board starts with memo task and later columns', async ({ page }) => {
+test('default board starts with later todo in-progress and done columns', async ({ page }) => {
   await openApp(page);
 
   const titles = await page.locator('.column-title').evaluateAll((inputs) => inputs.map((input) => input.value));
-  expect(titles).toEqual(['メモ', 'タスク', 'あとで']);
+  expect(titles).toEqual(['あとで', 'やること', '進行中', '完了']);
 });
 
 test('user can create a note and the note persists after reload', async ({ page }) => {
@@ -79,7 +79,6 @@ test('malicious note text remains text when rendered in cards and drawer', async
 test('lossy stored JSON is normalized for rendering and backed up on startup', async ({ page }) => {
   await openApp(page);
   const limits = await page.evaluate(() => window.__PETA_BOARD_TEST__.LIMITS);
-  await page.goto('about:blank');
 
   const payload = '<img src=x onerror="window.__xss=1">';
   const unsafeState = {
@@ -174,7 +173,7 @@ test('reset query parameter does not erase existing board data', async ({ page }
 test('corrupt localStorage is backed up and not overwritten on startup', async ({ page }) => {
   await loadWithStoredText(page, '{"board":');
 
-  await expect(page.locator('.column-title')).toHaveCount(3);
+  await expect(page.locator('.column-title')).toHaveCount(4);
   const stored = await page.evaluate((key) => localStorage.getItem(key), storageKey);
   const backup = await page.evaluate((key) => localStorage.getItem(key), corruptBackupKey);
 
@@ -186,7 +185,7 @@ test('non-board stored JSON is backed up and not overwritten on startup', async 
   const storedText = JSON.stringify({ unrelated: true });
   await loadWithStoredText(page, storedText);
 
-  await expect(page.locator('.column-title')).toHaveCount(3);
+  await expect(page.locator('.column-title')).toHaveCount(4);
   const stored = await page.evaluate((key) => localStorage.getItem(key), storageKey);
   const backup = await page.evaluate((key) => localStorage.getItem(key), corruptBackupKey);
 
@@ -197,7 +196,6 @@ test('non-board stored JSON is backed up and not overwritten on startup', async 
 test('over-limit stored board is backed up without saving the trimmed state on startup', async ({ page }) => {
   await openApp(page);
   const limits = await page.evaluate(() => window.__PETA_BOARD_TEST__.LIMITS);
-  await page.goto('about:blank');
 
   const storedState = makeMinimalState({
     columns: [
@@ -388,16 +386,16 @@ test('reset cancel preserves data and reset ok saves the default board', async (
   await expect(page.locator('#confirm-modal')).toBeVisible();
   await page.locator('#confirm-ok-btn').click();
 
-  await expect(page.locator('.column-title')).toHaveCount(3);
+  await expect(page.locator('.column-title')).toHaveCount(4);
   const titles = await page.locator('.column-title').evaluateAll((inputs) => inputs.map((input) => input.value));
-  expect(titles).toEqual(['メモ', 'タスク', 'あとで']);
+  expect(titles).toEqual(['あとで', 'やること', '進行中', '完了']);
   await waitForSavedNoteTitles(page, { absent: ['初期化前の付箋'] });
 
   const saved = await readSavedState(page);
   expect(saved.board.columns.flatMap((column) => column.notes)).toHaveLength(0);
 
   await page.reload();
-  await expect(page.locator('.column-title')).toHaveCount(3);
+  await expect(page.locator('.column-title')).toHaveCount(4);
   await expect(page.locator('.note-title', { hasText: '初期化前の付箋' })).toHaveCount(0);
 });
 
@@ -587,6 +585,7 @@ test('theme toggle updates the current state model', async ({ page }) => {
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
   await page.getByRole('button', { name: 'テーマ切替' }).click();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await expect(page.getByRole('button', { name: 'テーマ切替' })).toHaveAttribute('data-tooltip', 'テーマ切替');
 
   await page.waitForFunction((key) => JSON.parse(localStorage.getItem(key) || '{}').theme === 'dark', storageKey);
   const saved = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)), storageKey);

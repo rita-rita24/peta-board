@@ -72,8 +72,8 @@ test('the import byte limit covers the maximum escaped and indented board repres
     const { LIMITS, normalizeState, hasStoredStateReduction } = window.__PETA_BOARD_TEST__;
     let nextId = 0;
     const id = () => String(nextId++).padEnd(96, 'x');
-    // A control character takes six ASCII bytes as a JSON \\uXXXX escape.
-    // Safe IDs need only one byte per character; finite numbers need at most 25.
+    // 制御文字はJSONのUnicodeエスケープでASCIIの6バイトになる。
+    // 安全なIDは1文字1バイト、有限の数値は最大25バイトとして計算する。
     const text = (length) => '\u0000'.repeat(length);
     const timestamp = -0.0000010000000000000002;
     const columns = Array.from({ length: LIMITS.columns }, () => ({
@@ -211,7 +211,7 @@ test('minimal boards and explicit legacy fields still import and persist', async
       expected: {
         version: 1,
         theme: 'light',
-        settings: { density: 'comfortable', defaultColor: 'paper' },
+        settings: { defaultColor: 'paper' },
         board: {
           title: 'PetaBoard',
           columns: [{ title: '新しい列', notes: [{ title: '', body: '', color: 'paper', tags: [], dueDate: '', checklist: [] }] }]
@@ -234,7 +234,7 @@ test('minimal boards and explicit legacy fields still import and persist', async
       expected: {
         version: 1,
         theme: 'dark',
-        settings: { density: 'compact', defaultColor: 'blue' },
+        settings: { defaultColor: 'blue' },
         board: {
           title: 'Legacy',
           columns: [{ id: '101', title: '旧データ', notes: [

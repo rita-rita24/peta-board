@@ -1,6 +1,6 @@
 import { defineConfig } from '@playwright/test';
 
-// Opt into other engines without changing the default regression suite.
+// 通常の回帰テストの対象は維持し、環境変数で他のブラウザーを指定できるようにする。
 const browserNames = [...new Set((process.env.PETA_TEST_BROWSERS || 'chromium')
   .split(',').map((name) => name.trim()).filter(Boolean))];
 const supportedBrowsers = new Set(['chromium', 'firefox', 'webkit']);

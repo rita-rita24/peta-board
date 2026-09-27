@@ -1,17 +1,13 @@
-import path from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { appUrl } from '../../tools/app-path.mjs';
 
-const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const htmlPath = process.env.PETA_BOARD_HTML || path.join(repoRoot, 'PetaBoard.html');
-
-export const appUrl = pathToFileURL(htmlPath).href;
+export { appUrl };
 export const storageKey = 'petaborad.state.v1';
 export const corruptBackupKey = `${storageKey}.corrupt`;
 
 export async function openApp(page, suffix = '') {
   await page.goto(`${appUrl}${suffix}`);
   await page.waitForSelector('#kanban-board');
-  await page.waitForSelector('.column');
+  await page.waitForSelector('.add-column-panel');
 }
 
 export async function seedState(page, state, suffix = '') {
@@ -21,7 +17,7 @@ export async function seedState(page, state, suffix = '') {
     await window.__PETA_BOARD_TEST__.saveStateNow({ showError: false });
   }, state);
   await page.waitForSelector('#kanban-board');
-  await page.waitForSelector('.column');
+  await page.waitForSelector('.add-column-panel');
 }
 
 export async function loadWithStoredState(page, state, suffix = '') {
@@ -67,7 +63,6 @@ export function makeMinimalState(overrides = {}) {
     version: 1,
     theme: 'light',
     settings: {
-      density: 'comfortable',
       defaultColor: 'paper'
     },
     board: {
