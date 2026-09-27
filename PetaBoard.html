@@ -64,37 +64,15 @@ body {
 
 .app-shell {
   display: flex;
+  flex-direction: column;
   height: 100%;
   min-width: 0;
   background: var(--pb-bg);
 }
 
 :is(.field-input, .field-textarea) {
-  width: 100%;
-  min-width: 0;
-  border: 1px solid var(--pb-border);
-  border-radius: var(--pb-radius-md);
-  background: var(--pb-surface);
-  color: var(--pb-text);
   outline: none;
   transition: border-color 120ms, box-shadow 120ms, background 120ms;
-}
-
-.field-input {
-  height: 36px;
-  padding: 7px 10px;
-}
-
-.field-textarea {
-  min-height: 160px;
-  resize: vertical;
-  padding: 10px;
-  line-height: 1.55;
-}
-
-:is(.field-input, .field-textarea, .column-title):focus {
-  border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border));
-  box-shadow: 0 0 0 3px var(--pb-focus-ring);
 }
 
 .color-picker-grid {
@@ -122,16 +100,16 @@ body {
   &.is-active {
     border-color: color-mix(in oklch, var(--pb-primary) 62%, var(--pb-border-strong));
     box-shadow: 0 0 0 3px var(--pb-focus-ring);
+
+    & .check-mark {
+      opacity: 1;
+    }
   }
 
   & .check-mark {
     width: 16px;
     height: 16px;
     opacity: 0;
-  }
-
-  &.is-active .check-mark {
-    opacity: 1;
   }
 }
 
@@ -142,11 +120,10 @@ body {
   align-items: center;
 }
 
-.workspace {
-  display: flex;
-  min-width: 0;
-  flex: 1 1 0%;
-  flex-direction: column;
+.top-actions {
+  @media (width <= 720px) {
+    margin-inline-start: auto;
+  }
 }
 
 .topbar {
@@ -154,6 +131,11 @@ body {
   align-items: center;
   gap: 12px;
   min-height: var(--pb-topbar-height);
+
+  @media (width <= 720px) {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 }
 
 .storage-status {
@@ -176,6 +158,10 @@ body {
   min-width: 0;
   flex: 1 1 0%;
   gap: 10px;
+
+  @media (width <= 720px) {
+    flex: 1 1 calc(100% - 92px);
+  }
 }
 
 .board-identity {
@@ -206,10 +192,10 @@ body {
 
   &[data-state="error"] {
     color: var(--pb-danger);
-  }
 
-  &[data-state="error"]::before {
-    background: var(--pb-danger);
+    &::before {
+      background: var(--pb-danger);
+    }
   }
 }
 
@@ -231,11 +217,6 @@ body {
 .board-tools {
   display: flex;
   margin-inline-start: auto;
-
-  & .text-btn {
-    min-height: 32px;
-    font-size: 0.76rem;
-  }
 }
 
 .search-empty {
@@ -282,40 +263,27 @@ kbd {
   align-items: center;
   border-radius: var(--pb-radius-md);
   color: var(--pb-text-tertiary);
-  transition: border-color 120ms, box-shadow 120ms, background 120ms;
 
-  &:focus-within {
-    border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border));
-    box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  @media (width <= 900px) {
+    min-width: 140px;
+    flex-basis: 220px;
+  }
+
+  @media (width <= 720px) {
+    order: 4;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    flex: 1 1 100%;
   }
 }
 
 .search-input {
-  width: 100%;
-  min-width: 0;
-  height: 100%;
-  border: 0;
-  background: transparent;
   outline: none;
-  padding: 0 36px 0 8px;
-  font-size: 0.86rem;
-
-  &::placeholder {
-    color: var(--pb-text-tertiary);
-  }
 
   &::-webkit-search-cancel-button {
     appearance: none;
   }
-}
-
-.search-clear {
-  right: 3px;
-  width: 28px;
-  height: 28px;
-  min-width: 28px;
-  border-color: transparent;
-  background: transparent;
 }
 
 .search-hit {
@@ -330,6 +298,10 @@ kbd {
   min-height: 0;
   overflow: auto;
   padding: 16px;
+
+  @media (width <= 900px) {
+    padding: 12px;
+  }
 }
 
 .kanban-board {
@@ -358,6 +330,11 @@ kbd {
   &.is-drop-target {
     border-color: color-mix(in oklch, var(--pb-primary) 58%, var(--pb-border-strong));
     box-shadow: 0 0 0 3px var(--pb-focus-ring);
+  }
+
+  @media (width <= 900px) {
+    width: min(82vw, var(--pb-column-width));
+    flex-basis: min(82vw, var(--pb-column-width));
   }
 }
 
@@ -397,6 +374,12 @@ kbd {
   &:active {
     cursor: grabbing;
   }
+
+  @media (width <= 720px) {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+  }
 }
 
 .column-title-wrap {
@@ -406,15 +389,7 @@ kbd {
 }
 
 .column-title {
-  min-width: 0;
-  width: 100%;
-  height: 28px;
-  border: 1px solid transparent;
-  border-radius: var(--pb-radius-sm);
-  color: var(--pb-text);
-  font-size: 0.92rem;
   outline: none;
-  padding: 2px 5px;
 }
 
 .column-count {
@@ -522,11 +497,11 @@ kbd {
   color: var(--pb-text-muted);
   line-height: 1.2;
   padding: 2px 7px;
-}
 
-:root[data-theme="dark"] :is(.tag-pill, .due-pill, .progress-pill) {
-  background: oklch(0 0 0 / 0.16);
-  border-color: oklch(1 0 0 / 0.07);
+  :root[data-theme="dark"] & {
+    background: oklch(0 0 0 / 0.16);
+    border-color: oklch(1 0 0 / 0.07);
+  }
 }
 
 .due-pill.is-overdue {
@@ -565,23 +540,8 @@ kbd {
 }
 
 :is(.icon-btn, .text-btn, .primary-btn, .danger-btn) {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 34px;
-  height: 34px;
-  border: 1px solid var(--pb-border);
-  border-radius: var(--pb-radius-md);
-  background: var(--pb-surface);
-  color: var(--pb-text-muted);
-  cursor: pointer;
   outline: none;
   transition: background 120ms, border-color 120ms, color 120ms, box-shadow 120ms, transform 120ms;
-
-  & svg {
-    width: 17px;
-    height: 17px;
-  }
 }
 
 :is(.icon-btn, .text-btn):hover {
@@ -596,25 +556,6 @@ kbd {
   box-shadow: 0 0 0 3px var(--pb-focus-ring);
 }
 
-:is(.icon-btn, .text-btn, .primary-btn, .danger-btn):disabled {
-  cursor: not-allowed;
-  opacity: 0.45;
-}
-
-.top-actions .icon-btn {
-  min-width: 36px;
-  height: 36px;
-}
-
-:is(.text-btn, .primary-btn, .danger-btn) {
-  gap: 7px;
-  min-width: 0;
-  padding: 0 10px;
-  font-size: 0.82rem;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
 .settings-actions {
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -622,25 +563,6 @@ kbd {
   & .text-btn,
   & .danger-btn {
     flex: 0 0 auto;
-  }
-}
-
-.primary-btn {
-  border-color: color-mix(in oklch, var(--pb-primary) 74%, var(--pb-border));
-  background: var(--pb-primary);
-  color: var(--pb-text-on-primary);
-
-  &:hover {
-    background: var(--pb-primary-hover);
-  }
-}
-
-.danger-btn {
-  border-color: color-mix(in oklch, var(--pb-danger) 48%, var(--pb-border));
-  color: var(--pb-danger);
-
-  &:hover {
-    background: var(--pb-danger-soft);
   }
 }
 
@@ -691,6 +613,10 @@ kbd {
 
 .confirm-modal {
   z-index: 80;
+
+  @media (width <= 900px) {
+    padding: 16px;
+  }
 }
 
 :is(.drawer-backdrop, .settings-backdrop, .help-backdrop, .confirm-backdrop) {
@@ -721,6 +647,11 @@ kbd {
 .drawer-panel {
   width: min(620px, 100vw - 32px);
   max-height: calc(100dvh - 48px);
+
+  @media (width <= 900px) {
+    width: min(620px, 100vw - 24px);
+    max-height: calc(100dvh - 24px);
+  }
 }
 
 .drawer-header {
@@ -730,9 +661,10 @@ kbd {
   flex-shrink: 0;
 }
 
-.drawer-header > .icon-btn,
-.settings-header > .icon-btn {
-  flex: 0 0 auto;
+:is(.drawer-header, .settings-header) {
+  & > .icon-btn {
+    flex: 0 0 auto;
+  }
 }
 
 .drawer-title-group {
@@ -787,6 +719,23 @@ kbd {
     min-height: 0;
     gap: 7px;
   }
+
+  @media (width <= 480px) {
+    padding: 10px;
+
+    & .field-textarea {
+      height: 68px;
+    }
+
+    & .color-picker-grid {
+      gap: 6px;
+    }
+
+    & .color-picker {
+      width: 30px;
+      height: 34px;
+    }
+  }
 }
 
 .checklist-heading {
@@ -810,6 +759,11 @@ kbd {
   grid-template-columns: minmax(0, 1fr) 160px;
   gap: 12px;
   align-items: start;
+
+  @media (width <= 480px) {
+    grid-template-columns: minmax(0, 1fr) 142px;
+    gap: 8px;
+  }
 }
 
 .field-label {
@@ -1001,11 +955,20 @@ kbd {
   justify-content: space-between;
   flex-shrink: 0;
   border-top: 1px solid var(--pb-border);
+
+  @media (width <= 480px) {
+    flex-wrap: wrap;
+  }
 }
 
 .settings-panel {
   width: min(560px, 100vw - 32px);
   max-height: min(680px, 100dvh - 48px);
+
+  @media (width <= 900px) {
+    width: min(560px, 100vw - 24px);
+    max-height: min(680px, 100dvh - 24px);
+  }
 }
 
 :is(.settings-header, .settings-footer) {
@@ -1050,6 +1013,11 @@ kbd {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
+
+  @media (width <= 900px) {
+    display: grid;
+    gap: 9px;
+  }
 }
 
 .setting-copy {
@@ -1112,18 +1080,23 @@ kbd {
 
 .settings-footer {
   border-top: 1px solid var(--pb-border);
-
-  :is(.settings-modal, .help-modal) & {
-    justify-content: flex-end;
-  }
+  justify-content: flex-end;
 }
 
 .help-panel {
   width: min(640px, 100vw - 32px);
+
+  @media (width <= 900px) {
+    width: min(560px, 100vw - 24px);
+  }
 }
 
 .help-body {
   padding: 18px;
+
+  @media (width <= 480px) {
+    padding: 14px;
+  }
 }
 
 .help-intro {
@@ -1136,6 +1109,10 @@ kbd {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+
+  @media (width <= 480px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .help-step {
@@ -1240,6 +1217,10 @@ kbd {
     opacity: 1;
     transform: translate(-50%, 0);
   }
+
+  body:has(.deletion-undo:not([hidden])) & {
+    bottom: 92px;
+  }
 }
 
 .deletion-undo {
@@ -1259,6 +1240,10 @@ kbd {
   box-shadow: var(--pb-shadow-menu);
   color: var(--pb-text);
   transform: translateX(-50%);
+
+  & .text-btn {
+    flex-shrink: 0;
+  }
 }
 
 .deletion-undo-message {
@@ -1266,14 +1251,6 @@ kbd {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.deletion-undo .text-btn {
-  flex-shrink: 0;
-}
-
-body:has(.deletion-undo:not([hidden])) .toast {
-  bottom: 92px;
 }
 
 .tooltip-layer {
@@ -1322,44 +1299,12 @@ body:has(.deletion-undo:not([hidden])) .toast {
   }
 }
 
+/* 複数の部品で共通する画面幅の調整。 */
 @media (width <= 900px) {
   .drawer,
   .settings-modal,
   .help-modal {
     padding: 12px;
-  }
-
-  .confirm-modal {
-    padding: 16px;
-  }
-
-  .search-shell {
-    min-width: 140px;
-    flex-basis: 220px;
-  }
-
-  .board-shell {
-    padding: 12px;
-  }
-
-  .column {
-    width: min(82vw, var(--pb-column-width));
-    flex-basis: min(82vw, var(--pb-column-width));
-  }
-
-  .drawer-panel {
-    width: min(620px, 100vw - 24px);
-    max-height: calc(100dvh - 24px);
-  }
-
-  .settings-panel {
-    width: min(560px, 100vw - 24px);
-    max-height: min(680px, 100dvh - 24px);
-  }
-
-  .setting-row {
-    display: grid;
-    gap: 9px;
   }
 
   .segmented-control,
@@ -1369,108 +1314,19 @@ body:has(.deletion-undo:not([hidden])) .toast {
   }
 }
 
-@media (width <= 720px) {
-  .topbar {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .board-heading {
-    flex: 1 1 calc(100% - 92px);
-  }
-
-  .top-actions {
-    margin-inline-start: auto;
-  }
-
-  .search-shell {
-    order: 4;
-    width: 100%;
-    max-width: none;
-    min-width: 0;
-    flex: 1 1 100%;
-  }
-
-  input,
-  textarea,
-  select,
-  .column-title,
-  .search-input {
-    font-size: 16px;
-  }
-
-  :is(.icon-btn, .text-btn, .primary-btn, .danger-btn) {
-    min-height: 44px;
-  }
-
-  .icon-btn {
-    min-width: 44px;
-  }
-
-  .top-actions .icon-btn {
-    min-width: 44px;
-    height: 44px;
-  }
-
-  .board-tools .text-btn {
-    min-height: 44px;
-  }
-
-  .column-handle {
-    width: 44px;
-    height: 44px;
-    flex-basis: 44px;
-  }
-}
-
-@media (width <= 480px) {
-  .help-steps {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .help-body {
-    padding: 14px;
-  }
-
-  .metadata-fields {
-    grid-template-columns: minmax(0, 1fr) 142px;
-    gap: 8px;
-  }
-
-  .drawer-body {
-    padding: 10px;
-
-    & .field-textarea {
-      height: 68px;
-    }
-
-    & .color-picker-grid {
-      gap: 6px;
-    }
-
-    & .color-picker {
-      width: 30px;
-      height: 34px;
-    }
-  }
-
-  .drawer-footer {
-    flex-wrap: wrap;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
   ::after {
     animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
     scroll-behavior: auto !important;
   }
 }
 </style>
 <style id="gyomu-ui">
-/* GYOMU-UI 0.6.2: only the components used by PetaBoard. Includes keyboard focus, touch, print, and accessibility modes. */
 .gm {
   --gm-font: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
   --gm-space-1: 0.25rem;
@@ -1503,7 +1359,7 @@ body:has(.deletion-undo:not([hidden])) .toast {
   --gm-scroll-offset: 1rem;
   overflow-wrap: anywhere;
 
-  &:where(:not(.gm .gm)), &[data-mode="light"] {
+  &[data-mode="light"] {
     color-scheme: light;
     --gm-on-brand: #ffffff;
     --gm-text: #252b33;
@@ -1667,17 +1523,19 @@ body:has(.deletion-undo:not([hidden])) .toast {
     line-height: 1.5;
   }
 
-  & .gm-input::placeholder, & .gm-textarea::placeholder {
-    color: var(--gm-muted);
-    opacity: 1;
+  & :is(.gm-input, .gm-textarea) {
+    &::placeholder {
+      color: var(--gm-muted);
+      opacity: 1;
+    }
+
+    &[readonly] {
+      background: var(--gm-background);
+    }
   }
 
   & .gm-textarea {
     resize: block;
-  }
-
-  & .gm-input[readonly], & .gm-textarea[readonly] {
-    background: var(--gm-background);
   }
 
   @media print {
@@ -1774,23 +1632,12 @@ body:has(.deletion-undo:not([hidden])) .toast {
       opacity: 1;
     }
   }
-
-  @media (prefers-reduced-motion: reduce) {
-    &, & *, & ::before, & ::after {
-      scroll-behavior: auto !important;
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      transition-delay: 0s !important;
-    }
-  }
 }
 </style>
 <style id="petaboard-gyomu-ui">
 /* PetaBoard integration and application-specific component styles. */
 body.gm {
   --pb-primary: var(--gm-brand);
-  --pb-primary-hover: var(--gm-brand-hover);
   --pb-primary-soft: var(--gm-brand-soft);
   --pb-primary-faint: var(--gm-brand-soft);
   --pb-focus-ring: color-mix(in srgb, var(--gm-focus) 24%, transparent);
@@ -1908,10 +1755,6 @@ body.gm {
     min-block-size: var(--gm-button-height);
     white-space: normal;
     box-shadow: none;
-
-    &:focus-visible {
-      box-shadow: none;
-    }
   }
 
   & .gm-icon-btn {
@@ -2064,12 +1907,11 @@ body.gm {
       background: var(--gm-brand);
       border-color: var(--gm-brand);
       color: var(--gm-on-brand);
-    }
 
-    &.is-active:hover:not(:disabled) {
-      background: var(--gm-brand-hover);
-      border-color: var(--gm-brand-hover);
-      color: var(--gm-on-brand);
+      &:hover:not(:disabled) {
+        background: var(--gm-brand-hover);
+        border-color: var(--gm-brand-hover);
+      }
     }
   }
 }
@@ -2144,60 +1986,58 @@ body.gm {
 </style>
 </head>
 <body class="gm" data-mode="light">
-<div class="app-shell">
-  <main class="workspace">
-    <header class="topbar">
-      <div class="board-heading">
-        <div class="board-identity">
-          <h1 class="board-title" id="board-title"></h1>
-          <span class="save-indicator" id="save-indicator" role="status" aria-live="polite" aria-atomic="true">読み込み中…</span>
-        </div>
-      </div>
-      <div class="search-shell">
-        <span data-icon="search"></span>
-        <input class="search-input gm-input" id="search-input" type="search" autocomplete="off" placeholder="付箋・タグを検索" aria-label="付箋を検索" aria-keyshortcuts="/">
-        <button class="icon-btn search-clear gm-btn gm-icon-btn" id="clear-search-btn" type="button" aria-label="検索をクリア" data-tooltip="検索をクリア" hidden>
-          <span data-icon="x"></span>
-        </button>
-      </div>
-      <div class="top-actions">
-        <button class="icon-btn gm-btn gm-icon-btn" id="theme-btn" type="button" aria-label="テーマ切替" data-tooltip="テーマ切替">
-          <span data-icon="moon"></span>
-        </button>
-        <button class="icon-btn gm-btn gm-icon-btn" id="settings-btn" type="button" aria-label="設定" data-tooltip="設定">
-          <span data-icon="settings"></span>
-        </button>
-      </div>
-    </header>
-    <div class="board-toolbar">
-      <p class="board-summary" id="board-summary" role="status" aria-live="polite" aria-atomic="true"></p>
-      <div class="board-tools">
-        <button class="text-btn gm-btn" id="quick-export-btn" type="button"><span data-icon="download"></span><span>バックアップ</span></button>
-        <button class="text-btn gm-btn" id="help-btn" type="button">使い方</button>
+<main class="app-shell">
+  <header class="topbar">
+    <div class="board-heading">
+      <div class="board-identity">
+        <h1 class="board-title" id="board-title"></h1>
+        <span class="save-indicator" id="save-indicator" role="status" aria-atomic="true">読み込み中…</span>
       </div>
     </div>
-    <aside class="storage-status" id="storage-status" hidden>
-      <p id="storage-status-message" role="status" aria-live="polite"></p>
-      <div class="storage-status-actions">
-        <button class="text-btn gm-btn" id="storage-export-btn" type="button">現在のボードを書き出す</button>
-        <button class="text-btn gm-btn" id="storage-original-btn" type="button" hidden>元の保存データを書き出す</button>
-        <button class="text-btn gm-btn" id="storage-retry-btn" type="button">保存を再試行</button>
-        <button class="text-btn gm-btn" id="storage-reload-btn" type="button">保存済みの内容を開く</button>
-      </div>
-    </aside>
-    <section class="board-shell" aria-label="付箋ボード">
-      <div class="search-empty" id="search-empty" hidden>
-        <span>一致する付箋がありません。別の言葉で検索してみてください。</span>
-        <button class="text-btn gm-btn" id="empty-clear-search-btn" type="button">検索をクリア</button>
-      </div>
-      <div class="kanban-board" id="kanban-board"></div>
-    </section>
-    <aside class="deletion-undo" id="deletion-undo" hidden>
-      <span class="deletion-undo-message" id="deletion-undo-message" role="status" aria-live="polite"></span>
-      <button class="text-btn gm-btn" id="deletion-undo-btn" type="button">元に戻す</button>
-    </aside>
-  </main>
-</div>
+    <div class="search-shell">
+      <span data-icon="search"></span>
+      <input class="search-input gm-input" id="search-input" type="search" autocomplete="off" placeholder="付箋・タグを検索" aria-label="付箋を検索" aria-keyshortcuts="/">
+      <button class="icon-btn search-clear gm-btn gm-icon-btn" id="clear-search-btn" type="button" aria-label="検索をクリア" data-tooltip="検索をクリア" hidden>
+        <span data-icon="x"></span>
+      </button>
+    </div>
+    <div class="top-actions">
+      <button class="icon-btn gm-btn gm-icon-btn" id="theme-btn" type="button" aria-label="テーマ切替" data-tooltip="テーマ切替">
+        <span data-icon="moon"></span>
+      </button>
+      <button class="icon-btn gm-btn gm-icon-btn" id="settings-btn" type="button" aria-label="設定" data-tooltip="設定">
+        <span data-icon="settings"></span>
+      </button>
+    </div>
+  </header>
+  <div class="board-toolbar">
+    <p class="board-summary" id="board-summary" role="status" aria-atomic="true"></p>
+    <div class="board-tools">
+      <button class="text-btn gm-btn" id="quick-export-btn" type="button"><span data-icon="download"></span><span>バックアップ</span></button>
+      <button class="text-btn gm-btn" id="help-btn" type="button">使い方</button>
+    </div>
+  </div>
+  <aside class="storage-status" id="storage-status" hidden>
+    <p id="storage-status-message" role="status"></p>
+    <div class="storage-status-actions">
+      <button class="text-btn gm-btn" id="storage-export-btn" type="button">現在のボードを書き出す</button>
+      <button class="text-btn gm-btn" id="storage-original-btn" type="button" hidden>元の保存データを書き出す</button>
+      <button class="text-btn gm-btn" id="storage-retry-btn" type="button">保存を再試行</button>
+      <button class="text-btn gm-btn" id="storage-reload-btn" type="button">保存済みの内容を開く</button>
+    </div>
+  </aside>
+  <section class="board-shell" aria-label="付箋ボード">
+    <div class="search-empty" id="search-empty" hidden>
+      <span>一致する付箋がありません。別の言葉で検索してみてください。</span>
+      <button class="text-btn gm-btn" id="empty-clear-search-btn" type="button">検索をクリア</button>
+    </div>
+    <div class="kanban-board" id="kanban-board"></div>
+  </section>
+  <aside class="deletion-undo" id="deletion-undo" hidden>
+    <span class="deletion-undo-message" id="deletion-undo-message" role="status"></span>
+    <button class="text-btn gm-btn" id="deletion-undo-btn" type="button">元に戻す</button>
+  </aside>
+</main>
 
 <div class="drawer" id="note-drawer" hidden>
   <div class="drawer-backdrop" id="drawer-backdrop"></div>
@@ -2232,8 +2072,8 @@ body.gm {
       </div>
       <div class="metadata-fields">
         <label class="field-group gm-field">
-          <span class="field-label gm-label" id="note-tags-label">タグ</span>
-          <input class="field-input gm-input" id="note-tags-input" type="text" autocomplete="off" placeholder="設計, 重要" aria-labelledby="note-tags-label" aria-describedby="note-tags-help">
+          <span class="field-label gm-label">タグ</span>
+          <input class="field-input gm-input" id="note-tags-input" type="text" autocomplete="off" placeholder="設計, 重要" aria-describedby="note-tags-help">
           <span class="setting-desc" id="note-tags-help" role="status" hidden></span>
         </label>
         <label class="field-group date-picker-group gm-field" id="note-due-field">
@@ -2412,7 +2252,7 @@ body.gm {
   </section>
 </div>
 
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="toast" id="toast" role="status"></div>
 <div class="tooltip-layer" id="tooltip" role="tooltip" hidden></div>
 
 <script>
@@ -2478,7 +2318,9 @@ body.gm {
 
   const els = {
     html: document.documentElement,
+    themeColor: document.querySelector('meta[name="theme-color"]'),
     appShell: document.querySelector(".app-shell"),
+    boardShell: document.querySelector(".board-shell"),
     board: document.getElementById("kanban-board"),
     boardTitle: document.getElementById("board-title"),
     boardName: document.getElementById("board-name-input"),
@@ -2563,6 +2405,8 @@ body.gm {
   let tagsInputComposing = false;
   const composingTextInputs = new Set();
   const modalOpenings = new WeakMap();
+  const iconTemplates = new Map();
+  const mountedIcons = new WeakMap();
   let deferredFocusGeneration = 0;
   const checklistActivePointers = new Set();
   const checklistPointerRows = new Map();
@@ -3128,10 +2972,7 @@ body.gm {
         }
         const editingInput = captureEditingInput();
         const boardFocus = els.board.contains(document.activeElement) ? document.activeElement : null;
-        const listScroll = new Map(Array.from(els.board.querySelectorAll(".note-list"),
-          (list) => [list.dataset.columnId, list.scrollTop]));
-        const boardShell = els.board.closest(".board-shell");
-        const boardScroll = { left: boardShell.scrollLeft, top: boardShell.scrollTop };
+        const restoreScroll = captureBoardScroll();
         clearDeletionUndos();
         state = nextState;
         lastStoredText = latest;
@@ -3153,11 +2994,7 @@ body.gm {
           restoreFocusTarget(boardFocus);
         }
         editingInput?.restore();
-        els.board.querySelectorAll(".note-list").forEach((list) => {
-          list.scrollTop = listScroll.get(list.dataset.columnId) ?? 0;
-        });
-        boardShell.scrollLeft = boardScroll.left;
-        boardShell.scrollTop = boardScroll.top;
+        restoreScroll();
       });
     } catch {
       showStorageIssue("別のタブの保存データを読み込めませんでした。現在のボードを書き出してから開き直してください。");
@@ -3184,15 +3021,20 @@ body.gm {
     scheduleSave();
   }
 
-  function iconMarkup(name) {
-    const key = name.replace(/-([a-z])/g, (_, char) => char.toUpperCase());
-    return `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[key] || ""}</svg>`;
-  }
-
   function mountIcons(root = document) {
-    root.querySelectorAll("[data-icon]").forEach((slot) => {
-      slot.innerHTML = iconMarkup(slot.dataset.icon || "");
-    });
+    for (const slot of root.querySelectorAll("[data-icon]")) {
+      const name = slot.dataset.icon;
+      if (mountedIcons.get(slot) === name) continue;
+      // SVGの解析は種類ごとに一度だけ行い、変更のないアイコンはそのまま残す。
+      if (!iconTemplates.has(name)) {
+        const key = name.replace(/-([a-z])/g, (_, char) => char.toUpperCase());
+        const template = document.createElement("template");
+        template.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${Object.hasOwn(ICONS, key) ? ICONS[key] : ""}</svg>`;
+        iconTemplates.set(name, template);
+      }
+      slot.replaceChildren(iconTemplates.get(name).content.cloneNode(true));
+      mountedIcons.set(slot, name);
+    }
   }
 
   function configureInputLimits() {
@@ -3645,9 +3487,21 @@ body.gm {
     if (cursor < value.length) parent.append(document.createTextNode(value.slice(cursor)));
   }
 
+  function captureBoardScroll() {
+    const listScroll = new Map(Array.from(els.board.querySelectorAll(".note-list"),
+      (list) => [list.dataset.columnId, list.scrollTop]));
+    const { scrollLeft, scrollTop } = els.boardShell;
+    return () => {
+      for (const list of els.board.querySelectorAll(".note-list")) {
+        list.scrollTop = listScroll.get(list.dataset.columnId) ?? 0;
+      }
+      els.boardShell.scrollLeft = scrollLeft;
+      els.boardShell.scrollTop = scrollTop;
+    };
+  }
+
   function renderBoard(preserveScroll = true, preservedInput = null) {
-    const listScroll = preserveScroll ? new Map(Array.from(els.board.querySelectorAll(".note-list"),
-      (list) => [list.dataset.columnId, list.scrollTop])) : null;
+    const restoreScroll = preserveScroll ? captureBoardScroll() : null;
     renderBoardSummary();
     // ブラウザーの取り消し履歴を保つため、編集中の入力欄をDOMから取り外さない。
     // 別タブ更新で編集中のフィールドが変わっていない場合だけpreservedInputを渡す。
@@ -3679,9 +3533,7 @@ body.gm {
     addPanel.append(addButton);
     els.board.append(addPanel);
     mountIcons(els.board);
-    if (listScroll) els.board.querySelectorAll(".note-list").forEach((list) => {
-      list.scrollTop = listScroll.get(list.dataset.columnId) ?? 0;
-    });
+    restoreScroll?.();
   }
 
   function visibleNotesForColumn(column) {
@@ -3715,7 +3567,6 @@ body.gm {
     handle.className = "column-handle";
     handle.innerHTML = '<span data-icon="grip"></span>';
     handle.setAttribute("aria-hidden", "true");
-    handle.addEventListener("pointerdown", (event) => beginColumnDrag(event, column.id, article));
 
     const titleWrap = document.createElement("div");
     titleWrap.className = "column-title-wrap";
@@ -3969,7 +3820,7 @@ body.gm {
       stopDragScroll();
       return;
     }
-    const shell = els.board.closest(".board-shell");
+    const shell = els.boardShell;
     if (!document.elementFromPoint(drag.x, drag.y)?.closest(".board-shell")) {
       stopDragScroll();
       return;
@@ -4059,19 +3910,20 @@ body.gm {
     cleanupDrag();
   }
 
-  function beginColumnDrag(event, columnId, columnEl) {
+  function beginColumnDrag(event, handle) {
     if (event.button !== 0 || columnPointerDrag || pointerDrag) return;
     event.preventDefault();
+    const columnEl = handle.closest(".column");
     columnPointerDrag = {
-      columnId,
+      columnId: columnEl.dataset.columnId,
       columnEl,
-      handle: event.currentTarget,
+      handle,
       pointerId: event.pointerId,
       startX: event.clientX,
       startY: event.clientY,
       started: false
     };
-    try { event.currentTarget.setPointerCapture(event.pointerId); } catch {}
+    try { handle.setPointerCapture(event.pointerId); } catch {}
   }
 
   function updateColumnDrag(event) {
@@ -4227,7 +4079,7 @@ body.gm {
     }
     const hadSearch = Boolean(searchTerms().length);
     if (hadSearch) setSearchQuery("");
-    const note = createNote({ color: normalizeSettings(state.settings).defaultColor });
+    const note = createNote({ color: state.settings.defaultColor });
     column.notes.push(note);
     newDraftNoteId = note.id;
     touch();
@@ -4369,9 +4221,7 @@ body.gm {
     els.dateTitle.textContent = formatCalendarTitle(month);
     els.datePrevMonth.disabled = !parseDateValue(dateValue(addLocalMonths(month, -1)));
     els.dateNextMonth.disabled = !parseDateValue(dateValue(addLocalMonths(month, 1)));
-    els.dateGrid.replaceChildren();
-
-    for (let index = 0; index < 42; index += 1) {
+    const days = Array.from({ length: 42 }, (_, index) => {
       const day = addLocalDays(firstVisible, index);
       const value = dateValue(day);
       const holidayName = japaneseHolidayName(day);
@@ -4384,11 +4234,6 @@ body.gm {
       button.setAttribute("role", "gridcell");
       button.setAttribute("aria-label", holidayName ? `${formatDateLabel(day)}、${holidayName}` : formatDateLabel(day));
       button.tabIndex = value === focusedValue ? 0 : -1;
-      button.addEventListener("focus", () => {
-        if (!parseDateValue(value)) return;
-        calendarFocusedDate = day;
-        els.dateGrid.querySelectorAll(".date-day").forEach((cell) => { cell.tabIndex = cell === button ? 0 : -1; });
-      });
       if (day.getDay() === 0) button.classList.add("is-sunday");
       if (day.getDay() === 6) button.classList.add("is-saturday");
       if (holidayName) {
@@ -4401,9 +4246,9 @@ body.gm {
         button.classList.add("is-selected");
         button.setAttribute("aria-selected", "true");
       }
-      button.addEventListener("click", () => selectDueDate(value));
-      els.dateGrid.append(button);
-    }
+      return button;
+    });
+    els.dateGrid.replaceChildren(...days);
   }
 
   function focusCalendarDate() {
@@ -4948,13 +4793,12 @@ body.gm {
   function renderSettingsControls(syncBoardTitle = false, preservedInput = null) {
     const boardNameInput = els.boardName;
     if (preservedInput !== boardNameInput && (syncBoardTitle || document.activeElement !== boardNameInput)) boardNameInput.value = state.board.title === "PetaBorad" ? "PetaBoard" : state.board.title;
-    const settings = normalizeSettings(state.settings);
     els.settingsThemes.forEach((button) => {
       const active = button.dataset.settingsTheme === state.theme;
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", String(active));
     });
-    renderColorPicker(els.defaultColorGrid, settings.defaultColor, setDefaultColor, "付箋の初期色: ");
+    renderColorPicker(els.defaultColorGrid, state.settings.defaultColor, setDefaultColor, "付箋の初期色: ");
   }
 
   function openSettings(trigger) {
@@ -4999,7 +4843,7 @@ body.gm {
   function applyTheme() {
     els.html.dataset.theme = state.theme === "dark" ? "dark" : "light";
     document.body.dataset.mode = els.html.dataset.theme;
-    document.querySelector('meta[name="theme-color"]').content =
+    els.themeColor.content =
       getComputedStyle(document.body).getPropertyValue("--gm-background").trim();
     const themeSlot = els.themeSlot;
     if (themeSlot) {
@@ -5026,8 +4870,8 @@ body.gm {
 
   function setDefaultColor(colorId) {
     if (!NOTE_COLORS.some((color) => color.id === colorId)) return;
-    if (normalizeSettings(state.settings).defaultColor === colorId) return;
-    state.settings = normalizeSettings({ ...state.settings, defaultColor: colorId });
+    if (state.settings.defaultColor === colorId) return;
+    state.settings.defaultColor = colorId;
     renderSettingsControls();
     touch();
   }
@@ -5515,6 +5359,18 @@ body.gm {
     els.dateNextMonth.addEventListener("click", () => changeCalendarMonth(1));
     els.dateToday.addEventListener("click", chooseToday);
     els.dateClear.addEventListener("click", clearDueDate);
+    els.dateGrid.addEventListener("click", (event) => {
+      const button = event.target.closest(".date-day");
+      if (button && !button.disabled) selectDueDate(button.dataset.date);
+    });
+    els.dateGrid.addEventListener("focusin", (event) => {
+      const button = event.target.closest(".date-day");
+      if (!button || button.disabled) return;
+      const day = parseDateValue(button.dataset.date);
+      if (!day) return;
+      calendarFocusedDate = day;
+      for (const cell of els.dateGrid.children) cell.tabIndex = cell === button ? 0 : -1;
+    });
     els.dateGrid.addEventListener("keydown", handleDateGridKeydown);
     els.datePopover.addEventListener("keydown", handleDatePopoverKeydown);
   }
@@ -5539,7 +5395,7 @@ body.gm {
   }
 
   function bindBoardEvents() {
-    // 再描画される付箋の操作は、常設のボードでまとめて受け取る。
+    // 再描画される付箋と列ハンドルの操作は、常設のボードでまとめて受け取る。
     els.board.addEventListener("click", (event) => {
       const card = event.target.closest(".note-card");
       if (!card) return;
@@ -5559,6 +5415,11 @@ body.gm {
       openNote(card.dataset.noteId);
     });
     els.board.addEventListener("pointerdown", (event) => {
+      const handle = event.target.closest(".column-handle");
+      if (handle) {
+        beginColumnDrag(event, handle);
+        return;
+      }
       const card = event.target.closest(".note-card");
       if (card) beginPointerDrag(event, card.dataset.noteId, card);
     });
@@ -5678,6 +5539,7 @@ body.gm {
     bindKeyboardEvents();
     bindTooltipEvents();
     bindStorageLifecycleEvents();
+    bindWorkspaceEvents();
   }
 
   function bindWorkspaceEvents() {
@@ -5738,7 +5600,6 @@ body.gm {
   configureInputLimits();
   installTestHook();
   bindEvents();
-  bindWorkspaceEvents();
   syncModalAccessibility();
   renderMeta();
   refreshDuePills();
