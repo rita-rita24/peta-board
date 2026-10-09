@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-09T20:04:47.010Z",
+  "expectedLaunchFailure": true,
+  "status": 1,
+  "noTemporaryDirectoriesRemain": true,
+  "runnerSha256": "b7a8028ee9868bc2a21f636e585cd8efc4f3573076427e7ba1a521cf25006377",
+  "stderr": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/scripts/search-render.mjs:42\n  browser = await engines[engine].launch({\n                                  ^\n\nTypeError: Cannot read properties of undefined (reading 'launch')\n    at file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/scripts/search-render.mjs:42:35\n\nNode.js v24.21.0\n"
+}

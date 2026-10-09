@@ -1,0 +1,20 @@
+{
+  "checkedDate": "2026-10-10 JST",
+  "repository": "rita-rita24/peta-board",
+  "hasPages": false,
+  "homepage": null,
+  "publicReleases": [],
+  "externalProductionTarget": "not specified",
+  "localArtifact": "peta-board.html",
+  "baselineCommit": "23dd083",
+  "baselineDescription": "Working HTML at request start, including pre-existing uncommitted changes. Git HEAD is not the performance baseline.",
+  "baselineSha256": "77ab5d2c45b696787a6ca5d71f030f7deff142fcfdd6dd2f6961e5fd47c25674",
+  "published": false,
+  "githubCLIAuthenticated": false,
+  "githubConnectorRepositoryRead": "successful; push/admin permission returned",
+  "unavailableEndpointReads": [
+    "actions/workflows",
+    "deployments"
+  ],
+  "reason": "No existing publishing destination/release workflow identified. User clarification requested; no destination supplied yet. Source update is complete; external release and production remeasurement remain pending."
+}

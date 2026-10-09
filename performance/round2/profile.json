@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-09T00:56:42.609Z",
+  "note": "Instrumented attribution experiment; do not use timing as final shortening rate",
+  "rows": [
+    {
+      "source": "performance/round2/before.html",
+      "version": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+      "initial": {
+        "normalizeState": {
+          "ms": 11.099999964237213,
+          "calls": 1
+        },
+        "renderNote": {
+          "ms": 18.00000011920929,
+          "calls": 500
+        },
+        "renderBoard": {
+          "ms": 1603.8999999761581,
+          "calls": 1
+        }
+      },
+      "metrics": [
+        {
+          "name": "LayoutCount",
+          "value": 4
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 1.553436
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.098151
+        },
+        {
+          "name": "TaskDuration",
+          "value": 1.957704
+        }
+      ],
+      "search": {
+        "profile": {
+          "noteMatches": {
+            "ms": 10.400000035762787,
+            "calls": 1000
+          },
+          "renderNote": {
+            "ms": 19.499999940395355,
+            "calls": 250
+          },
+          "renderBoard": {
+            "ms": 42.69999998807907,
+            "calls": 1
+          }
+        },
+        "cards": 250
+      }
+    },
+    {
+      "source": "peta-board.html",
+      "version": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+      "initial": {
+        "normalizeState": {
+          "ms": 11.099999964237213,
+          "calls": 1
+        },
+        "renderNote": {
+          "ms": 14.399999797344208,
+          "calls": 500
+        },
+        "renderBoard": {
+          "ms": 819.3000000119209,
+          "calls": 1
+        }
+      },
+      "metrics": [
+        {
+          "name": "LayoutCount",
+          "value": 4
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.771286
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.087443
+        },
+        {
+          "name": "TaskDuration",
+          "value": 1.142266
+        }
+      ],
+      "search": {
+        "profile": {
+          "noteMatches": {
+            "ms": 4.699999988079071,
+            "calls": 500
+          },
+          "renderNote": {
+            "ms": 15,
+            "calls": 250
+          },
+          "renderBoard": {
+            "ms": 30.80000001192093,
+            "calls": 1
+          }
+        },
+        "cards": 250
+      }
+    }
+  ]
+}

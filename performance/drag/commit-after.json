@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-09T15:09:54.491Z",
+  "source": "peta-board.html",
+  "version": "77ab5d2c45b696787a6ca5d71f030f7deff142fcfdd6dd2f6961e5fd47c25674",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "definition": "Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 31.900000035762787,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 165.19999998807907
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 32.39999997615814,
+      "valid": true,
+      "handler": 2.300000011920929,
+      "handlerReady": true,
+      "save": 165.69999998807907
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 30.30000001192093,
+      "valid": true,
+      "handler": 1.899999976158142,
+      "handlerReady": true,
+      "save": 180.19999998807907
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 32.59999996423721,
+      "valid": true,
+      "handler": 2.099999964237213,
+      "handlerReady": true,
+      "save": 165.89999997615814
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 31.799999952316284,
+      "valid": true,
+      "handler": 1.7999999523162842,
+      "handlerReady": true,
+      "save": 165.0999999642372
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 32.60000002384186,
+      "valid": true,
+      "handler": 2.300000011920929,
+      "handlerReady": true,
+      "save": 165.9000000357628
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 31.799999952316284,
+      "valid": true,
+      "handler": 2.399999976158142,
+      "handlerReady": true,
+      "save": 165.19999998807907
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 32.40000003576279,
+      "valid": true,
+      "handler": 2.600000023841858,
+      "handlerReady": true,
+      "save": 165.69999998807907
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 31.700000047683716,
+      "valid": true,
+      "handler": 1.5,
+      "handlerReady": true,
+      "save": 165.20000004768372
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 31.69999998807907,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 165.5
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 27.69999998807907,
+      "valid": true,
+      "handler": 3.899999976158142,
+      "handlerReady": true,
+      "save": 193.89999997615814
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 32.69999998807907,
+      "valid": true,
+      "handler": 11.399999976158142,
+      "handlerReady": true,
+      "save": 181.80000001192093
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 29.19999998807907,
+      "valid": true,
+      "handler": 3.899999976158142,
+      "handlerReady": true,
+      "save": 185.80000001192093
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 31.899999976158142,
+      "valid": true,
+      "handler": 15,
+      "handlerReady": true,
+      "save": 202.10000002384186
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 29.5,
+      "valid": true,
+      "handler": 3.899999976158142,
+      "handlerReady": true,
+      "save": 196.89999997615814
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 32.39999997615814,
+      "valid": true,
+      "handler": 12.099999964237213,
+      "handlerReady": true,
+      "save": 182.69999998807907
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 32.69999998807907,
+      "valid": true,
+      "handler": 3.5,
+      "handlerReady": true,
+      "save": 187.60000002384186
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 32.700000047683716,
+      "valid": true,
+      "handler": 12.5,
+      "handlerReady": true,
+      "save": 199.5
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 28.69999998807907,
+      "valid": true,
+      "handler": 3.399999976158142,
+      "handlerReady": true,
+      "save": 195.19999998807907
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 32.09999996423721,
+      "valid": true,
+      "handler": 11.299999952316284,
+      "handlerReady": true,
+      "save": 190.79999995231628
+    }
+  ],
+  "errors": []
+}

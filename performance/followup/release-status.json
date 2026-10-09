@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-09T16:50:39.685353+00:00",
+  "productionKind": "local HTML distribution, explicitly confirmed by user",
+  "artifactPath": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/peta-board.html",
+  "productionUrl": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+  "localDistributionArtifactUpdated": true,
+  "directDistributionPathVerified": true,
+  "endUserInstallationVerified": false,
+  "productionBeforeMeasured": false,
+  "productionImprovementRate": null,
+  "remotePublishPerformed": false,
+  "remoteCIExecuted": false,
+  "allObjectivesComplete": false,
+  "evidenceHashVerified": [
+    {
+      "file": "column-search.json",
+      "date": "2026-10-09T16:17:45.412Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 320
+    },
+    {
+      "file": "remaining-operations.json",
+      "date": "2026-10-09T16:25:37.725Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 440
+    },
+    {
+      "file": "continuous.json",
+      "date": "2026-10-09T16:40:50.881Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 480
+    },
+    {
+      "file": "production-column.json",
+      "date": "2026-10-09T16:27:30.198Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 160
+    },
+    {
+      "file": "production-operations.json",
+      "date": "2026-10-09T16:28:52.425Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 220
+    },
+    {
+      "file": "production-continuous.json",
+      "date": "2026-10-09T16:45:14.885Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 240
+    },
+    {
+      "file": "production-screens.json",
+      "date": "2026-10-09T16:30:15.567Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 500
+    },
+    {
+      "file": "regression.json",
+      "date": "2026-10-09T16:33:02.504Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 0
+    },
+    {
+      "file": "midnight.json",
+      "date": "2026-10-09T16:45:55.681Z",
+      "applicationSha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "rows": 10
+    }
+  ],
+  "historyTransient": {
+    "initialTimeout": true,
+    "condition": "375px / 50 notes / saved indicator after history back",
+    "repeatContextsPassed": 20,
+    "rootCauseEstablished": false,
+    "diagnosticHookAdded": true
+  },
+  "midnightCorrectnessTrials": 10,
+  "minimumBrowserConfirmed": false
+}

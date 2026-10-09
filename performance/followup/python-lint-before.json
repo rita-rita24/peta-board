@@ -1,0 +1,2212 @@
+[
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 47,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport statistics\nimport csv\nimport collections\nimport pathlib",
+          "end_location": {
+            "column": 47,
+            "row": 1
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 47,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import collections\nimport csv\nimport json\nimport pathlib\nimport statistics\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 39,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json,statistics,csv,pathlib",
+          "end_location": {
+            "column": 47,
+            "row": 1
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Remove unused import: `collections`"
+    },
+    "location": {
+      "column": 28,
+      "row": 1
+    },
+    "message": "`collections` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 74,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 73,
+      "row": 3
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 51,
+      "row": 14
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 50,
+      "row": 14
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 14,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 49,
+      "row": 20
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 48,
+      "row": 20
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 23,
+      "row": 43
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 43
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 43,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 24,
+      "row": 52
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 23,
+      "row": 52
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 52,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 53,
+      "row": 53
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 52,
+      "row": 53
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 53,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 25,
+      "row": 56
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 56
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 56,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 15,
+      "row": 67
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 14,
+      "row": 67
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 67,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 54,
+      "row": 68
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 53,
+      "row": 68
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 68,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 74,
+      "row": 74
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 73,
+      "row": 74
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 74,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 70,
+      "row": 75
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 69,
+      "row": 75
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 75,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 60,
+      "row": 76
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 59,
+      "row": 76
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 76,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 76,
+      "row": 76
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 75,
+      "row": 76
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 76,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 95,
+      "row": 76
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 94,
+      "row": 76
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 76,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 42,
+      "row": 81
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/compare.py",
+    "fix": null,
+    "location": {
+      "column": 41,
+      "row": 81
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 81,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "UP009",
+    "end_location": {
+      "column": 16,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Remove unnecessary coding comment"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "UTF-8 encoding declaration is unnecessary",
+    "name": "utf8-encoding-declaration",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/utf8-encoding-declaration"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 44,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import csv\nimport datetime\nimport hashlib\nimport json\nimport statistics\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 44,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport statistics\nimport hashlib\nimport datetime\nimport csv",
+          "end_location": {
+            "column": 44,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 3
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 3
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 40,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json,statistics,hashlib,csv",
+          "end_location": {
+            "column": 44,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 3
+          }
+        }
+      ],
+      "message": "Remove unused import: `datetime`"
+    },
+    "location": {
+      "column": 32,
+      "row": 3
+    },
+    "message": "`datetime` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 83,
+      "row": 5
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 82,
+      "row": 5
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 66,
+      "row": 6
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 65,
+      "row": 6
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 25,
+      "row": 11
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 11
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 11,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 48,
+      "row": 11
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 47,
+      "row": 11
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 11,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 64,
+      "row": 15
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 63,
+      "row": 15
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 15,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 26,
+      "row": 18
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 25,
+      "row": 18
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 71,
+      "row": 22
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 70,
+      "row": 22
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 22,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 65,
+      "row": 25
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 64,
+      "row": 25
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 25,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 66,
+      "row": 30
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 65,
+      "row": 30
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 30,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 18,
+      "row": 38
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 38
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 38,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 102,
+      "row": 38
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 101,
+      "row": 38
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 38,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 20,
+      "row": 104
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/drag/report.py",
+    "fix": null,
+    "location": {
+      "column": 19,
+      "row": 104
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 104,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 54,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport statistics\nimport csv\nimport collections\nimport pathlib\nimport random",
+          "end_location": {
+            "column": 54,
+            "row": 1
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 54,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import collections\nimport csv\nimport json\nimport pathlib\nimport random\nimport statistics\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 74,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 73,
+      "row": 3
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 51,
+      "row": 14
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 50,
+      "row": 14
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 14,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 49,
+      "row": 20
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 48,
+      "row": 20
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 23,
+      "row": 49
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 49
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 49,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 24,
+      "row": 58
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 23,
+      "row": 58
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 58,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 53,
+      "row": 59
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 52,
+      "row": 59
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 59,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 25,
+      "row": 62
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 62
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 62,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 15,
+      "row": 73
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 14,
+      "row": 73
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 73,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 54,
+      "row": 74
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 53,
+      "row": 74
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 74,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 16,
+      "row": 89
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 15,
+      "row": 89
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 89,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 55,
+      "row": 90
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 54,
+      "row": 90
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 90,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 55,
+      "row": 98
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 54,
+      "row": 98
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 98,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 20,
+      "row": 100
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 19,
+      "row": 100
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 100,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 23,
+      "row": 109
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 109
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 109,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 13,
+      "row": 122
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 122
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 122,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 52,
+      "row": 123
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 51,
+      "row": 123
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 123,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 32,
+      "row": 124
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 124
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 124,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 48,
+      "row": 127
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 47,
+      "row": 127
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 127,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 17,
+      "row": 129
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 16,
+      "row": 129
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 129,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 34,
+      "row": 134
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 33,
+      "row": 134
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 134,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 43,
+      "row": 135
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 42,
+      "row": 135
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 135,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 114,
+      "row": 136
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 113,
+      "row": 136
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 136,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 60,
+      "row": 139
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 59,
+      "row": 139
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 139,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 76,
+      "row": 139
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 75,
+      "row": 139
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 139,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 95,
+      "row": 139
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 94,
+      "row": 139
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 139,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 42,
+      "row": 144
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/compare.py",
+    "fix": null,
+    "location": {
+      "column": 41,
+      "row": 144
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 144,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "UP009",
+    "end_location": {
+      "column": 16,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Remove unnecessary coding comment"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "UTF-8 encoding declaration is unnecessary",
+    "name": "utf8-encoding-declaration",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/utf8-encoding-declaration"
+  },
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 33,
+      "row": 2
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport hashlib\nimport csv\nimport datetime",
+          "end_location": {
+            "column": 33,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 25,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import csv\nimport datetime\nimport hashlib\nimport json\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 61,
+      "row": 11
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round2/finalize.py",
+    "fix": null,
+    "location": {
+      "column": 60,
+      "row": 11
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 11,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 54,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport statistics\nimport csv\nimport collections\nimport pathlib\nimport random",
+          "end_location": {
+            "column": 54,
+            "row": 1
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 54,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import collections\nimport csv\nimport json\nimport pathlib\nimport random\nimport statistics\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 74,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 73,
+      "row": 3
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 51,
+      "row": 14
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 50,
+      "row": 14
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 14,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 49,
+      "row": 20
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 48,
+      "row": 20
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 23,
+      "row": 49
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 49
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 49,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 24,
+      "row": 58
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 23,
+      "row": 58
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 58,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 53,
+      "row": 59
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 52,
+      "row": 59
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 59,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 25,
+      "row": 62
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 62
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 62,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 15,
+      "row": 73
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 14,
+      "row": 73
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 73,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 54,
+      "row": 74
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 53,
+      "row": 74
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 74,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 16,
+      "row": 89
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 15,
+      "row": 89
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 89,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 55,
+      "row": 90
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 54,
+      "row": 90
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 90,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 55,
+      "row": 98
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 54,
+      "row": 98
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 98,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 20,
+      "row": 100
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 19,
+      "row": 100
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 100,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 23,
+      "row": 109
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 109
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 109,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 13,
+      "row": 122
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 122
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 122,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 52,
+      "row": 123
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 51,
+      "row": 123
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 123,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 32,
+      "row": 124
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 124
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 124,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 48,
+      "row": 127
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 47,
+      "row": 127
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 127,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 17,
+      "row": 129
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 16,
+      "row": 129
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 129,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 36,
+      "row": 134
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 35,
+      "row": 134
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 134,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 34,
+      "row": 135
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 33,
+      "row": 135
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 135,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 43,
+      "row": 136
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 42,
+      "row": 136
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 136,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 114,
+      "row": 137
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 113,
+      "row": 137
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 137,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 60,
+      "row": 140
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 59,
+      "row": 140
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 140,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 76,
+      "row": 140
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 75,
+      "row": 140
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 140,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 95,
+      "row": 140
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 94,
+      "row": 140
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 140,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E701",
+    "end_location": {
+      "column": 42,
+      "row": 145
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/compare.py",
+    "fix": null,
+    "location": {
+      "column": 41,
+      "row": 145
+    },
+    "message": "Multiple statements on one line (colon)",
+    "name": "multiple-statements-on-one-line-colon",
+    "noqa_row": 145,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-colon"
+  },
+  {
+    "cell": null,
+    "code": "UP009",
+    "end_location": {
+      "column": 16,
+      "row": 1
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Remove unnecessary coding comment"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "UTF-8 encoding declaration is unnecessary",
+    "name": "utf8-encoding-declaration",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/utf8-encoding-declaration"
+  },
+  {
+    "cell": null,
+    "code": "E401",
+    "end_location": {
+      "column": 33,
+      "row": 2
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\nimport hashlib\nimport csv\nimport datetime",
+          "end_location": {
+            "column": 33,
+            "row": 2
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Split imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Multiple imports on one line",
+    "name": "multiple-imports-on-one-line",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-imports-on-one-line"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 25,
+      "row": 3
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import csv\nimport datetime\nimport hashlib\nimport json\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 68,
+      "row": 5
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": null,
+    "location": {
+      "column": 67,
+      "row": 5
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 62,
+      "row": 18
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": null,
+    "location": {
+      "column": 61,
+      "row": 18
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 93,
+      "row": 18
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": null,
+    "location": {
+      "column": 92,
+      "row": 18
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 122,
+      "row": 18
+    },
+    "filename": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round3/finalize.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 18
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  }
+]

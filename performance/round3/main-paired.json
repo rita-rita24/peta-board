@@ -1,0 +1,4818 @@
+{
+  "date": "2026-10-09T01:30:36.078Z",
+  "url": "file:///private/tmp/peta-r3-main-paired.html",
+  "versions": {
+    "performance/round3/before.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+    "peta-board.html": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb"
+  },
+  "platform": "darwin",
+  "mode": "local-file",
+  "modalDefinition": "content: panel opacity=1; interactive: is-open, non-inert, pointer-events enabled",
+  "searchDefinition": "focused input, settled two frames; input event or clear click to correct result after two frames",
+  "version": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+  "browser": "154.0.8037.99",
+  "repeats": 10,
+  "rows": [
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 398.80000001192093,
+      "interactive": 398.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.19999998807907,
+      "interactive": 18.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 22.5,
+      "interactive": 22.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 23.700000047683716,
+      "interactive": 23.700000047683716
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.900000035762787,
+      "interactive": 5.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 50.09999996423721,
+      "interactive": 50.09999996423721,
+      "result": 50.09999996423721,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 364.69999998807907,
+      "interactive": 364.7999999523163
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.599999964237213,
+      "interactive": 20.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 316.69999998807907,
+      "interactive": 316.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 17.69999998807907,
+      "interactive": 17.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.600000023841858,
+      "interactive": 20.600000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.399999976158142,
+      "interactive": 5.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 51.80000001192093,
+      "interactive": 51.80000001192093,
+      "result": 51.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 449.19999998807907,
+      "interactive": 449.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 20.600000023841858,
+      "interactive": 20.600000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.5999999642372131,
+      "interactive": 1.5999999642372131
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 182.4000000357628,
+      "interactive": 182.4000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.5,
+      "interactive": 18.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24,
+      "interactive": 24
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6,
+      "interactive": 6
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 52.69999998807907,
+      "interactive": 52.69999998807907,
+      "result": 52.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 143.80000001192093,
+      "interactive": 143.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 19.5,
+      "interactive": 19.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.600000023841858,
+      "interactive": 2.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 167.80000001192093,
+      "interactive": 167.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18,
+      "interactive": 18
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20,
+      "interactive": 20
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.700000047683716,
+      "interactive": 23.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.600000023841858,
+      "interactive": 14.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 50.89999997615814,
+      "interactive": 50.89999997615814,
+      "result": 50.89999997615814,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 146.5,
+      "interactive": 146.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 19.80000001192093,
+      "interactive": 19.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 2.200000047683716,
+      "interactive": 2.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 185.39999997615814,
+      "interactive": 185.39999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.600000023841858,
+      "interactive": 18.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "help",
+      "content": 20.599999964237213,
+      "interactive": 20.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6,
+      "interactive": 6
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 52.700000047683716,
+      "interactive": 52.700000047683716,
+      "result": 52.700000047683716,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 146.4000000357628,
+      "interactive": 146.4000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 169.80000001192093,
+      "interactive": 169.9000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 17.900000035762787,
+      "interactive": 17.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "help",
+      "content": 19.600000023841858,
+      "interactive": 19.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.19999998807907,
+      "interactive": 23.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.899999976158142,
+      "interactive": 5.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 50.80000001192093,
+      "interactive": 50.80000001192093,
+      "result": 50.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 145.5,
+      "interactive": 145.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 20,
+      "interactive": 20
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 404.39999997615814,
+      "interactive": 404.39999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.69999998807907,
+      "interactive": 18.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "help",
+      "content": 22.19999998807907,
+      "interactive": 22.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24,
+      "interactive": 24
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.899999976158142,
+      "interactive": 5.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 50.40000003576279,
+      "interactive": 50.40000003576279,
+      "result": 50.40000003576279,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 362.80000001192093,
+      "interactive": 362.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 22.5,
+      "interactive": 22.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.100000023841858,
+      "interactive": 2.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 320.39999997615814,
+      "interactive": 320.39999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 17.80000001192093,
+      "interactive": 17.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.599999964237213,
+      "interactive": 20.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.299999952316284,
+      "interactive": 23.299999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 6.800000011920929,
+      "interactive": 6.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 53.5,
+      "interactive": 53.5,
+      "result": 53.5,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 431.5999999642372,
+      "interactive": 431.5999999642372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 20.400000035762787,
+      "interactive": 20.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.5999999642372131,
+      "interactive": 1.5999999642372131
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 445.69999998807907,
+      "interactive": 445.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.399999976158142,
+      "interactive": 18.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "help",
+      "content": 22.69999998807907,
+      "interactive": 22.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 23.80000001192093,
+      "interactive": 23.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.599999964237213,
+      "interactive": 5.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 49.60000002384186,
+      "interactive": 49.60000002384186,
+      "result": 49.60000002384186,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 379.7000000476837,
+      "interactive": 379.7000000476837
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.30000001192093,
+      "interactive": 20.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 1.899999976158142,
+      "interactive": 1.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 333.89999997615814,
+      "interactive": 334
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18.19999998807907,
+      "interactive": 18.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.69999998807907,
+      "interactive": 20.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 26.399999976158142,
+      "interactive": 26.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.300000011920929,
+      "interactive": 5.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 53,
+      "interactive": 53,
+      "result": 53,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 447.30000001192093,
+      "interactive": 447.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.19999998807907,
+      "interactive": 21.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.600000023841858,
+      "interactive": 1.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 197.5,
+      "interactive": 197.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.399999976158142,
+      "interactive": 18.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.600000023841858,
+      "interactive": 23.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24.900000035762787,
+      "interactive": 24.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.899999976158142,
+      "interactive": 5.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 52.5,
+      "interactive": 52.5,
+      "result": 52.5,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 161.69999998807907,
+      "interactive": 161.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.299999952316284,
+      "interactive": 20.299999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.099999964237213,
+      "interactive": 3.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 174,
+      "interactive": 174
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18.5,
+      "interactive": 18.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "help",
+      "content": 19.600000023841858,
+      "interactive": 19.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23,
+      "interactive": 23
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 6,
+      "interactive": 6
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 54.09999996423721,
+      "interactive": 54.09999996423721,
+      "result": 54.09999996423721,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 143,
+      "interactive": 143
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 19.899999976158142,
+      "interactive": 19.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.9000000357627869,
+      "interactive": 1.9000000357627869
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 247.19999998807907,
+      "interactive": 247.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.299999952316284,
+      "interactive": 18.299999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "help",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 23.900000035762787,
+      "interactive": 23.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.200000047683716,
+      "interactive": 6.200000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 54.69999998807907,
+      "interactive": 54.69999998807907,
+      "result": 54.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 143.30000001192093,
+      "interactive": 143.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.200000047683716,
+      "interactive": 20.200000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 170.9000000357628,
+      "interactive": 170.9000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18.69999998807907,
+      "interactive": 18.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "help",
+      "content": 21.69999998807907,
+      "interactive": 21.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 22.80000001192093,
+      "interactive": 22.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 9,
+      "interactive": 8.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 51.10000002384186,
+      "interactive": 51.10000002384186,
+      "result": 51.10000002384186,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 149,
+      "interactive": 149
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.19999998807907,
+      "interactive": 21.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 417.19999998807907,
+      "interactive": 417.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 20.19999998807907,
+      "interactive": 20.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "help",
+      "content": 22.69999998807907,
+      "interactive": 22.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 25.100000023841858,
+      "interactive": 25.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.800000011920929,
+      "interactive": 5.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 53.30000001192093,
+      "interactive": 53.30000001192093,
+      "result": 53.30000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 364.69999998807907,
+      "interactive": 364.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.19999998807907,
+      "interactive": 21.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 1.899999976158142,
+      "interactive": 1.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 338.60000002384186,
+      "interactive": 338.60000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "help",
+      "content": 22.599999964237213,
+      "interactive": 22.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 24.400000035762787,
+      "interactive": 24.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 11.399999976158142,
+      "interactive": 11.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 53,
+      "interactive": 53,
+      "result": 53,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 445.89999997615814,
+      "interactive": 445.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 20.19999998807907,
+      "interactive": 20.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.699999988079071,
+      "interactive": 1.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 428.5999999642372,
+      "interactive": 428.5999999642372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 21.69999998807907,
+      "interactive": 21.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24.900000035762787,
+      "interactive": 24.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.800000011920929,
+      "interactive": 5.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 55.80000001192093,
+      "interactive": 55.80000001192093,
+      "result": 55.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 376.69999998807907,
+      "interactive": 376.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 23.5,
+      "interactive": 23.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.300000011920929,
+      "interactive": 2.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 332,
+      "interactive": 332.0999999642372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.69999998807907,
+      "interactive": 19.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "help",
+      "content": 21.399999976158142,
+      "interactive": 21.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 25,
+      "interactive": 25
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.800000011920929,
+      "interactive": 5.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 52.89999997615814,
+      "interactive": 52.89999997615814,
+      "result": 52.89999997615814,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 460.5,
+      "interactive": 460.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 24.099999964237213,
+      "interactive": 24.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.7000000476837158,
+      "interactive": 1.7000000476837158
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 197.5,
+      "interactive": 197.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.899999976158142,
+      "interactive": 18.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "help",
+      "content": 25.100000023841858,
+      "interactive": 25.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 26.69999998807907,
+      "interactive": 26.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 16,
+      "interactive": 15.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 54.80000001192093,
+      "interactive": 54.80000001192093,
+      "result": 54.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 159.80000001192093,
+      "interactive": 159.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 20.19999998807907,
+      "interactive": 20.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 213.79999995231628,
+      "interactive": 213.79999995231628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 17.80000001192093,
+      "interactive": 17.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "help",
+      "content": 21,
+      "interactive": 21
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 6.700000047683716,
+      "interactive": 6.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 59.30000001192093,
+      "interactive": 59.30000001192093,
+      "result": 59.30000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 168.60000002384186,
+      "interactive": 168.60000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 19.600000023841858,
+      "interactive": 19.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.699999988079071,
+      "interactive": 1.699999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "board",
+      "content": 201.80000001192093,
+      "interactive": 201.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 18.899999976158142,
+      "interactive": 18.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "help",
+      "content": 21.100000023841858,
+      "interactive": 21.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24.69999998807907,
+      "interactive": 24.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 5.800000011920929,
+      "interactive": 5.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "search",
+      "content": 59.59999996423721,
+      "interactive": 59.59999996423721,
+      "result": 59.59999996423721,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 171.10000002384186,
+      "interactive": 171.10000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.600000023841858,
+      "interactive": 21.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.199999988079071,
+      "interactive": 2.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "board",
+      "content": 183.80000001192093,
+      "interactive": 183.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 20.30000001192093,
+      "interactive": 20.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.600000023841858,
+      "interactive": 20.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 24.599999964237213,
+      "interactive": 24.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.300000011920929,
+      "interactive": 5.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "search",
+      "content": 55.30000001192093,
+      "interactive": 55.30000001192093,
+      "result": 55.30000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 159.0999999642372,
+      "interactive": 159.0999999642372
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.100000023841858,
+      "interactive": 21.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.899999976158142,
+      "interactive": 1.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "board",
+      "content": 438.4000000357628,
+      "interactive": 438.4000000357628
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 22,
+      "interactive": 22
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "help",
+      "content": 25,
+      "interactive": 25
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 25.69999998807907,
+      "interactive": 25.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 11.900000035762787,
+      "interactive": 11.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "search",
+      "content": 55.59999996423721,
+      "interactive": 55.59999996423721,
+      "result": 55.59999996423721,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 393.9000000357628,
+      "interactive": 393.9000000357628
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.900000035762787,
+      "interactive": 21.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "board",
+      "content": 347.89999997615814,
+      "interactive": 347.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 20.899999976158142,
+      "interactive": 20.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "help",
+      "content": 22.799999952316284,
+      "interactive": 22.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 26.399999976158142,
+      "interactive": 26.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 10,
+      "interactive": 10
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "search",
+      "content": 54.89999997615814,
+      "interactive": 54.89999997615814,
+      "result": 54.89999997615814,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 444,
+      "interactive": 444
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.599999964237213,
+      "interactive": 21.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.800000011920929,
+      "interactive": 1.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "board",
+      "content": 475.60000002384186,
+      "interactive": 475.60000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 23,
+      "interactive": 23
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "help",
+      "content": 24,
+      "interactive": 24
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 26.799999952316284,
+      "interactive": 26.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.399999976158142,
+      "interactive": 14.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "search",
+      "content": 54.80000001192093,
+      "interactive": 54.80000001192093,
+      "result": 54.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 395.10000002384186,
+      "interactive": 395.10000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.799999952316284,
+      "interactive": 21.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 1.899999976158142,
+      "interactive": 1.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "board",
+      "content": 351.89999997615814,
+      "interactive": 351.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.19999998807907,
+      "interactive": 19.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.69999998807907,
+      "interactive": 20.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 26.100000023841858,
+      "interactive": 26.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.400000035762787,
+      "interactive": 13.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "search",
+      "content": 58.90000003576279,
+      "interactive": 58.90000003576279,
+      "result": 58.90000003576279,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 489.0999999642372,
+      "interactive": 489.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 25,
+      "interactive": 25
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.600000023841858,
+      "interactive": 1.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "board",
+      "content": 210.9000000357628,
+      "interactive": 210.9000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 21.5,
+      "interactive": 21.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "help",
+      "content": 22.599999964237213,
+      "interactive": 22.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24.5,
+      "interactive": 24.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.300000011920929,
+      "interactive": 6.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "search",
+      "content": 56.799999952316284,
+      "interactive": 56.799999952316284,
+      "result": 56.799999952316284,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 157.70000004768372,
+      "interactive": 157.70000004768372
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.600000023841858,
+      "interactive": 21.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.099999964237213,
+      "interactive": 2.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "board",
+      "content": 177.30000001192093,
+      "interactive": 177.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.80000001192093,
+      "interactive": 19.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.19999998807907,
+      "interactive": 20.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 24.100000023841858,
+      "interactive": 24.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.199999988079071,
+      "interactive": 5.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "search",
+      "content": 57,
+      "interactive": 57,
+      "result": 57,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 156.39999997615814,
+      "interactive": 156.39999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 19.900000035762787,
+      "interactive": 19.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 3.5,
+      "interactive": 3.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "board",
+      "content": 223.5,
+      "interactive": 223.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 21.19999998807907,
+      "interactive": 21.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.80000001192093,
+      "interactive": 23.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 25.30000001192093,
+      "interactive": 25.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.200000047683716,
+      "interactive": 6.200000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "search",
+      "content": 54.5,
+      "interactive": 54.5,
+      "result": 54.5,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 160.19999998807907,
+      "interactive": 160.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 22.399999976158142,
+      "interactive": 22.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.399999976158142,
+      "interactive": 2.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "board",
+      "content": 186,
+      "interactive": 186
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18.899999976158142,
+      "interactive": 18.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "help",
+      "content": 21.80000001192093,
+      "interactive": 21.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.399999976158142,
+      "interactive": 23.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.099999964237213,
+      "interactive": 5.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "search",
+      "content": 57.5,
+      "interactive": 57.5,
+      "result": 57.5,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 157,
+      "interactive": 157
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.5,
+      "interactive": 21.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.5999999642372131,
+      "interactive": 1.5999999642372131
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "board",
+      "content": 448.30000001192093,
+      "interactive": 448.4000000357628
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 23,
+      "interactive": 23
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.400000035762787,
+      "interactive": 23.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 26.899999976158142,
+      "interactive": 26.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.699999988079071,
+      "interactive": 13.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "search",
+      "content": 52,
+      "interactive": 52,
+      "result": 52,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 381,
+      "interactive": 381
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 23.900000035762787,
+      "interactive": 23.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 7.099999964237213,
+      "interactive": 7.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "board",
+      "content": 395.9000000357628,
+      "interactive": 395.9000000357628
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.30000001192093,
+      "interactive": 19.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.69999998807907,
+      "interactive": 20.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 24.19999998807907,
+      "interactive": 24.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.400000035762787,
+      "interactive": 5.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "search",
+      "content": 55.69999998807907,
+      "interactive": 55.69999998807907,
+      "result": 55.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 461.10000002384186,
+      "interactive": 461.10000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 24.700000047683716,
+      "interactive": 24.700000047683716
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.7999999523162842,
+      "interactive": 1.7999999523162842
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "board",
+      "content": 442.69999998807907,
+      "interactive": 442.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 20.600000023841858,
+      "interactive": 20.600000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "help",
+      "content": 27.899999976158142,
+      "interactive": 27.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 25.19999998807907,
+      "interactive": 25.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.899999976158142,
+      "interactive": 13.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "search",
+      "content": 56.69999998807907,
+      "interactive": 56.69999998807907,
+      "result": 56.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 394.89999997615814,
+      "interactive": 394.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 21.19999998807907,
+      "interactive": 21.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.100000023841858,
+      "interactive": 2.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "board",
+      "content": 347,
+      "interactive": 347
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.100000023841858,
+      "interactive": 19.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "help",
+      "content": 23.80000001192093,
+      "interactive": 23.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 28.099999964237213,
+      "interactive": 28.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 18.19999998807907,
+      "interactive": 18.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "search",
+      "content": 59.5,
+      "interactive": 59.5,
+      "result": 59.5,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 490.5999999642372,
+      "interactive": 490.5999999642372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 23.599999964237213,
+      "interactive": 23.599999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.5999999642372131,
+      "interactive": 1.5999999642372131
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "board",
+      "content": 210,
+      "interactive": 210
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 20.100000023841858,
+      "interactive": 20.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "help",
+      "content": 25.5,
+      "interactive": 25.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 26.5,
+      "interactive": 26.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 9.600000023841858,
+      "interactive": 9.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "search",
+      "content": 64.60000002384186,
+      "interactive": 64.60000002384186,
+      "result": 64.60000002384186,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 181.89999997615814,
+      "interactive": 181.89999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 22.900000035762787,
+      "interactive": 22.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.099999964237213,
+      "interactive": 2.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "board",
+      "content": 192.80000001192093,
+      "interactive": 192.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18,
+      "interactive": 18
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.599999964237213,
+      "interactive": 20.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 25.5,
+      "interactive": 25.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.5,
+      "interactive": 5.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "search",
+      "content": 57,
+      "interactive": 57,
+      "result": 57,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 156.89999997615814,
+      "interactive": 156.89999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.5,
+      "interactive": 21.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.800000011920929,
+      "interactive": 1.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "board",
+      "content": 216.19999998807907,
+      "interactive": 216.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 22.399999976158142,
+      "interactive": 22.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.599999964237213,
+      "interactive": 23.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 24.899999976158142,
+      "interactive": 24.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.400000035762787,
+      "interactive": 13.400000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "search",
+      "content": 59.69999998807907,
+      "interactive": 59.69999998807907,
+      "result": 59.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 153.70000004768372,
+      "interactive": 153.70000004768372
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 22.100000023841858,
+      "interactive": 22.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.100000023841858,
+      "interactive": 2.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "board",
+      "content": 234,
+      "interactive": 234
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 19.100000023841858,
+      "interactive": 19.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "help",
+      "content": 20.19999998807907,
+      "interactive": 20.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 23.5,
+      "interactive": 23.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.600000023841858,
+      "interactive": 5.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "search",
+      "content": 56.19999998807907,
+      "interactive": 56.19999998807907,
+      "result": 56.19999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 158.5,
+      "interactive": 158.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 21.899999976158142,
+      "interactive": 21.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 16.5,
+      "interactive": 16.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "board",
+      "content": 447.69999998807907,
+      "interactive": 447.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 19.600000023841858,
+      "interactive": 19.600000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "help",
+      "content": 23.900000035762787,
+      "interactive": 23.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 25.099999964237213,
+      "interactive": 25.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 8.799999952316284,
+      "interactive": 8.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "search",
+      "content": 55.80000001192093,
+      "interactive": 55.80000001192093,
+      "result": 55.80000001192093,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 395.30000001192093,
+      "interactive": 395.39999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 25.100000023841858,
+      "interactive": 25.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.300000011920929,
+      "interactive": 2.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "board",
+      "content": 363.19999998807907,
+      "interactive": 363.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 18.69999998807907,
+      "interactive": 18.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "help",
+      "content": 23.400000035762787,
+      "interactive": 23.400000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 24.69999998807907,
+      "interactive": 24.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 5.699999988079071,
+      "interactive": 5.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "search",
+      "content": 57.69999998807907,
+      "interactive": 57.69999998807907,
+      "result": 57.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 460.30000001192093,
+      "interactive": 460.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 24.5,
+      "interactive": 24.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 1.899999976158142,
+      "interactive": 1.899999976158142
+    }
+  ],
+  "errors": []
+}

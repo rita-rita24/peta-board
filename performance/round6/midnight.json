@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-09T19:07:01.599Z",
+  "browser": "154.0.8037.99",
+  "version": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "definition": "Actual distribution file in isolated contexts; Playwright virtual clock crosses JST midnight. Verify real scheduled callback changes due-day label and calendar today while state/month/selection/focus stay unchanged. Five trials each50/500notes,375x900. Virtual-clock correctness only, no real elapsed-time performance claim.",
+  "rows": [
+    {
+      "count": 50,
+      "run": 0,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 50,
+      "run": 1,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 50,
+      "run": 2,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 50,
+      "run": 3,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 50,
+      "run": 4,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 500,
+      "run": 0,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 500,
+      "run": 1,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 500,
+      "run": 2,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 500,
+      "run": 3,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    },
+    {
+      "count": 500,
+      "run": 4,
+      "correct": true,
+      "selectionPreserved": true,
+      "focusPreserved": true,
+      "statePreserved": true
+    }
+  ],
+  "errors": []
+}

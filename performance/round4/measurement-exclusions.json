@@ -1,0 +1,14 @@
+{
+  "excluded": [
+    "production-before-preliminary.json",
+    "preliminary-theme-before.json",
+    "preliminary-theme-after.json",
+    "preliminary-theme-comparison.json"
+  ],
+  "reasons": [
+    "First supplementary operation baseline overlapped a separate history correctness run and is excluded from timing comparison.",
+    "Initial native theme recorder checked a removed SVG target at document bubble phase; handler end was missing.",
+    "Initial raw trace names reused current labels across runs and could overwrite prior traces. Corrected run uses output-derived unique prefixes."
+  ],
+  "correctiveAction": "Re-record old and new local distribution files at the same path sequentially in isolated contexts. Use button listener after application listener; require finite handler samples. Preserve old variant during controlled measurement and restore candidate only if file unchanged."
+}

@@ -1,0 +1,44 @@
+50 note 0 {
+  ready: 31.19999998807907,
+  valid: true,
+  handler: 4.300000011920929,
+  handlerReady: true,
+  save: 164.89999997615814,
+  grab: {
+    downToState: 25.30000001192093,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.80000001192093
+  }
+}
+50 column 0 {
+  ready: 32.59999996423721,
+  valid: true,
+  handler: 2.199999988079071,
+  handlerReady: true,
+  save: 166.19999998807907,
+  grab: { downToState: 7.5, triggeringMoveHandler: 0, resultProxy: 35 }
+}
+500 note 0 {
+  ready: 31.80000001192093,
+  valid: true,
+  handler: 18.30000001192093,
+  handlerReady: true,
+  save: 183.39999997615814,
+  grab: {
+    downToState: 17.399999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.799999952316284
+  }
+}
+500 column 0 {
+  ready: 34,
+  valid: true,
+  handler: 11.5,
+  handlerReady: true,
+  save: 184.30000001192093,
+  grab: {
+    downToState: 7.199999988079071,
+    triggeringMoveHandler: 0,
+    resultProxy: 32.59999996423721
+  }
+}

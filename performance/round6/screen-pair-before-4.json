@@ -1,0 +1,1250 @@
+{
+  "date": "2026-10-09T19:22:33.933Z",
+  "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-screen-pair-gJpW7R/board.html",
+  "platform": "darwin",
+  "mode": "local-file",
+  "modalDefinition": "content: panel opacity=1; interactive: is-open, non-inert, pointer-events enabled",
+  "searchDefinition": "focused input, settled two frames; input event or clear click to correct result after two frames",
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "browser": "154.0.8037.99",
+  "repeats": 1,
+  "rows": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 64.69999998807907,
+      "interactive": 64.69999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 2.800000011920929,
+      "interactive": 2.800000011920929
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 27.100000023841858,
+      "interactive": 27.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 32.80000001192093,
+      "interactive": 32.80000001192093,
+      "result": 32.80000001192093,
+      "cards": 0,
+      "summary": "検索結果 0件 / 付箋 0件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.19999998807907,
+      "interactive": 31.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 15.400000035762787,
+      "interactive": 15.400000035762787
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 15.600000023841858,
+      "interactive": 15.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 36.5,
+      "interactive": 36.60000002384186
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 2.900000035762787,
+      "interactive": 2.900000035762787
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 5.600000023841858,
+      "interactive": 5.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.5,
+      "interactive": 31.5,
+      "result": 31.5,
+      "cards": 0,
+      "summary": "検索結果 0件 / 付箋 0件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 30.900000035762787,
+      "interactive": 30.900000035762787
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 16.19999998807907,
+      "interactive": 16.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 14.699999988079071,
+      "interactive": 14.699999988079071
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 94.59999996423721,
+      "interactive": 94.59999996423721
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 4.600000023841858,
+      "interactive": 4.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 16.19999998807907,
+      "interactive": 16.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 10.5,
+      "interactive": 10.5
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 11.300000011920929,
+      "interactive": 11.199999988079071
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 33.10000002384186,
+      "interactive": 33.10000002384186,
+      "result": 33.10000002384186,
+      "cards": 25,
+      "summary": "検索結果 25件 / 付箋 50件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31,
+      "interactive": 31
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 16.100000023841858,
+      "interactive": 16.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 8.899999976158142,
+      "interactive": 8.899999976158142
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 36.19999998807907,
+      "interactive": 36.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 16.69999998807907,
+      "interactive": 16.69999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 9.100000023841858,
+      "interactive": 9.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 6,
+      "interactive": 5.900000035762787
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 10.600000023841858,
+      "interactive": 10.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 34.10000002384186,
+      "interactive": 34.10000002384186,
+      "result": 34.10000002384186,
+      "cards": 25,
+      "summary": "検索結果 25件 / 付箋 50件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 33.09999996423721,
+      "interactive": 33.09999996423721
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 14.600000023841858,
+      "interactive": 14.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 7.600000023841858,
+      "interactive": 7.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 238.4000000357628,
+      "interactive": 238.4000000357628
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 26.19999998807907,
+      "interactive": 26.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 28.69999998807907,
+      "interactive": 28.69999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 31,
+      "interactive": 31
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 11.399999976158142,
+      "interactive": 11.399999976158142
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 66.69999998807907,
+      "interactive": 66.69999998807907,
+      "result": 66.69999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 171.10000002384186,
+      "interactive": 171.10000002384186
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 26.19999998807907,
+      "interactive": 26.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.5,
+      "interactive": 2.5
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 253.19999998807907,
+      "interactive": 253.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 23.5,
+      "interactive": 23.5
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 25.799999952316284,
+      "interactive": 25.799999952316284
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 32.5,
+      "interactive": 32.5
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 6.799999952316284,
+      "interactive": 6.799999952316284
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 62.200000047683716,
+      "interactive": 62.200000047683716,
+      "result": 62.200000047683716,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 181.89999997615814,
+      "interactive": 181.89999997615814
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 28.30000001192093,
+      "interactive": 28.30000001192093
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 2,
+      "interactive": 2
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 63.80000001192093,
+      "interactive": 63.90000003576279
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 30.599999964237213,
+      "interactive": 30.599999964237213
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 34,
+      "interactive": 34,
+      "result": 34,
+      "cards": 0,
+      "summary": "検索結果 0件 / 付箋 0件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 29.80000001192093,
+      "interactive": 29.80000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 18.100000023841858,
+      "interactive": 18.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 10.300000011920929,
+      "interactive": 10.300000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 22.600000023841858,
+      "interactive": 22.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 3.800000011920929,
+      "interactive": 3.800000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 7.100000023841858,
+      "interactive": 7.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 33.200000047683716,
+      "interactive": 33.30000001192093,
+      "result": 33.30000001192093,
+      "cards": 0,
+      "summary": "検索結果 0件 / 付箋 0件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 30.099999964237213,
+      "interactive": 30.099999964237213
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 17.599999964237213,
+      "interactive": 17.599999964237213
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 7.599999964237213,
+      "interactive": 7.599999964237213
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 73,
+      "interactive": 73
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 12.899999976158142,
+      "interactive": 12.800000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 31.900000035762787,
+      "interactive": 31.900000035762787
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.600000023841858,
+      "interactive": 8.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 12.199999988079071,
+      "interactive": 12.199999988079071
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 34.39999997615814,
+      "interactive": 34.39999997615814,
+      "result": 34.39999997615814,
+      "cards": 25,
+      "summary": "検索結果 25件 / 付箋 50件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 30.30000001192093,
+      "interactive": 30.30000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 16.700000047683716,
+      "interactive": 16.700000047683716
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 12.600000023841858,
+      "interactive": 12.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 39.80000001192093,
+      "interactive": 39.80000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 17.099999964237213,
+      "interactive": 17.099999964237213
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 9.899999976158142,
+      "interactive": 9.899999976158142
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 10.399999976158142,
+      "interactive": 10.399999976158142
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.400000035762787,
+      "interactive": 13.400000035762787
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093,
+      "result": 32.30000001192093,
+      "cards": 25,
+      "summary": "検索結果 25件 / 付箋 50件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 33,
+      "interactive": 33
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 16.19999998807907,
+      "interactive": 16.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 11.300000011920929,
+      "interactive": 11.300000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 242.39999997615814,
+      "interactive": 242.39999997615814
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "settings",
+      "content": 24.399999976158142,
+      "interactive": 24.399999976158142
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "help",
+      "content": 26,
+      "interactive": 25.899999976158142
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 29.30000001192093,
+      "interactive": 29.30000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.800000011920929,
+      "interactive": 6.800000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 61.39999997615814,
+      "interactive": 61.39999997615814,
+      "result": 61.39999997615814,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 167,
+      "interactive": 167
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 25.299999952316284,
+      "interactive": 25.299999952316284
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.300000011920929,
+      "interactive": 2.300000011920929
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 246.30000001192093,
+      "interactive": 246.30000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "settings",
+      "content": 22.30000001192093,
+      "interactive": 22.30000001192093
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "help",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 27.19999998807907,
+      "interactive": 27.19999998807907
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 8.600000023841858,
+      "interactive": 8.600000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 56.19999998807907,
+      "interactive": 56.19999998807907,
+      "result": 56.19999998807907,
+      "cards": 250,
+      "summary": "検索結果 250件 / 付箋 500件"
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 144.0999999642372,
+      "interactive": 144.0999999642372
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 22.100000023841858,
+      "interactive": 22.100000023841858
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 14.5,
+      "interactive": 14.399999976158142
+    }
+  ],
+  "errors": []
+}

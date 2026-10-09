@@ -1,0 +1,8 @@
+/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round8/display.cjs:191
+              throw Error(
+                    ^
+
+Error: display geometry differs {"run":0,"width":320,"count":500,"variant":true,"label":"resize taller","geometryEqual":false,"pixelsEqual":true}
+    at /Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round8/display.cjs:191:21
+
+Node.js v24.21.0

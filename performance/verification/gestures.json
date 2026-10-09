@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-09T18:30:42.681Z",
+  "checks": [
+    "Escape cancels and suppresses accidental editor click",
+    "outside board clears preview and does not move",
+    "pointercancel preserves data and clears capture feedback",
+    "pointerup without pointermove uses final coordinates",
+    "column pointerup without pointermove reorders correctly",
+    "vertical edge autoscroll",
+    "horizontal edge autoscroll on 375px viewport",
+    "editor column selection updates note destination and drawer",
+    "lost pointer capture cancels without accidental editor",
+    "touch outside handle does not start dragging",
+    "synthetic touch handle starts and cancels dragging"
+  ],
+  "errors": []
+}

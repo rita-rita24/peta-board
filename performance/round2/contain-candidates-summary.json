@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-08T23:24:37.260Z",
+  "version": "a55ab510d4b6a0c99900668227c497e13c2e7c2338fa5d579e96427f54f80274",
+  "rows": [
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 0,
+      "ms": 1150.199999988079,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 1,
+      "ms": 1054.3999999761581,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "cardsize",
+      "css": ".note-list.has-clipped-rows>.note-card{contain:size}",
+      "run": 0,
+      "ms": 1125.6000000238419,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "cardsize",
+      "css": ".note-list.has-clipped-rows>.note-card{contain:size}",
+      "run": 1,
+      "ms": 1161.300000011921,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "cardsizelayout",
+      "css": ".note-list.has-clipped-rows>.note-card{contain:size layout}",
+      "run": 0,
+      "ms": 1029.0999999642372,
+      "differentGeometryCount": 12,
+      "firstDifferences": [
+        2,
+        88,
+        174,
+        260,
+        346
+      ]
+    },
+    {
+      "name": "cardsizelayout",
+      "css": ".note-list.has-clipped-rows>.note-card{contain:size layout}",
+      "run": 1,
+      "ms": 1009.8999999761581,
+      "differentGeometryCount": 12,
+      "firstDifferences": [
+        2,
+        88,
+        174,
+        260,
+        346
+      ]
+    },
+    {
+      "name": "bodylayout",
+      "css": ".note-body{contain:layout}",
+      "run": 0,
+      "ms": 949.6000000238419,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "bodylayout",
+      "css": ".note-body{contain:layout}",
+      "run": 1,
+      "ms": 985.3999999761581,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "listlayout",
+      "css": ".note-list{contain:layout}",
+      "run": 0,
+      "ms": 1087.0999999642372,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "listlayout",
+      "css": ".note-list{contain:layout}",
+      "run": 1,
+      "ms": 953.3999999761581,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    }
+  ]
+}

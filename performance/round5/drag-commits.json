@@ -1,0 +1,1607 @@
+{
+  "date": "2026-10-09T18:27:22.963Z",
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 32.10000002384186,
+      "valid": true,
+      "handler": 1.9000000357627869,
+      "handlerReady": true,
+      "save": 181.80000001192093,
+      "grab": {
+        "downToState": 6.699999988079071,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 16.899999976158142
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:25:48.328Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 33,
+      "valid": true,
+      "handler": 2.399999976158142,
+      "handlerReady": true,
+      "save": 165,
+      "grab": {
+        "downToState": 6,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 36.80000001192093
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:25:48.328Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 26.69999998807907,
+      "valid": true,
+      "handler": 3.400000035762787,
+      "handlerReady": true,
+      "save": 193.5,
+      "grab": {
+        "downToState": 7.600000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:25:48.328Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 31.799999952316284,
+      "valid": true,
+      "handler": 11.799999952316284,
+      "handlerReady": true,
+      "save": 189.79999995231628,
+      "grab": {
+        "downToState": 16.5,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 31.599999964237213
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:25:48.328Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 33.80000001192093,
+      "valid": true,
+      "handler": 1.7000000476837158,
+      "handlerReady": true,
+      "save": 165.20000004768372,
+      "grab": {
+        "downToState": 15.199999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 15.400000035762787
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:52.899Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 33,
+      "valid": true,
+      "handler": 2.599999964237213,
+      "handlerReady": true,
+      "save": 166.5999999642372,
+      "grab": {
+        "downToState": 10.299999952316284,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:52.899Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 28.099999964237213,
+      "valid": true,
+      "handler": 3.599999964237213,
+      "handlerReady": true,
+      "save": 193.69999998807907,
+      "grab": {
+        "downToState": 9.700000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.5
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:52.899Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 32,
+      "valid": true,
+      "handler": 12.400000035762787,
+      "handlerReady": true,
+      "save": 183.10000002384186,
+      "grab": {
+        "downToState": 9.5,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 31.399999976158142
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:52.899Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 32.5,
+      "valid": true,
+      "handler": 2,
+      "handlerReady": true,
+      "save": 166.10000002384186,
+      "grab": {
+        "downToState": 5.5,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:57.495Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 32.59999996423721,
+      "valid": true,
+      "handler": 2.599999964237213,
+      "handlerReady": true,
+      "save": 182.69999998807907,
+      "grab": {
+        "downToState": 10.5,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 31.80000001192093
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:57.495Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 30,
+      "valid": true,
+      "handler": 3.5,
+      "handlerReady": true,
+      "save": 196.39999997615814,
+      "grab": {
+        "downToState": 10.199999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.700000047683716
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:57.495Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 31.30000001192093,
+      "valid": true,
+      "handler": 12.399999976158142,
+      "handlerReady": true,
+      "save": 192.80000001192093,
+      "grab": {
+        "downToState": 2.900000035762787,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31.899999976158142
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:25:57.495Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 33.60000002384186,
+      "valid": true,
+      "handler": 1.699999988079071,
+      "handlerReady": true,
+      "save": 167,
+      "grab": {
+        "downToState": 16.80000001192093,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 16.69999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:02.098Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 33,
+      "valid": true,
+      "handler": 2.399999976158142,
+      "handlerReady": true,
+      "save": 167.10000002384186,
+      "grab": {
+        "downToState": 9.100000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31.5
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:02.098Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 28.400000035762787,
+      "valid": true,
+      "handler": 3.400000035762787,
+      "handlerReady": true,
+      "save": 195.10000002384186,
+      "grab": {
+        "downToState": 3.699999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.69999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:02.098Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 31.19999998807907,
+      "valid": true,
+      "handler": 11.699999988079071,
+      "handlerReady": true,
+      "save": 183.5999999642372,
+      "grab": {
+        "downToState": 8.300000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 35.19999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:02.098Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 33.69999998807907,
+      "valid": true,
+      "handler": 1.7999999523162842,
+      "handlerReady": true,
+      "save": 166.89999997615814,
+      "grab": {
+        "downToState": 14.800000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17.69999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:06.677Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 31.19999998807907,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 165.80000001192093,
+      "grab": {
+        "downToState": 11.399999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 32.799999952316284
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:06.677Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 27.100000023841858,
+      "valid": true,
+      "handler": 3.600000023841858,
+      "handlerReady": true,
+      "save": 195.4000000357628,
+      "grab": {
+        "downToState": 4.300000011920929,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 17.399999976158142
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:06.677Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 33.89999997615814,
+      "valid": true,
+      "handler": 11.899999976158142,
+      "handlerReady": true,
+      "save": 189.39999997615814,
+      "grab": {
+        "downToState": 8.200000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.19999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:06.677Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 31.900000035762787,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 165.30000001192093,
+      "grab": {
+        "downToState": 13.599999964237213,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 16.69999998807907
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:11.279Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 34.40000003576279,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 165.9000000357628,
+      "grab": {
+        "downToState": 9.699999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17.69999998807907
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:11.279Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 31.80000001192093,
+      "valid": true,
+      "handler": 4.200000047683716,
+      "handlerReady": true,
+      "save": 186.10000002384186,
+      "grab": {
+        "downToState": 18.399999976158142,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.100000023841858
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:11.279Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 32,
+      "valid": true,
+      "handler": 11.699999988079071,
+      "handlerReady": true,
+      "save": 183,
+      "grab": {
+        "downToState": 9.199999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31.200000047683716
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:11.279Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 32.19999998807907,
+      "valid": true,
+      "handler": 1.9000000357627869,
+      "handlerReady": true,
+      "save": 165.4000000357628,
+      "grab": {
+        "downToState": 17.599999964237213,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 15.399999976158142
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:15.854Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 31.30000001192093,
+      "valid": true,
+      "handler": 2.699999988079071,
+      "handlerReady": true,
+      "save": 165.0999999642372,
+      "grab": {
+        "downToState": 10.899999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 31.399999976158142
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:15.854Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 28.5,
+      "valid": true,
+      "handler": 3.300000011920929,
+      "handlerReady": true,
+      "save": 185.30000001192093,
+      "grab": {
+        "downToState": 9.399999976158142,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 16.19999998807907
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:15.854Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 30.799999952316284,
+      "valid": true,
+      "handler": 12.099999964237213,
+      "handlerReady": true,
+      "save": 181.19999998807907,
+      "grab": {
+        "downToState": 11.300000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 30.19999998807907
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:15.854Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 32.10000002384186,
+      "valid": true,
+      "handler": 1.9000000357627869,
+      "handlerReady": true,
+      "save": 181.20000004768372,
+      "grab": {
+        "downToState": 12.800000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 16.19999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:20.437Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 32.69999998807907,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 165.29999995231628,
+      "grab": {
+        "downToState": 10,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 32.09999996423721
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:20.437Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 27.5,
+      "valid": true,
+      "handler": 3.399999976158142,
+      "handlerReady": true,
+      "save": 195.19999998807907,
+      "grab": {
+        "downToState": 11.699999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17.100000023841858
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:20.437Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 32.10000002384186,
+      "valid": true,
+      "handler": 10.399999976158142,
+      "handlerReady": true,
+      "save": 181.80000001192093,
+      "grab": {
+        "downToState": 10.899999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 34.09999996423721
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:20.437Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 32.19999998807907,
+      "valid": true,
+      "handler": 1.899999976158142,
+      "handlerReady": true,
+      "save": 182.5,
+      "grab": {
+        "downToState": 14.300000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 18.19999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:25.016Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 31.100000023841858,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 181,
+      "grab": {
+        "downToState": 8.799999952316284,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 32.69999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:25.016Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 29.200000047683716,
+      "valid": true,
+      "handler": 3.600000023841858,
+      "handlerReady": true,
+      "save": 185.70000004768372,
+      "grab": {
+        "downToState": 7.600000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.19999998807907
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:25.016Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 32.89999997615814,
+      "valid": true,
+      "handler": 12.5,
+      "handlerReady": true,
+      "save": 192,
+      "grab": {
+        "downToState": 11.199999988079071,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 30.899999976158142
+      },
+      "query": "",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:25.016Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 33.89999997615814,
+      "valid": true,
+      "handler": 2,
+      "handlerReady": true,
+      "save": 167.19999998807907,
+      "grab": {
+        "downToState": 16.69999998807907,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.69999998807907
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:29.596Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 33.69999998807907,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 167.80000001192093,
+      "grab": {
+        "downToState": 9.399999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 33.89999997615814
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:29.596Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 28.399999976158142,
+      "valid": true,
+      "handler": 3.5,
+      "handlerReady": true,
+      "save": 185.39999997615814,
+      "grab": {
+        "downToState": 9,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 18.299999952316284
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:29.596Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 34.200000047683716,
+      "valid": true,
+      "handler": 11.700000047683716,
+      "handlerReady": true,
+      "save": 190.70000004768372,
+      "grab": {
+        "downToState": 8.800000011920929,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 33.39999997615814
+      },
+      "query": "",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:29.596Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 32.30000001192093,
+      "valid": true,
+      "handler": 9,
+      "handlerReady": true,
+      "save": 166.19999998807907,
+      "grab": {
+        "downToState": 15.5,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 18.400000035762787
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:34.417Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 32.30000001192093,
+      "valid": true,
+      "handler": 2.599999964237213,
+      "handlerReady": true,
+      "save": 166.19999998807907,
+      "grab": {
+        "downToState": 10.899999976158142,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 32.200000047683716
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:34.417Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 114.59999996423721,
+      "valid": true,
+      "handler": 92.69999998807907,
+      "handlerReady": true,
+      "save": 184.69999998807907,
+      "grab": {
+        "downToState": 24.69999998807907,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 16.399999976158142
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:34.417Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 31.700000047683716,
+      "valid": true,
+      "handler": 13.300000011920929,
+      "handlerReady": true,
+      "save": 190.60000002384186,
+      "grab": {
+        "downToState": 8.099999964237213,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 33.09999996423721
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:34.417Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 31.80000001192093,
+      "valid": true,
+      "handler": 5.099999964237213,
+      "handlerReady": true,
+      "save": 165.69999998807907,
+      "grab": {
+        "downToState": 17.19999998807907,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 14.699999988079071
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:39.224Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 32.5,
+      "valid": true,
+      "handler": 2.600000023841858,
+      "handlerReady": true,
+      "save": 167.10000002384186,
+      "grab": {
+        "downToState": 14.699999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17.600000023841858
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:39.224Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 28.900000035762787,
+      "valid": true,
+      "handler": 18,
+      "handlerReady": true,
+      "save": 188.20000004768372,
+      "grab": {
+        "downToState": 10.699999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 15.5
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:39.224Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 32.200000047683716,
+      "valid": true,
+      "handler": 13.800000011920929,
+      "handlerReady": true,
+      "save": 191.80000001192093,
+      "grab": {
+        "downToState": 8.799999952316284,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 32.19999998807907
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:39.224Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 32,
+      "valid": true,
+      "handler": 4.5,
+      "handlerReady": true,
+      "save": 164.89999997615814,
+      "grab": {
+        "downToState": 14.699999988079071,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 15.699999988079071
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:44.283Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 32.200000047683716,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 165.20000004768372,
+      "grab": {
+        "downToState": 9.199999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 33.59999996423721
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:44.283Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 29.100000023841858,
+      "valid": true,
+      "handler": 18.80000001192093,
+      "handlerReady": true,
+      "save": 182.60000002384186,
+      "grab": {
+        "downToState": 9.199999988079071,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 15.300000011920929
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:44.283Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 32.10000002384186,
+      "valid": true,
+      "handler": 10.900000035762787,
+      "handlerReady": true,
+      "save": 182.60000002384186,
+      "grab": {
+        "downToState": 3,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 35.60000002384186
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:26:44.283Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 33.69999998807907,
+      "valid": true,
+      "handler": 7.300000011920929,
+      "handlerReady": true,
+      "save": 167.39999997615814,
+      "grab": {
+        "downToState": 11.400000035762787,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 16.5
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:49.570Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 31.5,
+      "valid": true,
+      "handler": 2.200000047683716,
+      "handlerReady": true,
+      "save": 165.4000000357628,
+      "grab": {
+        "downToState": 13.899999976158142,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 32.10000002384186
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:49.570Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 128.5,
+      "valid": true,
+      "handler": 103.80000001192093,
+      "handlerReady": true,
+      "save": 186.60000002384186,
+      "grab": {
+        "downToState": 23.80000001192093,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 18.599999964237213
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:49.570Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 32.60000002384186,
+      "valid": true,
+      "handler": 12.800000011920929,
+      "handlerReady": true,
+      "save": 185.70000004768372,
+      "grab": {
+        "downToState": 3.299999952316284,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 32.700000047683716
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:49.570Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 33.19999998807907,
+      "valid": true,
+      "handler": 7.599999964237213,
+      "handlerReady": true,
+      "save": 166.0999999642372,
+      "grab": {
+        "downToState": 13,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.69999998807907
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:54.956Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 33.10000002384186,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 165.30000001192093,
+      "grab": {
+        "downToState": 9.100000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 32.60000002384186
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:54.956Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 135.4000000357628,
+      "valid": true,
+      "handler": 110.60000002384186,
+      "handlerReady": true,
+      "save": 187.10000002384186,
+      "grab": {
+        "downToState": 25.19999998807907,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.5
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:54.956Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 33,
+      "valid": true,
+      "handler": 11.5,
+      "handlerReady": true,
+      "save": 185.9000000357628,
+      "grab": {
+        "downToState": 18.100000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.39999997615814
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:26:54.956Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 33.30000001192093,
+      "valid": true,
+      "handler": 4.600000023841858,
+      "handlerReady": true,
+      "save": 166.19999998807907,
+      "grab": {
+        "downToState": 10.100000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.80000001192093
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:00.457Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 32.80000001192093,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 167.10000002384186,
+      "grab": {
+        "downToState": 11.5,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 34.10000002384186
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:00.457Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 30.30000001192093,
+      "valid": true,
+      "handler": 19.5,
+      "handlerReady": true,
+      "save": 185.5,
+      "grab": {
+        "downToState": 23.30000001192093,
+        "triggeringMoveHandler": 0.20000004768371582,
+        "resultProxy": 18.700000047683716
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:00.457Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 33.89999997615814,
+      "valid": true,
+      "handler": 11.5,
+      "handlerReady": true,
+      "save": 184.39999997615814,
+      "grab": {
+        "downToState": 10.399999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 35.59999996423721
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:00.457Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 31.80000001192093,
+      "valid": true,
+      "handler": 4.300000011920929,
+      "handlerReady": true,
+      "save": 165.5,
+      "grab": {
+        "downToState": 12.800000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.5
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:05.886Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 32.80000001192093,
+      "valid": true,
+      "handler": 2.300000011920929,
+      "handlerReady": true,
+      "save": 166.19999998807907,
+      "grab": {
+        "downToState": 7,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 36.39999997615814
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:05.886Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 30.900000035762787,
+      "valid": true,
+      "handler": 19.600000023841858,
+      "handlerReady": true,
+      "save": 185.5,
+      "grab": {
+        "downToState": 23.100000023841858,
+        "triggeringMoveHandler": 0.20000004768371582,
+        "resultProxy": 16.5
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:05.886Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 31,
+      "valid": true,
+      "handler": 11.899999976158142,
+      "handlerReady": true,
+      "save": 185.79999995231628,
+      "grab": {
+        "downToState": 7.899999976158142,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.80000001192093
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:05.886Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 32,
+      "valid": true,
+      "handler": 7.399999976158142,
+      "handlerReady": true,
+      "save": 166.89999997615814,
+      "grab": {
+        "downToState": 12.199999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 15.700000047683716
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:11.780Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 32.80000001192093,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 167.30000001192093,
+      "grab": {
+        "downToState": 10,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.39999997615814
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:11.780Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 138.10000002384186,
+      "valid": true,
+      "handler": 112.39999997615814,
+      "handlerReady": true,
+      "save": 186.10000002384186,
+      "grab": {
+        "downToState": 15.699999988079071,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.600000023841858
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:11.780Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 33.80000001192093,
+      "valid": true,
+      "handler": 13.600000023841858,
+      "handlerReady": true,
+      "save": 186.60000002384186,
+      "grab": {
+        "downToState": 8.799999952316284,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 34.39999997615814
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:11.780Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 33,
+      "valid": true,
+      "handler": 7.699999988079071,
+      "handlerReady": true,
+      "save": 167.30000001192093,
+      "grab": {
+        "downToState": 13.699999988079071,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 16.899999976158142
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:17.322Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 32.39999997615814,
+      "valid": true,
+      "handler": 2,
+      "handlerReady": true,
+      "save": 165.60000002384186,
+      "grab": {
+        "downToState": 10,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.40000003576279
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:17.322Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 133.70000004768372,
+      "valid": true,
+      "handler": 109.20000004768372,
+      "handlerReady": true,
+      "save": 183.70000004768372,
+      "grab": {
+        "downToState": 15.899999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 17
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:17.322Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 32.89999997615814,
+      "valid": true,
+      "handler": 11.100000023841858,
+      "handlerReady": true,
+      "save": 187.69999998807907,
+      "grab": {
+        "downToState": 3.5,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 32.59999996423721
+      },
+      "query": "検証",
+      "source": "performance/round5/before.html",
+      "date": "2026-10-09T18:27:17.322Z",
+      "sourceHash": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 31.19999998807907,
+      "valid": true,
+      "handler": 4.300000011920929,
+      "handlerReady": true,
+      "save": 166.19999998807907,
+      "grab": {
+        "downToState": 14.799999952316284,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 17.5
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:22.880Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 33,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 165.69999998807907,
+      "grab": {
+        "downToState": 12,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 31.69999998807907
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:22.880Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 31.19999998807907,
+      "valid": true,
+      "handler": 18.80000001192093,
+      "handlerReady": true,
+      "save": 183.5,
+      "grab": {
+        "downToState": 18.80000001192093,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 14.800000011920929
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:22.880Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 33.69999998807907,
+      "valid": true,
+      "handler": 12.399999976158142,
+      "handlerReady": true,
+      "save": 185.0999999642372,
+      "grab": {
+        "downToState": 18.80000001192093,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 31.69999998807907
+      },
+      "query": "検証",
+      "source": "peta-board.html",
+      "date": "2026-10-09T18:27:22.880Z",
+      "sourceHash": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html"
+    }
+  ],
+  "definition": "Native mouse, 1440x900,50/500notes,note/column,empty and matching query. AB/BA paired5 contexts/condition, same temporary URL. Grab state/2rAF, final state/2rAF and save+reload are distinct; no physical display/INP."
+}

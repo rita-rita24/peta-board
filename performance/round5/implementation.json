@@ -1,0 +1,17 @@
+{
+  "applicationSha256": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "bytes": 225177,
+  "functions": 211,
+  "baselineSha256": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+  "baselineStage": "e26 theme optimization, before note and column collection reconciliation",
+  "regressionRepair": {
+    "symptom": "Blank draft discard returned focus to preserved add-note button instead of prior column title",
+    "action": "Kept original full-render path for this case",
+    "validation": "102 snapshots per engine final parity including blank draft focus"
+  },
+  "compatibility": {
+    "minimumBrowserConfirmed": false,
+    "existingRangePreserved": true,
+    "realIMEAndTouchVerified": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-08T23:29:07.214Z",
+  "version": "a55ab510d4b6a0c99900668227c497e13c2e7c2338fa5d579e96427f54f80274",
+  "rows": [
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 0,
+      "ms": 1082.1000000238419,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 1,
+      "ms": 1288.3999999761581,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodysize",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size}",
+      "run": 0,
+      "ms": 694.8999999761581,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodysize",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size}",
+      "run": 1,
+      "ms": 840.8000000119209,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodysizelayout",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size layout}",
+      "run": 0,
+      "ms": 790.5999999642372,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodysizelayout",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size layout}",
+      "run": 1,
+      "ms": 760.8000000119209,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodyzero",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{max-height:0}",
+      "run": 0,
+      "ms": 932.2999999523163,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodyzero",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{max-height:0}",
+      "run": 1,
+      "ms": 905.5999999642372,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodystrict",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:strict}",
+      "run": 0,
+      "ms": 645.5,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodystrict",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:strict}",
+      "run": 1,
+      "ms": 741.8000000119209,
+      "differentGeometryCount": 0
+    },
+    {
+      "name": "bodysizeauto",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size;content-visibility:auto}",
+      "run": 0,
+      "ms": 205,
+      "differentGeometryCount": 344
+    },
+    {
+      "name": "bodysizeauto",
+      "css": ".note-list.has-clipped-rows>.note-card:has(.note-footer)>.note-body{contain:size;content-visibility:auto}",
+      "run": 1,
+      "ms": 199.10000002384186,
+      "differentGeometryCount": 344
+    }
+  ]
+}

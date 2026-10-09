@@ -1,0 +1,732 @@
+{
+  "date": "2026-10-09T01:18:00.070Z",
+  "versions": {
+    "performance/round3/before.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+    "performance/round3/candidate-pre.html": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb"
+  },
+  "bodyInternalScrollSizeExcluded": "overflow:hidden line-clamped body only; card/list scroll extent and visible pixels checked",
+  "results": [
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 50,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 5,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 5,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": false,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    }
+  ],
+  "accessibilityEqual": true,
+  "accessibilityDefinition": "semantic roles/names/values including complete StaticText; browser-internal InlineTextBox line fragments excluded because zero-height text stops wrapping"
+}

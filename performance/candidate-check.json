@@ -1,0 +1,122 @@
+[
+  {
+    "source": "performance/before.html",
+    "run": 0,
+    "query": "検証対象",
+    "ms": 112.39999997615814
+  },
+  {
+    "source": "performance/before.html",
+    "run": 0,
+    "query": "",
+    "ms": 1436.199999988079
+  },
+  {
+    "source": "performance/before.html",
+    "run": 1,
+    "query": "検証対象",
+    "ms": 116.69999998807907
+  },
+  {
+    "source": "performance/before.html",
+    "run": 1,
+    "query": "",
+    "ms": 1242.5
+  },
+  {
+    "source": "performance/before.html",
+    "run": 2,
+    "query": "検証対象",
+    "ms": 99.29999995231628
+  },
+  {
+    "source": "performance/before.html",
+    "run": 2,
+    "query": "",
+    "ms": 1668.8999999761581
+  },
+  {
+    "source": "performance/before.html",
+    "run": 3,
+    "query": "検証対象",
+    "ms": 108.90000003576279
+  },
+  {
+    "source": "performance/before.html",
+    "run": 3,
+    "query": "",
+    "ms": 1024.6000000238419
+  },
+  {
+    "source": "performance/before.html",
+    "run": 4,
+    "query": "検証対象",
+    "ms": 84.69999998807907
+  },
+  {
+    "source": "performance/before.html",
+    "run": 4,
+    "query": "",
+    "ms": 1225.4000000357628
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 0,
+    "query": "検証対象",
+    "ms": 95
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 0,
+    "query": "",
+    "ms": 1409.0999999642372
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 1,
+    "query": "検証対象",
+    "ms": 81.59999996423721
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 1,
+    "query": "",
+    "ms": 1054.199999988079
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 2,
+    "query": "検証対象",
+    "ms": 80.5
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 2,
+    "query": "",
+    "ms": 1369.699999988079
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 3,
+    "query": "検証対象",
+    "ms": 90.09999996423721
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 3,
+    "query": "",
+    "ms": 1377.7000000476837
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 4,
+    "query": "検証対象",
+    "ms": 122.89999997615814
+  },
+  {
+    "source": "performance/candidate-incremental.html",
+    "run": 4,
+    "query": "",
+    "ms": 1599.2000000476837
+  }
+]

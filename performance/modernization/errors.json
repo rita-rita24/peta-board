@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-09T15:59:15.696Z",
+  "browser": "154.0.8037.99",
+  "rows": [
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 92.39999997615814,
+      "content": 92.5,
+      "result": 92.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 196.5,
+      "content": 196.5,
+      "result": 196.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 111.19999998807907,
+      "content": 111.19999998807907,
+      "result": 111.19999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 79.30000001192093,
+      "content": 79.30000001192093,
+      "result": 79.30000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 57.799999952316284,
+      "content": 57.89999997615814,
+      "result": 57.89999997615814
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 91.69999998807907,
+      "content": 238,
+      "result": 238
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 90,
+      "content": 238.20000004768372,
+      "result": 238.20000004768372
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 61.90000003576279,
+      "content": 212,
+      "result": 212
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 75.80000001192093,
+      "content": 224.5,
+      "result": 224.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 103.80000001192093,
+      "content": 255.30000001192093,
+      "result": 255.30000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 60.69999998807907,
+      "content": 60.69999998807907,
+      "result": 60.69999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 62.90000003576279,
+      "content": 62.90000003576279,
+      "result": 62.90000003576279
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 81.30000001192093,
+      "content": 81.30000001192093,
+      "result": 81.30000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 68,
+      "content": 68,
+      "result": 68
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 65.39999997615814,
+      "content": 65.39999997615814,
+      "result": 65.39999997615814
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 87.10000002384186,
+      "content": 87.10000002384186,
+      "result": 87.10000002384186
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 64.20000004768372,
+      "content": 64.20000004768372,
+      "result": 64.20000004768372
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 69.19999998807907,
+      "content": 69.19999998807907,
+      "result": 69.19999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 64.40000003576279,
+      "content": 64.40000003576279,
+      "result": 64.40000003576279
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 70.30000001192093,
+      "content": 70.30000001192093,
+      "result": 70.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 84.60000002384186,
+      "content": 84.60000002384186,
+      "result": 84.60000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 58,
+      "content": 58,
+      "result": 58
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 98.09999996423721,
+      "content": 98.09999996423721,
+      "result": 98.09999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 62.90000003576279,
+      "content": 62.90000003576279,
+      "result": 62.90000003576279
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 74.80000001192093,
+      "content": 74.80000001192093,
+      "result": 74.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 131.69999998807907,
+      "content": 296.89999997615814,
+      "result": 296.89999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 73.30000001192093,
+      "content": 223.4000000357628,
+      "result": 223.4000000357628
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 69.30000001192093,
+      "content": 219.60000002384186,
+      "result": 219.60000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 106,
+      "content": 255.19999998807907,
+      "result": 255.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 67.5,
+      "content": 217.69999998807907,
+      "result": 217.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 75.5,
+      "content": 75.5,
+      "result": 75.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 89.40000003576279,
+      "content": 89.40000003576279,
+      "result": 89.40000003576279
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 68.80000001192093,
+      "content": 68.80000001192093,
+      "result": 68.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 92.69999998807907,
+      "content": 92.69999998807907,
+      "result": 92.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 88.40000003576279,
+      "content": 88.40000003576279,
+      "result": 88.40000003576279
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 74.60000002384186,
+      "content": 74.60000002384186,
+      "result": 74.60000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 99.20000004768372,
+      "content": 99.20000004768372,
+      "result": 99.20000004768372
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 75.19999998807907,
+      "content": 75.19999998807907,
+      "result": 75.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 60.799999952316284,
+      "content": 60.799999952316284,
+      "result": 60.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 108.89999997615814,
+      "content": 108.89999997615814,
+      "result": 108.89999997615814
+    }
+  ]
+}

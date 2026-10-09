@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09T18:10:16.696Z",
+  "snapshots": 72,
+  "checks": [
+    {
+      "file": "performance/drag/before.html",
+      "width": 375,
+      "kind": "small",
+      "oracle": 270
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 375,
+      "kind": "spread",
+      "oracle": 864
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 375,
+      "kind": "dense",
+      "oracle": 612
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 375,
+      "kind": "two",
+      "oracle": 54
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 1440,
+      "kind": "small",
+      "oracle": 270
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 1440,
+      "kind": "spread",
+      "oracle": 864
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 1440,
+      "kind": "dense",
+      "oracle": 612
+    },
+    {
+      "file": "performance/drag/before.html",
+      "width": 1440,
+      "kind": "two",
+      "oracle": 54
+    },
+    {
+      "file": "peta-board.html",
+      "width": 375,
+      "kind": "small",
+      "oracle": 270
+    },
+    {
+      "file": "peta-board.html",
+      "width": 375,
+      "kind": "spread",
+      "oracle": 864
+    },
+    {
+      "file": "peta-board.html",
+      "width": 375,
+      "kind": "dense",
+      "oracle": 612
+    },
+    {
+      "file": "peta-board.html",
+      "width": 375,
+      "kind": "two",
+      "oracle": 54
+    },
+    {
+      "file": "peta-board.html",
+      "width": 1440,
+      "kind": "small",
+      "oracle": 270
+    },
+    {
+      "file": "peta-board.html",
+      "width": 1440,
+      "kind": "spread",
+      "oracle": 864
+    },
+    {
+      "file": "peta-board.html",
+      "width": 1440,
+      "kind": "dense",
+      "oracle": 612
+    },
+    {
+      "file": "peta-board.html",
+      "width": 1440,
+      "kind": "two",
+      "oracle": 54
+    }
+  ],
+  "errors": [],
+  "equal": true
+}

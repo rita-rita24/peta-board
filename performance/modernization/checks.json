@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-10 JST",
+  "node": "24.21.0",
+  "applicationSha256": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489",
+  "remoteCI": false,
+  "staticChecks": [
+    {
+      "name": "syntax",
+      "command": "/Users/arita-ritsuki/.npm/_npx/538786c08bcb9442/node_modules/node/bin/node scripts/check.mjs",
+      "exitCode": 0,
+      "output": "Application JS, 3 CSS blocks, 71 CJS and 6 Python files checked\n"
+    },
+    {
+      "name": "eslint",
+      "command": "/Users/arita-ritsuki/.npm/_npx/538786c08bcb9442/node_modules/node/bin/node node_modules/.bin/eslint scripts performance .checks eslint.config.mjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "name": "html",
+      "command": "/Users/arita-ritsuki/.npm/_npx/538786c08bcb9442/node_modules/node/bin/node node_modules/.bin/html-validate peta-board.html",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "name": "css",
+      "command": "/Users/arita-ritsuki/.npm/_npx/538786c08bcb9442/node_modules/node/bin/node node_modules/.bin/stylelint '.checks/*.css'",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "name": "format",
+      "command": "/Users/arita-ritsuki/.npm/_npx/538786c08bcb9442/node_modules/node/bin/node node_modules/.bin/prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json .github/workflows/check.yml",
+      "exitCode": 0,
+      "output": "Checking formatting...\nAll matched files use Prettier code style!\n"
+    },
+    {
+      "name": "diff",
+      "command": "git diff --check",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "functionalEvidence": [
+    "regression.json",
+    "storage-regression.json",
+    "gestures.json",
+    "drag-regression.json",
+    "modal-verification.json"
+  ]
+}

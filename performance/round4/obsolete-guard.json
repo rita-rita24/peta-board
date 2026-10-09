@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-09T17:22:36.622Z",
+  "embeddedScanRejected": true,
+  "astRuleRejected": true,
+  "definition": "Inject event.which into a temporary standalone HTML and JS probe; require the intended obsolete-pattern assertion and ESLint rule, rather than any generic failure. Original app untouched."
+}

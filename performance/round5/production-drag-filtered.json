@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-09T18:28:12.111Z",
+  "source": "peta-board.html",
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "filterQuery": "検証",
+  "definition": "Grab: pointerdown to drag class includes robot transport/path/threshold delay; triggeringMoveHandler is synchronous move to drag class, not input queue. Grab resultProxy is two rAF, not real Paint/display. Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 33,
+      "valid": true,
+      "handler": 4.199999988079071,
+      "handlerReady": true,
+      "save": 165,
+      "grab": {
+        "downToState": 9.200000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.399999976158142
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 33.09999996423721,
+      "valid": true,
+      "handler": 2.099999964237213,
+      "handlerReady": true,
+      "save": 166.5,
+      "grab": {
+        "downToState": 9.200000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 32.89999997615814
+      }
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 1,
+      "ready": 30.19999998807907,
+      "valid": true,
+      "handler": 4.299999952316284,
+      "handlerReady": true,
+      "save": 164.29999995231628,
+      "grab": {
+        "downToState": 13.900000035762787,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.69999998807907
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 1,
+      "ready": 31.80000001192093,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 165.69999998807907,
+      "grab": {
+        "downToState": 11.799999952316284,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 16.899999976158142
+      }
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 2,
+      "ready": 32.10000002384186,
+      "valid": true,
+      "handler": 4.100000023841858,
+      "handlerReady": true,
+      "save": 166.5,
+      "grab": {
+        "downToState": 11.300000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 15.900000035762787
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 2,
+      "ready": 30.69999998807907,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 164.9000000357628,
+      "grab": {
+        "downToState": 6.100000023841858,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 33.19999998807907
+      }
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 3,
+      "ready": 32.69999998807907,
+      "valid": true,
+      "handler": 4.199999988079071,
+      "handlerReady": true,
+      "save": 166.30000001192093,
+      "grab": {
+        "downToState": 10.5,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 16.69999998807907
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 3,
+      "ready": 33.19999998807907,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 168.0999999642372,
+      "grab": {
+        "downToState": 12.800000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 18.399999976158142
+      }
+    },
+    {
+      "n": 50,
+      "type": "note",
+      "run": 4,
+      "ready": 33.30000001192093,
+      "valid": true,
+      "handler": 4.400000035762787,
+      "handlerReady": true,
+      "save": 166.70000004768372,
+      "grab": {
+        "downToState": 14.300000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 18.200000047683716
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 4,
+      "ready": 32.40000003576279,
+      "valid": true,
+      "handler": 2.300000011920929,
+      "handlerReady": true,
+      "save": 167,
+      "grab": {
+        "downToState": 9.700000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 32.30000001192093
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 32.30000001192093,
+      "valid": true,
+      "handler": 18.5,
+      "handlerReady": true,
+      "save": 184.10000002384186,
+      "grab": {
+        "downToState": 24.19999998807907,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 17.399999976158142
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 31,
+      "valid": true,
+      "handler": 12.099999964237213,
+      "handlerReady": true,
+      "save": 185.19999998807907,
+      "grab": {
+        "downToState": 5.199999988079071,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 36.5
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 1,
+      "ready": 35.700000047683716,
+      "valid": true,
+      "handler": 24.400000035762787,
+      "handlerReady": true,
+      "save": 184.70000004768372,
+      "grab": {
+        "downToState": 21.69999998807907,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 16.80000001192093
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 1,
+      "ready": 31.19999998807907,
+      "valid": true,
+      "handler": 11.300000011920929,
+      "handlerReady": true,
+      "save": 182.80000001192093,
+      "grab": {
+        "downToState": 9.900000035762787,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 2,
+      "ready": 33.5,
+      "valid": true,
+      "handler": 22.30000001192093,
+      "handlerReady": true,
+      "save": 186.9000000357628,
+      "grab": {
+        "downToState": 22.899999976158142,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 16.899999976158142
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 2,
+      "ready": 32.89999997615814,
+      "valid": true,
+      "handler": 13.699999988079071,
+      "handlerReady": true,
+      "save": 184.19999998807907,
+      "grab": {
+        "downToState": 7.699999988079071,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 33
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 3,
+      "ready": 37.69999998807907,
+      "valid": true,
+      "handler": 24.600000023841858,
+      "handlerReady": true,
+      "save": 190.19999998807907,
+      "grab": {
+        "downToState": 18.700000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.600000023841858
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 3,
+      "ready": 30.600000023841858,
+      "valid": true,
+      "handler": 15.5,
+      "handlerReady": true,
+      "save": 183.30000001192093,
+      "grab": {
+        "downToState": 5.300000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 36.80000001192093
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 4,
+      "ready": 35.80000001192093,
+      "valid": true,
+      "handler": 23.399999976158142,
+      "handlerReady": true,
+      "save": 194.30000001192093,
+      "grab": {
+        "downToState": 16.599999964237213,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 15.199999988079071
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 4,
+      "ready": 32.80000001192093,
+      "valid": true,
+      "handler": 14,
+      "handlerReady": true,
+      "save": 185.60000002384186,
+      "grab": {
+        "downToState": 4,
+        "triggeringMoveHandler": 0.19999998807907104,
+        "resultProxy": 37.39999997615814
+      }
+    }
+  ],
+  "errors": []
+}

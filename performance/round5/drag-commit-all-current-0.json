@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09T18:25:52.899Z",
+  "source": "peta-board.html",
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-MX39bs/board.html",
+  "filterQuery": null,
+  "definition": "Grab: pointerdown to drag class includes robot transport/path/threshold delay; triggeringMoveHandler is synchronous move to drag class, not input queue. Grab resultProxy is two rAF, not real Paint/display. Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 33.80000001192093,
+      "valid": true,
+      "handler": 1.7000000476837158,
+      "handlerReady": true,
+      "save": 165.20000004768372,
+      "grab": {
+        "downToState": 15.199999988079071,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 15.400000035762787
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 33,
+      "valid": true,
+      "handler": 2.599999964237213,
+      "handlerReady": true,
+      "save": 166.5999999642372,
+      "grab": {
+        "downToState": 10.299999952316284,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 31
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 28.099999964237213,
+      "valid": true,
+      "handler": 3.599999964237213,
+      "handlerReady": true,
+      "save": 193.69999998807907,
+      "grab": {
+        "downToState": 9.700000047683716,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 16.5
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 32,
+      "valid": true,
+      "handler": 12.400000035762787,
+      "handlerReady": true,
+      "save": 183.10000002384186,
+      "grab": {
+        "downToState": 9.5,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 31.399999976158142
+      }
+    }
+  ],
+  "errors": []
+}

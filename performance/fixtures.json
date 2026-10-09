@@ -1,0 +1,29 @@
+[
+  {
+    "count": 0,
+    "columns": 4,
+    "bytes": 293,
+    "bodyLength": [],
+    "checklist": 0
+  },
+  {
+    "count": 50,
+    "columns": 4,
+    "bytes": 21139,
+    "bodyLength": [
+      70,
+      60
+    ],
+    "checklist": 3
+  },
+  {
+    "count": 500,
+    "columns": 12,
+    "bytes": 3475569,
+    "bodyLength": [
+      2800,
+      2400
+    ],
+    "checklist": 30
+  }
+]

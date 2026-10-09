@@ -1,0 +1,5 @@
+{
+  "observedAt": "2026-10-08T23:43:23.142801+00:00",
+  "observation": "Several other projects were running independent browser benchmarks on the same Mac during measurement; CPU/background load uncontrolled. Our measurement browsers execute sequentially. No unrelated process was stopped. Final HTML hash unchanged.",
+  "mitigation": "Alternate versions within each pair; increase dense-case repeats to 10; report ranges and no-claim results."
+}

@@ -1,0 +1,2891 @@
+{
+  "date": "2026-10-09T16:14:15.800Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/followup/before.html": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489"
+  },
+  "definition": "50/500 notes, dense single column, 375/1440x900, five independent contexts per source, AB/BA source order, eight synthetic input events/trial. handler synchronous; frameReady two rAF proxy. Search 検証 matches all tags. Membership removal/reinsertion, focus, selection, scroll, reload verified. No physical paint/INP claim.",
+  "rows": [
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 0,
+      "handler": 6.100000023841858,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 1,
+      "handler": 6.199999988079071,
+      "frameReady": 34.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 2,
+      "handler": 7.399999976158142,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 3,
+      "handler": 9.100000023841858,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 4,
+      "handler": 10,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 5,
+      "handler": 10,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 6,
+      "handler": 9.599999964237213,
+      "frameReady": 33.69999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 7,
+      "handler": 9.900000035762787,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 0,
+      "handler": 6.100000023841858,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 1,
+      "handler": 6.399999976158142,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 2,
+      "handler": 6.100000023841858,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 3,
+      "handler": 5.800000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 4,
+      "handler": 7.300000011920929,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 5,
+      "handler": 8.300000011920929,
+      "frameReady": 34.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 6,
+      "handler": 9,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 7,
+      "handler": 10,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 0,
+      "handler": 6.099999964237213,
+      "frameReady": 32.69999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 1,
+      "handler": 6.5,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 2,
+      "handler": 7,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 3,
+      "handler": 8,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 4,
+      "handler": 8.700000047683716,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 5,
+      "handler": 8.899999976158142,
+      "frameReady": 32.39999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 6,
+      "handler": 9.5,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 7,
+      "handler": 9.900000035762787,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 0,
+      "handler": 6,
+      "frameReady": 33.40000003576279,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 1,
+      "handler": 6.600000023841858,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 2,
+      "handler": 7.199999988079071,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 3,
+      "handler": 8.300000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 4,
+      "handler": 8.300000011920929,
+      "frameReady": 34,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 5,
+      "handler": 9.600000023841858,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 6,
+      "handler": 11.199999988079071,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 7,
+      "handler": 10.300000011920929,
+      "frameReady": 34.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 0,
+      "handler": 5.899999976158142,
+      "frameReady": 32.59999996423721,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 1,
+      "handler": 6.600000023841858,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 2,
+      "handler": 7.800000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 3,
+      "handler": 8.600000023841858,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 4,
+      "handler": 9.199999988079071,
+      "frameReady": 32.89999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 5,
+      "handler": 10,
+      "frameReady": 32.69999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 6,
+      "handler": 10.299999952316284,
+      "frameReady": 33.799999952316284,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 7,
+      "handler": 10.400000035762787,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 0,
+      "handler": 90.70000004768372,
+      "frameReady": 99.20000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 1,
+      "handler": 96.09999996423721,
+      "frameReady": 117,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 2,
+      "handler": 84.69999998807907,
+      "frameReady": 99,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 3,
+      "handler": 84.5,
+      "frameReady": 99.70000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 4,
+      "handler": 86.39999997615814,
+      "frameReady": 99.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 5,
+      "handler": 92,
+      "frameReady": 116.19999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 6,
+      "handler": 85.5,
+      "frameReady": 99.60000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 7,
+      "handler": 87.20000004768372,
+      "frameReady": 99.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 0,
+      "handler": 93.5,
+      "frameReady": 116.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 1,
+      "handler": 98.30000001192093,
+      "frameReady": 116.60000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 2,
+      "handler": 86.80000001192093,
+      "frameReady": 100.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 3,
+      "handler": 86.80000001192093,
+      "frameReady": 98.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 4,
+      "handler": 87.70000004768372,
+      "frameReady": 99,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 5,
+      "handler": 96.5,
+      "frameReady": 116.10000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 6,
+      "handler": 84.90000003576279,
+      "frameReady": 99.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 7,
+      "handler": 88.29999995231628,
+      "frameReady": 99.39999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 0,
+      "handler": 96.29999995231628,
+      "frameReady": 115.59999996423721,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 1,
+      "handler": 110.69999998807907,
+      "frameReady": 132.79999995231628,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 2,
+      "handler": 101.20000004768372,
+      "frameReady": 116.40000003576279,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 3,
+      "handler": 100,
+      "frameReady": 116.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 4,
+      "handler": 104.39999997615814,
+      "frameReady": 133.19999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 5,
+      "handler": 131,
+      "frameReady": 167.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 6,
+      "handler": 114.10000002384186,
+      "frameReady": 132.19999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 7,
+      "handler": 126.39999997615814,
+      "frameReady": 156.19999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 0,
+      "handler": 93.80000001192093,
+      "frameReady": 117.20000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 1,
+      "handler": 100.59999996423721,
+      "frameReady": 117.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 2,
+      "handler": 87.39999997615814,
+      "frameReady": 99.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 3,
+      "handler": 87.29999995231628,
+      "frameReady": 100.09999996423721,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 4,
+      "handler": 89.39999997615814,
+      "frameReady": 99,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 5,
+      "handler": 93.60000002384186,
+      "frameReady": 116.30000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 6,
+      "handler": 87.29999995231628,
+      "frameReady": 99.19999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 7,
+      "handler": 89,
+      "frameReady": 99.70000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 0,
+      "handler": 94.19999998807907,
+      "frameReady": 117.39999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 1,
+      "handler": 97.60000002384186,
+      "frameReady": 116.39999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 2,
+      "handler": 85.19999998807907,
+      "frameReady": 99.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 3,
+      "handler": 84,
+      "frameReady": 100.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 4,
+      "handler": 87.5,
+      "frameReady": 99.30000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 5,
+      "handler": 92.09999996423721,
+      "frameReady": 116.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 6,
+      "handler": 85.09999996423721,
+      "frameReady": 100,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 7,
+      "handler": 86.80000001192093,
+      "frameReady": 99.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 0,
+      "handler": 6.099999964237213,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 1,
+      "handler": 6.900000035762787,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 2,
+      "handler": 7.399999976158142,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 3,
+      "handler": 8.400000035762787,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 4,
+      "handler": 9.900000035762787,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 5,
+      "handler": 10.399999976158142,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 6,
+      "handler": 11.100000023841858,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 7,
+      "handler": 10.699999988079071,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 0,
+      "handler": 6,
+      "frameReady": 34,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 1,
+      "handler": 6.599999964237213,
+      "frameReady": 34.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 2,
+      "handler": 7.199999988079071,
+      "frameReady": 33.69999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 3,
+      "handler": 8.600000023841858,
+      "frameReady": 34.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 4,
+      "handler": 8.800000011920929,
+      "frameReady": 32.39999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 5,
+      "handler": 9.199999988079071,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 6,
+      "handler": 10.199999988079071,
+      "frameReady": 32.90000003576279,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 7,
+      "handler": 10.100000023841858,
+      "frameReady": 33.700000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 0,
+      "handler": 6.199999988079071,
+      "frameReady": 32.59999996423721,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 1,
+      "handler": 6.300000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 2,
+      "handler": 7.199999988079071,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 3,
+      "handler": 7.900000035762787,
+      "frameReady": 32.69999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 4,
+      "handler": 8.900000035762787,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 5,
+      "handler": 9.100000023841858,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 6,
+      "handler": 9.800000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 7,
+      "handler": 10.5,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 0,
+      "handler": 5.899999976158142,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 1,
+      "handler": 6.600000023841858,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 2,
+      "handler": 7.600000023841858,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 3,
+      "handler": 8.600000023841858,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 4,
+      "handler": 8.900000035762787,
+      "frameReady": 33.40000003576279,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 5,
+      "handler": 9.699999988079071,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 6,
+      "handler": 10.300000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 7,
+      "handler": 10.800000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 0,
+      "handler": 6.300000011920929,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 1,
+      "handler": 6.699999988079071,
+      "frameReady": 32.90000003576279,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 2,
+      "handler": 7.300000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 3,
+      "handler": 8.799999952316284,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 4,
+      "handler": 9.199999988079071,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 5,
+      "handler": 9.300000011920929,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 6,
+      "handler": 9.800000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 7,
+      "handler": 10.100000023841858,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 0,
+      "handler": 95.69999998807907,
+      "frameReady": 116.60000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 1,
+      "handler": 101.19999998807907,
+      "frameReady": 119.89999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 2,
+      "handler": 92.5,
+      "frameReady": 116.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 3,
+      "handler": 93,
+      "frameReady": 116.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 4,
+      "handler": 88.19999998807907,
+      "frameReady": 98.79999995231628,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 5,
+      "handler": 99.10000002384186,
+      "frameReady": 118,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 6,
+      "handler": 91.59999996423721,
+      "frameReady": 116,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 7,
+      "handler": 88.69999998807907,
+      "frameReady": 99.59999996423721,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 0,
+      "handler": 92.10000002384186,
+      "frameReady": 116.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 1,
+      "handler": 98.29999995231628,
+      "frameReady": 116.59999996423721,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 2,
+      "handler": 84.69999998807907,
+      "frameReady": 100.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 3,
+      "handler": 85,
+      "frameReady": 99.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 4,
+      "handler": 87.69999998807907,
+      "frameReady": 99.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 5,
+      "handler": 92.10000002384186,
+      "frameReady": 116.90000003576279,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 6,
+      "handler": 82.80000001192093,
+      "frameReady": 99.59999996423721,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 7,
+      "handler": 86.79999995231628,
+      "frameReady": 100.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 0,
+      "handler": 92.10000002384186,
+      "frameReady": 116.5,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 1,
+      "handler": 98,
+      "frameReady": 116.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 2,
+      "handler": 88.5,
+      "frameReady": 98.70000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 3,
+      "handler": 89.60000002384186,
+      "frameReady": 99.70000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 4,
+      "handler": 90.19999998807907,
+      "frameReady": 100,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 5,
+      "handler": 92.09999996423721,
+      "frameReady": 100.39999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 6,
+      "handler": 82.10000002384186,
+      "frameReady": 99.90000003576279,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 7,
+      "handler": 84.19999998807907,
+      "frameReady": 100.10000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 0,
+      "handler": 91.60000002384186,
+      "frameReady": 116.70000004768372,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 1,
+      "handler": 98.20000004768372,
+      "frameReady": 116.60000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 2,
+      "handler": 85.10000002384186,
+      "frameReady": 99.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 3,
+      "handler": 85.5,
+      "frameReady": 99.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 4,
+      "handler": 86.19999998807907,
+      "frameReady": 99.79999995231628,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 5,
+      "handler": 92.80000001192093,
+      "frameReady": 117.30000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 6,
+      "handler": 83.10000002384186,
+      "frameReady": 99.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 7,
+      "handler": 85.39999997615814,
+      "frameReady": 99.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 0,
+      "handler": 98.09999996423721,
+      "frameReady": 115.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 1,
+      "handler": 96.19999998807907,
+      "frameReady": 116.60000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 2,
+      "handler": 83.80000001192093,
+      "frameReady": 100.10000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 3,
+      "handler": 84.19999998807907,
+      "frameReady": 99.69999998807907,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 4,
+      "handler": 87.59999996423721,
+      "frameReady": 101.39999997615814,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 5,
+      "handler": 94,
+      "frameReady": 115.80000001192093,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 6,
+      "handler": 84.20000004768372,
+      "frameReady": 99.10000002384186,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "performance/followup/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 7,
+      "handler": 85.69999998807907,
+      "frameReady": 99.29999995231628,
+      "cards": 500,
+      "retained": 0,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    }
+  ],
+  "errors": []
+}

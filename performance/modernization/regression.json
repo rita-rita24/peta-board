@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-09T16:03:50.884Z",
+  "version": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489",
+  "records": [
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "snapshots": 63,
+      "equal": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "snapshots": 63,
+      "equal": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "snapshots": 63,
+      "equal": true,
+      "errors": []
+    }
+  ],
+  "limitations": "Synthetic IME events are not real OS IME. Playwright engines are not physical phones or actual Safari."
+}

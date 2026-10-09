@@ -1,0 +1,3193 @@
+{
+  "date": "2026-10-09T19:41:51.609Z",
+  "version": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "definition": "104 supplementary comparisons and64 production values. Five independent contexts per condition; queries and phases within each context are sequential correlated observations. Delay0 first,4/8/12 repeat in fixed order: warm-up/order confound pure phase causality. No newly adopted app change. No physical paint/INP; no production-before data for new endpoints. Rejected prototype is not final release. Earlier numbers unchanged.",
+  "comparisons": [
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.599999964237213,
+        "min": 3.5,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.5,
+        "min": 3.399999976158142,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 2.777776811961765,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.599999964237213,
+        "min": 3.5,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.5,
+        "min": 3.399999976158142,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 2.777776811961765,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 16.600000023841858,
+        "min": 14.899999976158142,
+        "max": 17.899999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 16.600000023841858,
+        "min": 16.5,
+        "max": 17.19999998807907,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "trials": 5
+      },
+      "after": {
+        "median": 0,
+        "min": 0,
+        "max": 0.09999996423721313,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": null,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3,
+        "min": 2.799999952316284,
+        "max": 3.099999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.900000035762787,
+        "min": 2.699999988079071,
+        "max": 3.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 3.333332141240438,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3,
+        "min": 2.799999952316284,
+        "max": 3.099999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.900000035762787,
+        "min": 2.699999988079071,
+        "max": 3.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 3.333332141240438,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 11.5,
+        "min": 10.699999988079071,
+        "max": 13.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 12.100000023841858,
+        "min": 9.699999988079071,
+        "max": 13.700000047683716,
+        "trials": 5
+      },
+      "reductionMs": -0.6000000238418579,
+      "reductionPercent": -5.21739151166833,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 5.099999964237213,
+        "min": 5,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.099999964237213,
+        "min": 4.699999988079071,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.399999976158142,
+        "min": 3.199999988079071,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.5,
+        "min": 3,
+        "max": 3.699999988079071,
+        "trials": 5
+      },
+      "reductionMs": -0.10000002384185791,
+      "reductionPercent": -2.9411771924437997,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.399999976158142,
+        "min": 3.199999988079071,
+        "max": 3.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.5,
+        "min": 3,
+        "max": 3.699999988079071,
+        "trials": 5
+      },
+      "reductionMs": -0.10000002384185791,
+      "reductionPercent": -2.9411771924437997,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 6.5,
+        "min": 5.099999964237213,
+        "max": 9.099999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 6,
+        "min": 5.399999976158142,
+        "max": 6.5,
+        "trials": 5
+      },
+      "reductionMs": 0.5,
+      "reductionPercent": 7.6923076923076925,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 10.100000023841858,
+        "min": 8.200000047683716,
+        "max": 10.200000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 10,
+        "min": 10,
+        "max": 10.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 0.9900992436217807,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.900000035762787,
+        "min": 3.699999988079071,
+        "max": 4.299999952316284,
+        "trials": 5
+      },
+      "after": {
+        "median": 4,
+        "min": 3.599999964237213,
+        "max": 4.300000011920929,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -2.564101623595357,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 4,
+        "min": 3.699999988079071,
+        "max": 4.299999952316284,
+        "trials": 5
+      },
+      "after": {
+        "median": 4,
+        "min": 3.599999964237213,
+        "max": 4.300000011920929,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 4.100000023841858,
+        "min": 3.699999988079071,
+        "max": 4.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 4,
+        "min": 3.599999964237213,
+        "max": 4.300000011920929,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 2.439024957569489,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 14,
+        "min": 13.300000011920929,
+        "max": 14.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 14.100000023841858,
+        "min": 14.099999964237213,
+        "max": 14.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": -0.10000002384185791,
+      "reductionPercent": -0.7142858845846993,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "before": {
+        "median": 5.099999964237213,
+        "min": 4.600000023841858,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.100000023841858,
+        "min": 5,
+        "max": 5.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -0.0000011687185332030773,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 5.099999964237213,
+        "min": 4.600000023841858,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.100000023841858,
+        "min": 5,
+        "max": 5.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -0.0000011687185332030773,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 17.80000001192093,
+        "min": 16.100000023841858,
+        "max": 18.599999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 16.100000023841858,
+        "min": 14.800000011920929,
+        "max": 16.600000023841858,
+        "trials": 5
+      },
+      "reductionMs": 1.699999988079071,
+      "reductionPercent": 9.550561724385142,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 0,
+        "min": 0,
+        "max": 0.10000002384185791,
+        "trials": 5
+      },
+      "after": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": null,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.600000023841858,
+        "min": 3.300000011920929,
+        "max": 4.399999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.699999988079071,
+        "min": 3.399999976158142,
+        "max": 4.399999976158142,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -2.777776765970543,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.600000023841858,
+        "min": 3.300000011920929,
+        "max": 4.399999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.699999988079071,
+        "min": 3.399999976158142,
+        "max": 4.399999976158142,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -2.777776765970543,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 10.400000035762787,
+        "min": 10.100000023841858,
+        "max": 11.199999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 11.599999964237213,
+        "min": 9.800000011920929,
+        "max": 12.799999952316284,
+        "trials": 5
+      },
+      "reductionMs": -1.1999999284744263,
+      "reductionPercent": -11.538460811037991,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 5.099999964237213,
+        "min": 4.800000011920929,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5,
+        "min": 5,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 1.960783626244,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "before": {
+        "median": 4,
+        "min": 3.199999988079071,
+        "max": 4.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.699999988079071,
+        "min": 3.399999976158142,
+        "max": 4.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 7.500000298023224,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 4,
+        "min": 3.199999988079071,
+        "max": 4.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.699999988079071,
+        "min": 3.399999976158142,
+        "max": 4.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 7.500000298023224,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 6.699999988079071,
+        "min": 6.399999976158142,
+        "max": 8.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 7.600000023841858,
+        "min": 5.800000011920929,
+        "max": 7.699999988079071,
+        "trials": 5
+      },
+      "reductionMs": -0.9000000357627869,
+      "reductionPercent": -13.432836378568744,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 10.100000023841858,
+        "min": 10,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 10,
+        "min": 8.200000047683716,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 0.9900992436217807,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "before": {
+        "median": 4.900000035762787,
+        "min": 3.699999988079071,
+        "max": 6.400000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.699999988079071,
+        "min": 4.5,
+        "max": 6.099999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0.20000004768371582,
+      "reductionPercent": 4.081633596408365,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 4.900000035762787,
+        "min": 3.699999988079071,
+        "max": 6.400000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.699999988079071,
+        "min": 4.5,
+        "max": 6.099999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0.20000004768371582,
+      "reductionPercent": 4.081633596408365,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 5,
+        "min": 3.800000011920929,
+        "max": 6.400000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.699999988079071,
+        "min": 4.5,
+        "max": 6.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 6.000000238418579,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 14.099999964237213,
+        "min": 14,
+        "max": 14.199999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 14.100000023841858,
+        "min": 14,
+        "max": 14.200000047683716,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -4.2272797820262367e-7,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.399999976158142,
+        "min": 3.399999976158142,
+        "max": 3.399999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.399999976158142,
+        "min": 3.199999988079071,
+        "max": 3.599999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.399999976158142,
+        "min": 3.399999976158142,
+        "max": 3.399999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.399999976158142,
+        "min": 3.199999988079071,
+        "max": 3.599999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 17,
+        "min": 16.5,
+        "max": 18.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 15.699999988079071,
+        "min": 15.399999976158142,
+        "max": 17.399999976158142,
+        "trials": 5
+      },
+      "reductionMs": 1.300000011920929,
+      "reductionPercent": 7.647058893652524,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 0,
+        "min": 0,
+        "max": 0.10000002384185791,
+        "trials": 5
+      },
+      "after": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": null,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "before": {
+        "median": 2.800000011920929,
+        "min": 2.600000023841858,
+        "max": 3,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.899999976158142,
+        "min": 2.800000011920929,
+        "max": 3.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -3.5714272789809223,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 2.800000011920929,
+        "min": 2.600000023841858,
+        "max": 3,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.899999976158142,
+        "min": 2.800000011920929,
+        "max": 3.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -3.5714272789809223,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 11.699999988079071,
+        "min": 9.700000047683716,
+        "max": 13.199999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 11.099999964237213,
+        "min": 10,
+        "max": 11.599999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0.6000000238418579,
+      "reductionPercent": 5.128205337206731,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 5.099999964237213,
+        "min": 5,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.100000023841858,
+        "min": 5.099999964237213,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -0.0000011687185332030773,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.5,
+        "min": 3.099999964237213,
+        "max": 3.599999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.399999976158142,
+        "min": 3.299999952316284,
+        "max": 3.5,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 2.8571435383387973,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.5,
+        "min": 3.099999964237213,
+        "max": 3.599999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.399999976158142,
+        "min": 3.299999952316284,
+        "max": 3.5,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 2.8571435383387973,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 7.399999976158142,
+        "min": 5.399999976158142,
+        "max": 8.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.399999976158142,
+        "min": 4.799999952316284,
+        "max": 7.300000011920929,
+        "trials": 5
+      },
+      "reductionMs": 2,
+      "reductionPercent": 27.02702711410467,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 10,
+        "min": 8.100000023841858,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 10.100000023841858,
+        "min": 9.899999976158142,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": -0.10000002384185791,
+      "reductionPercent": -1.000000238418579,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.899999976158142,
+        "min": 3.699999988079071,
+        "max": 4.200000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.800000011920929,
+        "min": 3.699999988079071,
+        "max": 4.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 2.564101662783144,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.899999976158142,
+        "min": 3.699999988079071,
+        "max": 4.200000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.800000011920929,
+        "min": 3.699999988079071,
+        "max": 4.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": 0.09999996423721313,
+      "reductionPercent": 2.564101662783144,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 3.899999976158142,
+        "min": 3.699999988079071,
+        "max": 4.200000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.899999976158142,
+        "min": 3.699999988079071,
+        "max": 4.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 14.099999964237213,
+        "min": 14,
+        "max": 14.900000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 14.100000023841858,
+        "min": 14.100000023841858,
+        "max": 14.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -4.2272797820262367e-7,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "before": {
+        "median": 5.100000023841858,
+        "min": 4.900000035762787,
+        "max": 5.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.099999964237213,
+        "min": 4.800000011920929,
+        "max": 5.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 5.960464477539063e-8,
+      "reductionPercent": 0.0000011687185195440472,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 5.100000023841858,
+        "min": 4.900000035762787,
+        "max": 5.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.099999964237213,
+        "min": 4.800000011920929,
+        "max": 5.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 5.960464477539063e-8,
+      "reductionPercent": 0.0000011687185195440472,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 16.30000001192093,
+        "min": 15.300000011920929,
+        "max": 18.30000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 16.900000035762787,
+        "min": 16.30000001192093,
+        "max": 18.69999998807907,
+        "trials": 5
+      },
+      "reductionMs": -0.6000000238418579,
+      "reductionPercent": -3.6809817386690225,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 0,
+        "min": 0,
+        "max": 0.09999996423721313,
+        "trials": 5
+      },
+      "after": {
+        "median": 0,
+        "min": 0,
+        "max": 0.10000002384185791,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": null,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "before": {
+        "median": 3.5,
+        "min": 3.199999988079071,
+        "max": 4.599999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.300000011920929,
+        "min": 3.299999952316284,
+        "max": 3.799999952316284,
+        "trials": 5
+      },
+      "reductionMs": 0.19999998807907104,
+      "reductionPercent": 5.714285373687744,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 3.5,
+        "min": 3.199999988079071,
+        "max": 4.599999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.300000011920929,
+        "min": 3.299999952316284,
+        "max": 3.799999952316284,
+        "trials": 5
+      },
+      "reductionMs": 0.19999998807907104,
+      "reductionPercent": 5.714285373687744,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 11.899999976158142,
+        "min": 11.199999988079071,
+        "max": 12.900000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 12.299999952316284,
+        "min": 11.600000023841858,
+        "max": 13.300000011920929,
+        "trials": 5
+      },
+      "reductionMs": -0.3999999761581421,
+      "reductionPercent": -3.361344344197891,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 5.100000023841858,
+        "min": 5,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 5.100000023841858,
+        "min": 5.099999964237213,
+        "max": 5.200000047683716,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "before": {
+        "median": 4.300000011920929,
+        "min": 3.699999988079071,
+        "max": 5.700000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 4,
+        "min": 3.300000011920929,
+        "max": 4.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 6.976744443935726,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 4.300000011920929,
+        "min": 3.699999988079071,
+        "max": 5.700000047683716,
+        "trials": 5
+      },
+      "after": {
+        "median": 4,
+        "min": 3.300000011920929,
+        "max": 4.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 6.976744443935726,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 6.5,
+        "min": 5.800000011920929,
+        "max": 6.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 7.5,
+        "min": 6.599999964237213,
+        "max": 8.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": -1,
+      "reductionPercent": -15.384615384615385,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 10.100000023841858,
+        "min": 10,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 10.099999964237213,
+        "min": 8.400000035762787,
+        "max": 10.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 5.960464477539063e-8,
+      "reductionPercent": 5.901449963830603e-7,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "before": {
+        "median": 4.900000035762787,
+        "min": 4.100000023841858,
+        "max": 6.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.799999952316284,
+        "min": 3.800000011920929,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.10000008344650269,
+      "reductionPercent": 2.0408180146254957,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "before": {
+        "median": 4.900000035762787,
+        "min": 4.100000023841858,
+        "max": 6.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.799999952316284,
+        "min": 3.800000011920929,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.10000008344650269,
+      "reductionPercent": 2.0408180146254957,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "before": {
+        "median": 5,
+        "min": 4.100000023841858,
+        "max": 6.600000023841858,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.799999952316284,
+        "min": 3.900000035762787,
+        "max": 5.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": 0.20000004768371582,
+      "reductionPercent": 4.000000953674316,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/modal-diagnosis",
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "before": {
+        "median": 14,
+        "min": 12.199999988079071,
+        "max": 14.099999964237213,
+        "trials": 5
+      },
+      "after": {
+        "median": 14,
+        "min": 12.300000011920929,
+        "max": 14.099999964237213,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "同期処理の一貫した悪化は未確認。rAF位相・暖機・固定順序の影響を含む"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "付箋1",
+      "metric": "handler",
+      "before": {
+        "median": 1.100000023841858,
+        "min": 1.0999999642372131,
+        "max": 1.199999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.599999964237213,
+        "min": 2.5,
+        "max": 3,
+        "trials": 5
+      },
+      "reductionMs": -1.4999999403953552,
+      "reductionPercent": -136.36362798943026,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "付箋1",
+      "metric": "resultProxy",
+      "before": {
+        "median": 32.89999997615814,
+        "min": 32,
+        "max": 34.30000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.30000001192093,
+        "min": 32.89999997615814,
+        "max": 35,
+        "trials": 5
+      },
+      "reductionMs": -0.40000003576278687,
+      "reductionPercent": -1.2158055807071657,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "通常",
+      "metric": "handler",
+      "before": {
+        "median": 1.199999988079071,
+        "min": 1.100000023841858,
+        "max": 1.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.5,
+        "min": 4.199999988079071,
+        "max": 4.699999988079071,
+        "trials": 5
+      },
+      "reductionMs": -3.300000011920929,
+      "reductionPercent": -275.00000372529036,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "通常",
+      "metric": "resultProxy",
+      "before": {
+        "median": 34.39999997615814,
+        "min": 32.39999997615814,
+        "max": 35.19999998807907,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.30000001192093,
+        "min": 32.39999997615814,
+        "max": 34.80000001192093,
+        "trials": 5
+      },
+      "reductionMs": 1.0999999642372131,
+      "reductionPercent": 3.1976743168592967,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "一致しない語",
+      "metric": "handler",
+      "before": {
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.6000000238418579,
+        "trials": 5
+      },
+      "after": {
+        "median": 1,
+        "min": 0.9000000357627869,
+        "max": 1,
+        "trials": 5
+      },
+      "reductionMs": -0.5,
+      "reductionPercent": null,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "一致しない語",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.19999998807907,
+        "min": 31.80000001192093,
+        "max": 34.80000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 32.80000001192093,
+        "min": 31.899999976158142,
+        "max": 35,
+        "trials": 5
+      },
+      "reductionMs": 0.3999999761581421,
+      "reductionPercent": 1.204819205728216,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "",
+      "metric": "handler",
+      "before": {
+        "median": 1.4000000357627869,
+        "min": 1,
+        "max": 1.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 7.799999952316284,
+        "min": 6.800000011920929,
+        "max": 8.600000023841858,
+        "trials": 5
+      },
+      "reductionMs": -6.399999916553497,
+      "reductionPercent": -457.14283950474845,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.299999952316284,
+        "min": 31.600000023841858,
+        "max": 34.80000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.30000001192093,
+        "min": 31.5,
+        "max": 35.200000047683716,
+        "trials": 5
+      },
+      "reductionMs": -5.960464477539063e-8,
+      "reductionPercent": -1.7899292750973304e-7,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "検証",
+      "metric": "handler",
+      "before": {
+        "median": 2.5,
+        "min": 1.600000023841858,
+        "max": 2.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 10.699999988079071,
+        "min": 9.5,
+        "max": 11.600000023841858,
+        "trials": 5
+      },
+      "reductionMs": -8.199999988079071,
+      "reductionPercent": -327.99999952316284,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 50,
+      "query": "検証",
+      "metric": "resultProxy",
+      "before": {
+        "median": 32.5,
+        "min": 31.400000035762787,
+        "max": 35.30000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 32.39999997615814,
+        "min": 31.600000023841858,
+        "max": 50.19999998807907,
+        "trials": 5
+      },
+      "reductionMs": 0.10000002384185791,
+      "reductionPercent": 0.30769238105187047,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "付箋1",
+      "metric": "handler",
+      "before": {
+        "median": 8.600000023841858,
+        "min": 8.5,
+        "max": 8.899999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 145.5,
+        "min": 143,
+        "max": 146.60000002384186,
+        "trials": 5
+      },
+      "reductionMs": -136.89999997615814,
+      "reductionPercent": -1591.860460425919,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "付箋1",
+      "metric": "resultProxy",
+      "before": {
+        "median": 152.5,
+        "min": 151.4000000357628,
+        "max": 168.69999998807907,
+        "trials": 5
+      },
+      "after": {
+        "median": 165.19999998807907,
+        "min": 152,
+        "max": 166.70000004768372,
+        "trials": 5
+      },
+      "reductionMs": -12.699999988079071,
+      "reductionPercent": -8.327868844642014,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "通常",
+      "metric": "handler",
+      "before": {
+        "median": 7.200000047683716,
+        "min": 7.100000023841858,
+        "max": 7.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 31.299999952316284,
+        "min": 31.19999998807907,
+        "max": 31.69999998807907,
+        "trials": 5
+      },
+      "reductionMs": -24.09999990463257,
+      "reductionPercent": -334.7222186808969,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "通常",
+      "metric": "resultProxy",
+      "before": {
+        "median": 49.89999997615814,
+        "min": 47.799999952316284,
+        "max": 51.09999996423721,
+        "trials": 5
+      },
+      "after": {
+        "median": 50.89999997615814,
+        "min": 49.80000001192093,
+        "max": 51.30000001192093,
+        "trials": 5
+      },
+      "reductionMs": -1,
+      "reductionPercent": -2.0040080169895647,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "一致しない語",
+      "metric": "handler",
+      "before": {
+        "median": 2.5,
+        "min": 2.5,
+        "max": 2.900000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.599999964237213,
+        "min": 3.5,
+        "max": 3.900000035762787,
+        "trials": 5
+      },
+      "reductionMs": -1.0999999642372131,
+      "reductionPercent": -43.999998569488525,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "一致しない語",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.39999997615814,
+        "min": 33,
+        "max": 33.90000003576279,
+        "trials": 5
+      },
+      "after": {
+        "median": 32.799999952316284,
+        "min": 31.400000035762787,
+        "max": 33.39999997615814,
+        "trials": 5
+      },
+      "reductionMs": 0.6000000238418579,
+      "reductionPercent": 1.7964072582938764,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "",
+      "metric": "handler",
+      "before": {
+        "median": 6.699999988079071,
+        "min": 5.5,
+        "max": 6.900000035762787,
+        "trials": 5
+      },
+      "after": {
+        "median": 107,
+        "min": 103.39999997615814,
+        "max": 117.20000004768372,
+        "trials": 5
+      },
+      "reductionMs": -100.30000001192093,
+      "reductionPercent": -1497.0149282146122,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "",
+      "metric": "resultProxy",
+      "before": {
+        "median": 133.4000000357628,
+        "min": 132.10000002384186,
+        "max": 135.0999999642372,
+        "trials": 5
+      },
+      "after": {
+        "median": 134.30000001192093,
+        "min": 133.5,
+        "max": 149.80000001192093,
+        "trials": 5
+      },
+      "reductionMs": -0.8999999761581421,
+      "reductionPercent": -0.6746626506123418,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "検証",
+      "metric": "handler",
+      "before": {
+        "median": 14.100000023841858,
+        "min": 13.699999988079071,
+        "max": 14.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 86.39999997615814,
+        "min": 85,
+        "max": 91.69999998807907,
+        "trials": 5
+      },
+      "reductionMs": -72.29999995231628,
+      "reductionPercent": -512.765956241584,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 375,
+      "count": 500,
+      "query": "検証",
+      "metric": "resultProxy",
+      "before": {
+        "median": 116.5,
+        "min": 115.5,
+        "max": 118.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 116.60000002384186,
+        "min": 115.09999996423721,
+        "max": 118.39999997615814,
+        "trials": 5
+      },
+      "reductionMs": -0.10000002384185791,
+      "reductionPercent": -0.08583693033635872,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "付箋1",
+      "metric": "handler",
+      "before": {
+        "median": 1.199999988079071,
+        "min": 1.0999999642372131,
+        "max": 1.2000000476837158,
+        "trials": 5
+      },
+      "after": {
+        "median": 2.5,
+        "min": 2.300000011920929,
+        "max": 2.700000047683716,
+        "trials": 5
+      },
+      "reductionMs": -1.300000011920929,
+      "reductionPercent": -108.33333540293908,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "付箋1",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.5,
+        "min": 30.200000047683716,
+        "max": 34.39999997615814,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.09999996423721,
+        "min": 28.100000023841858,
+        "max": 33.89999997615814,
+        "trials": 5
+      },
+      "reductionMs": 0.40000003576278687,
+      "reductionPercent": 1.1940299575008564,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "通常",
+      "metric": "handler",
+      "before": {
+        "median": 1.199999988079071,
+        "min": 1.199999988079071,
+        "max": 1.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 4.699999988079071,
+        "min": 4.400000035762787,
+        "max": 4.799999952316284,
+        "trials": 5
+      },
+      "reductionMs": -3.5,
+      "reductionPercent": -291.6666695641147,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "通常",
+      "metric": "resultProxy",
+      "before": {
+        "median": 34.19999998807907,
+        "min": 31.5,
+        "max": 34.40000003576279,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.19999998807907,
+        "min": 32.59999996423721,
+        "max": 35.30000001192093,
+        "trials": 5
+      },
+      "reductionMs": 1,
+      "reductionPercent": 2.923976609206331,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "一致しない語",
+      "metric": "handler",
+      "before": {
+        "median": 0.5999999642372131,
+        "min": 0.5,
+        "max": 0.699999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 1,
+        "min": 0.800000011920929,
+        "max": 1.100000023841858,
+        "trials": 5
+      },
+      "reductionMs": -0.40000003576278687,
+      "reductionPercent": null,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "一致しない語",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.19999998807907,
+        "min": 32.69999998807907,
+        "max": 34.30000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.69999998807907,
+        "min": 32.60000002384186,
+        "max": 35,
+        "trials": 5
+      },
+      "reductionMs": -0.5,
+      "reductionPercent": -1.5060240969263015,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "",
+      "metric": "handler",
+      "before": {
+        "median": 1.399999976158142,
+        "min": 1.199999988079071,
+        "max": 1.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 8.099999964237213,
+        "min": 6.600000023841858,
+        "max": 8.199999988079071,
+        "trials": 5
+      },
+      "reductionMs": -6.699999988079071,
+      "reductionPercent": -478.57143586995664,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.30000001192093,
+        "min": 33.09999996423721,
+        "max": 35,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.39999997615814,
+        "min": 32.30000001192093,
+        "max": 35,
+        "trials": 5
+      },
+      "reductionMs": -0.09999996423721313,
+      "reductionPercent": -0.30030019279704073,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "検証",
+      "metric": "handler",
+      "before": {
+        "median": 2.300000011920929,
+        "min": 2.199999988079071,
+        "max": 2.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 9.800000011920929,
+        "min": 6,
+        "max": 10.299999952316284,
+        "trials": 5
+      },
+      "reductionMs": -7.5,
+      "reductionPercent": -326.0869548316264,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 50,
+      "query": "検証",
+      "metric": "resultProxy",
+      "before": {
+        "median": 32.5,
+        "min": 31.69999998807907,
+        "max": 35.09999996423721,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.5,
+        "min": 32.60000002384186,
+        "max": 35.19999998807907,
+        "trials": 5
+      },
+      "reductionMs": -1,
+      "reductionPercent": -3.076923076923077,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "付箋1",
+      "metric": "handler",
+      "before": {
+        "median": 8.699999988079071,
+        "min": 8.600000023841858,
+        "max": 8.899999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 144.39999997615814,
+        "min": 144,
+        "max": 145.69999998807907,
+        "trials": 5
+      },
+      "reductionMs": -135.69999998807907,
+      "reductionPercent": -1559.7701169427373,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "付箋1",
+      "metric": "resultProxy",
+      "before": {
+        "median": 152.69999998807907,
+        "min": 149.30000001192093,
+        "max": 165.89999997615814,
+        "trials": 5
+      },
+      "after": {
+        "median": 166.60000002384186,
+        "min": 152.80000001192093,
+        "max": 167,
+        "trials": 5
+      },
+      "reductionMs": -13.900000035762787,
+      "reductionPercent": -9.102816003174805,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "通常",
+      "metric": "handler",
+      "before": {
+        "median": 7.5,
+        "min": 7.399999976158142,
+        "max": 7.699999988079071,
+        "trials": 5
+      },
+      "after": {
+        "median": 31.19999998807907,
+        "min": 30.69999998807907,
+        "max": 31.80000001192093,
+        "trials": 5
+      },
+      "reductionMs": -23.69999998807907,
+      "reductionPercent": -315.99999984105426,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "通常",
+      "metric": "resultProxy",
+      "before": {
+        "median": 49.90000003576279,
+        "min": 49.80000001192093,
+        "max": 51.59999996423721,
+        "trials": 5
+      },
+      "after": {
+        "median": 49.90000003576279,
+        "min": 45.80000001192093,
+        "max": 50.19999998807907,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "一致しない語",
+      "metric": "handler",
+      "before": {
+        "median": 2.699999988079071,
+        "min": 2.5,
+        "max": 2.799999952316284,
+        "trials": 5
+      },
+      "after": {
+        "median": 3.599999964237213,
+        "min": 3.5,
+        "max": 3.700000047683716,
+        "trials": 5
+      },
+      "reductionMs": -0.8999999761581421,
+      "reductionPercent": -33.33333259747352,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "一致しない語",
+      "metric": "resultProxy",
+      "before": {
+        "median": 33.30000001192093,
+        "min": 31.599999964237213,
+        "max": 34.30000001192093,
+        "trials": 5
+      },
+      "after": {
+        "median": 33.30000001192093,
+        "min": 33.19999998807907,
+        "max": 35,
+        "trials": 5
+      },
+      "reductionMs": 0,
+      "reductionPercent": 0,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "",
+      "metric": "handler",
+      "before": {
+        "median": 6.300000011920929,
+        "min": 6.300000011920929,
+        "max": 6.399999976158142,
+        "trials": 5
+      },
+      "after": {
+        "median": 105.69999998807907,
+        "min": 105.10000002384186,
+        "max": 105.90000003576279,
+        "trials": 5
+      },
+      "reductionMs": -99.39999997615814,
+      "reductionPercent": -1577.7777744138473,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "",
+      "metric": "resultProxy",
+      "before": {
+        "median": 133.4000000357628,
+        "min": 133.39999997615814,
+        "max": 133.5,
+        "trials": 5
+      },
+      "after": {
+        "median": 133.10000002384186,
+        "min": 131.9000000357628,
+        "max": 133.5,
+        "trials": 5
+      },
+      "reductionMs": 0.30000001192092896,
+      "reductionPercent": 0.22488756509782826,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "検証",
+      "metric": "handler",
+      "before": {
+        "median": 14.199999988079071,
+        "min": 14,
+        "max": 14.300000011920929,
+        "trials": 5
+      },
+      "after": {
+        "median": 85.60000002384186,
+        "min": 84.90000003576279,
+        "max": 86.20000004768372,
+        "trials": 5
+      },
+      "reductionMs": -71.40000003576279,
+      "reductionPercent": -502.8169020824171,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    },
+    {
+      "scope": "temporary/rejected-search-candidate",
+      "width": 1440,
+      "count": 500,
+      "query": "検証",
+      "metric": "resultProxy",
+      "before": {
+        "median": 116.30000001192093,
+        "min": 115,
+        "max": 117.20000004768372,
+        "trials": 5
+      },
+      "after": {
+        "median": 117.20000004768372,
+        "min": 114.60000002384186,
+        "max": 118,
+        "trials": 5
+      },
+      "reductionMs": -0.9000000357627869,
+      "reductionPercent": -0.7738607357442265,
+      "verdict": "不採用:結果の待ち時間が改善せず、同期CPUが増加"
+    }
+  ],
+  "productionValues": [
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "median": 3.599999964237213,
+      "min": 3.5,
+      "max": 3.700000047683716,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "median": 3.599999964237213,
+      "min": 3.5,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "median": 16.900000035762787,
+      "min": 16.599999964237213,
+      "max": 18.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "median": 2.800000011920929,
+      "min": 2.800000011920929,
+      "max": 3,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "median": 2.800000011920929,
+      "min": 2.800000011920929,
+      "max": 3,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "median": 11.599999964237213,
+      "min": 9.800000011920929,
+      "max": 13.399999976158142,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 5.100000023841858,
+      "min": 4.400000035762787,
+      "max": 5.199999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "median": 3.399999976158142,
+      "min": 3.200000047683716,
+      "max": 3.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "median": 3.399999976158142,
+      "min": 3.200000047683716,
+      "max": 3.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "median": 6.399999976158142,
+      "min": 5.600000023841858,
+      "max": 8.699999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 10.100000023841858,
+      "min": 8.300000011920929,
+      "max": 10.199999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "median": 3.900000035762787,
+      "min": 3.699999988079071,
+      "max": 4.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "median": 3.900000035762787,
+      "min": 3.699999988079071,
+      "max": 4.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "median": 4,
+      "min": 3.699999988079071,
+      "max": 4.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 14.100000023841858,
+      "min": 14,
+      "max": 14.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "median": 5.199999988079071,
+      "min": 5,
+      "max": 5.899999976158142,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "median": 5.199999988079071,
+      "min": 5,
+      "max": 5.899999976158142,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "median": 16.100000023841858,
+      "min": 15,
+      "max": 17.599999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "median": 3.399999976158142,
+      "min": 2.600000023841858,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "median": 3.399999976158142,
+      "min": 2.600000023841858,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "median": 11.599999964237213,
+      "min": 11.099999964237213,
+      "max": 12.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 5.099999964237213,
+      "min": 5,
+      "max": 5.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "median": 3.5,
+      "min": 2.199999988079071,
+      "max": 4.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "median": 3.5,
+      "min": 2.199999988079071,
+      "max": 4.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "median": 7.199999988079071,
+      "min": 5.800000011920929,
+      "max": 8.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 10.099999964237213,
+      "min": 8.900000035762787,
+      "max": 10.199999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "median": 4.300000011920929,
+      "min": 2.199999988079071,
+      "max": 5.099999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "median": 4.300000011920929,
+      "min": 2.199999988079071,
+      "max": 5.099999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "median": 4.399999976158142,
+      "min": 2.199999988079071,
+      "max": 5.099999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 375,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 14.100000023841858,
+      "min": 12.800000011920929,
+      "max": 14.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "median": 3.5,
+      "min": 3.300000011920929,
+      "max": 3.699999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "median": 3.5,
+      "min": 3.300000011920929,
+      "max": 3.699999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "median": 16.80000001192093,
+      "min": 16.399999976158142,
+      "max": 17.099999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "median": 2.899999976158142,
+      "min": 2.600000023841858,
+      "max": 3,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "median": 2.899999976158142,
+      "min": 2.600000023841858,
+      "max": 3,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "median": 11.199999988079071,
+      "min": 10.300000011920929,
+      "max": 13.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 5.099999964237213,
+      "min": 5,
+      "max": 5.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "median": 3,
+      "min": 2.699999988079071,
+      "max": 3.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "median": 3,
+      "min": 2.699999988079071,
+      "max": 3.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "median": 7,
+      "min": 6.200000047683716,
+      "max": 7.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 9.699999988079071,
+      "min": 8.899999976158142,
+      "max": 10.099999964237213,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "median": 3.099999964237213,
+      "min": 3,
+      "max": 4,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "median": 3.099999964237213,
+      "min": 3,
+      "max": 4,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "median": 3.300000011920929,
+      "min": 3,
+      "max": 4.5,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "settings",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 14.100000023841858,
+      "min": 14,
+      "max": 14.699999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "handlerMs",
+      "median": 4.5,
+      "min": 4.300000011920929,
+      "max": 5.199999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "synchronousReadyMs",
+      "median": 4.5,
+      "min": 4.300000011920929,
+      "max": 5.199999988079071,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "nextFrameProxyMs",
+      "median": 16.399999976158142,
+      "min": 15.300000011920929,
+      "max": 17.30000001192093,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "first",
+      "delay": 0,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "handlerMs",
+      "median": 3.300000011920929,
+      "min": 3.100000023841858,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "synchronousReadyMs",
+      "median": 3.300000011920929,
+      "min": 3.100000023841858,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "nextFrameProxyMs",
+      "median": 11.300000011920929,
+      "min": 11,
+      "max": 13.200000047683716,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 4,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 5.100000023841858,
+      "min": 5,
+      "max": 5.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "handlerMs",
+      "median": 3.600000023841858,
+      "min": 3.300000011920929,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "synchronousReadyMs",
+      "median": 3.600000023841858,
+      "min": 3.300000011920929,
+      "max": 3.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "nextFrameProxyMs",
+      "median": 6.800000011920929,
+      "min": 5.699999988079071,
+      "max": 9.800000011920929,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 8,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 10,
+      "min": 8.699999988079071,
+      "max": 10.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "handlerMs",
+      "median": 4.399999976158142,
+      "min": 4.099999964237213,
+      "max": 4.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "synchronousReadyMs",
+      "median": 4.399999976158142,
+      "min": 4.099999964237213,
+      "max": 4.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "nextFrameProxyMs",
+      "median": 4.399999976158142,
+      "min": 4.099999964237213,
+      "max": 4.600000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    },
+    {
+      "width": 1440,
+      "operation": "calendar",
+      "mode": "repeat",
+      "delay": 12,
+      "metric": "phaseSincePreviousFrameMs",
+      "median": 14.099999964237213,
+      "min": 12.300000011920929,
+      "max": 14.100000023841858,
+      "trials": 5,
+      "beforeMeasured": false,
+      "reductionPercent": null
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "screens": 6,
+  "operationGroups": 51,
+  "representativeRationale": "同一の保存形式・描画関数・検索照合・移動処理を共有する操作を分類。URL分岐・利用者権限・サーバーAPIは存在しない。file/localhostは保存領域が異なる。未計測と実機未確認も列挙。",
+  "operations": [
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "直接起動",
+      "measurement": "screens/board",
+      "code": "renderAll/initializeStorage",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "保存済み内容・全件・操作可能",
+      "currentEvidence": "production-screens.json/board/content・interactive（DOM/rAF代理）"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "再読み込み",
+      "measurement": "screens/board",
+      "code": "loadState/initializeStorage",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "最後の保存が残る",
+      "currentEvidence": "production-screens.json/board/cold・warm各5回"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "戻る・進む",
+      "measurement": "followup/continuous・production-continuous（戻る制御側時間、進む正当性のみ）・一度の保存表示タイムアウトは再現せず原因未確定",
+      "code": "pageshow/syncStoredState",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "必要な更新を再取得",
+      "currentEvidence": "history.json/100反復、production-continuous.json、旧1回の保存表示timeoutは原因未確定"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "題名・本文・タグ・チェック・列名検索",
+      "measurement": "screens/search・回帰",
+      "code": "setSearchQuery/noteMatches",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "正しい件数・抜粋・強調",
+      "currentEvidence": "production-screens.json/search、regression.json/3エンジン"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "AND検索・大小文字・重複語",
+      "measurement": "回帰",
+      "code": "searchTerms/appendHighlightedText",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "同じ照合結果",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "日本語変換・確定・キャンセル",
+      "measurement": "合成イベントのみ",
+      "code": "bindSearchEvents",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "確定後の検索・入力保持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "検索解除・Esc",
+      "measurement": "screens/search-clear",
+      "code": "clearSearch",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "全件・フォーカス復帰",
+      "currentEvidence": "production-screens.json/search-clear、regression.json"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "付箋追加・空下書き取消",
+      "measurement": "empty-editor",
+      "code": "addNote/closeDrawer",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "空下書きが残らない",
+      "currentEvidence": "regression.json/102点に検索複製・空下書き・取消後フォーカスを追加。単独追加時間は過去empty-editorのみ"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "列追加・0列から再開",
+      "measurement": "機能確認のみ",
+      "code": "addColumn",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "列と操作入口が戻る",
+      "currentEvidence": "production-operations.json/50件の列追加時間、500件は12列上限でNA。storage-regression.json/0列復帰"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "列名入力・上限・貼り付け",
+      "measurement": "followup/column-search・3エンジン回帰・実IME未確認",
+      "code": "bindTextInput/renderColumn",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "入力保持・検索件数更新",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "付箋マウスドラッグ・確定・保存",
+      "measurement": "drag/commit・measure",
+      "code": "beginPointerDrag/finishPointerDrag",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "位置・順序・保存一致",
+      "currentEvidence": "drag-commits.json（前後一時URL）、production-drag-all/filtered.json（本番後のみ）・drag-movement-before/after.json（合成連続入力）"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "列マウスドラッグ・確定・保存",
+      "measurement": "drag/commit・measure",
+      "code": "beginColumnDrag/finishColumnDrag",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "列順・操作境界・保存一致",
+      "currentEvidence": "同上。native開始/確定/保存、合成追従を別に記録"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "ドラッグの端スクロール",
+      "measurement": "gestures",
+      "code": "scrollDuringDrag",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "現在座標へ追従",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "Esc・領域外・capture喪失・pointercancel",
+      "measurement": "gestures",
+      "code": "cancelPointerDrag/cancelColumnDrag",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "位置変更なし・後処理完了",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "タッチハンドル・カード上スクロール",
+      "measurement": "合成touchのみ",
+      "code": "bindBoardEvents",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "ハンドル開始・通常スワイプ維持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "横・縦スクロール",
+      "measurement": "followup/continuous・production-continuous（native wheel結果＋2 rAF代理時間）・物理連続操作未計測",
+      "code": "captureBoardScroll/scrollDuringDrag",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "閲覧位置維持",
+      "currentEvidence": "production-continuous.json/native wheel→正しいoffset＋2rAF。物理連続追従ではない"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "ウィンドウリサイズ",
+      "measurement": "followup/continuous・production-continuous（寸法確定＋2 rAF代理時間）",
+      "code": "updateClippedBodyRendering",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "本文・列レイアウト維持",
+      "currentEvidence": "production-continuous.json/寸法＋2rAF"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "Alt+上下・列左右ボタン",
+      "measurement": "回帰",
+      "code": "moveNoteInColumn/moveColumn",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "順序・フォーカス維持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "削除・確認キャンセル・30秒以内の復元",
+      "measurement": "機能確認のみ",
+      "code": "deleteColumn/restoreDeletion",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "元の位置・内容へ復帰",
+      "currentEvidence": "production-operations.json/列・付箋の確認/取消/確定/復元、regression.json/検索中の復元"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "テーマ切替",
+      "measurement": "followup/remaining-operations・production-operations（表示・保存・再読込）・改善未確認",
+      "code": "toggleTheme/applyTheme",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "両テーマの表示維持",
+      "currentEvidence": "theme-production-after.json/native click・renderer Paint・Event Timing・保存・再読込。beforeはe26記録、f9→e26はround4別比較"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "ツールチップ・フォーカス・ショートカット/",
+      "measurement": "followup/remaining-operations（ツールチップ表示・検索ショートカット）・非表示時間未計測",
+      "code": "showTooltip/bindWorkspaceEvents",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "対象名表示・検索へ移動",
+      "currentEvidence": "production-operations.json/表示・非表示・検索ショートカット、フォーカスは3エンジン回帰"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "別タブ更新",
+      "measurement": "io/tab-sync・verify",
+      "code": "syncStoredState",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "新しさ・入力・競合保護",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "自動保存・保存中の再編集",
+      "measurement": "drag/commit・verify",
+      "code": "saveStateNow/saveStateWithRevision",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "最後の意図が残る",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "深夜0時・復帰時の期限更新",
+      "measurement": "followup/midnight（仮想時計10条件の正当性のみ）・continuous/pageshow復帰・実時間未計測",
+      "code": "refreshDuePills",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "今日・期限・選択保持",
+      "currentEvidence": "midnight.json/仮想時計10条件の正当性、production-continuous.json/pageshow"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "保存失敗・競合・再試行・再読込",
+      "measurement": "errors・既存確認",
+      "code": "showStorageIssue/bindStorageActions",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "上書き停止・データ保護",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "バックアップ",
+      "measurement": "io/backup",
+      "code": "exportBoard/downloadJson",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "全JSONとダウンロード完了",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ボード",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "破損原文の書き出し",
+      "measurement": "機能確認のみ",
+      "code": "bindStorageActions",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "元原文保持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "開く・閉じる・完了・Esc",
+      "measurement": "screens/editor・modal-verify",
+      "code": "openNote/closeDrawer",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "表示・即時入力・フォーカス復帰",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "題名・本文編集・連続入力",
+      "measurement": "edit/title・body",
+      "code": "bindNoteInputEvents/withActiveNote",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "最終値・カーソル・保存一致",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "検索から外れる・再一致",
+      "measurement": "edit/filtered・回帰",
+      "code": "renderEditedNote/noteSearchText",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "件数・元順序・案内一致",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "タグ入力・上限・区切り",
+      "measurement": "verify",
+      "code": "commitTagsInput",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "タグ・エラー・IME保持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "チェック入力・完了切替",
+      "measurement": "edit/checklist・回帰",
+      "code": "renderChecklist",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "項目・進捗・保存一致",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "チェックEnter追加・空行除去",
+      "measurement": "回帰",
+      "code": "addChecklistItem/cleanupChecklistRows",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "入力順・フォーカス維持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "チェック削除・復元",
+      "measurement": "機能確認のみ",
+      "code": "offerDeletionUndo/restoreDeletion",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "元の項目・順序復帰",
+      "currentEvidence": "production-operations.json/表示・保存・正確なチェック配列復元"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "列変更・上下移動",
+      "measurement": "gestures・回帰",
+      "code": "moveNote/moveNoteInColumn",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "順序・列・操作境界一致",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "色選択",
+      "measurement": "機能確認のみ",
+      "code": "renderNoteColors",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "選択色・フォーカス維持",
+      "currentEvidence": "production-operations.json/付箋色"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "複製・削除・復元",
+      "measurement": "機能確認のみ",
+      "code": "duplicateActiveNote/deleteActiveNote",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "内容・新ID・復元",
+      "currentEvidence": "production-operations.json/50件複製、500件複製ボタン無効。検索中は3エンジン回帰"
+    },
+    {
+      "screen": "付箋編集",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "変換・超過貼り付け・取消履歴",
+      "measurement": "合成IMEのみ・実機未確認",
+      "code": "bindTextInput/captureEditingInput",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "入力拒否・取り消し履歴保持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "期限カレンダー",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "開く・閉じる・Esc・外側クリック",
+      "measurement": "screens/calendar・modal-verify",
+      "code": "openDuePicker/closeDuePicker",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "期限・フォーカス復帰",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "期限カレンダー",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "月移動・日付選択・今日・解除",
+      "measurement": "followup/remaining-operations（月移動・今日・解除）・任意日付選択の時間未計測",
+      "code": "renderDatePopover/selectDueDate",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "日付・選択位置維持",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "期限カレンダー",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "矢印・Home/End・PageUp/Down・Enter",
+      "measurement": "followup/continuous・production-continuous（合成キー同期処理＋2 rAF）・物理入力未計測",
+      "code": "handleDateGridKeydown",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "日付・キーボード移動",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "期限カレンダー",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "直接日付・全角数字・不正値",
+      "measurement": "verify・回帰",
+      "code": "applyDirectDueDate",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "正規日付・不正値拒否",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "開く・閉じる・Tab・Esc・再表示",
+      "measurement": "screens/settings・confirmation・modal-verify",
+      "code": "openSettings/closeSettings",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "内容・フォーカス・再表示",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "ボード名",
+      "measurement": "followup/remaining-operations・production-operations（入力・保存・再読込）",
+      "code": "bindWorkspaceEvents",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "題名・文字数上限・保存",
+      "currentEvidence": "production-operations.json/入力・2rAF・保存・再読込"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "テーマ・初期色",
+      "measurement": "followup/remaining-operations・production-operations（表示・保存・再読込）",
+      "code": "setTheme/setDefaultColor",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "現在色・次の付箋色",
+      "currentEvidence": "production-operations.json、theme-production-after.json"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "JSON復元・確認・確定・取消",
+      "measurement": "io/import-confirm・import-result",
+      "code": "importBoard",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "全件・保存・旧内容の保護",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "不正JSON・型・件数・32MiB超過",
+      "measurement": "modal-verify・errors",
+      "code": "hasStoredStateReduction/importBoard",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "読み込み拒否・切り捨てなし",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "設定",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "初期化・確認・確定・取消",
+      "measurement": "screens/reset-confirm・verify",
+      "code": "resetBoard",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "確定後のみ初期化",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ヘルプ",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "開く・閉じる・Tab・Esc",
+      "measurement": "screens/help・modal-verify",
+      "code": "openHelp/closeHelp",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "独立表示・フォーカス",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    },
+    {
+      "screen": "ヘルプ",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "補足展開・スクロール",
+      "measurement": "followup/remaining-operations（展開・収納）・ヘルプスクロール時間未計測",
+      "code": "details/summary",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "ネイティブの開閉・閲覧",
+      "currentEvidence": "production-operations.json/補足展開・収納。ヘルプ専用スクロール時間未計測"
+    },
+    {
+      "screen": "確認",
+      "url": "peta-board.html (file / localhost)",
+      "operation": "確認・キャンセル・Tab・Esc",
+      "measurement": "screens/reset-confirm・io・verify",
+      "code": "showConfirmDialog/closeConfirmDialog",
+      "precondition": "同一端末・同一オリジンの検証用ボード。件数0/50/500と検索中を必要に応じて分ける。",
+      "expected": "元操作の継続・取消・フォーカス",
+      "currentEvidence": "regression.json/storage-regression.json/gestures.json/drag-regression.jsonの機能確認、またはmeasurement記載の過去履歴。最終版の単独時間は未計測"
+    }
+  ],
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "currentEvidenceNote": "各measurementは過去履歴を含む。currentEvidenceを最終版の検証先として区別。代理指標・機能確認のみ・実機未確認を性能改善と混同しない。"
+}

@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-09T19:25:10.483Z",
+  "releaseMode": "local standalone HTML distribution",
+  "productionUrl": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "applicationPath": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/peta-board.html",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "applicationBytes": 225705,
+  "applicationUpdatedAt": "2026-10-09T18:35:38.431Z",
+  "localDistributionUpdated": true,
+  "distributionPathVerified": true,
+  "syntheticIsolatedProductionMeasurement": true,
+  "endUserInstallationVerified": false,
+  "remoteCiExecuted": false,
+  "allRequestedObjectivesComplete": false,
+  "refactoring": {
+    "reviewedOwnedSource": true,
+    "decidedMigrationsRemaining": 0,
+    "compatibilityExceptions": 10,
+    "toolchainTargetExceptions": 1,
+    "behaviorPreservationExceptions": 1,
+    "minimumBrowserUnconfirmed": true
+  },
+  "performance": {
+    "comparisons": 816,
+    "productionOperationBeforeAvailable": true,
+    "productionDragBeforeAvailable": false,
+    "fieldInpMeasured": false,
+    "physicalPresentationMeasured": false,
+    "cacheRestorationObserved": false,
+    "smallScreenNegativeValuesUnresolved": true
+  },
+  "rollback": [
+    {
+      "file": "before.html",
+      "sha256": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+      "scope": "undo lifecycle change only"
+    },
+    {
+      "file": "../round5/before.html",
+      "sha256": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+      "scope": "also undo collection changes"
+    },
+    {
+      "file": "../round4/before.html",
+      "sha256": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27",
+      "scope": "also undo theme changes"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "production-screens.json",
+      "sha256": "02ad472e71fc4ade26e4dc86b22cee457cfd6a8896a249daf0effd63b794a9ff",
+      "date": "2026-10-09T19:04:44.678Z",
+      "rows": 500,
+      "passed": true
+    },
+    {
+      "file": "production-operations.json",
+      "sha256": "5aab7734b12ceb251686cdae86ee29b123f8989cc4769aa735a5c227b61c27c9",
+      "date": "2026-10-09T19:00:05.240Z",
+      "rows": 560,
+      "passed": true
+    },
+    {
+      "file": "remaining-operations.json",
+      "sha256": "309641ddaaf8bbab8b38cf4ebc3dac5cfe36313a62cdee48fb386dfd734aaf7c",
+      "date": "2026-10-09T18:57:39.750Z",
+      "rows": 1120,
+      "passed": true
+    },
+    {
+      "file": "final-operation-traces.json",
+      "sha256": "605b96bc32c602fef63326e4df3f9cb5418c4f6cef23862d433704f048a3a560",
+      "date": "2026-10-09T19:03:22.624Z",
+      "rows": 560,
+      "passed": true
+    },
+    {
+      "file": "theme-production-after.json",
+      "sha256": "04488f183f12804df65c6f86b685b79b2c3fa2fdc671614bf82b8344ae3f1c94",
+      "date": "2026-10-09T19:04:08.810Z",
+      "rows": 100,
+      "passed": true
+    },
+    {
+      "file": "production-continuous.json",
+      "sha256": "19dc6d398584de9c49f40eea25330b241fba759117cfd10f40ea6e87bc00cc82",
+      "date": "2026-10-09T19:05:13.448Z",
+      "rows": 240,
+      "passed": true
+    },
+    {
+      "file": "history.json",
+      "sha256": "d1ef99cebe2ee975e1e7ccf582c294c41b3ac432748a7d0b0038fb5844f5124b",
+      "date": "2026-10-09T19:06:53.830Z",
+      "rows": 100,
+      "passed": true
+    },
+    {
+      "file": "midnight.json",
+      "sha256": "c531caa29264617dbdbbb8d283944adf53beeb544e52eb200e378228fe4d0c7b",
+      "date": "2026-10-09T19:07:01.599Z",
+      "rows": 10,
+      "passed": true
+    },
+    {
+      "file": "unload-regression.json",
+      "sha256": "fb8bce23327eac62d7611ed6e7c93202196cff0eeec919f0734008901db3c027",
+      "date": "2026-10-09T18:43:41.056Z",
+      "rows": 270,
+      "passed": true
+    },
+    {
+      "file": "cache-enabled.json",
+      "sha256": "17764eb5b01585036fa528fcf75fe11371d235d9a5bf9ee0d2bcdfde63e3ad22",
+      "date": "2026-10-09T19:24:13.110Z",
+      "rows": 270,
+      "passed": true
+    },
+    {
+      "file": "drag-commits.json",
+      "sha256": "4b5a5fe70c0f8b7573032adba326ef37e61e5e1181445726ee30316fa728f72b",
+      "date": "2026-10-09T19:19:25.312Z",
+      "rows": 80,
+      "passed": true
+    },
+    {
+      "file": "production-drag-all.json",
+      "sha256": "11a454b02480a9e844bebd3be313919f22bf919829a74d0505047d6b4c4f9f8b",
+      "date": "2026-10-09T19:19:53.809Z",
+      "rows": 20,
+      "passed": true
+    },
+    {
+      "file": "production-drag-filtered.json",
+      "sha256": "fb977cc5eeb30e5f28b66e030754255bb524b8014b8aab60a791d74b196fe508",
+      "date": "2026-10-09T19:20:26.310Z",
+      "rows": 20,
+      "passed": true
+    },
+    {
+      "file": "drag-movement-before.json",
+      "sha256": "f9a705e7a374be2a6b77502b823c5d1d65de7129f95cc7036d351f464465c132",
+      "date": "2026-10-09T19:20:47.289Z",
+      "rows": 30,
+      "passed": true
+    },
+    {
+      "file": "drag-movement-after.json",
+      "sha256": "308b7e7952b5787cb1c44fbe07b1811f3b3ad2f87cbddb02a548bc7067780349",
+      "date": "2026-10-09T19:21:08.004Z",
+      "rows": 30,
+      "passed": true
+    },
+    {
+      "file": "screens-paired.json",
+      "sha256": "a9e3dd27afeb4ee15a50f9ee28fb07a7f1d68d7818bfa7f32aad904977deed7f",
+      "date": "2026-10-09T19:22:42.642Z",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "checks.json",
+      "sha256": "fe8600a7e191121178f7b7c85976d20ac6b76e937f1bd63cd1ffc1ced75dac60",
+      "date": "2026-10-09T19:19:11.576Z",
+      "passed": true
+    },
+    {
+      "file": "regression.json",
+      "sha256": "65ba7c51cb4fb0f7ad19eb9ceefc470355b6c32a8091b51f8875dc9772d233e3",
+      "date": "2026-10-09T18:51:40.896Z",
+      "passed": true
+    },
+    {
+      "file": "storage-regression.json",
+      "sha256": "a35b97867325c7e38fcaa9634be80388207017024140d9536296c64388b23e9c",
+      "date": "2026-10-09T18:50:38.554Z",
+      "passed": true
+    },
+    {
+      "file": "gestures.json",
+      "sha256": "aa459df921c4aba03caba7437c0e50d50ee708c78e7cee922390e32c2f15a742",
+      "date": "2026-10-09T18:50:41.581Z",
+      "passed": true
+    },
+    {
+      "file": "drag-regression.json",
+      "sha256": "2c6c831676af819354c8210cfc5a6018e328e865598699bd478be82e404f2757",
+      "date": "2026-10-09T18:51:20.227Z",
+      "passed": true
+    },
+    {
+      "file": "unload-ci.json",
+      "sha256": "8e6a688fd501c039270a9ea74fd949c8c5f5f01ceb3a51a4a3a7cb6eac175337",
+      "date": "2026-10-09T18:51:40.875Z",
+      "passed": true
+    },
+    {
+      "file": "measurement-stages.json",
+      "sha256": "4d42de53e030b32fc215ac2194927164db5e3912fb1cd0feb56e343329252a0d",
+      "passed": true
+    },
+    {
+      "file": "drag-stages.json",
+      "sha256": "34319d1a92f30971561eb6338f2f4bb01c60654941f2df0789119e5dba0b3f61",
+      "date": "2026-10-09T19:21:08.072Z",
+      "passed": true
+    },
+    {
+      "file": "results.json",
+      "sha256": "b58df5e4f51b5c9d4204acfeb9fcadab2602b3cf7a97baee5233dbc4d0e29be0",
+      "date": "2026-10-09T19:11:56.106Z",
+      "passed": true
+    },
+    {
+      "file": "collection-production-results.json",
+      "sha256": "b87616d8816ea43c772b6f944362988489a4d9c120eaa3b817d6da7a165ca5fb",
+      "date": "2026-10-09T19:18:57.615Z",
+      "passed": true
+    },
+    {
+      "file": "continuous-results.json",
+      "sha256": "97b38d21e06bc600c9c27a6692bd0cd3ee45215891932079e01505ca27aa659f",
+      "date": "2026-10-09T19:21:02.553Z",
+      "passed": true
+    },
+    {
+      "file": "drag-results.json",
+      "sha256": "b32173972142c9e6abb4128cf1de4fe750e12930f867b42d5b4931bf0806ec06",
+      "date": "2026-10-09T19:22:22.404Z",
+      "passed": true
+    },
+    {
+      "file": "screens-paired-results.json",
+      "sha256": "d9df405a4f1918214594720a85303a6c862551cea0da299b860f049e9761f27a",
+      "date": "2026-10-09T19:23:23.964Z",
+      "passed": true
+    },
+    {
+      "file": "operations.json",
+      "sha256": "80567ef6c2cc65be1ebcd385a96f6db3252af915cdba98d5ff74c9eab216200c",
+      "passed": true
+    },
+    {
+      "file": "modernization-units.json",
+      "sha256": "3fd4be1d0ac80db9f08e88ac41cf41124c8fa79ecc323b3cad64413afab18c9d",
+      "passed": true
+    },
+    {
+      "file": "python-ci-availability.json",
+      "sha256": "859a20acb90e127c0e53be4d15891b6ff3728d2a2160149a9ea2e8e07665ba88",
+      "date": "2026-10-09T18:55:51.621178+00:00",
+      "passed": true
+    }
+  ],
+  "provenance": "Legacy storage/gesture/drag children lack embedded source hash; parent regression freezes baseline/live inputs, runs these children in order and checks unchanged final source hash. Inventory is generated after this manifest; not included here to avoid circular hashes.",
+  "gaps": [
+    "minimum browsers/WebViews",
+    "physical Safari/touch/OS IME/screen reader",
+    "real cache-restoration path",
+    "remote Linux CI/source-build execution",
+    "field INP and physical continuous-input smoothness",
+    "unmeasured operation timings in operations.json",
+    "long-duration memory growth",
+    "small-count settings/calendar negative values cause",
+    "first incomplete drag-run exit1 cause",
+    "old singleton history saved-indicator timeout cause",
+    "development dependency advisory awaiting upstream fix"
+  ]
+}

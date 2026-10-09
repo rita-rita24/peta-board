@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-09T16:26:21.829Z",
+  "browser": "154.0.8037.99",
+  "field": "column title",
+  "definition": "Native Playwright fill input events; capture-phase input mark to first Paint in same renderer. CDP timeline captures real renderer painting, not physical display/compositor latency or INP. Five events in one dense filtered input session; field recorded separately. Instrumented attribution, not uninstrumented trial results.",
+  "summaries": [
+    {
+      "source": "performance/followup/before.html",
+      "label": "before",
+      "samples": [
+        {
+          "mark": "input-変更0",
+          "firstRendererPaintMs": 246.122
+        },
+        {
+          "mark": "input-変更1",
+          "firstRendererPaintMs": 284.421
+        },
+        {
+          "mark": "input-変更2",
+          "firstRendererPaintMs": 244.439
+        },
+        {
+          "mark": "input-変更3",
+          "firstRendererPaintMs": 259.24
+        },
+        {
+          "mark": "input-変更4",
+          "firstRendererPaintMs": 242.474
+        }
+      ],
+      "paintEvents": 20,
+      "layoutMs": 740.7890000000001
+    },
+    {
+      "source": "peta-board.html",
+      "label": "after",
+      "samples": [
+        {
+          "mark": "input-変更0",
+          "firstRendererPaintMs": 8.04
+        },
+        {
+          "mark": "input-変更1",
+          "firstRendererPaintMs": 6.363
+        },
+        {
+          "mark": "input-変更2",
+          "firstRendererPaintMs": 10.192
+        },
+        {
+          "mark": "input-変更3",
+          "firstRendererPaintMs": 5.824
+        },
+        {
+          "mark": "input-変更4",
+          "firstRendererPaintMs": 5.618
+        }
+      ],
+      "paintEvents": 14,
+      "layoutMs": 3.997
+    }
+  ]
+}

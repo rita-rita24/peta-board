@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09T19:18:10.349Z",
+  "source": "performance/round6/before.html",
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-drag-release-oAOQjY/board.html",
+  "filterQuery": null,
+  "definition": "Grab: pointerdown to drag class includes robot transport/path/threshold delay; triggeringMoveHandler is synchronous move to drag class, not input queue. Grab resultProxy is two rAF, not real Paint/display. Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 33.60000002384186,
+      "valid": true,
+      "handler": 2.100000023841858,
+      "handlerReady": true,
+      "save": 165.60000002384186,
+      "grab": {
+        "downToState": 15,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 17.399999976158142
+      }
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 34.09999996423721,
+      "valid": true,
+      "handler": 2.199999988079071,
+      "handlerReady": true,
+      "save": 166.5,
+      "grab": {
+        "downToState": 10.900000035762787,
+        "triggeringMoveHandler": 0.09999996423721313,
+        "resultProxy": 14.699999988079071
+      }
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 29.399999976158142,
+      "valid": true,
+      "handler": 3.5,
+      "handlerReady": true,
+      "save": 187.29999995231628,
+      "grab": {
+        "downToState": 14.800000011920929,
+        "triggeringMoveHandler": 0.10000002384185791,
+        "resultProxy": 17.30000001192093
+      }
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 33.5,
+      "valid": true,
+      "handler": 12.799999952316284,
+      "handlerReady": true,
+      "save": 185.0999999642372,
+      "grab": {
+        "downToState": 3.800000011920929,
+        "triggeringMoveHandler": 0,
+        "resultProxy": 34.90000003576279
+      }
+    }
+  ],
+  "errors": []
+}

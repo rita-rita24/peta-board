@@ -1,0 +1,25 @@
+{
+  "version": "3.15.0 (main, Oct 10 2026, 02:34:36) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "executable": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/.checks/python315-build/Python-3.15.0/python.exe",
+  "platform": "macosx-26.2-arm64",
+  "sourceUrl": "https://www.python.org/ftp/python/3.15.0/Python-3.15.0.tar.xz",
+  "sourceSha256": "ba4bed1ba346b916890b76d9e320451420aa69f6408997d33c66482eeae3d575",
+  "sourceHashMatched": true,
+  "globalInstallationChanged": false,
+  "stableRelease": true,
+  "experimentalJITEnabled": false,
+  "freeThreadingEnabled": false,
+  "openssl": "OpenSSL 3.6.1 27 Jan 2026",
+  "sqlite": "3.51.2",
+  "decimalCAcceleration": true,
+  "zstdAvailable": true,
+  "optionalModulesMissing": [
+    "_gdbm",
+    "_tkinter"
+  ],
+  "optionalModulesScope": "Neither is imported by managed CLI scripts; GUI and GNU dbm are unused. Existing libraries used read-only.",
+  "ruffStableTarget": "py314",
+  "ruffPy315Warning": "Support for Python 3.15 is under development and may be unstable. Enable preview to remove this warning.",
+  "ruffPreviewEnabled": false,
+  "python315SyntaxAndExecutionVerified": true
+}

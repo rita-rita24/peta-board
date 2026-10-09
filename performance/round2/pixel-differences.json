@@ -1,0 +1,102 @@
+[
+  {
+    "file": "check-375-50-true-resize_taller-before.png",
+    "pixels": 8,
+    "bbox": [
+      277,
+      226,
+      280,
+      270
+    ]
+  },
+  {
+    "file": "check-375-500-false-resize_taller-before.png",
+    "pixels": 8,
+    "bbox": [
+      39,
+      1612,
+      43,
+      1630
+    ]
+  },
+  {
+    "file": "check-1440-5-false-horizontal_last_column-before.png",
+    "pixels": 2,
+    "bbox": [
+      61,
+      13,
+      63,
+      14
+    ]
+  },
+  {
+    "file": "check-1440-5-false-vertical_bottom-before.png",
+    "pixels": 2,
+    "bbox": [
+      61,
+      13,
+      63,
+      14
+    ]
+  },
+  {
+    "file": "check-320-500-true-resize_shorter-before.png",
+    "pixels": 5,
+    "bbox": [
+      131,
+      252,
+      225,
+      296
+    ]
+  },
+  {
+    "file": "check-1440-5-false-initial-before.png",
+    "pixels": 2,
+    "bbox": [
+      61,
+      13,
+      63,
+      14
+    ]
+  },
+  {
+    "file": "check-320-500-false-resize_shorter-before.png",
+    "pixels": 5,
+    "bbox": [
+      131,
+      252,
+      225,
+      296
+    ]
+  },
+  {
+    "file": "check-320-50-true-resize_shorter-before.png",
+    "pixels": 4,
+    "bbox": [
+      48,
+      188,
+      308,
+      307
+    ]
+  },
+  {
+    "file": "check-375-5-false-resize_shorter-before.png",
+    "pixels": 4,
+    "bbox": [
+      103,
+      188,
+      363,
+      307
+    ]
+  },
+  {
+    "file": "check-375-50-true-resize_shorter-before.png",
+    "pixels": 4,
+    "bbox": [
+      103,
+      188,
+      363,
+      307
+    ]
+  }
+]

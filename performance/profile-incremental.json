@@ -1,0 +1,220 @@
+{
+  "initial": {
+    "mountIcons": {
+      "ms": 2.3999999165534973,
+      "calls": 4
+    },
+    "normalizeState": {
+      "ms": 5.800000011920929,
+      "calls": 1
+    },
+    "hasStoredStateReduction": {
+      "ms": 8,
+      "calls": 1
+    },
+    "appendHighlightedText": {
+      "ms": 2.299999713897705,
+      "calls": 2500
+    },
+    "renderNote": {
+      "ms": 15.400000035762787,
+      "calls": 500
+    },
+    "renderBoard": {
+      "ms": 1137.300000011921,
+      "calls": 1
+    },
+    "renderSettingsControls": {
+      "ms": 0.40000003576278687,
+      "calls": 1
+    },
+    "renderAll": {
+      "ms": 1138.199999988079,
+      "calls": 1
+    }
+  },
+  "metrics": {
+    "metrics": [
+      {
+        "name": "Timestamp",
+        "value": 403545.460741
+      },
+      {
+        "name": "AudioHandlers",
+        "value": 0
+      },
+      {
+        "name": "AudioWorkletProcessors",
+        "value": 0
+      },
+      {
+        "name": "Documents",
+        "value": 2
+      },
+      {
+        "name": "Frames",
+        "value": 1
+      },
+      {
+        "name": "JSEventListeners",
+        "value": 261
+      },
+      {
+        "name": "LayoutObjects",
+        "value": 13471
+      },
+      {
+        "name": "MediaKeySessions",
+        "value": 0
+      },
+      {
+        "name": "MediaKeys",
+        "value": 0
+      },
+      {
+        "name": "Nodes",
+        "value": 12298
+      },
+      {
+        "name": "Resources",
+        "value": 0
+      },
+      {
+        "name": "ContextLifecycleStateObservers",
+        "value": 8
+      },
+      {
+        "name": "V8PerContextDatas",
+        "value": 2
+      },
+      {
+        "name": "WorkerGlobalScopes",
+        "value": 0
+      },
+      {
+        "name": "UACSSResources",
+        "value": 0
+      },
+      {
+        "name": "RTCPeerConnections",
+        "value": 0
+      },
+      {
+        "name": "ResourceFetchers",
+        "value": 2
+      },
+      {
+        "name": "AdSubframes",
+        "value": 0
+      },
+      {
+        "name": "DetachedScriptStates",
+        "value": 0
+      },
+      {
+        "name": "ArrayBufferContents",
+        "value": 0
+      },
+      {
+        "name": "LayoutCount",
+        "value": 4
+      },
+      {
+        "name": "RecalcStyleCount",
+        "value": 6
+      },
+      {
+        "name": "LayoutDuration",
+        "value": 1.095924
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.064396
+      },
+      {
+        "name": "DevToolsCommandDuration",
+        "value": 0.010025
+      },
+      {
+        "name": "ScriptDuration",
+        "value": 0.012854
+      },
+      {
+        "name": "V8CompileDuration",
+        "value": 0.001985
+      },
+      {
+        "name": "TaskDuration",
+        "value": 1.343683
+      },
+      {
+        "name": "TaskOtherDuration",
+        "value": 0.158499
+      },
+      {
+        "name": "ThreadTime",
+        "value": 1.324433
+      },
+      {
+        "name": "ProcessTime",
+        "value": 1.661037
+      },
+      {
+        "name": "JSHeapUsedSize",
+        "value": 19902560
+      },
+      {
+        "name": "JSHeapTotalSize",
+        "value": 29982720
+      },
+      {
+        "name": "FirstMeaningfulPaint",
+        "value": 0
+      },
+      {
+        "name": "DomContentLoaded",
+        "value": 403544.12269
+      },
+      {
+        "name": "NavigationStart",
+        "value": 403544.040064
+      }
+    ]
+  },
+  "search": {
+    "noteMatches": {
+      "ms": 3.299999952316284,
+      "calls": 500
+    },
+    "appendHighlightedText": {
+      "ms": 2.099999964237213,
+      "calls": 1250
+    },
+    "renderNote": {
+      "ms": 14.20000010728836,
+      "calls": 250
+    },
+    "mountIcons": {
+      "ms": 0.800000011920929,
+      "calls": 1
+    },
+    "renderBoard": {
+      "ms": 25.30000001192093,
+      "calls": 1
+    }
+  },
+  "clear": {
+    "renderNote": {
+      "ms": 5.600000083446503,
+      "calls": 500
+    },
+    "mountIcons": {
+      "ms": 0.30000001192092896,
+      "calls": 1
+    },
+    "renderBoard": {
+      "ms": 12.699999988079071,
+      "calls": 1
+    }
+  }
+}

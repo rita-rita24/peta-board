@@ -1,0 +1,1050 @@
+{
+  "date": "2026-10-09T01:20:55.645Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/round3/before.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+    "peta-board.html": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb"
+  },
+  "rows": [
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.699999988079071,
+      "interactive": 5.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 9.899999976158142,
+      "interactive": 9.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 8,
+      "interactive": 8
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.399999976158142,
+      "interactive": 13.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 9.699999988079071,
+      "interactive": 9.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 12.699999988079071,
+      "interactive": 12.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 6.699999988079071,
+      "interactive": 6.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.399999976158142,
+      "interactive": 14.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.300000011920929,
+      "interactive": 5.199999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.399999976158142,
+      "interactive": 15.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.699999988079071,
+      "interactive": 7.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 16.899999976158142,
+      "interactive": 16.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 12.800000011920929,
+      "interactive": 12.800000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 16.19999998807907,
+      "interactive": 16.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.199999988079071,
+      "interactive": 7.199999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.300000011920929,
+      "interactive": 13.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.900000035762787,
+      "interactive": 3.900000035762787
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.100000023841858,
+      "interactive": 14.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 10.199999988079071,
+      "interactive": 10.199999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.5,
+      "interactive": 3.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.699999988079071,
+      "interactive": 13.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6.300000011920929,
+      "interactive": 6.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15,
+      "interactive": 15
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.5,
+      "interactive": 3.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.899999976158142,
+      "interactive": 13.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 14.5,
+      "interactive": 14.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.199999988079071,
+      "interactive": 15.199999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.699999988079071,
+      "interactive": 3.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 12.699999988079071,
+      "interactive": 12.699999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.300000011920929,
+      "interactive": 5.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 7.5,
+      "interactive": 7.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.799999952316284,
+      "interactive": 14.799999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.199999988079071,
+      "interactive": 7.199999988079071
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.100000023841858,
+      "interactive": 15.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 12,
+      "interactive": 12
+    },
+    {
+      "source": "performance/round3/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 17.099999964237213,
+      "interactive": 17
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.300000011920929,
+      "interactive": 7.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.5,
+      "interactive": 15.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.399999976158142,
+      "interactive": 3.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 11.599999964237213,
+      "interactive": 11.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.799999952316284,
+      "interactive": 5.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 11,
+      "interactive": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 15.700000047683716,
+      "interactive": 15.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6.099999964237213,
+      "interactive": 6.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15,
+      "interactive": 15
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 13.900000035762787,
+      "interactive": 13.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.199999988079071,
+      "interactive": 14.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6.800000011920929,
+      "interactive": 6.699999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.099999964237213,
+      "interactive": 15.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 13.799999952316284,
+      "interactive": 13.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 15.399999976158142,
+      "interactive": 15.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 4.300000011920929,
+      "interactive": 4.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.100000023841858,
+      "interactive": 15.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 15.800000011920929,
+      "interactive": 15.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.300000011920929,
+      "interactive": 14.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.5,
+      "interactive": 8.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.800000011920929,
+      "interactive": 13.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.5,
+      "interactive": 3.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 12.800000011920929,
+      "interactive": 12.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.100000023841858,
+      "interactive": 8.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.900000035762787,
+      "interactive": 14.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.800000011920929,
+      "interactive": 3.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 10.899999976158142,
+      "interactive": 10.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 15.099999964237213,
+      "interactive": 15.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 16.099999964237213,
+      "interactive": 16.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.800000011920929,
+      "interactive": 3.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.199999988079071,
+      "interactive": 13.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.899999976158142,
+      "interactive": 8.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.899999976158142,
+      "interactive": 13.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.700000047683716,
+      "interactive": 3.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 9.600000023841858,
+      "interactive": 9.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.199999988079071,
+      "interactive": 7.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14,
+      "interactive": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 14.700000047683716,
+      "interactive": 14.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929
+    }
+  ]
+}

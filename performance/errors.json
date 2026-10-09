@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-08T16:46:30.583Z",
+  "browser": "154.0.8037.99",
+  "rows": [
+    {
+      "source": "performance/before.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 55,
+      "content": 55,
+      "result": 55
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 37.19999998807907,
+      "content": 37.30000001192093,
+      "result": 37.30000001192093
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 50.799999952316284,
+      "content": 50.799999952316284,
+      "result": 50.799999952316284
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 50,
+      "content": 50,
+      "result": 50
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 57,
+      "content": 57,
+      "result": 57
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 49.299999952316284,
+      "content": 200,
+      "result": 200
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 44.39999997615814,
+      "content": 193.89999997615814,
+      "result": 193.89999997615814
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 47.30000001192093,
+      "content": 197.30000001192093,
+      "result": 197.30000001192093
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 76.30000001192093,
+      "content": 227.5,
+      "result": 227.5
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 73.39999997615814,
+      "content": 223.39999997615814,
+      "result": 223.39999997615814
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 45.10000002384186,
+      "content": 45.10000002384186,
+      "result": 45.10000002384186
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 44.39999997615814,
+      "content": 44.5,
+      "result": 44.5
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 39.40000003576279,
+      "content": 39.40000003576279,
+      "result": 39.40000003576279
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 41.5,
+      "content": 41.5,
+      "result": 41.5
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 45.299999952316284,
+      "content": 45.299999952316284,
+      "result": 45.299999952316284
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 51.40000003576279,
+      "content": 51.40000003576279,
+      "result": 51.40000003576279
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 50.69999998807907,
+      "content": 50.80000001192093,
+      "result": 50.80000001192093
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 63.40000003576279,
+      "content": 63.40000003576279,
+      "result": 63.40000003576279
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 37.19999998807907,
+      "content": 37.19999998807907,
+      "result": 37.19999998807907
+    },
+    {
+      "source": "performance/before.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 35.10000002384186,
+      "content": 35.19999998807907,
+      "result": 35.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 56.799999952316284,
+      "content": 56.799999952316284,
+      "result": 56.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 49.09999996423721,
+      "content": 49.09999996423721,
+      "result": 49.09999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 45.10000002384186,
+      "content": 45.10000002384186,
+      "result": 45.10000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 38.19999998807907,
+      "content": 38.19999998807907,
+      "result": 38.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 36.59999996423721,
+      "content": 36.59999996423721,
+      "result": 36.59999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 35.09999996423721,
+      "content": 184.5,
+      "result": 184.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 37.30000001192093,
+      "content": 186.19999998807907,
+      "result": 186.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 55.19999998807907,
+      "content": 205.79999995231628,
+      "result": 205.79999995231628
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 46.299999952316284,
+      "content": 212,
+      "result": 212
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 44.19999998807907,
+      "content": 192.80000001192093,
+      "result": 192.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 39.5,
+      "content": 39.5,
+      "result": 39.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 34.59999996423721,
+      "content": 34.59999996423721,
+      "result": 34.59999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 37.5,
+      "content": 37.5,
+      "result": 37.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 39.80000001192093,
+      "content": 39.80000001192093,
+      "result": 39.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 43.19999998807907,
+      "content": 43.19999998807907,
+      "result": 43.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 58.40000003576279,
+      "content": 58.40000003576279,
+      "result": 58.40000003576279
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 32,
+      "content": 32,
+      "result": 32
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 30.600000023841858,
+      "content": 30.600000023841858,
+      "result": 30.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 31.80000001192093,
+      "content": 31.80000001192093,
+      "result": 31.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 41.59999996423721,
+      "content": 41.59999996423721,
+      "result": 41.59999996423721
+    }
+  ],
+  "versions": {
+    "performance/before.html": "54979e5917e9c6305666f57e84a5d843debbdeca01a7ba397a7457f21790b822",
+    "peta-board.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa"
+  },
+  "version_provenance": "Verified preserved source hashes after run; HTML sources unchanged during measurement"
+}

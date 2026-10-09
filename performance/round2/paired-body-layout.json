@@ -1,0 +1,5371 @@
+{
+  "date": "2026-10-08T23:28:15.789Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/round2/before.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+    "performance/round2/candidate-body-layout.html": "bb5044b89f7f28b6e2e9814302f310335b15d99968daa35cc9376e9f49e80101"
+  },
+  "rows": [
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 322.0999999642372,
+      "interactive": 322.0999999642372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 12.099999964237213,
+      "interactive": 12.099999964237213,
+      "result": 12.099999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 15.100000023841858,
+      "interactive": 15.100000023841858,
+      "result": 15.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 21.100000023841858,
+      "interactive": 21.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 27.700000047683716,
+      "interactive": 27.700000047683716
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 90.90000003576279,
+      "interactive": 90.90000003576279
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.399999976158142,
+      "interactive": 31.399999976158142,
+      "result": 31.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.700000047683716,
+      "interactive": 31.700000047683716,
+      "result": 31.700000047683716
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15.199999988079071,
+      "interactive": 15.199999988079071
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.5,
+      "interactive": 32.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 187.5,
+      "interactive": 187.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 29.80000001192093,
+      "interactive": 29.80000001192093,
+      "result": 29.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 26.80000001192093,
+      "interactive": 26.80000001192093,
+      "result": 26.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 5.199999988079071,
+      "interactive": 5.199999988079071
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 23.19999998807907,
+      "interactive": 23.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 243,
+      "interactive": 243
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.5,
+      "interactive": 31.5,
+      "result": 31.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32.40000003576279,
+      "interactive": 32.40000003576279,
+      "result": 32.40000003576279
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 11.5,
+      "interactive": 11.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29.900000035762787,
+      "interactive": 29.900000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 259.60000002384186,
+      "interactive": 259.60000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 33.30000001192093,
+      "interactive": 33.30000001192093,
+      "result": 33.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.5,
+      "interactive": 31.5,
+      "result": 31.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 2.900000035762787,
+      "interactive": 2.900000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 29.700000047683716,
+      "interactive": 29.700000047683716
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 185.30000001192093,
+      "interactive": 185.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.80000001192093,
+      "interactive": 31.80000001192093,
+      "result": 31.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32,
+      "interactive": 32,
+      "result": 32
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 19.19999998807907,
+      "interactive": 19.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 30,
+      "interactive": 30
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 98.80000001192093,
+      "interactive": 98.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 31.69999998807907,
+      "interactive": 31.69999998807907,
+      "result": 31.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.599999964237213,
+      "interactive": 31.599999964237213,
+      "result": 31.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 31.400000035762787,
+      "interactive": 31.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.60000002384186,
+      "interactive": 32.60000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 85.59999996423721,
+      "interactive": 85.59999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.09999996423721,
+      "interactive": 32.09999996423721,
+      "result": 32.09999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32.09999996423721,
+      "interactive": 32.09999996423721,
+      "result": 32.09999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 31.099999964237213,
+      "interactive": 31.099999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 241.19999998807907,
+      "interactive": 241.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 26.599999964237213,
+      "interactive": 26.599999964237213,
+      "result": 26.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.19999998807907,
+      "interactive": 31.19999998807907,
+      "result": 31.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 30.5,
+      "interactive": 30.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 30.80000001192093,
+      "interactive": 30.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 78.39999997615814,
+      "interactive": 78.39999997615814
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093,
+      "result": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 30.900000035762787,
+      "interactive": 30.900000035762787,
+      "result": 30.900000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 21.100000023841858,
+      "interactive": 21.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.599999964237213,
+      "interactive": 31.599999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 84.5,
+      "interactive": 84.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 31.599999964237213,
+      "interactive": 31.599999964237213,
+      "result": 31.599999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.099999964237213,
+      "interactive": 31.099999964237213,
+      "result": 31.099999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.19999998807907,
+      "interactive": 32.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 48.5,
+      "interactive": 48.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.19999998807907,
+      "interactive": 31.19999998807907,
+      "result": 31.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.69999998807907,
+      "interactive": 31.69999998807907,
+      "result": 31.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 32.19999998807907,
+      "interactive": 32.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 30.899999976158142,
+      "interactive": 30.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 93.5,
+      "interactive": 93.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 30.5,
+      "interactive": 30.5,
+      "result": 30.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 29.80000001192093,
+      "interactive": 29.80000001192093,
+      "result": 29.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 22.899999976158142,
+      "interactive": 22.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 76.30000001192093,
+      "interactive": 76.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.39999997615814,
+      "interactive": 32.39999997615814,
+      "result": 32.39999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142,
+      "result": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.5,
+      "interactive": 32.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 122.09999996423721,
+      "interactive": 122.09999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 31.900000035762787,
+      "interactive": 31.900000035762787,
+      "result": 31.900000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 28.599999964237213,
+      "interactive": 28.599999964237213,
+      "result": 28.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 30.799999952316284,
+      "interactive": 30.799999952316284
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 25.100000023841858,
+      "interactive": 25.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 83.19999998807907,
+      "interactive": 83.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 30.600000023841858,
+      "interactive": 30.600000023841858,
+      "result": 30.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32.700000047683716,
+      "interactive": 32.700000047683716,
+      "result": 32.700000047683716
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 29.69999998807907,
+      "interactive": 29.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.799999952316284,
+      "interactive": 32.799999952316284
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 91.20000004768372,
+      "interactive": 91.20000004768372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 32.69999998807907,
+      "interactive": 32.69999998807907,
+      "result": 32.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.599999964237213,
+      "interactive": 31.599999964237213,
+      "result": 31.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 32,
+      "interactive": 32
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.19999998807907,
+      "interactive": 32.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 37.299999952316284,
+      "interactive": 37.299999952316284
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.100000023841858,
+      "interactive": 31.100000023841858,
+      "result": 31.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 33.10000002384186,
+      "interactive": 33.10000002384186,
+      "result": 33.10000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 31.400000035762787,
+      "interactive": 31.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.89999997615814,
+      "interactive": 32.89999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 97.20000004768372,
+      "interactive": 97.20000004768372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 31,
+      "interactive": 31,
+      "result": 31
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.80000001192093,
+      "interactive": 31.80000001192093,
+      "result": 31.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 31.100000023841858,
+      "interactive": 31.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.19999998807907,
+      "interactive": 32.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 48.39999997615814,
+      "interactive": 48.39999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142,
+      "result": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.900000035762787,
+      "interactive": 31.900000035762787,
+      "result": 31.900000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 31.299999952316284,
+      "interactive": 31.299999952316284
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 21.600000023841858,
+      "interactive": 21.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1117.2999999523163,
+      "interactive": 1117.2999999523163
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 80,
+      "interactive": 80,
+      "result": 80
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 917,
+      "interactive": 917,
+      "result": 917
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 28,
+      "interactive": 28
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.899999976158142,
+      "interactive": 31.899999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 846.8999999761581,
+      "interactive": 846.8999999761581
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 83.79999995231628,
+      "interactive": 83.79999995231628,
+      "result": 83.79999995231628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1116.2000000476837,
+      "interactive": 1116.2000000476837,
+      "result": 1116.2000000476837
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 16.5,
+      "interactive": 16.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 25.5,
+      "interactive": 25.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1133.5,
+      "interactive": 1133.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 70.79999995231628,
+      "interactive": 70.79999995231628,
+      "result": 70.79999995231628
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1039.300000011921,
+      "interactive": 1039.300000011921,
+      "result": 1039.300000011921
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 25.80000001192093,
+      "interactive": 25.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 23.5,
+      "interactive": 23.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 961.6999999880791,
+      "interactive": 961.6999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 79.80000001192093,
+      "interactive": 79.80000001192093,
+      "result": 79.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1056.3999999761581,
+      "interactive": 1056.3999999761581,
+      "result": 1056.3999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 23.30000001192093,
+      "interactive": 23.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 21.599999964237213,
+      "interactive": 21.599999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1024.699999988079,
+      "interactive": 1024.699999988079
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 76,
+      "interactive": 76,
+      "result": 76
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1132,
+      "interactive": 1132,
+      "result": 1132
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 10.699999988079071,
+      "interactive": 10.699999988079071
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 13.800000011920929,
+      "interactive": 13.800000011920929
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 1022.3000000119209,
+      "interactive": 1022.3000000119209
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 92.39999997615814,
+      "interactive": 92.39999997615814,
+      "result": 92.39999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1236.5,
+      "interactive": 1236.5,
+      "result": 1236.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 4.399999976158142,
+      "interactive": 4.399999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 14.400000035762787,
+      "interactive": 14.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1134.3999999761581,
+      "interactive": 1134.3999999761581
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 67.69999998807907,
+      "interactive": 67.69999998807907,
+      "result": 67.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 937.5,
+      "interactive": 937.5,
+      "result": 937.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.399999976158142,
+      "interactive": 20.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 18.600000023841858,
+      "interactive": 18.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 835.2999999523163,
+      "interactive": 835.2999999523163
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 78.40000003576279,
+      "interactive": 78.40000003576279,
+      "result": 78.40000003576279
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1257.300000011921,
+      "interactive": 1257.300000011921,
+      "result": 1257.300000011921
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 22.799999952316284,
+      "interactive": 22.799999952316284
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.400000035762787,
+      "interactive": 31.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1216.1000000238419,
+      "interactive": 1216.1000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 75.09999996423721,
+      "interactive": 75.09999996423721,
+      "result": 75.09999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1053.199999988079,
+      "interactive": 1053.199999988079,
+      "result": 1053.199999988079
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 25.80000001192093,
+      "interactive": 25.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 26.5,
+      "interactive": 26.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 967.1000000238419,
+      "interactive": 967.1000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 76.69999998807907,
+      "interactive": 76.69999998807907,
+      "result": 76.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1080.5999999642372,
+      "interactive": 1080.5999999642372,
+      "result": 1080.5999999642372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 26.600000023841858,
+      "interactive": 26.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.69999998807907,
+      "interactive": 31.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1043.3999999761581,
+      "interactive": 1043.3999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 75,
+      "interactive": 75,
+      "result": 75
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1098.6000000238419,
+      "interactive": 1098.6000000238419,
+      "result": 1098.6000000238419
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 30.700000047683716,
+      "interactive": 30.700000047683716
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 19.5,
+      "interactive": 19.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 960.7999999523163,
+      "interactive": 960.7999999523163
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 70.69999998807907,
+      "interactive": 70.69999998807907,
+      "result": 70.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1018.8000000119209,
+      "interactive": 1018.8000000119209,
+      "result": 1018.8000000119209
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 21.80000001192093,
+      "interactive": 21.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1070.1000000238419,
+      "interactive": 1070.1000000238419
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 93.80000001192093,
+      "interactive": 93.80000001192093,
+      "result": 93.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1087.5,
+      "interactive": 1087.5,
+      "result": 1087.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 26.100000023841858,
+      "interactive": 26.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 25.30000001192093,
+      "interactive": 25.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 967.8999999761581,
+      "interactive": 967.8999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 80.19999998807907,
+      "interactive": 80.19999998807907,
+      "result": 80.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1058.199999988079,
+      "interactive": 1058.199999988079,
+      "result": 1058.199999988079
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 23.099999964237213,
+      "interactive": 23.099999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 21.5,
+      "interactive": 21.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1095.1000000238419,
+      "interactive": 1095.1000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 75.90000003576279,
+      "interactive": 75.90000003576279,
+      "result": 75.90000003576279
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1045.4000000357628,
+      "interactive": 1045.4000000357628,
+      "result": 1045.4000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.5,
+      "interactive": 20.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 27.19999998807907,
+      "interactive": 27.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 1061.699999988079,
+      "interactive": 1061.699999988079
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 79.59999996423721,
+      "interactive": 79.59999996423721,
+      "result": 79.59999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1040.9000000357628,
+      "interactive": 1040.9000000357628,
+      "result": 1040.9000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15.899999976158142,
+      "interactive": 15.899999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.69999998807907,
+      "interactive": 31.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 974.6000000238419,
+      "interactive": 974.6000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 71.10000002384186,
+      "interactive": 71.10000002384186,
+      "result": 71.10000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1001.4000000357628,
+      "interactive": 1001.4000000357628,
+      "result": 1001.4000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.5,
+      "interactive": 20.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 10,
+      "interactive": 10
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 960.9000000357628,
+      "interactive": 960.9000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 81.39999997615814,
+      "interactive": 81.39999997615814,
+      "result": 81.39999997615814
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1101.0999999642372,
+      "interactive": 1101.0999999642372,
+      "result": 1101.0999999642372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 23.19999998807907,
+      "interactive": 23.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29.399999976158142,
+      "interactive": 29.399999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1109.0999999642372,
+      "interactive": 1109.0999999642372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 79.70000004768372,
+      "interactive": 79.70000004768372,
+      "result": 79.70000004768372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1175.6000000238419,
+      "interactive": 1175.6000000238419,
+      "result": 1175.6000000238419
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.80000001192093,
+      "interactive": 20.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 1.699999988079071,
+      "interactive": 1.699999988079071
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 1231.3999999761581,
+      "interactive": 1231.3999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 84.89999997615814,
+      "interactive": 84.89999997615814,
+      "result": 84.89999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1070.5999999642372,
+      "interactive": 1070.5999999642372,
+      "result": 1070.5999999642372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 26.200000047683716,
+      "interactive": 26.200000047683716
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 11.800000011920929,
+      "interactive": 11.800000011920929
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 149.69999998807907,
+      "interactive": 149.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 30.5,
+      "interactive": 30.5,
+      "result": 30.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 27.69999998807907,
+      "interactive": 27.69999998807907,
+      "result": 27.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 29,
+      "interactive": 29
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 30.80000001192093,
+      "interactive": 30.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 130.10000002384186,
+      "interactive": 130.10000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 13.399999976158142,
+      "interactive": 13.399999976158142,
+      "result": 13.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 28.099999964237213,
+      "interactive": 28.099999964237213,
+      "result": 28.099999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 25.80000001192093,
+      "interactive": 25.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29.80000001192093,
+      "interactive": 29.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 133.30000001192093,
+      "interactive": 133.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 32.299999952316284,
+      "interactive": 32.299999952316284,
+      "result": 32.299999952316284
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 32,
+      "interactive": 32,
+      "result": 32
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 27.899999976158142,
+      "interactive": 27.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 96.90000003576279,
+      "interactive": 96.90000003576279
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093,
+      "result": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.799999952316284,
+      "interactive": 31.799999952316284,
+      "result": 31.799999952316284
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 27,
+      "interactive": 27
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.5,
+      "interactive": 32.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 177.30000001192093,
+      "interactive": 177.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 30.400000035762787,
+      "interactive": 30.400000035762787,
+      "result": 30.400000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 29,
+      "interactive": 29,
+      "result": 29
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 26.100000023841858,
+      "interactive": 26.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.80000001192093,
+      "interactive": 32.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 77.80000001192093,
+      "interactive": 77.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.09999996423721,
+      "interactive": 32.09999996423721,
+      "result": 32.09999996423721
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32.69999998807907,
+      "interactive": 32.69999998807907,
+      "result": 32.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 26.399999976158142,
+      "interactive": 26.399999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.80000001192093,
+      "interactive": 31.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 120.5,
+      "interactive": 120.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 28.900000035762787,
+      "interactive": 28.900000035762787,
+      "result": 28.900000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 31.80000001192093,
+      "interactive": 31.80000001192093,
+      "result": 31.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 29.899999976158142,
+      "interactive": 29.899999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.60000002384186,
+      "interactive": 32.60000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 115.10000002384186,
+      "interactive": 115.10000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 29.30000001192093,
+      "interactive": 29.30000001192093,
+      "result": 29.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 31.5,
+      "interactive": 31.5,
+      "result": 31.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 26.80000001192093,
+      "interactive": 26.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 120.79999995231628,
+      "interactive": 120.79999995231628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 30.899999976158142,
+      "interactive": 30.899999976158142,
+      "result": 30.899999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 30.100000023841858,
+      "interactive": 30.100000023841858,
+      "result": 30.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 30.100000023841858,
+      "interactive": 30.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 28.30000001192093,
+      "interactive": 28.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 90.19999998807907,
+      "interactive": 90.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32,
+      "interactive": 32,
+      "result": 32
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32,
+      "interactive": 32,
+      "result": 32
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 32.10000002384186,
+      "interactive": 32.10000002384186
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.600000023841858,
+      "interactive": 31.600000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 239.89999997615814,
+      "interactive": 239.89999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 15.900000035762787,
+      "interactive": 15.900000035762787,
+      "result": 15.900000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 18.19999998807907,
+      "interactive": 18.19999998807907,
+      "result": 18.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 19.19999998807907,
+      "interactive": 19.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 2.699999988079071,
+      "interactive": 2.699999988079071
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 144.19999998807907,
+      "interactive": 144.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 26.099999964237213,
+      "interactive": 26.099999964237213,
+      "result": 26.099999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 15.399999976158142,
+      "interactive": 15.399999976158142,
+      "result": 15.399999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 23.599999964237213,
+      "interactive": 23.599999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 200.29999995231628,
+      "interactive": 200.29999995231628
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 27.600000023841858,
+      "interactive": 27.600000023841858,
+      "result": 27.600000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 30.700000047683716,
+      "interactive": 30.700000047683716,
+      "result": 30.700000047683716
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 28.5,
+      "interactive": 28.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.40000003576279,
+      "interactive": 32.40000003576279
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 99.19999998807907,
+      "interactive": 99.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 32.5,
+      "interactive": 32.5,
+      "result": 32.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 23.69999998807907,
+      "interactive": 23.69999998807907,
+      "result": 23.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 29.30000001192093,
+      "interactive": 29.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 30.600000023841858,
+      "interactive": 30.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 133.80000001192093,
+      "interactive": 133.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 30.600000023841858,
+      "interactive": 30.600000023841858,
+      "result": 30.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 28.900000035762787,
+      "interactive": 28.900000035762787,
+      "result": 28.900000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 32,
+      "interactive": 32
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 30.399999976158142,
+      "interactive": 30.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 79.40000003576279,
+      "interactive": 79.40000003576279
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 27.30000001192093,
+      "interactive": 27.30000001192093,
+      "result": 27.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 18.599999964237213,
+      "interactive": 18.599999964237213,
+      "result": 18.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 5.699999988079071,
+      "interactive": 5.699999988079071
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 26.5,
+      "interactive": 26.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 159.80000001192093,
+      "interactive": 159.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 31.600000023841858,
+      "interactive": 31.600000023841858,
+      "result": 31.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 36.89999997615814,
+      "interactive": 36.89999997615814,
+      "result": 36.89999997615814
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 19.099999964237213,
+      "interactive": 19.099999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32.39999997615814,
+      "interactive": 32.39999997615814
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 95,
+      "interactive": 95
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 18.600000023841858,
+      "interactive": 18.600000023841858,
+      "result": 18.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 26.400000035762787,
+      "interactive": 26.400000035762787,
+      "result": 26.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 27.80000001192093,
+      "interactive": 27.80000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29,
+      "interactive": 29
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 172.0999999642372,
+      "interactive": 172.0999999642372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 28.80000001192093,
+      "interactive": 28.80000001192093,
+      "result": 28.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 32.299999952316284,
+      "interactive": 32.299999952316284,
+      "result": 32.299999952316284
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 30.30000001192093,
+      "interactive": 30.30000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.80000001192093,
+      "interactive": 31.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 79.39999997615814,
+      "interactive": 79.39999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 31.5,
+      "interactive": 31.5,
+      "result": 31.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 32,
+      "interactive": 32,
+      "result": 32
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 32.60000002384186,
+      "interactive": 32.60000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 50,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.100000023841858,
+      "interactive": 31.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1078.7000000476837,
+      "interactive": 1078.7000000476837
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 71.5,
+      "interactive": 71.5,
+      "result": 71.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 1015.5999999642372,
+      "interactive": 1015.5999999642372,
+      "result": 1015.5999999642372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.5,
+      "interactive": 20.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 26.5,
+      "interactive": 26.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 886,
+      "interactive": 886
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 70.90000003576279,
+      "interactive": 70.90000003576279,
+      "result": 70.90000003576279
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 919.6999999880791,
+      "interactive": 919.6999999880791,
+      "result": 919.6999999880791
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 17,
+      "interactive": 17
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 30.899999976158142,
+      "interactive": 30.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "board",
+      "content": 838.3999999761581,
+      "interactive": 838.3999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search",
+      "content": 67.10000002384186,
+      "interactive": 67.10000002384186,
+      "result": 67.10000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 935.8999999761581,
+      "interactive": 935.8999999761581,
+      "result": 935.8999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 20.5,
+      "interactive": 20.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 26.100000023841858,
+      "interactive": 26.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "board",
+      "content": 765.9000000357628,
+      "interactive": 765.9000000357628
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search",
+      "content": 64.60000002384186,
+      "interactive": 64.60000002384186,
+      "result": 64.60000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 994.6999999880791,
+      "interactive": 994.6999999880791,
+      "result": 994.6999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15.400000035762787,
+      "interactive": 15.400000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29.100000023841858,
+      "interactive": 29.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 913,
+      "interactive": 913
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 70.19999998807907,
+      "interactive": 70.19999998807907,
+      "result": 70.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 945,
+      "interactive": 945,
+      "result": 945
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 10.700000047683716,
+      "interactive": 10.700000047683716
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 32,
+      "interactive": 32
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 811.1000000238419,
+      "interactive": 811.1000000238419
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 72.90000003576279,
+      "interactive": 72.90000003576279,
+      "result": 72.90000003576279
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1111,
+      "interactive": 1111,
+      "result": 1111
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15.600000023841858,
+      "interactive": 15.600000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 30.30000001192093,
+      "interactive": 30.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "board",
+      "content": 937.2999999523163,
+      "interactive": 937.2999999523163
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search",
+      "content": 72.69999998807907,
+      "interactive": 72.69999998807907,
+      "result": 72.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 921.3000000119209,
+      "interactive": 921.3000000119209,
+      "result": 921.3000000119209
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 11.100000023841858,
+      "interactive": 11.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 20.30000001192093,
+      "interactive": 20.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "board",
+      "content": 898.9000000357628,
+      "interactive": 898.9000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search",
+      "content": 73.5,
+      "interactive": 73.5,
+      "result": 73.5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 1001.5999999642372,
+      "interactive": 1001.5999999642372,
+      "result": 1001.5999999642372
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 19,
+      "interactive": 19
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 10.399999976158142,
+      "interactive": 10.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 1018.8999999761581,
+      "interactive": 1018.8999999761581
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 68.09999996423721,
+      "interactive": 68.09999996423721,
+      "result": 68.09999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 983,
+      "interactive": 983,
+      "result": 983
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 25.400000035762787,
+      "interactive": 25.400000035762787
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.100000023841858,
+      "interactive": 31.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 816.6999999880791,
+      "interactive": 816.6999999880791
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 69.59999996423721,
+      "interactive": 69.59999996423721,
+      "result": 69.59999996423721
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 984.3000000119209,
+      "interactive": 984.3000000119209,
+      "result": 984.3000000119209
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 20.600000023841858,
+      "interactive": 20.600000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 27.400000035762787,
+      "interactive": 27.400000035762787
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "board",
+      "content": 921.0999999642372,
+      "interactive": 921.0999999642372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search",
+      "content": 64.10000002384186,
+      "interactive": 64.10000002384186,
+      "result": 64.10000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 971.6999999880791,
+      "interactive": 971.6999999880791,
+      "result": 971.6999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 25.69999998807907,
+      "interactive": 25.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 27.19999998807907,
+      "interactive": 27.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "board",
+      "content": 775.6999999880791,
+      "interactive": 775.6999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search",
+      "content": 62.5,
+      "interactive": 62.5,
+      "result": 62.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 846.2999999523163,
+      "interactive": 846.2999999523163,
+      "result": 846.2999999523163
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 20.5,
+      "interactive": 20.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 29.19999998807907,
+      "interactive": 29.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 865.6999999880791,
+      "interactive": 865.6999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 61.80000001192093,
+      "interactive": 61.80000001192093,
+      "result": 61.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 841.9000000357628,
+      "interactive": 841.9000000357628,
+      "result": 841.9000000357628
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 23.899999976158142,
+      "interactive": 23.899999976158142
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.099999964237213,
+      "interactive": 31.099999964237213
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 752.1999999880791,
+      "interactive": 752.1999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 71.60000002384186,
+      "interactive": 71.60000002384186,
+      "result": 71.60000002384186
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 912.3999999761581,
+      "interactive": 912.3999999761581,
+      "result": 912.3999999761581
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 19.5,
+      "interactive": 19.5
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 31.100000023841858,
+      "interactive": 31.100000023841858
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "board",
+      "content": 936.1999999880791,
+      "interactive": 936.1999999880791
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search",
+      "content": 65.30000001192093,
+      "interactive": 65.30000001192093,
+      "result": 65.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 886,
+      "interactive": 886,
+      "result": 886
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 27.399999976158142,
+      "interactive": 27.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 27.69999998807907,
+      "interactive": 27.69999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "board",
+      "content": 753.3999999761581,
+      "interactive": 753.3999999761581
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search",
+      "content": 62,
+      "interactive": 62,
+      "result": 62
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 857.1000000238419,
+      "interactive": 857.1000000238419,
+      "result": 857.1000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 25.399999976158142,
+      "interactive": 25.399999976158142
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 32.30000001192093,
+      "interactive": 32.30000001192093
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 859.6999999880791,
+      "interactive": 859.6999999880791
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 63.39999997615814,
+      "interactive": 63.39999997615814,
+      "result": 63.39999997615814
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 872.9000000357628,
+      "interactive": 872.9000000357628,
+      "result": 872.9000000357628
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 18.19999998807907,
+      "interactive": 18.19999998807907
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.599999964237213,
+      "interactive": 31.599999964237213
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 816.8999999761581,
+      "interactive": 816.8999999761581
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 62,
+      "interactive": 62,
+      "result": 62
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 942.6000000238419,
+      "interactive": 942.6000000238419,
+      "result": 942.6000000238419
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 15,
+      "interactive": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 2.300000011920929,
+      "interactive": 2.300000011920929
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "board",
+      "content": 979.1999999880791,
+      "interactive": 979.1999999880791
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search",
+      "content": 69.69999998807907,
+      "interactive": 69.69999998807907,
+      "result": 69.69999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "search-clear",
+      "content": 851,
+      "interactive": 851,
+      "result": 851
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "horizontal-scroll",
+      "content": 21.80000001192093,
+      "interactive": 21.80000001192093
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "vertical-scroll",
+      "content": 31.19999998807907,
+      "interactive": 31.19999998807907
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "board",
+      "content": 766.8000000119209,
+      "interactive": 766.8000000119209
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search",
+      "content": 66.89999997615814,
+      "interactive": 66.89999997615814,
+      "result": 66.89999997615814
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "search-clear",
+      "content": 903.5999999642372,
+      "interactive": 903.5999999642372,
+      "result": 903.5999999642372
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "horizontal-scroll",
+      "content": 20.100000023841858,
+      "interactive": 20.100000023841858
+    },
+    {
+      "source": "performance/round2/candidate-body-layout.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "vertical-scroll",
+      "content": 8.699999988079071,
+      "interactive": 8.699999988079071
+    }
+  ],
+  "errors": []
+}

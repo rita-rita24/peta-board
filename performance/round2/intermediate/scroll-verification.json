@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-08T23:59:08.982Z",
+  "versions": {
+    "performance/round2/before.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+    "peta-board.html": "440ee3f422a35e10ac7940f2292480819f05f74d49b6341e2cd24cc647de640d"
+  },
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "light",
+      "checks": [
+        "末尾列・末尾付箋の全表示寸法と全文一致",
+        "スクロール後の編集操作と本文全文",
+        "テーマ表示と保存"
+      ],
+      "equal": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "dark",
+      "checks": [
+        "末尾列・末尾付箋の全表示寸法と全文一致",
+        "スクロール後の編集操作と本文全文",
+        "テーマ表示と保存"
+      ],
+      "equal": true
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "theme": "light",
+      "checks": [
+        "末尾列・末尾付箋の全表示寸法と全文一致",
+        "スクロール後の編集操作と本文全文",
+        "テーマ表示と保存"
+      ],
+      "equal": true
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "theme": "dark",
+      "checks": [
+        "末尾列・末尾付箋の全表示寸法と全文一致",
+        "スクロール後の編集操作と本文全文",
+        "テーマ表示と保存"
+      ],
+      "equal": true
+    }
+  ],
+  "errors": []
+}

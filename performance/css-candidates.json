@@ -1,0 +1,100 @@
+[
+  {
+    "name": "baseline",
+    "css": "",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 0.97434
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.054137
+      }
+    ]
+  },
+  {
+    "name": "inline",
+    "css": ".note-card{contain:inline-size}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 1.02239
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.054529
+      }
+    ]
+  },
+  {
+    "name": "bodyinline",
+    "css": ".note-body{contain:inline-size}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 0.991706
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.059883
+      }
+    ]
+  },
+  {
+    "name": "layout",
+    "css": ".note-card,.note-list,.column{contain:layout}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 1.085545
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.064022
+      }
+    ]
+  },
+  {
+    "name": "listinline",
+    "css": ".note-list{contain:inline-size}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 1.038873
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.055556
+      }
+    ]
+  },
+  {
+    "name": "fixedcolumns",
+    "css": ".note-list,.note-card{grid-template-columns:minmax(0,1fr)}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 1.041686
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.064306
+      }
+    ]
+  },
+  {
+    "name": "nowrapmeasure",
+    "css": ".note-list{grid-auto-rows:minmax(84px,1fr)}",
+    "metrics": [
+      {
+        "name": "LayoutDuration",
+        "value": 1.115555
+      },
+      {
+        "name": "RecalcStyleDuration",
+        "value": 0.069682
+      }
+    ]
+  }
+]

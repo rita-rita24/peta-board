@@ -1,0 +1,2892 @@
+{
+  "date": "2026-10-09T16:27:30.198Z",
+  "browser": "154.0.8037.99",
+  "productionUrl": "file:///Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/peta-board.html",
+  "versions": {
+    "peta-board.html": "f9f6ae556f61387dc0869a9940837d9708b24d59619a576f4fa54a7a9adb7a27"
+  },
+  "definition": "50/500 notes, dense single column, 375/1440x900, five independent contexts per source, AB/BA source order, eight synthetic input events/trial. handler synchronous; frameReady two rAF proxy. Search 検証 matches all tags. Membership removal/reinsertion, focus, selection, scroll, reload verified. No physical paint/INP claim.",
+  "rows": [
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 0,
+      "handler": 0.699999988079071,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 1,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 2,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.299999952316284,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 3,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 4,
+      "handler": 0.40000003576278687,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 6,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "step": 7,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 0,
+      "handler": 0.5999999642372131,
+      "frameReady": 34,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 1,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 2,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.69999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 3,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 4,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 6,
+      "handler": 0.3999999761581421,
+      "frameReady": 32.59999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "step": 7,
+      "handler": 0.30000001192092896,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 0,
+      "handler": 0.800000011920929,
+      "frameReady": 31.600000023841858,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 1,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 2,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.299999952316284,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 3,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 4,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 5,
+      "handler": 0.19999998807907104,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 6,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "step": 7,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 0,
+      "handler": 0.699999988079071,
+      "frameReady": 33.59999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 1,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.799999952316284,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 2,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 3,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 4,
+      "handler": 0.3999999761581421,
+      "frameReady": 32.89999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 6,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "step": 7,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 0,
+      "handler": 0.5,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 1,
+      "handler": 0.3999999761581421,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 2,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 3,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 4,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.59999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 5,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 6,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "step": 7,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 0,
+      "handler": 4.5,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 1,
+      "handler": 4.800000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 2,
+      "handler": 3.699999988079071,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 3,
+      "handler": 4.399999976158142,
+      "frameReady": 32.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 4,
+      "handler": 3.699999988079071,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 5,
+      "handler": 4.5,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 6,
+      "handler": 3.699999988079071,
+      "frameReady": 32.39999997615814,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "step": 7,
+      "handler": 2.900000035762787,
+      "frameReady": 33.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 0,
+      "handler": 4.300000011920929,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 1,
+      "handler": 7.299999952316284,
+      "frameReady": 33.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 2,
+      "handler": 3.699999988079071,
+      "frameReady": 32.90000003576279,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 3,
+      "handler": 6.300000011920929,
+      "frameReady": 32.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 4,
+      "handler": 3.900000035762787,
+      "frameReady": 32.90000003576279,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 5,
+      "handler": 5.399999976158142,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 6,
+      "handler": 3.5,
+      "frameReady": 33.39999997615814,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "step": 7,
+      "handler": 3,
+      "frameReady": 33.200000047683716,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 0,
+      "handler": 4.599999964237213,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 1,
+      "handler": 5.399999976158142,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 2,
+      "handler": 4.199999988079071,
+      "frameReady": 32.39999997615814,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 3,
+      "handler": 5.600000023841858,
+      "frameReady": 33.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 4,
+      "handler": 3.699999988079071,
+      "frameReady": 32.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 5,
+      "handler": 5.299999952316284,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 6,
+      "handler": 3.900000035762787,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "step": 7,
+      "handler": 3.600000023841858,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 0,
+      "handler": 5.5,
+      "frameReady": 33.09999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 1,
+      "handler": 7.199999988079071,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 2,
+      "handler": 4.899999976158142,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 3,
+      "handler": 5.300000011920929,
+      "frameReady": 32.89999997615814,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 4,
+      "handler": 3.399999976158142,
+      "frameReady": 33.60000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 5,
+      "handler": 4.199999988079071,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 6,
+      "handler": 3.5,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "step": 7,
+      "handler": 4,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 0,
+      "handler": 4.800000011920929,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 1,
+      "handler": 6.599999964237213,
+      "frameReady": 33.09999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 2,
+      "handler": 3.699999988079071,
+      "frameReady": 33.09999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 3,
+      "handler": 4.800000011920929,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 4,
+      "handler": 3.300000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 5,
+      "handler": 4.400000035762787,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 6,
+      "handler": 3.699999988079071,
+      "frameReady": 33.09999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "step": 7,
+      "handler": 3.200000047683716,
+      "frameReady": 33.200000047683716,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 0,
+      "handler": 0.5999999642372131,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 1,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 2,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.80000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 3,
+      "handler": 0.19999998807907104,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 4,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 6,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.59999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "step": 7,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 0,
+      "handler": 0.800000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 1,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 2,
+      "handler": 0.5999999642372131,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 3,
+      "handler": 0.5,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 4,
+      "handler": 0.30000001192092896,
+      "frameReady": 32.39999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 5,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 6,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.40000003576279,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "step": 7,
+      "handler": 0.3999999761581421,
+      "frameReady": 33,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 0,
+      "handler": 0.5,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 1,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 2,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.299999952316284,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 3,
+      "handler": 0.3999999761581421,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 4,
+      "handler": 0.2999999523162842,
+      "frameReady": 33.299999952316284,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 6,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "step": 7,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 0,
+      "handler": 0.6000000238418579,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 1,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.40000003576279,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 2,
+      "handler": 0.30000001192092896,
+      "frameReady": 34.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 3,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 4,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 5,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.40000003576279,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 6,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.19999998807907,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "step": 7,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.60000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 0,
+      "handler": 0.3999999761581421,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 1,
+      "handler": 0.20000004768371582,
+      "frameReady": 33.10000002384186,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 2,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.200000047683716,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 3,
+      "handler": 0.30000001192092896,
+      "frameReady": 33.39999997615814,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 4,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.30000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 5,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.5,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 6,
+      "handler": 0.19999998807907104,
+      "frameReady": 33.09999996423721,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "step": 7,
+      "handler": 0.40000003576278687,
+      "frameReady": 32.80000001192093,
+      "cards": 50,
+      "retained": 50,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 0,
+      "handler": 4.400000035762787,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 1,
+      "handler": 5.300000011920929,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 2,
+      "handler": 3.5,
+      "frameReady": 32.89999997615814,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 3,
+      "handler": 4.899999976158142,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 4,
+      "handler": 3.100000023841858,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 5,
+      "handler": 4,
+      "frameReady": 33.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 6,
+      "handler": 3.200000047683716,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "step": 7,
+      "handler": 2.600000023841858,
+      "frameReady": 32.60000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 0,
+      "handler": 5.800000011920929,
+      "frameReady": 32.40000003576279,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 1,
+      "handler": 5.800000011920929,
+      "frameReady": 34,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 2,
+      "handler": 5.300000011920929,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 3,
+      "handler": 6.199999988079071,
+      "frameReady": 32.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 4,
+      "handler": 3.599999964237213,
+      "frameReady": 33.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 5,
+      "handler": 5.399999976158142,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 6,
+      "handler": 4.099999964237213,
+      "frameReady": 33.299999952316284,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "step": 7,
+      "handler": 4,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 0,
+      "handler": 5.199999988079071,
+      "frameReady": 34.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 1,
+      "handler": 7.699999988079071,
+      "frameReady": 32.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 2,
+      "handler": 4.300000011920929,
+      "frameReady": 33.200000047683716,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 3,
+      "handler": 7.5,
+      "frameReady": 32.69999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 4,
+      "handler": 3.800000011920929,
+      "frameReady": 32.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 5,
+      "handler": 6.200000047683716,
+      "frameReady": 33.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 6,
+      "handler": 3.599999964237213,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "step": 7,
+      "handler": 3.299999952316284,
+      "frameReady": 33.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 0,
+      "handler": 4.599999964237213,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 1,
+      "handler": 5.300000011920929,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 2,
+      "handler": 4.099999964237213,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 3,
+      "handler": 4.899999976158142,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 4,
+      "handler": 3.699999988079071,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 5,
+      "handler": 4.199999988079071,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 6,
+      "handler": 3.399999976158142,
+      "frameReady": 33.09999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "step": 7,
+      "handler": 3.100000023841858,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 0,
+      "handler": 6.199999988079071,
+      "frameReady": 33.19999998807907,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新0",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 1,
+      "handler": 6.900000035762787,
+      "frameReady": 33,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新1",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 2,
+      "handler": 4.399999976158142,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新2",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 3,
+      "handler": 6.400000035762787,
+      "frameReady": 32.30000001192093,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新3",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 4,
+      "handler": 3.300000011920929,
+      "frameReady": 33.10000002384186,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新4",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 5,
+      "handler": 5.199999988079071,
+      "frameReady": 33.59999996423721,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新5",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 6,
+      "handler": 4.600000023841858,
+      "frameReady": 33.5,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新6",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "step": 7,
+      "handler": 4,
+      "frameReady": 32.90000003576279,
+      "cards": 500,
+      "retained": 500,
+      "title": "更新7",
+      "selection": [
+        1,
+        1
+      ],
+      "focus": true,
+      "scrollPreserved": true
+    }
+  ],
+  "errors": []
+}

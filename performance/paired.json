@@ -1,0 +1,1130 @@
+{
+  "date": "2026-10-08T16:26:39.443Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/before.html": "54979e5917e9c6305666f57e84a5d843debbdeca01a7ba397a7457f21790b822",
+    "peta-board.html": "7737931cd2c2d8b7bb4b21114a38c8da554dc5489a5744d245b5cd59c5c49f37"
+  },
+  "rows": [
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "board",
+      "content": 710.0999999642372,
+      "interactive": 710.0999999642372
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "search",
+      "content": 60.799999952316284,
+      "interactive": 60.799999952316284,
+      "result": 60.799999952316284,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "search-clear",
+      "content": 727.9000000357628,
+      "interactive": 727.9000000357628,
+      "result": 727.9000000357628,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "board",
+      "content": 758.5,
+      "interactive": 758.5
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "search",
+      "content": 59.60000002384186,
+      "interactive": 59.60000002384186,
+      "result": 59.60000002384186,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 0,
+      "screen": "search-clear",
+      "content": 745.1999999880791,
+      "interactive": 745.1999999880791,
+      "result": 745.1999999880791,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "board",
+      "content": 749.5,
+      "interactive": 749.5
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "search",
+      "content": 51.5,
+      "interactive": 51.5,
+      "result": 51.5,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "search-clear",
+      "content": 769.6999999880791,
+      "interactive": 769.6999999880791,
+      "result": 769.6999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "board",
+      "content": 762.8000000119209,
+      "interactive": 762.8000000119209
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "search",
+      "content": 54.60000002384186,
+      "interactive": 54.60000002384186,
+      "result": 54.60000002384186,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 1,
+      "screen": "search-clear",
+      "content": 763.6999999880791,
+      "interactive": 763.6999999880791,
+      "result": 763.6999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "board",
+      "content": 795,
+      "interactive": 795
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "search",
+      "content": 64.10000002384186,
+      "interactive": 64.10000002384186,
+      "result": 64.10000002384186,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "search-clear",
+      "content": 810.4000000357628,
+      "interactive": 810.4000000357628,
+      "result": 810.4000000357628,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "board",
+      "content": 963.1000000238419,
+      "interactive": 963.1000000238419
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "search",
+      "content": 61,
+      "interactive": 61,
+      "result": 61,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 2,
+      "screen": "search-clear",
+      "content": 861.2000000476837,
+      "interactive": 861.2000000476837,
+      "result": 861.2000000476837,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "board",
+      "content": 895.1999999880791,
+      "interactive": 895.1999999880791
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "search",
+      "content": 58.39999997615814,
+      "interactive": 58.39999997615814,
+      "result": 58.39999997615814,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "search-clear",
+      "content": 819.8999999761581,
+      "interactive": 819.8999999761581,
+      "result": 819.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "board",
+      "content": 839.1000000238419,
+      "interactive": 839.1000000238419
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "search",
+      "content": 68.39999997615814,
+      "interactive": 68.39999997615814,
+      "result": 68.39999997615814,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 3,
+      "screen": "search-clear",
+      "content": 977.1999999880791,
+      "interactive": 977.1999999880791,
+      "result": 977.1999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "board",
+      "content": 890.6999999880791,
+      "interactive": 890.6999999880791
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "search",
+      "content": 70.40000003576279,
+      "interactive": 70.40000003576279,
+      "result": 70.40000003576279,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "search-clear",
+      "content": 781.1999999880791,
+      "interactive": 781.1999999880791,
+      "result": 781.1999999880791,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "board",
+      "content": 749.5,
+      "interactive": 749.5
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "search",
+      "content": 64.19999998807907,
+      "interactive": 64.19999998807907,
+      "result": 64.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 4,
+      "screen": "search-clear",
+      "content": 884.6999999880791,
+      "interactive": 884.6999999880791,
+      "result": 884.6999999880791,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "board",
+      "content": 987.6999999880791,
+      "interactive": 987.6999999880791
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "search",
+      "content": 77.69999998807907,
+      "interactive": 77.69999998807907,
+      "result": 77.69999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "search-clear",
+      "content": 1015.7999999523163,
+      "interactive": 1015.7999999523163,
+      "result": 1015.7999999523163,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "board",
+      "content": 999.3000000119209,
+      "interactive": 999.3000000119209
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "search",
+      "content": 68.60000002384186,
+      "interactive": 68.60000002384186,
+      "result": 68.60000002384186,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 5,
+      "screen": "search-clear",
+      "content": 997.6999999880791,
+      "interactive": 997.6999999880791,
+      "result": 997.6999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "board",
+      "content": 948.9000000357628,
+      "interactive": 948.9000000357628
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "search",
+      "content": 79.20000004768372,
+      "interactive": 79.20000004768372,
+      "result": 79.20000004768372,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "search-clear",
+      "content": 924.3000000119209,
+      "interactive": 924.3000000119209,
+      "result": 924.3000000119209,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "board",
+      "content": 832.6999999880791,
+      "interactive": 832.6999999880791
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "search",
+      "content": 61.80000001192093,
+      "interactive": 61.80000001192093,
+      "result": 61.80000001192093,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 6,
+      "screen": "search-clear",
+      "content": 911.1999999880791,
+      "interactive": 911.1999999880791,
+      "result": 911.1999999880791,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "board",
+      "content": 916.7000000476837,
+      "interactive": 916.7000000476837
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "search",
+      "content": 74.19999998807907,
+      "interactive": 74.19999998807907,
+      "result": 74.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "search-clear",
+      "content": 1037.0999999642372,
+      "interactive": 1037.0999999642372,
+      "result": 1037.0999999642372,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "board",
+      "content": 859.6000000238419,
+      "interactive": 859.6000000238419
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "search",
+      "content": 67,
+      "interactive": 67,
+      "result": 67,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 7,
+      "screen": "search-clear",
+      "content": 891.6999999880791,
+      "interactive": 891.6999999880791,
+      "result": 891.6999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "board",
+      "content": 804.5,
+      "interactive": 804.6000000238419
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "search",
+      "content": 70.39999997615814,
+      "interactive": 70.39999997615814,
+      "result": 70.39999997615814,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "search-clear",
+      "content": 832.3000000119209,
+      "interactive": 832.3000000119209,
+      "result": 832.3000000119209,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "board",
+      "content": 873,
+      "interactive": 873.1000000238419
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "search",
+      "content": 64.19999998807907,
+      "interactive": 64.19999998807907,
+      "result": 64.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 8,
+      "screen": "search-clear",
+      "content": 900.8999999761581,
+      "interactive": 900.8999999761581,
+      "result": 900.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "board",
+      "content": 854.6999999880791,
+      "interactive": 854.6999999880791
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "search",
+      "content": 60.10000002384186,
+      "interactive": 60.10000002384186,
+      "result": 60.10000002384186,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "search-clear",
+      "content": 913.8000000119209,
+      "interactive": 913.8000000119209,
+      "result": 913.8000000119209,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "board",
+      "content": 897,
+      "interactive": 897
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "search",
+      "content": 63.60000002384186,
+      "interactive": 63.60000002384186,
+      "result": 63.60000002384186,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 1440,
+      "pair": 9,
+      "screen": "search-clear",
+      "content": 904.1999999880791,
+      "interactive": 904.1999999880791,
+      "result": 904.1999999880791,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "board",
+      "content": 889.6000000238419,
+      "interactive": 889.6000000238419
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "search",
+      "content": 75.40000003576279,
+      "interactive": 75.40000003576279,
+      "result": 75.40000003576279,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "search-clear",
+      "content": 938.5,
+      "interactive": 938.5,
+      "result": 938.5,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "board",
+      "content": 1172,
+      "interactive": 1172
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "search",
+      "content": 127.39999997615814,
+      "interactive": 127.39999997615814,
+      "result": 127.39999997615814,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 0,
+      "screen": "search-clear",
+      "content": 1020,
+      "interactive": 1020,
+      "result": 1020,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "board",
+      "content": 1147.3999999761581,
+      "interactive": 1147.3999999761581
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "search",
+      "content": 70.19999998807907,
+      "interactive": 70.19999998807907,
+      "result": 70.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "search-clear",
+      "content": 980.8999999761581,
+      "interactive": 980.8999999761581,
+      "result": 980.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "board",
+      "content": 954.1000000238419,
+      "interactive": 954.1000000238419
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "search",
+      "content": 80.29999995231628,
+      "interactive": 80.29999995231628,
+      "result": 80.29999995231628,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 1,
+      "screen": "search-clear",
+      "content": 921.5,
+      "interactive": 921.5,
+      "result": 921.5,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "board",
+      "content": 913.5999999642372,
+      "interactive": 913.5999999642372
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "search",
+      "content": 78,
+      "interactive": 78,
+      "result": 78,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "search-clear",
+      "content": 938.5,
+      "interactive": 938.5,
+      "result": 938.5,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "board",
+      "content": 983.6000000238419,
+      "interactive": 983.6000000238419
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "search",
+      "content": 70.19999998807907,
+      "interactive": 70.19999998807907,
+      "result": 70.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 2,
+      "screen": "search-clear",
+      "content": 1058.5999999642372,
+      "interactive": 1058.5999999642372,
+      "result": 1058.5999999642372,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "board",
+      "content": 999.0999999642372,
+      "interactive": 999.0999999642372
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "search",
+      "content": 77.80000001192093,
+      "interactive": 77.80000001192093,
+      "result": 77.80000001192093,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "search-clear",
+      "content": 935.5,
+      "interactive": 935.5,
+      "result": 935.5,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "board",
+      "content": 913.6999999880791,
+      "interactive": 913.6999999880791
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "search",
+      "content": 72.30000001192093,
+      "interactive": 72.30000001192093,
+      "result": 72.30000001192093,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 3,
+      "screen": "search-clear",
+      "content": 1036.5,
+      "interactive": 1036.5,
+      "result": 1036.5,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "board",
+      "content": 1297.300000011921,
+      "interactive": 1297.300000011921
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "search",
+      "content": 127.30000001192093,
+      "interactive": 127.30000001192093,
+      "result": 127.30000001192093,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "search-clear",
+      "content": 1280.6000000238419,
+      "interactive": 1280.6000000238419,
+      "result": 1280.6000000238419,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "board",
+      "content": 1117.800000011921,
+      "interactive": 1117.800000011921
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "search",
+      "content": 90.19999998807907,
+      "interactive": 90.19999998807907,
+      "result": 90.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 4,
+      "screen": "search-clear",
+      "content": 1171.8999999761581,
+      "interactive": 1171.8999999761581,
+      "result": 1171.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "board",
+      "content": 1191.8999999761581,
+      "interactive": 1191.8999999761581
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "search",
+      "content": 87.30000001192093,
+      "interactive": 87.30000001192093,
+      "result": 87.30000001192093,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "search-clear",
+      "content": 1169.8999999761581,
+      "interactive": 1169.8999999761581,
+      "result": 1169.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "board",
+      "content": 991.9000000357628,
+      "interactive": 991.9000000357628
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "search",
+      "content": 66.89999997615814,
+      "interactive": 66.89999997615814,
+      "result": 66.89999997615814,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 5,
+      "screen": "search-clear",
+      "content": 936.5999999642372,
+      "interactive": 936.5999999642372,
+      "result": 936.5999999642372,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "board",
+      "content": 929.4000000357628,
+      "interactive": 929.4000000357628
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "search",
+      "content": 64.80000001192093,
+      "interactive": 64.80000001192093,
+      "result": 64.80000001192093,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "search-clear",
+      "content": 956.8999999761581,
+      "interactive": 956.8999999761581,
+      "result": 956.8999999761581,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "board",
+      "content": 949.0999999642372,
+      "interactive": 949.0999999642372
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "search",
+      "content": 70.60000002384186,
+      "interactive": 70.60000002384186,
+      "result": 70.60000002384186,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 6,
+      "screen": "search-clear",
+      "content": 921.6000000238419,
+      "interactive": 921.6000000238419,
+      "result": 921.6000000238419,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "board",
+      "content": 966.3999999761581,
+      "interactive": 966.3999999761581
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "search",
+      "content": 62.19999998807907,
+      "interactive": 62.19999998807907,
+      "result": 62.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "search-clear",
+      "content": 932.3999999761581,
+      "interactive": 932.3999999761581,
+      "result": 932.3999999761581,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "board",
+      "content": 1085.7000000476837,
+      "interactive": 1085.7000000476837
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "search",
+      "content": 75.19999998807907,
+      "interactive": 75.19999998807907,
+      "result": 75.19999998807907,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 7,
+      "screen": "search-clear",
+      "content": 1032.5,
+      "interactive": 1032.5,
+      "result": 1032.5,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "board",
+      "content": 960.5,
+      "interactive": 960.5
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "search",
+      "content": 82.39999997615814,
+      "interactive": 82.39999997615814,
+      "result": 82.39999997615814,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "search-clear",
+      "content": 1101.6000000238419,
+      "interactive": 1101.6000000238419,
+      "result": 1101.6000000238419,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "board",
+      "content": 1172.5,
+      "interactive": 1172.5
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "search",
+      "content": 83.30000001192093,
+      "interactive": 83.30000001192093,
+      "result": 83.30000001192093,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 8,
+      "screen": "search-clear",
+      "content": 1508.5999999642372,
+      "interactive": 1508.5999999642372,
+      "result": 1508.5999999642372,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "board",
+      "content": 1200.3999999761581,
+      "interactive": 1200.3999999761581
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "search",
+      "content": 97.69999998807907,
+      "interactive": 97.69999998807907,
+      "result": 97.69999998807907,
+      "cards": 250
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "search-clear",
+      "content": 1203.6000000238419,
+      "interactive": 1203.6000000238419,
+      "result": 1203.6000000238419,
+      "cards": 500
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "board",
+      "content": 954,
+      "interactive": 954
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "search",
+      "content": 72.5,
+      "interactive": 72.5,
+      "result": 72.5,
+      "cards": 250
+    },
+    {
+      "source": "performance/before.html",
+      "width": 375,
+      "pair": 9,
+      "screen": "search-clear",
+      "content": 937.6000000238419,
+      "interactive": 937.6000000238419,
+      "result": 937.6000000238419,
+      "cards": 500
+    }
+  ]
+}

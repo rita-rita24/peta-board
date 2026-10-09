@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-09T18:55:51.621178+00:00",
+  "source": "https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json",
+  "manifestSha256": "183f5392fbc06cd7ee039f040d132500f28b305554790aeeebea242da4b98ea6",
+  "requested": {
+    "3.15.0": [],
+    "3.14.8": [
+      {
+        "stable": true,
+        "linuxX64": [
+          "22.04",
+          "24.04",
+          "26.04"
+        ]
+      }
+    ]
+  },
+  "ciFallback": "3.15.0 only: official XZ source, pinned SHA, standard GIL/JIT-default build in RUNNER_TEMP; version asserted before installing dependencies",
+  "locallyVerified": "Same official3.15 source was built and managed7Python sources and6historical outputs passed on macOS. Embedded CI Bash syntax and YAML parse checked. Linux fallback and remote GitHub workflow not executed."
+}

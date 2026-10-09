@@ -1,0 +1,7 @@
+{
+  "excluded": [
+    "interrupted initial unload-regression probe (no final JSON emitted)",
+    "first final drag-release run: no aggregate or stages emitted; 19 complete context files kept in incomplete-drag"
+  ],
+  "reason": "Stopped owned probe after WebKit navigation-cancellation control waits became long; replaced with3s bounded cancellation wait, per-run logging and a second-tab freshness case. This interruption is not an application failure or a passed final verification. Numeric performance data in prior phases remain unchanged. Final filtered-current context ended with commit child exit1; truncated interactive output did not retain the underlying reason. Identical final source/filter probe passed four cases, so the root cause is unconfirmed. Full logged rerun is separate; incomplete data are not included in final medians."
+}

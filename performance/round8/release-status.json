@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-09T20:08:01.918Z",
+  "productionKind": "user-confirmed local standalone HTML distribution",
+  "productionUrl": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "applicationChangedThisPhase": false,
+  "newApplicationDeployment": false,
+  "previousValidatedReleaseMaintained": true,
+  "productionMeasuredAt": "2026-10-09T20:05:14.271Z",
+  "productionObservations": 100,
+  "browser": "154.0.8037.99",
+  "pairedSearchObservations": 600,
+  "pairedBehaviorComparisons": 300,
+  "searchEngines": [
+    "Chrome154.0.8037.99",
+    "Firefox157.0",
+    "WebKit27.2"
+  ],
+  "candidateDecisions": [
+    {
+      "candidate": "candidate-bound.html",
+      "adopted": false,
+      "reason": "At320px/500mixed notes resize900→1700, list scrollTop20→0, card positions20px differ."
+    },
+    {
+      "candidate": "candidate-contain.html",
+      "adopted": false,
+      "reason": "Same resize/scroll regression, plus Firefox title-search result proxy worsened52→64ms."
+    }
+  ],
+  "selfControl": {
+    "trials": 5,
+    "states": 35,
+    "exactGeometryPixelsScrollAndSemanticAX": true
+  },
+  "checksPassed": true,
+  "decidedModernizationRulesRemaining": 0,
+  "compatibilityReferencesRemaining": 10,
+  "ruffTargetException": 1,
+  "blankDraftPreservationException": 1,
+  "allObjectivesComplete": false,
+  "modernizationComplete": false,
+  "performanceComplete": false,
+  "remoteCIExecuted": false,
+  "physicalSafariTouchImeVerified": false,
+  "minimumSupportedBrowsersConfirmed": false,
+  "productionImprovementPercent": null,
+  "productionRateReason": "App bytes unchanged and no pre-change production baseline for this endpoint; candidate rates not production rates.",
+  "priorReleaseEvidence": "../round6/release-status.json",
+  "remainingIssues": [
+    "candidate resize regression root cause",
+    "prior settings/calendar negative metrics unresolved",
+    "physical IME/touch/Safari/WebView and minimum supported browsers",
+    "unmeasured operations and field INP/presentation/long-term memory",
+    "remote Linux CI source-build fallback unexecuted",
+    "external development braces advisories5",
+    "prior narrow-width long-title overlap"
+  ],
+  "evidenceHashes": {
+    "before.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+    "candidate-bound.html": "37f907bea23ccc8c6692c2ce7feb6dd6d1b35d8a9d6c4221675ff1a1652b05ad",
+    "candidate-contain.html": "ebee854cb49658f887e4b0d27a9265ab8476b80fbf30cadac61a0bcc75d6f8ea",
+    "search-contain-final.json": "f1ef2c8dd17826f7b6d4c3b74baad2d8409e3dd06fc644ec1419e0a0c797dc38",
+    "search-firefox.json": "e18f3fc1ba79637bbec1df6f90dd021806e42702fd77b59749e7b2edfd736ec3",
+    "search-webkit.json": "4a6339698640fe24c6596f510da574fece26864fbd3f18b5d0fd0db87875b7f8",
+    "search-production-final.json": "68f64f21f79550055d04bb0bfba19c0268d1af8fd991ed6356e75ef0b0e189dd",
+    "search-measurement-source.json": "ac24e0c8bec98d221c0314add630ccd9df811866a7a4719b48707498c4d7e4cc",
+    "search-final-source.json": "c2c7f7dec57c8f4e436e9dd4fd5a136cc142ff2694b7bf2d27f40a490dd3ad5a",
+    "display-measurement-source.json": "6e95941f1cce89ba703a4b8230b7e81b55a069f02c1a0953c7bc5a893745c2aa",
+    "display-final-source.json": "1f5c0aea762986a56e6f2eb9307a72635bcc715a96456310dc28859c6be01a9a",
+    "cleanup-probe.json": "1aa1567f1cd0e4f4be4af9dcbb711e60b4bd03e598fe95c8de130fa82bfaacb3",
+    "control/offset-confirmation/display.json": "dbae5e63ab7205c009a7f73aa31402b469b5cfba4c7c52ec8ff3eafbd37133a3",
+    "rejected-bound/offset-confirmation/display-diff.json": "3e0cc1f61f7b92f9451d12646e9c32c8e18e637206deaddce12d8bc25c7abb77",
+    "rejected-contain/offset-confirmation/display-diff.json": "2555a5331a5f01e0a1c70380be63313e31f693f71416181db5fbc68124e9a6be",
+    "checks.json": "28bad4f99279c446a64c98a238a248bd2d8c1153d7470b429f424c38838e10ec",
+    "results.json": "3a6f09f284eb142b18725cce367a6b8a2ff463c9de9284fd69980f7cc5b5fc20",
+    "results.csv": "00cd13d8afbe20c7d0e33cfe585ef22bdbfd3741cd5f4da680d3bccae1cf4ff1",
+    "REPORT.md": "1f0fdbbedab511146b9ff6d75d669bc45ef336f441fd57cdf1986ae63a752b96"
+  },
+  "managedSourceConfigurationAndLockFiles": 113,
+  "frozenHtmlInputs": 45
+}

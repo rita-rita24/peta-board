@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09T15:10:55.667Z",
+  "source": "peta-board.html",
+  "version": "77ab5d2c45b696787a6ca5d71f030f7deff142fcfdd6dd2f6961e5fd47c25674",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "definition": "Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 31,
+      "valid": true,
+      "handler": 1.899999976158142,
+      "handlerReady": true,
+      "save": 164.19999998807907
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 32.39999997615814,
+      "valid": true,
+      "handler": 2.5,
+      "handlerReady": true,
+      "save": 166
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 28.69999998807907,
+      "valid": true,
+      "handler": 3.699999988079071,
+      "handlerReady": true,
+      "save": 195.30000001192093
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 31.899999976158142,
+      "valid": true,
+      "handler": 10.899999976158142,
+      "handlerReady": true,
+      "save": 189.69999998807907
+    }
+  ],
+  "errors": []
+}

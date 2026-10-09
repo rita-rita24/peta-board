@@ -1,0 +1,26 @@
+{
+  "name": "peta-board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development checks for the standalone offline HTML application",
+  "engines": {
+    "node": ">=24.21.0"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/regression.mjs",
+    "format:check": "prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json .github/workflows/check.yml",
+    "lint": "eslint scripts performance .checks eslint.config.mjs",
+    "validate:html": "html-validate peta-board.html",
+    "validate:css": "stylelint '.checks/*.css'",
+    "python:check": "node scripts/check-python.mjs",
+    "ci": "npm run check && npm run lint && npm run validate:html && npm run validate:css && npm run format:check && npm run python:check && npm test"
+  },
+  "devDependencies": {
+    "eslint": "10.12.0",
+    "html-validate": "11.16.2",
+    "playwright": "1.64.0",
+    "prettier": "3.9.9",
+    "stylelint": "17.16.0"
+  }
+}

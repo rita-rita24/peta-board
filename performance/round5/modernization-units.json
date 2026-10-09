@@ -1,0 +1,106 @@
+{
+  "version": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+  "reviewedScope": [
+    "standalone HTML + 3 CSS blocks + 211 JS functions",
+    "all managed CJS/MJS tooling",
+    "7 managed Python files",
+    "JSON/TOML settings + CI YAML",
+    "embedded DOM templates and injected test instrumentation"
+  ],
+  "units": [
+    {
+      "area": "theme CSS palette",
+      "unit": "independent theme/print background definitions",
+      "before": 3,
+      "migrated": 3,
+      "exceptions": 0,
+      "unhandled": 0,
+      "note": "Added two shared palette tokens and replaced three theme/print color definitions; no visual simplification"
+    },
+    {
+      "area": "theme JS style read",
+      "unit": "read-after-mutation path",
+      "before": 1,
+      "migrated": 1,
+      "exceptions": 0,
+      "unhandled": 0
+    },
+    {
+      "area": "note collection updates",
+      "unit": "full board regeneration call/branch",
+      "before": 4,
+      "migrated": 4,
+      "exceptions": 0,
+      "unhandled": 0,
+      "paths": [
+        "addNote",
+        "duplicateActiveNote",
+        "deleteActiveNote",
+        "restoreDeletion note/checklist branch"
+      ]
+    },
+    {
+      "area": "column collection updates",
+      "unit": "full board regeneration call/branch",
+      "before": 3,
+      "migrated": 3,
+      "exceptions": 0,
+      "unhandled": 0,
+      "paths": [
+        "addColumn",
+        "deleteColumn",
+        "restoreDeletion column branch"
+      ],
+      "note": "Existing two reorder callers use generalized retained-DOM renderer"
+    },
+    {
+      "area": "filtered move",
+      "unit": "full board regeneration branch",
+      "before": 1,
+      "migrated": 1,
+      "exceptions": 0,
+      "unhandled": 0
+    },
+    {
+      "area": "deprecated guard",
+      "unit": "broken regexp boundary",
+      "before": 1,
+      "migrated": 1,
+      "exceptions": 0,
+      "unhandled": 0,
+      "note": "Added AST restricted-property rule as independent prevention, injection probe proves both reject which"
+    },
+    {
+      "area": "Python runtime",
+      "unit": "3.15 execution gap",
+      "before": 1,
+      "migrated": 1,
+      "exceptions": 0,
+      "unhandled": 0
+    },
+    {
+      "area": "Ruff language target",
+      "unit": "toolchain configuration",
+      "before": 1,
+      "migrated": 0,
+      "exceptions": 1,
+      "unhandled": 0,
+      "note": "Ruff0.16.10 py315 explicitly under development; stable py314 lint+format and actual Python3.15 parse/execute. Enable new target when stable"
+    },
+    {
+      "area": "blank draft discard",
+      "unit": "full-render behavior path",
+      "before": 1,
+      "migrated": 0,
+      "exceptions": 1,
+      "unhandled": 0,
+      "note": "DOM preservation changed focus from column title to add-note; original path retained and final parity verified"
+    }
+  ],
+  "retainedCompatibilityExceptions": 10,
+  "historicalMigrations": [
+    "../modernization/REPORT.md section2",
+    "../followup/REPORT.md section2"
+  ],
+  "countCaution": "Structural units are not all deprecated APIs. Rules/added coverage and actual source migrations are separate. Different unit types and overlapping historical rows must not be added as a single total."
+}

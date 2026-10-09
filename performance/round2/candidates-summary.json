@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-08T23:18:27.424Z",
+  "version": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+  "rows": [
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 0,
+      "ms": 748,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "baseline",
+      "css": "",
+      "run": 1,
+      "ms": 716.1999999880791,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "minwidth",
+      "css": ".column,.note-card,.note-list{min-width:0}",
+      "run": 0,
+      "ms": 726.5,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "minwidth",
+      "css": ".column,.note-card,.note-list{min-width:0}",
+      "run": 1,
+      "ms": 718.4000000357628,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "boardwidth",
+      "css": ".kanban-board{width:max-content;min-width:100%}",
+      "run": 0,
+      "ms": 695.8000000119209,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "boardwidth",
+      "css": ".kanban-board{width:max-content;min-width:100%}",
+      "run": 1,
+      "ms": 709.2000000476837,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "columninline",
+      "css": ".column{contain:inline-size}",
+      "run": 0,
+      "ms": 685.8999999761581,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "columninline",
+      "css": ".column{contain:inline-size}",
+      "run": 1,
+      "ms": 688.6000000238419,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "listbasis",
+      "css": ".note-list{flex-basis:0}",
+      "run": 0,
+      "ms": 692.5999999642372,
+      "differentGeometryCount": 25,
+      "firstDifferences": [
+        0,
+        1,
+        2,
+        87,
+        88
+      ]
+    },
+    {
+      "name": "listbasis",
+      "css": ".note-list{flex-basis:0}",
+      "run": 1,
+      "ms": 695.5,
+      "differentGeometryCount": 25,
+      "firstDifferences": [
+        0,
+        1,
+        2,
+        87,
+        88
+      ]
+    },
+    {
+      "name": "bodymin",
+      "css": ".note-body{min-height:0;min-width:0}",
+      "run": 0,
+      "ms": 696.8000000119209,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "bodymin",
+      "css": ".note-body{min-height:0;min-width:0}",
+      "run": 1,
+      "ms": 700.3999999761581,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "cardrows",
+      "css": ".note-card{grid-auto-rows:minmax(0,auto)}",
+      "run": 0,
+      "ms": 675.1999999880791,
+      "differentGeometryCount": 1012,
+      "firstDifferences": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "cardrows",
+      "css": ".note-card{grid-auto-rows:minmax(0,auto)}",
+      "run": 1,
+      "ms": 681.8999999761581,
+      "differentGeometryCount": 1012,
+      "firstDifferences": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "listrows",
+      "css": ".note-list{grid-auto-rows:minmax(84px,max-content)}",
+      "run": 0,
+      "ms": 685,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "listrows",
+      "css": ".note-list{grid-auto-rows:minmax(84px,max-content)}",
+      "run": 1,
+      "ms": 672.1999999880791,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "columnbasis",
+      "css": ".column{flex-basis:auto;min-width:0}",
+      "run": 0,
+      "ms": 671.5,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "columnbasis",
+      "css": ".column{flex-basis:auto;min-width:0}",
+      "run": 1,
+      "ms": 692.8000000119209,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "bodycontent",
+      "css": ".note-body{content-visibility:auto}",
+      "run": 0,
+      "ms": 100.20000004768372,
+      "differentGeometryCount": 344,
+      "firstDifferences": [
+        48,
+        50,
+        52,
+        54,
+        56
+      ]
+    },
+    {
+      "name": "bodycontent",
+      "css": ".note-body{content-visibility:auto}",
+      "run": 1,
+      "ms": 110.69999998807907,
+      "differentGeometryCount": 344,
+      "firstDifferences": [
+        48,
+        50,
+        52,
+        54,
+        56
+      ]
+    },
+    {
+      "name": "columncontent",
+      "css": ".column{content-visibility:auto;contain-intrinsic-block-size:auto 700px}",
+      "run": 0,
+      "ms": 668,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    },
+    {
+      "name": "columncontent",
+      "css": ".column{content-visibility:auto;contain-intrinsic-block-size:auto 700px}",
+      "run": 1,
+      "ms": 648.4000000357628,
+      "differentGeometryCount": 0,
+      "firstDifferences": []
+    }
+  ]
+}

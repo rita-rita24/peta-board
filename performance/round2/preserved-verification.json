@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-09T00:27:09.321Z",
+  "versions": {
+    "performance/round2/before.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+    "performance/round2/footer-candidate.html": "572a278c508fd8b09dc194813fed83c9faf808cbb44b5226272d26146090128f",
+    "performance/round2/final-footer-candidate.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df"
+  },
+  "rows": [
+    {
+      "source": "performance/round2/before.html",
+      "kind": "reduce",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 41.4375,
+      "cardHeight": 175.21875,
+      "bodyContain": "none",
+      "summary": "付箋 460件 · 12列"
+    },
+    {
+      "source": "performance/round2/before.html",
+      "kind": "grow",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 42,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 0,
+      "cardHeight": 84,
+      "bodyContain": "none",
+      "summary": "付箋 500件 · 12列"
+    },
+    {
+      "source": "performance/round2/before.html",
+      "kind": "filtered",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 41.4375,
+      "cardHeight": 175.21875,
+      "bodyContain": "none",
+      "summary": "検索結果 460件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round2/footer-candidate.html",
+      "kind": "reduce",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 0,
+      "cardHeight": 133.78125,
+      "bodyContain": "size",
+      "summary": "付箋 460件 · 12列"
+    },
+    {
+      "source": "performance/round2/footer-candidate.html",
+      "kind": "grow",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 42,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 0,
+      "cardHeight": 84,
+      "bodyContain": "size",
+      "summary": "付箋 500件 · 12列"
+    },
+    {
+      "source": "performance/round2/footer-candidate.html",
+      "kind": "filtered",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 0,
+      "cardHeight": 133.78125,
+      "bodyContain": "size",
+      "summary": "検索結果 460件 / 付箋 500件"
+    },
+    {
+      "source": "performance/round2/final-footer-candidate.html",
+      "kind": "reduce",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 41.4375,
+      "cardHeight": 175.21875,
+      "bodyContain": "none",
+      "summary": "付箋 460件 · 12列"
+    },
+    {
+      "source": "performance/round2/final-footer-candidate.html",
+      "kind": "grow",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 42,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 0,
+      "cardHeight": 84,
+      "bodyContain": "size",
+      "summary": "付箋 500件 · 12列"
+    },
+    {
+      "source": "performance/round2/final-footer-candidate.html",
+      "kind": "filtered",
+      "kept": true,
+      "focused": true,
+      "selection": [
+        1,
+        2
+      ],
+      "count": 2,
+      "bodyText": "詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc 詳細情報 検証対象 abc ",
+      "bodyHeight": 41.4375,
+      "cardHeight": 175.21875,
+      "bodyContain": "none",
+      "summary": "検索結果 460件 / 付箋 500件"
+    }
+  ],
+  "errors": []
+}

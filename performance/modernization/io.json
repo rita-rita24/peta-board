@@ -1,0 +1,687 @@
+{
+  "date": "2026-10-09T15:59:01.464Z",
+  "browser": "154.0.8037.99",
+  "rows": [
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 36.80000001192093,
+      "interactive": 36.69999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-result",
+      "content": 13.800000011920929,
+      "interactive": 13.800000011920929,
+      "result": 29.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "backup",
+      "result": 12.099999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 176.900146484375,
+      "interactive": 176.900146484375,
+      "result": 176.900146484375
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 38.700000047683716,
+      "interactive": 38.60000002384186
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-result",
+      "content": 14.699999988079071,
+      "interactive": 14.699999988079071,
+      "result": 31.19999998807907,
+      "cards": 50
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "backup",
+      "result": 6
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 171.10009765625,
+      "interactive": 171.10009765625,
+      "result": 171.10009765625
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 11.600000023841858,
+      "interactive": 11.600000023841858
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-result",
+      "content": 14.300000011920929,
+      "interactive": 14.300000011920929,
+      "result": 31.30000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "backup",
+      "result": 6.700000047683716
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 170.800048828125,
+      "interactive": 170.800048828125,
+      "result": 170.800048828125
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 35.90000003576279,
+      "interactive": 35.80000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-result",
+      "content": 14.300000011920929,
+      "interactive": 14.300000011920929,
+      "result": 30.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "backup",
+      "result": 7.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 169.89990234375,
+      "interactive": 169.89990234375,
+      "result": 169.89990234375
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 40.80000001192093,
+      "interactive": 40.700000047683716
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-result",
+      "content": 16.30000001192093,
+      "interactive": 16.30000001192093,
+      "result": 32.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "backup",
+      "result": 7.100000023841858
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 172.300048828125,
+      "interactive": 172.300048828125,
+      "result": 172.300048828125
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 24.19999998807907,
+      "interactive": 24.099999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-result",
+      "content": 160.5,
+      "interactive": 160.5,
+      "result": 200,
+      "cards": 500
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "backup",
+      "result": 22.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 372.100341796875,
+      "interactive": 372.100341796875,
+      "result": 372.100341796875
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 30.69999998807907,
+      "interactive": 30.69999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-result",
+      "content": 203,
+      "interactive": 202.89999997615814,
+      "result": 247.29999995231628,
+      "cards": 500
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "backup",
+      "result": 27.80000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 396.300048828125,
+      "interactive": 396.300048828125,
+      "result": 396.300048828125
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 27.69999998807907,
+      "interactive": 27.599999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-result",
+      "content": 196.60000002384186,
+      "interactive": 196.60000002384186,
+      "result": 236.60000002384186,
+      "cards": 500
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "backup",
+      "result": 26.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 376.900146484375,
+      "interactive": 376.900146484375,
+      "result": 376.900146484375
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 30.900000035762787,
+      "interactive": 30.80000001192093
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-result",
+      "content": 197.60000002384186,
+      "interactive": 197.60000002384186,
+      "result": 246.19999998807907,
+      "cards": 500
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "backup",
+      "result": 24.69999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 377,
+      "interactive": 377,
+      "result": 377
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 33.40000003576279,
+      "interactive": 33.40000003576279
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-result",
+      "content": 221.80000001192093,
+      "interactive": 221.80000001192093,
+      "result": 269,
+      "cards": 500
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "backup",
+      "result": 29.599999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 392.5,
+      "interactive": 392.5,
+      "result": 392.5
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 34.90000003576279,
+      "interactive": 34.90000003576279
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-result",
+      "content": 14.299999952316284,
+      "interactive": 14.299999952316284,
+      "result": 30.799999952316284,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "backup",
+      "result": 7
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 191.099853515625,
+      "interactive": 191.099853515625,
+      "result": 191.099853515625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 4.699999988079071,
+      "interactive": 4.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-result",
+      "content": 13.699999988079071,
+      "interactive": 13.699999988079071,
+      "result": 30.19999998807907,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "backup",
+      "result": 8.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 180.999755859375,
+      "interactive": 180.999755859375,
+      "result": 180.999755859375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 36.39999997615814,
+      "interactive": 36.39999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-result",
+      "content": 11.199999988079071,
+      "interactive": 11.199999988079071,
+      "result": 27,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "backup",
+      "result": 8.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 178.400390625,
+      "interactive": 178.400390625,
+      "result": 178.400390625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 35.59999996423721,
+      "interactive": 35.59999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-result",
+      "content": 14.300000011920929,
+      "interactive": 14.300000011920929,
+      "result": 29.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "backup",
+      "result": 7.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 180.7998046875,
+      "interactive": 180.7998046875,
+      "result": 180.7998046875
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 34.89999997615814,
+      "interactive": 34.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-result",
+      "content": 14.699999988079071,
+      "interactive": 14.699999988079071,
+      "result": 29.5,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "backup",
+      "result": 7.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 173,
+      "interactive": 173,
+      "result": 173
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 33.59999996423721,
+      "interactive": 33.5
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-result",
+      "content": 202.30000001192093,
+      "interactive": 202.30000001192093,
+      "result": 246,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "backup",
+      "result": 30.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 364.000244140625,
+      "interactive": 364.000244140625,
+      "result": 364.000244140625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 29.099999964237213,
+      "interactive": 29
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-result",
+      "content": 185.10000002384186,
+      "interactive": 185.10000002384186,
+      "result": 217.69999998807907,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "backup",
+      "result": 23.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 347.60009765625,
+      "interactive": 347.60009765625,
+      "result": 347.60009765625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 37.39999997615814,
+      "interactive": 37.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-result",
+      "content": 215.5999999642372,
+      "interactive": 215.5999999642372,
+      "result": 263,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "backup",
+      "result": 25.900000035762787
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 458.099853515625,
+      "interactive": 458.099853515625,
+      "result": 458.099853515625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 29.899999976158142,
+      "interactive": 29.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-result",
+      "content": 186.10000002384186,
+      "interactive": 186.10000002384186,
+      "result": 232.19999998807907,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "backup",
+      "result": 24.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 352.900146484375,
+      "interactive": 352.900146484375,
+      "result": 352.900146484375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 30.19999998807907,
+      "interactive": 30.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-result",
+      "content": 155.4000000357628,
+      "interactive": 155.4000000357628,
+      "result": 186.5,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "backup",
+      "result": 19.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 334.099853515625,
+      "interactive": 334.099853515625,
+      "result": 334.099853515625
+    }
+  ],
+  "errors": []
+}

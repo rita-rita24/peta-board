@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-09T01:20:43.353Z",
+  "browser": "154.0.8037.99",
+  "rows": [
+    {
+      "source": "performance/round3/before.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 68.20000004768372,
+      "content": 68.20000004768372,
+      "result": 68.20000004768372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 57.30000001192093,
+      "content": 57.30000001192093,
+      "result": 57.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 49.69999998807907,
+      "content": 49.69999998807907,
+      "result": 49.69999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 54.5,
+      "content": 54.60000002384186,
+      "result": 54.60000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 76.19999998807907,
+      "content": 76.19999998807907,
+      "result": 76.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 57.30000001192093,
+      "content": 207.5999999642372,
+      "result": 207.5999999642372
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 58.89999997615814,
+      "content": 209,
+      "result": 209
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 64.09999996423721,
+      "content": 231.39999997615814,
+      "result": 231.39999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 55.60000002384186,
+      "content": 205.19999998807907,
+      "result": 205.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 65.5,
+      "content": 214.89999997615814,
+      "result": 214.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 45,
+      "content": 45,
+      "result": 45
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 51.30000001192093,
+      "content": 51.30000001192093,
+      "result": 51.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 56.39999997615814,
+      "content": 56.5,
+      "result": 56.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 51.60000002384186,
+      "content": 51.60000002384186,
+      "result": 51.60000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 45.39999997615814,
+      "content": 45.39999997615814,
+      "result": 45.39999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 49.80000001192093,
+      "content": 49.89999997615814,
+      "result": 49.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 39.80000001192093,
+      "content": 39.80000001192093,
+      "result": 39.80000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 53,
+      "content": 53,
+      "result": 53
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 57,
+      "content": 57,
+      "result": 57
+    },
+    {
+      "source": "performance/round3/before.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 63.69999998807907,
+      "content": 63.69999998807907,
+      "result": 63.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 0,
+      "interactive": 57,
+      "content": 57,
+      "result": 57
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 1,
+      "interactive": 84,
+      "content": 84,
+      "result": 84
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 2,
+      "interactive": 72.5,
+      "content": 72.5,
+      "result": 72.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 3,
+      "interactive": 60.59999996423721,
+      "content": 60.59999996423721,
+      "result": 60.59999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "zero-columns",
+      "run": 4,
+      "interactive": 62.80000001192093,
+      "content": 62.80000001192093,
+      "result": 62.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 0,
+      "interactive": 49.69999998807907,
+      "content": 214.5,
+      "result": 214.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 1,
+      "interactive": 58.5,
+      "content": 208.10000002384186,
+      "result": 208.10000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 2,
+      "interactive": 53,
+      "content": 203.39999997615814,
+      "result": 203.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 3,
+      "interactive": 37.89999997615814,
+      "content": 179.89999997615814,
+      "result": 179.89999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "corrupt",
+      "run": 4,
+      "interactive": 46.80000001192093,
+      "content": 197.5,
+      "result": 197.5
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 0,
+      "interactive": 52.09999996423721,
+      "content": 52.09999996423721,
+      "result": 52.09999996423721
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 1,
+      "interactive": 56,
+      "content": 56,
+      "result": 56
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 2,
+      "interactive": 45.69999998807907,
+      "content": 45.69999998807907,
+      "result": 45.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 3,
+      "interactive": 43.19999998807907,
+      "content": 43.19999998807907,
+      "result": 43.299999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "no-locks",
+      "run": 4,
+      "interactive": 50,
+      "content": 50,
+      "result": 50
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 0,
+      "interactive": 55.30000001192093,
+      "content": 55.30000001192093,
+      "result": 55.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 1,
+      "interactive": 62.10000002384186,
+      "content": 62.19999998807907,
+      "result": 62.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 2,
+      "interactive": 58.19999998807907,
+      "content": 58.19999998807907,
+      "result": 58.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 3,
+      "interactive": 51.700000047683716,
+      "content": 51.700000047683716,
+      "result": 51.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "kind": "read-failure",
+      "run": 4,
+      "interactive": 43.5,
+      "content": 43.59999996423721,
+      "result": 43.59999996423721
+    }
+  ],
+  "versions": {
+    "performance/round3/before.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+    "peta-board.html": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb"
+  },
+  "versionProvenance": "HTML unchanged throughout run, hash verified after completion"
+}

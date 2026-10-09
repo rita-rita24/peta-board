@@ -1,0 +1,12 @@
+diff --git a/performance/round3/before.html b/peta-board.html
+index 62e0379..e7d542a 100644
+--- a/performance/round3/before.html
++++ b/peta-board.html
+@@ -408,6 +408,7 @@ kbd {
+    全文と描画は維持し、不要な本文の内在サイズ計算だけを省く。 */
+ .note-list.has-clipped-rows > .note-card.has-note-footer > .note-body {
+   contain: size;
++ white-space:pre;
+ }
+ 
+ .note-card {

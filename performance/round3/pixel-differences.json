@@ -1,0 +1,47 @@
+[
+  {
+    "width": 320,
+    "count": 5,
+    "variant": false,
+    "label": "resize shorter",
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "differentPixels": 4,
+    "bounds": [
+      48,
+      188,
+      308,
+      307
+    ]
+  },
+  {
+    "width": 320,
+    "count": 50,
+    "variant": true,
+    "label": "resize taller",
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "differentPixels": 35,
+    "bounds": [
+      6,
+      189,
+      308,
+      1684
+    ]
+  },
+  {
+    "width": 375,
+    "count": 50,
+    "variant": false,
+    "label": "resize shorter",
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "differentPixels": 4,
+    "bounds": [
+      103,
+      188,
+      363,
+      307
+    ]
+  }
+]

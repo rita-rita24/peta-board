@@ -1,0 +1,910 @@
+{
+  "date": "2026-10-09T17:30:11.947Z",
+  "browser": "154.0.8037.99",
+  "version": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055",
+  "url": "file:///Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/peta-board.html",
+  "definition": "Five independent contexts per 375/1440px,50/500notes; five edit/save/back/forward/back cycles per context. Exact saved state after both back navigations. Controller timing includes automation and polling, not physical input/paint. Capture failed saved-indicator wait with state and storage; never suppress failure.",
+  "rows": [
+    {
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "cycle": 0,
+      "backControllerMs": 33,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "cycle": 1,
+      "backControllerMs": 34,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "cycle": 2,
+      "backControllerMs": 33,
+      "forwardControllerMs": 17,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "cycle": 3,
+      "backControllerMs": 34,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "cycle": 4,
+      "backControllerMs": 40,
+      "forwardControllerMs": 11,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "cycle": 0,
+      "backControllerMs": 41,
+      "forwardControllerMs": 25,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "cycle": 1,
+      "backControllerMs": 30,
+      "forwardControllerMs": 23,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "cycle": 2,
+      "backControllerMs": 31,
+      "forwardControllerMs": 15,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "cycle": 3,
+      "backControllerMs": 32,
+      "forwardControllerMs": 17,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "cycle": 4,
+      "backControllerMs": 44,
+      "forwardControllerMs": 20,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "cycle": 0,
+      "backControllerMs": 46,
+      "forwardControllerMs": 24,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "cycle": 1,
+      "backControllerMs": 35,
+      "forwardControllerMs": 14,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "cycle": 2,
+      "backControllerMs": 30,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "cycle": 3,
+      "backControllerMs": 29,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "cycle": 4,
+      "backControllerMs": 31,
+      "forwardControllerMs": 19,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "cycle": 0,
+      "backControllerMs": 34,
+      "forwardControllerMs": 18,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "cycle": 1,
+      "backControllerMs": 31,
+      "forwardControllerMs": 18,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "cycle": 2,
+      "backControllerMs": 35,
+      "forwardControllerMs": 10,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "cycle": 3,
+      "backControllerMs": 38,
+      "forwardControllerMs": 15,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "cycle": 4,
+      "backControllerMs": 38,
+      "forwardControllerMs": 11,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "cycle": 0,
+      "backControllerMs": 38,
+      "forwardControllerMs": 14,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "cycle": 1,
+      "backControllerMs": 36,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "cycle": 2,
+      "backControllerMs": 38,
+      "forwardControllerMs": 18,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "cycle": 3,
+      "backControllerMs": 36,
+      "forwardControllerMs": 15,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "cycle": 4,
+      "backControllerMs": 38,
+      "forwardControllerMs": 11,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "cycle": 0,
+      "backControllerMs": 171,
+      "forwardControllerMs": 337,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "cycle": 1,
+      "backControllerMs": 194,
+      "forwardControllerMs": 293,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "cycle": 2,
+      "backControllerMs": 156,
+      "forwardControllerMs": 333,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "cycle": 3,
+      "backControllerMs": 152,
+      "forwardControllerMs": 330,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "cycle": 4,
+      "backControllerMs": 152,
+      "forwardControllerMs": 330,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "cycle": 0,
+      "backControllerMs": 153,
+      "forwardControllerMs": 334,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "cycle": 1,
+      "backControllerMs": 195,
+      "forwardControllerMs": 291,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "cycle": 2,
+      "backControllerMs": 190,
+      "forwardControllerMs": 292,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "cycle": 3,
+      "backControllerMs": 154,
+      "forwardControllerMs": 360,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "cycle": 4,
+      "backControllerMs": 154,
+      "forwardControllerMs": 327,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "cycle": 0,
+      "backControllerMs": 152,
+      "forwardControllerMs": 331,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "cycle": 1,
+      "backControllerMs": 196,
+      "forwardControllerMs": 302,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "cycle": 2,
+      "backControllerMs": 163,
+      "forwardControllerMs": 329,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "cycle": 3,
+      "backControllerMs": 154,
+      "forwardControllerMs": 348,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "cycle": 4,
+      "backControllerMs": 162,
+      "forwardControllerMs": 333,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "cycle": 0,
+      "backControllerMs": 162,
+      "forwardControllerMs": 340,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "cycle": 1,
+      "backControllerMs": 168,
+      "forwardControllerMs": 336,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "cycle": 2,
+      "backControllerMs": 155,
+      "forwardControllerMs": 343,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "cycle": 3,
+      "backControllerMs": 156,
+      "forwardControllerMs": 346,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "cycle": 4,
+      "backControllerMs": 158,
+      "forwardControllerMs": 334,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "cycle": 0,
+      "backControllerMs": 197,
+      "forwardControllerMs": 296,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "cycle": 1,
+      "backControllerMs": 170,
+      "forwardControllerMs": 332,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "cycle": 2,
+      "backControllerMs": 166,
+      "forwardControllerMs": 331,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "cycle": 3,
+      "backControllerMs": 164,
+      "forwardControllerMs": 329,
+      "statePreserved": true
+    },
+    {
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "cycle": 4,
+      "backControllerMs": 200,
+      "forwardControllerMs": 471,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "cycle": 0,
+      "backControllerMs": 32,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "cycle": 1,
+      "backControllerMs": 31,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "cycle": 2,
+      "backControllerMs": 39,
+      "forwardControllerMs": 22,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "cycle": 3,
+      "backControllerMs": 30,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "cycle": 4,
+      "backControllerMs": 38,
+      "forwardControllerMs": 19,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "cycle": 0,
+      "backControllerMs": 30,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "cycle": 1,
+      "backControllerMs": 36,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "cycle": 2,
+      "backControllerMs": 28,
+      "forwardControllerMs": 20,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "cycle": 3,
+      "backControllerMs": 29,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "cycle": 4,
+      "backControllerMs": 31,
+      "forwardControllerMs": 15,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "cycle": 0,
+      "backControllerMs": 36,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "cycle": 1,
+      "backControllerMs": 27,
+      "forwardControllerMs": 10,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "cycle": 2,
+      "backControllerMs": 38,
+      "forwardControllerMs": 11,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "cycle": 3,
+      "backControllerMs": 38,
+      "forwardControllerMs": 11,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "cycle": 4,
+      "backControllerMs": 26,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "cycle": 0,
+      "backControllerMs": 29,
+      "forwardControllerMs": 20,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "cycle": 1,
+      "backControllerMs": 38,
+      "forwardControllerMs": 22,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "cycle": 2,
+      "backControllerMs": 29,
+      "forwardControllerMs": 19,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "cycle": 3,
+      "backControllerMs": 28,
+      "forwardControllerMs": 23,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "cycle": 4,
+      "backControllerMs": 44,
+      "forwardControllerMs": 22,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "cycle": 0,
+      "backControllerMs": 37,
+      "forwardControllerMs": 12,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "cycle": 1,
+      "backControllerMs": 39,
+      "forwardControllerMs": 13,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "cycle": 2,
+      "backControllerMs": 35,
+      "forwardControllerMs": 21,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "cycle": 3,
+      "backControllerMs": 41,
+      "forwardControllerMs": 19,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "cycle": 4,
+      "backControllerMs": 30,
+      "forwardControllerMs": 17,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "cycle": 0,
+      "backControllerMs": 271,
+      "forwardControllerMs": 474,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "cycle": 1,
+      "backControllerMs": 168,
+      "forwardControllerMs": 385,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "cycle": 2,
+      "backControllerMs": 203,
+      "forwardControllerMs": 309,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "cycle": 3,
+      "backControllerMs": 160,
+      "forwardControllerMs": 334,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "cycle": 4,
+      "backControllerMs": 193,
+      "forwardControllerMs": 386,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "cycle": 0,
+      "backControllerMs": 164,
+      "forwardControllerMs": 339,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "cycle": 1,
+      "backControllerMs": 203,
+      "forwardControllerMs": 303,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "cycle": 2,
+      "backControllerMs": 165,
+      "forwardControllerMs": 334,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "cycle": 3,
+      "backControllerMs": 173,
+      "forwardControllerMs": 338,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "cycle": 4,
+      "backControllerMs": 163,
+      "forwardControllerMs": 336,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "cycle": 0,
+      "backControllerMs": 163,
+      "forwardControllerMs": 345,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "cycle": 1,
+      "backControllerMs": 170,
+      "forwardControllerMs": 342,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "cycle": 2,
+      "backControllerMs": 156,
+      "forwardControllerMs": 370,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "cycle": 3,
+      "backControllerMs": 155,
+      "forwardControllerMs": 344,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "cycle": 4,
+      "backControllerMs": 158,
+      "forwardControllerMs": 338,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "cycle": 0,
+      "backControllerMs": 171,
+      "forwardControllerMs": 347,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "cycle": 1,
+      "backControllerMs": 164,
+      "forwardControllerMs": 336,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "cycle": 2,
+      "backControllerMs": 246,
+      "forwardControllerMs": 353,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "cycle": 3,
+      "backControllerMs": 169,
+      "forwardControllerMs": 333,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "cycle": 4,
+      "backControllerMs": 163,
+      "forwardControllerMs": 328,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "cycle": 0,
+      "backControllerMs": 167,
+      "forwardControllerMs": 333,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "cycle": 1,
+      "backControllerMs": 164,
+      "forwardControllerMs": 351,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "cycle": 2,
+      "backControllerMs": 160,
+      "forwardControllerMs": 339,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "cycle": 3,
+      "backControllerMs": 156,
+      "forwardControllerMs": 341,
+      "statePreserved": true
+    },
+    {
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "cycle": 4,
+      "backControllerMs": 196,
+      "forwardControllerMs": 297,
+      "statePreserved": true
+    }
+  ],
+  "errors": []
+}

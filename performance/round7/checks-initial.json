@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09T19:34:37.139Z",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "node": "v24.21.0",
+  "records": [
+    {
+      "name": "application/syntax/obsolete/CI-Bash",
+      "exit": 0,
+      "stdout": "Application JS, 3 CSS blocks, 71 CJS and 6 Python files checked\n",
+      "stderr": ""
+    },
+    {
+      "name": "all JS",
+      "exit": 1,
+      "stdout": "\n/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/scripts/modal-phase.mjs\n  58:17  error  Return values from promise executor functions cannot be read  no-promise-executor-return\n  68:50  error  Return values from promise executor functions cannot be read  no-promise-executor-return\n\n/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/scripts/search-render.mjs\n  66:42  error  Return values from promise executor functions cannot be read  no-promise-executor-return\n\n✖ 3 problems (3 errors, 0 warnings)\n\n",
+      "stderr": ""
+    },
+    {
+      "name": "HTML",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "CSS",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "format",
+      "exit": 0,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": ""
+    },
+    {
+      "name": "git diff --check",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "passed": false,
+  "pythonProvenance": "Python source/runtime unchanged: actual3.15 Ruff7/format7/output6 passed in round6/checks.json; check.mjs rechecks syntax on current3.15. No new Python code.",
+  "regressionProvenance": "Application bytes unchanged from round6: three engines each102 exact behavior comparisons, storage/drag/unload preserved. Focused modal160 and search-candidate200 fresh observations in this phase."
+}

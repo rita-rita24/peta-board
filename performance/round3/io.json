@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-09T01:20:33.420Z",
+  "browser": "154.0.8037.99",
+  "rows": [
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 33.10000002384186,
+      "interactive": 33.10000002384186
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-result",
+      "content": 14,
+      "interactive": 13.899999976158142,
+      "result": 30.19999998807907,
+      "cards": 50
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "backup",
+      "result": 13.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 175.499755859375,
+      "interactive": 175.499755859375,
+      "result": 175.499755859375
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 15.099999964237213,
+      "interactive": 15.099999964237213
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-result",
+      "content": 15,
+      "interactive": 15,
+      "result": 29.600000023841858,
+      "cards": 50
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "backup",
+      "result": 5.100000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 173.800048828125,
+      "interactive": 173.800048828125,
+      "result": 173.800048828125
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 35.89999997615814,
+      "interactive": 35.89999997615814
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-result",
+      "content": 12.800000011920929,
+      "interactive": 12.800000011920929,
+      "result": 30.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "backup",
+      "result": 6.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 173.7001953125,
+      "interactive": 173.7001953125,
+      "result": 173.7001953125
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 38.5,
+      "interactive": 38.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-result",
+      "content": 16.200000047683716,
+      "interactive": 16.200000047683716,
+      "result": 33,
+      "cards": 50
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "backup",
+      "result": 6.5
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 172.60009765625,
+      "interactive": 172.60009765625,
+      "result": 172.60009765625
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 39.30000001192093,
+      "interactive": 39.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-result",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929,
+      "result": 30.30000001192093,
+      "cards": 50
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "backup",
+      "result": 5.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 50,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 173.800048828125,
+      "interactive": 173.800048828125,
+      "result": 173.800048828125
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 22.19999998807907,
+      "interactive": 22.19999998807907
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-result",
+      "content": 362.10000002384186,
+      "interactive": 362.10000002384186,
+      "result": 400.5,
+      "cards": 500
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "backup",
+      "result": 18.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 556.10009765625,
+      "interactive": 556.10009765625,
+      "result": 556.10009765625
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 22.600000023841858,
+      "interactive": 22.600000023841858
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-result",
+      "content": 376.19999998807907,
+      "interactive": 376.19999998807907,
+      "result": 414.5999999642372,
+      "cards": 500
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "backup",
+      "result": 20.30000001192093
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 495.2998046875,
+      "interactive": 495.2998046875,
+      "result": 495.2998046875
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 30.399999976158142,
+      "interactive": 30.399999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-result",
+      "content": 350.69999998807907,
+      "interactive": 350.69999998807907,
+      "result": 397.10000002384186,
+      "cards": 500
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "backup",
+      "result": 19
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 502.10009765625,
+      "interactive": 502.10009765625,
+      "result": 502.10009765625
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 32.299999952316284,
+      "interactive": 32.299999952316284
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-result",
+      "content": 350.5,
+      "interactive": 350.5,
+      "result": 397.69999998807907,
+      "cards": 500
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "backup",
+      "result": 20.899999976158142
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 563.800048828125,
+      "interactive": 563.800048828125,
+      "result": 563.800048828125
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 32.80000001192093,
+      "interactive": 32.700000047683716
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-result",
+      "content": 423.19999998807907,
+      "interactive": 423.19999998807907,
+      "result": 479.89999997615814,
+      "cards": 500
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "backup",
+      "result": 24
+    },
+    {
+      "source": "performance/round3/before.html",
+      "count": 500,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 533,
+      "interactive": 533,
+      "result": 533
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 36.89999997615814,
+      "interactive": 36.89999997615814
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "import-result",
+      "content": 14.900000035762787,
+      "interactive": 14.900000035762787,
+      "result": 29.69999998807907,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "backup",
+      "result": 8.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 171.5,
+      "interactive": 171.5,
+      "result": 171.5
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 38.5,
+      "interactive": 38.5
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "import-result",
+      "content": 14.399999976158142,
+      "interactive": 14.399999976158142,
+      "result": 30.69999998807907,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "backup",
+      "result": 6.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 173.39990234375,
+      "interactive": 173.39990234375,
+      "result": 173.39990234375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 40.19999998807907,
+      "interactive": 40.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "import-result",
+      "content": 14.600000023841858,
+      "interactive": 14.600000023841858,
+      "result": 31.100000023841858,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "backup",
+      "result": 6.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 171.39990234375,
+      "interactive": 171.39990234375,
+      "result": 171.39990234375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 36.80000001192093,
+      "interactive": 36.80000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "import-result",
+      "content": 15.100000023841858,
+      "interactive": 15.100000023841858,
+      "result": 33.60000002384186,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "backup",
+      "result": 6.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 172.900146484375,
+      "interactive": 172.900146484375,
+      "result": 172.900146484375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 40.19999998807907,
+      "interactive": 40.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "import-result",
+      "content": 15.800000011920929,
+      "interactive": 15.699999988079071,
+      "result": 32.80000001192093,
+      "cards": 50
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "backup",
+      "result": 6.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "count": 50,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 172.699951171875,
+      "interactive": 172.699951171875,
+      "result": 172.699951171875
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-confirm",
+      "content": 22.69999998807907,
+      "interactive": 22.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "import-result",
+      "content": 152.19999998807907,
+      "interactive": 152.19999998807907,
+      "result": 184.60000002384186,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "backup",
+      "result": 20.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 0,
+      "screen": "tab-sync",
+      "content": 325.800048828125,
+      "interactive": 325.800048828125,
+      "result": 325.800048828125
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-confirm",
+      "content": 23.5,
+      "interactive": 23.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "import-result",
+      "content": 173.39999997615814,
+      "interactive": 173.39999997615814,
+      "result": 212.19999998807907,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "backup",
+      "result": 23
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 1,
+      "screen": "tab-sync",
+      "content": 333.10009765625,
+      "interactive": 333.10009765625,
+      "result": 333.10009765625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-confirm",
+      "content": 24.30000001192093,
+      "interactive": 24.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "import-result",
+      "content": 161.89999997615814,
+      "interactive": 161.89999997615814,
+      "result": 198.0999999642372,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "backup",
+      "result": 20.5
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 2,
+      "screen": "tab-sync",
+      "content": 333.099853515625,
+      "interactive": 333.099853515625,
+      "result": 333.099853515625
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-confirm",
+      "content": 22.099999964237213,
+      "interactive": 22.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "import-result",
+      "content": 152.29999995231628,
+      "interactive": 152.29999995231628,
+      "result": 181.5999999642372,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "backup",
+      "result": 19.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 3,
+      "screen": "tab-sync",
+      "content": 329.89990234375,
+      "interactive": 329.89990234375,
+      "result": 329.89990234375
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-confirm",
+      "content": 28.19999998807907,
+      "interactive": 28.19999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "import-result",
+      "content": 146.5,
+      "interactive": 146.5,
+      "result": 179.10000002384186,
+      "cards": 500
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "backup",
+      "result": 19.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "count": 500,
+      "run": 4,
+      "screen": "tab-sync",
+      "content": 321.499755859375,
+      "interactive": 321.499755859375,
+      "result": 321.499755859375
+    }
+  ],
+  "errors": [],
+  "versions": {
+    "performance/round3/before.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df",
+    "peta-board.html": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb"
+  },
+  "versionProvenance": "HTML unchanged throughout run, hash verified after completion"
+}

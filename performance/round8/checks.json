@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09T20:06:03.507Z",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "node": "v24.21.0",
+  "records": [
+    {
+      "name": "syntax/API/CI-Bash",
+      "exit": 0,
+      "stdout": "Application JS, 3 CSS blocks, 72 CJS and 6 Python files checked\n",
+      "stderr": "",
+      "date": "2026-10-09T20:06:02.448Z"
+    },
+    {
+      "name": "all owned JavaScript and extracted candidates",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "date": "2026-10-09T20:06:03.075Z"
+    },
+    {
+      "name": "HTML application and two candidates",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "CSS all extracted blocks",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "format",
+      "exit": 0,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": "",
+      "date": "2026-10-09T20:06:03.507Z"
+    },
+    {
+      "name": "Python3.15 Ruff7/format7/output6",
+      "exit": 0,
+      "stdout": "All checks passed!\n7 files already formatted\nperformance/compare.py equal\nperformance/drag/report.py equal\nperformance/round2/compare.py equal\nperformance/round2/finalize.py equal\nperformance/round3/compare.py equal\nperformance/round3/finalize.py equal\n",
+      "stderr": ""
+    },
+    {
+      "name": "git diff --check",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "initialFinding": "HTML CLI path was incorrectly invoked with .js; corrected to package-declared .mjs and application/two candidates passed. No source defect or bypass.",
+  "retainedChecks": "HTML/CSS and Python3.15 results from this phase retained; those source bytes unchanged. JS/syntax/format rerun after final resource cleanup edits.",
+  "sourceHashes": {
+    "peta-board.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+    "scripts/search-render.mjs": "b7a8028ee9868bc2a21f636e585cd8efc4f3573076427e7ba1a521cf25006377",
+    "performance/round8/display.cjs": "7281efcf95f6313667cedf13678d8e281b5e20eae9152d8a6660302a75296e90"
+  }
+}

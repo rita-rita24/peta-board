@@ -1,0 +1,2477 @@
+{
+  "date": "2026-10-09T18:43:41.056Z",
+  "hashes": {
+    "performance/round6/before.html": "59bdc461ed5029ea7cbe60fe637b34b89eef5bbffff8f68ba99cd6a7563e580b",
+    "peta-board.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2"
+  },
+  "url": "file:///var/folders/gd/t50vf985019gx0j58rs5f6d00000gn/T/peta-unload-e3RCec/board.html",
+  "rows": [
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 31,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 32,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 35,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 39,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 32,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 33,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 34,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 27,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 29,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 37,
+      "persisted": false
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "156.0.8078.4",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 135,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 116,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 117,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 116,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 118,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 116,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 124,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 120,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 115,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 135,
+      "persisted": false
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "firefox",
+      "browser": "157.0",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 74,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 69,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 69,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 69,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 1,
+      "controllerMs": 74,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "performance/round6/before.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 1
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 72,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 0,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 70,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 1,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 70,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 2,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 116,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 3,
+      "phase": "retry-saved",
+      "listeners": 0
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "saved-back",
+      "listeners": 0,
+      "controllerMs": 77,
+      "persisted": false
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-title-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-body-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-active",
+      "listeners": 1,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "composition-cancelled",
+      "listeners": 0,
+      "selector": "#note-tags-input"
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "failed-save-warning",
+      "listeners": 1,
+      "nativeWarning": true,
+      "editPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "27.2",
+      "source": "peta-board.html",
+      "run": 4,
+      "phase": "retry-saved",
+      "listeners": 0
+    }
+  ],
+  "errors": [],
+  "definition": "3 engines,configurable independent contexts/source (default5),50notes,375x900. Listener lifetime, synthetic composition/cancel and isComposing-only tags, real beforeunload dialog after quota failure, dismissal retains edit, retry removes guard. Native pageshow.persisted and latest externally saved state on back recorded; controllerMs includes automation. Synthetic composition is not real OS IME; cache eligibility is observed, not guaranteed.",
+  "cacheLimit": {
+    "chromiumDefaultCacheDisabled": true,
+    "source": "node_modules/playwright-core/lib/coreBundle.js --disable-back-forward-cache default launch argument",
+    "interpretation": "Default test proves warning lifetime, cancel/retry and reload freshness. Zero persisted events is not proof that production cache eligibility is absent; an additional cache-enabled observation is kept separately."
+  }
+}

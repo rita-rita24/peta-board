@@ -1,0 +1,1050 @@
+{
+  "date": "2026-10-09T15:59:29.277Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/modernization/before.html": "77ab5d2c45b696787a6ca5d71f030f7deff142fcfdd6dd2f6961e5fd47c25674",
+    "peta-board.html": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489"
+  },
+  "rows": [
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.800000011920929,
+      "interactive": 7.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 17.099999964237213,
+      "interactive": 17.099999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.900000035762787,
+      "interactive": 3.900000035762787
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5,
+      "interactive": 5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.399999976158142,
+      "interactive": 13.399999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 7.899999976158142,
+      "interactive": 7.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 12.699999988079071,
+      "interactive": 12.699999988079071
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.899999976158142,
+      "interactive": 5.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.300000011920929,
+      "interactive": 6.300000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 9.699999988079071,
+      "interactive": 9.699999988079071
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.400000035762787,
+      "interactive": 13.400000035762787
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.699999988079071,
+      "interactive": 5.600000023841858
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 7.599999964237213,
+      "interactive": 7.599999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 12.200000047683716,
+      "interactive": 12.200000047683716
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.699999988079071,
+      "interactive": 13.699999988079071
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.600000023841858,
+      "interactive": 5.600000023841858
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 7.900000035762787,
+      "interactive": 7.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 4,
+      "interactive": 4
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.900000035762787,
+      "interactive": 14.900000035762787
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6,
+      "interactive": 6
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 12.800000011920929,
+      "interactive": 12.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 4.5,
+      "interactive": 4.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.399999976158142,
+      "interactive": 14.399999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.5,
+      "interactive": 5.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 8.899999976158142,
+      "interactive": 8.899999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 4.800000011920929,
+      "interactive": 4.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 11.599999964237213,
+      "interactive": 11.599999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.5,
+      "interactive": 7.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 10.799999952316284,
+      "interactive": 10.799999952316284
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 4.399999976158142,
+      "interactive": 4.399999976158142
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 13.299999952316284,
+      "interactive": 13.299999952316284
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.5,
+      "interactive": 5.5
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 6.199999988079071,
+      "interactive": 6.199999988079071
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 12.900000035762787,
+      "interactive": 12.900000035762787
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.699999988079071,
+      "interactive": 14.699999988079071
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 5.100000023841858,
+      "interactive": 5.100000023841858
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 12.800000011920929,
+      "interactive": 12.800000011920929
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.600000023841858,
+      "interactive": 7.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.5,
+      "interactive": 15.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 8.200000047683716,
+      "interactive": 8.200000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 12.699999988079071,
+      "interactive": 12.699999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.199999988079071,
+      "interactive": 8.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.899999976158142,
+      "interactive": 3.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 12.300000011920929,
+      "interactive": 12.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 4.300000011920929,
+      "interactive": 4.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.199999988079071,
+      "interactive": 14.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 5.199999988079071,
+      "interactive": 5.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 15.600000023841858,
+      "interactive": 15.600000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6.5,
+      "interactive": 6.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.800000011920929,
+      "interactive": 3.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 11.699999988079071,
+      "interactive": 11.699999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.5,
+      "interactive": 8.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15,
+      "interactive": 15
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 7.699999988079071,
+      "interactive": 7.699999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.899999976158142,
+      "interactive": 14.899999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 6.700000047683716,
+      "interactive": 6.700000047683716
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 4.799999952316284,
+      "interactive": 4.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 0,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.800000011920929,
+      "interactive": 14.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 7.099999964237213,
+      "interactive": 7.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 15.300000011920929,
+      "interactive": 15.300000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 11.399999976158142,
+      "interactive": 11.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 1,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.799999952316284,
+      "interactive": 14.799999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 4.399999976158142,
+      "interactive": 4.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.399999976158142,
+      "interactive": 13.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 5.099999964237213,
+      "interactive": 5.099999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 2,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 15.100000023841858,
+      "interactive": 15.100000023841858
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 10.399999976158142,
+      "interactive": 10.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 16.399999976158142,
+      "interactive": 16.399999976158142
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 3.5,
+      "interactive": 3.5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 3,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.599999964237213,
+      "interactive": 14.599999964237213
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "editor",
+      "content": 8.800000011920929,
+      "interactive": 8.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "cold",
+      "screen": "calendar",
+      "content": 13.299999952316284,
+      "interactive": 13.199999988079071
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "editor",
+      "content": 9.800000011920929,
+      "interactive": 9.800000011920929
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "count": 0,
+      "run": 4,
+      "cache": "warm",
+      "screen": "calendar",
+      "content": 14.599999964237213,
+      "interactive": 14.599999964237213
+    }
+  ]
+}

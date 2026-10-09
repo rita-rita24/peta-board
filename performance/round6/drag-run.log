@@ -1,0 +1,1496 @@
+50 note 0 {
+  ready: 32.19999998807907,
+  valid: true,
+  handler: 1.5999999642372131,
+  handlerReady: true,
+  save: 165.39999997615814,
+  grab: {
+    downToState: 8.199999988079071,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 15.5
+  }
+}
+50 column 0 {
+  ready: 32.69999998807907,
+  valid: true,
+  handler: 2.100000023841858,
+  handlerReady: true,
+  save: 167.69999998807907,
+  grab: {
+    downToState: 12.399999976158142,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.100000023841858
+  }
+}
+500 note 0 {
+  ready: 28.299999952316284,
+  valid: true,
+  handler: 3.399999976158142,
+  handlerReady: true,
+  save: 184.29999995231628,
+  grab: {
+    downToState: 8.199999988079071,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.19999998807907
+  }
+}
+500 column 0 {
+  ready: 32.89999997615814,
+  valid: true,
+  handler: 10.099999964237213,
+  handlerReady: true,
+  save: 181.80000001192093,
+  grab: {
+    downToState: 18,
+    triggeringMoveHandler: 0.20000004768371582,
+    resultProxy: 35.40000003576279
+  }
+}
+50 note 0 {
+  ready: 30.5,
+  valid: true,
+  handler: 1.600000023841858,
+  handlerReady: true,
+  save: 163.30000001192093,
+  grab: {
+    downToState: 14.699999988079071,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.30000001192093
+  }
+}
+50 column 0 {
+  ready: 32.19999998807907,
+  valid: true,
+  handler: 2.099999964237213,
+  handlerReady: true,
+  save: 165.0999999642372,
+  grab: {
+    downToState: 8.799999952316284,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 18.30000001192093
+  }
+}
+500 note 0 {
+  ready: 27.200000047683716,
+  valid: true,
+  handler: 3.5,
+  handlerReady: true,
+  save: 193.80000001192093,
+  grab: { downToState: 18, triggeringMoveHandler: 0, resultProxy: 16 }
+}
+500 column 0 {
+  ready: 32.80000001192093,
+  valid: true,
+  handler: 10.300000011920929,
+  handlerReady: true,
+  save: 183.80000001192093,
+  grab: {
+    downToState: 8.199999988079071,
+    triggeringMoveHandler: 0,
+    resultProxy: 32.39999997615814
+  }
+}
+50 note 0 {
+  ready: 31.900000035762787,
+  valid: true,
+  handler: 1.600000023841858,
+  handlerReady: true,
+  save: 164.5,
+  grab: {
+    downToState: 9.400000035762787,
+    triggeringMoveHandler: 0,
+    resultProxy: 17.19999998807907
+  }
+}
+50 column 0 {
+  ready: 32.39999997615814,
+  valid: true,
+  handler: 2.100000023841858,
+  handlerReady: true,
+  save: 166,
+  grab: {
+    downToState: 14.800000011920929,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 16.599999964237213
+  }
+}
+500 note 0 {
+  ready: 27.69999998807907,
+  valid: true,
+  handler: 3.5,
+  handlerReady: true,
+  save: 195.10000002384186,
+  grab: {
+    downToState: 8.800000011920929,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.69999998807907
+  }
+}
+500 column 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 10.199999988079071,
+  handlerReady: true,
+  save: 184.69999998807907,
+  grab: {
+    downToState: 7.199999988079071,
+    triggeringMoveHandler: 0,
+    resultProxy: 33.40000003576279
+  }
+}
+50 note 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 1.600000023841858,
+  handlerReady: true,
+  save: 167.4000000357628,
+  grab: {
+    downToState: 7.900000035762787,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.19999998807907
+  }
+}
+50 column 0 {
+  ready: 32,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 165.5,
+  grab: {
+    downToState: 10.900000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 15.699999988079071
+  }
+}
+500 note 0 {
+  ready: 29.5,
+  valid: true,
+  handler: 3.300000011920929,
+  handlerReady: true,
+  save: 183.39999997615814,
+  grab: {
+    downToState: 3.600000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.69999998807907
+  }
+}
+500 column 0 {
+  ready: 33.19999998807907,
+  valid: true,
+  handler: 10.5,
+  handlerReady: true,
+  save: 184.29999995231628,
+  grab: {
+    downToState: 7.400000035762787,
+    triggeringMoveHandler: 0,
+    resultProxy: 36.19999998807907
+  }
+}
+50 note 0 {
+  ready: 30.899999976158142,
+  valid: true,
+  handler: 1.600000023841858,
+  handlerReady: true,
+  save: 163.89999997615814,
+  grab: {
+    downToState: 10,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.80000001192093
+  }
+}
+50 column 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 165.10000002384186,
+  grab: {
+    downToState: 15.5,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.69999998807907
+  }
+}
+500 note 0 {
+  ready: 29.200000047683716,
+  valid: true,
+  handler: 3.800000011920929,
+  handlerReady: true,
+  save: 182.4000000357628,
+  grab: {
+    downToState: 16.30000001192093,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.899999976158142
+  }
+}
+500 column 0 {
+  ready: 32.59999996423721,
+  valid: true,
+  handler: 10.199999988079071,
+  handlerReady: true,
+  save: 182.79999995231628,
+  grab: {
+    downToState: 3.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 31.69999998807907
+  }
+}
+50 note 0 {
+  ready: 31.69999998807907,
+  valid: true,
+  handler: 1.5999999642372131,
+  handlerReady: true,
+  save: 166.5,
+  grab: {
+    downToState: 7.100000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 15.5
+  }
+}
+50 column 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 2.099999964237213,
+  handlerReady: true,
+  save: 164.69999998807907,
+  grab: {
+    downToState: 8.899999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 17.19999998807907
+  }
+}
+500 note 0 {
+  ready: 29.099999964237213,
+  valid: true,
+  handler: 3.399999976158142,
+  handlerReady: true,
+  save: 185,
+  grab: {
+    downToState: 7.200000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.19999998807907
+  }
+}
+500 column 0 {
+  ready: 32,
+  valid: true,
+  handler: 10.200000047683716,
+  handlerReady: true,
+  save: 183.70000004768372,
+  grab: {
+    downToState: 6.199999988079071,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 34.69999998807907
+  }
+}
+50 note 0 {
+  ready: 30,
+  valid: true,
+  handler: 1.5,
+  handlerReady: true,
+  save: 181,
+  grab: {
+    downToState: 16.80000001192093,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 18.100000023841858
+  }
+}
+50 column 0 {
+  ready: 32,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 167.10000002384186,
+  grab: {
+    downToState: 3,
+    triggeringMoveHandler: 0,
+    resultProxy: 15.699999988079071
+  }
+}
+500 note 0 {
+  ready: 27.30000001192093,
+  valid: true,
+  handler: 4.199999988079071,
+  handlerReady: true,
+  save: 186.4000000357628,
+  grab: {
+    downToState: 9.800000011920929,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 15.200000047683716
+  }
+}
+500 column 0 {
+  ready: 32.30000001192093,
+  valid: true,
+  handler: 12.800000011920929,
+  handlerReady: true,
+  save: 184.30000001192093,
+  grab: {
+    downToState: 4.300000011920929,
+    triggeringMoveHandler: 0,
+    resultProxy: 37.299999952316284
+  }
+}
+50 note 0 {
+  ready: 33.60000002384186,
+  valid: true,
+  handler: 2.100000023841858,
+  handlerReady: true,
+  save: 165.60000002384186,
+  grab: {
+    downToState: 15,
+    triggeringMoveHandler: 0,
+    resultProxy: 17.399999976158142
+  }
+}
+50 column 0 {
+  ready: 34.09999996423721,
+  valid: true,
+  handler: 2.199999988079071,
+  handlerReady: true,
+  save: 166.5,
+  grab: {
+    downToState: 10.900000035762787,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 14.699999988079071
+  }
+}
+500 note 0 {
+  ready: 29.399999976158142,
+  valid: true,
+  handler: 3.5,
+  handlerReady: true,
+  save: 187.29999995231628,
+  grab: {
+    downToState: 14.800000011920929,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.30000001192093
+  }
+}
+500 column 0 {
+  ready: 33.5,
+  valid: true,
+  handler: 12.799999952316284,
+  handlerReady: true,
+  save: 185.0999999642372,
+  grab: {
+    downToState: 3.800000011920929,
+    triggeringMoveHandler: 0,
+    resultProxy: 34.90000003576279
+  }
+}
+50 note 0 {
+  ready: 31,
+  valid: true,
+  handler: 1.5999999642372131,
+  handlerReady: true,
+  save: 164.89999997615814,
+  grab: {
+    downToState: 12.900000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.400000035762787
+  }
+}
+50 column 0 {
+  ready: 34.10000002384186,
+  valid: true,
+  handler: 2.200000047683716,
+  handlerReady: true,
+  save: 167,
+  grab: {
+    downToState: 8.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 36.90000003576279
+  }
+}
+500 note 0 {
+  ready: 27.599999964237213,
+  valid: true,
+  handler: 4.399999976158142,
+  handlerReady: true,
+  save: 185.89999997615814,
+  grab: {
+    downToState: 6.799999952316284,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.5
+  }
+}
+500 column 0 {
+  ready: 32.39999997615814,
+  valid: true,
+  handler: 12.199999988079071,
+  handlerReady: true,
+  save: 184.0999999642372,
+  grab: {
+    downToState: 16.69999998807907,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 34.69999998807907
+  }
+}
+50 note 0 {
+  ready: 33.700000047683716,
+  valid: true,
+  handler: 1.600000023841858,
+  handlerReady: true,
+  save: 165.70000004768372,
+  grab: {
+    downToState: 17.700000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.80000001192093
+  }
+}
+50 column 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 2.300000011920929,
+  handlerReady: true,
+  save: 165.60000002384186,
+  grab: {
+    downToState: 7,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 39.40000003576279
+  }
+}
+500 note 0 {
+  ready: 28.69999998807907,
+  valid: true,
+  handler: 3.699999988079071,
+  handlerReady: true,
+  save: 187.19999998807907,
+  grab: {
+    downToState: 10.599999964237213,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.299999952316284
+  }
+}
+500 column 0 {
+  ready: 31.80000001192093,
+  valid: true,
+  handler: 11.600000023841858,
+  handlerReady: true,
+  save: 182.30000001192093,
+  grab: {
+    downToState: 18.30000001192093,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 39.89999997615814
+  }
+}
+50 note 0 {
+  ready: 30.5,
+  valid: true,
+  handler: 4.399999976158142,
+  handlerReady: true,
+  save: 165.89999997615814,
+  grab: {
+    downToState: 27.799999952316284,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 16.80000001192093
+  }
+}
+50 column 0 {
+  ready: 32.90000003576279,
+  valid: true,
+  handler: 2.800000011920929,
+  handlerReady: true,
+  save: 166.80000001192093,
+  grab: {
+    downToState: 17.100000023841858,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 36.30000001192093
+  }
+}
+500 note 0 {
+  ready: 34,
+  valid: true,
+  handler: 22.19999998807907,
+  handlerReady: true,
+  save: 186.5999999642372,
+  grab: {
+    downToState: 27.69999998807907,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.5
+  }
+}
+500 column 0 {
+  ready: 33.60000002384186,
+  valid: true,
+  handler: 12.600000023841858,
+  handlerReady: true,
+  save: 185.60000002384186,
+  grab: {
+    downToState: 3.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 32.80000001192093
+  }
+}
+50 note 0 {
+  ready: 30.100000023841858,
+  valid: true,
+  handler: 4.5,
+  handlerReady: true,
+  save: 165.5,
+  grab: {
+    downToState: 12,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.19999998807907
+  }
+}
+50 column 0 {
+  ready: 30.19999998807907,
+  valid: true,
+  handler: 2.300000011920929,
+  handlerReady: true,
+  save: 163.5,
+  grab: {
+    downToState: 2.300000011920929,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 40.30000001192093
+  }
+}
+500 note 0 {
+  ready: 34,
+  valid: true,
+  handler: 22.100000023841858,
+  handlerReady: true,
+  save: 185.19999998807907,
+  grab: {
+    downToState: 16.400000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17
+  }
+}
+500 column 0 {
+  ready: 33.40000003576279,
+  valid: true,
+  handler: 13.400000035762787,
+  handlerReady: true,
+  save: 184.19999998807907,
+  grab: {
+    downToState: 4.300000011920929,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 36
+  }
+}
+50 note 0 {
+  ready: 32,
+  valid: true,
+  handler: 4.699999988079071,
+  handlerReady: true,
+  save: 165.80000001192093,
+  grab: {
+    downToState: 20.30000001192093,
+    triggeringMoveHandler: 0,
+    resultProxy: 17.19999998807907
+  }
+}
+50 column 0 {
+  ready: 33.40000003576279,
+  valid: true,
+  handler: 2.900000035762787,
+  handlerReady: true,
+  save: 167.70000004768372,
+  grab: {
+    downToState: 4,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 39.39999997615814
+  }
+}
+500 note 0 {
+  ready: 33.80000001192093,
+  valid: true,
+  handler: 21.900000035762787,
+  handlerReady: true,
+  save: 185.4000000357628,
+  grab: {
+    downToState: 17.600000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.69999998807907
+  }
+}
+500 column 0 {
+  ready: 33.10000002384186,
+  valid: true,
+  handler: 15.300000011920929,
+  handlerReady: true,
+  save: 184.30000001192093,
+  grab: {
+    downToState: 5.399999976158142,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 37.10000002384186
+  }
+}
+50 note 0 {
+  ready: 33.59999996423721,
+  valid: true,
+  handler: 4.300000011920929,
+  handlerReady: true,
+  save: 166.89999997615814,
+  grab: {
+    downToState: 15.5,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 15.299999952316284
+  }
+}
+50 column 0 {
+  ready: 32.80000001192093,
+  valid: true,
+  handler: 2.100000023841858,
+  handlerReady: true,
+  save: 166.5,
+  grab: {
+    downToState: 10.099999964237213,
+    triggeringMoveHandler: 0,
+    resultProxy: 32.30000001192093
+  }
+}
+500 note 0 {
+  ready: 32.60000002384186,
+  valid: true,
+  handler: 22.19999998807907,
+  handlerReady: true,
+  save: 183.69999998807907,
+  grab: {
+    downToState: 19,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.5
+  }
+}
+500 column 0 {
+  ready: 32.60000002384186,
+  valid: true,
+  handler: 11.800000011920929,
+  handlerReady: true,
+  save: 184.10000002384186,
+  grab: {
+    downToState: 8.100000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 33.30000001192093
+  }
+}
+50 note 0 {
+  ready: 33.5,
+  valid: true,
+  handler: 4.100000023841858,
+  handlerReady: true,
+  save: 165.69999998807907,
+  grab: {
+    downToState: 15.400000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 15.899999976158142
+  }
+}
+50 column 0 {
+  ready: 34.19999998807907,
+  valid: true,
+  handler: 2.199999988079071,
+  handlerReady: true,
+  save: 166.19999998807907,
+  grab: {
+    downToState: 10.800000011920929,
+    triggeringMoveHandler: 0,
+    resultProxy: 35.19999998807907
+  }
+}
+500 note 0 {
+  ready: 33.5,
+  valid: true,
+  handler: 23.200000047683716,
+  handlerReady: true,
+  save: 184.5,
+  grab: {
+    downToState: 20,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.400000035762787
+  }
+}
+500 column 0 {
+  ready: 32.80000001192093,
+  valid: true,
+  handler: 12.5,
+  handlerReady: true,
+  save: 184.10000002384186,
+  grab: {
+    downToState: 7.300000011920929,
+    triggeringMoveHandler: 0,
+    resultProxy: 34.89999997615814
+  }
+}
+50 note 0 {
+  ready: 32.5,
+  valid: true,
+  handler: 4.5,
+  handlerReady: true,
+  save: 180.9000000357628,
+  grab: {
+    downToState: 12.300000011920929,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.5
+  }
+}
+50 column 0 {
+  ready: 31.19999998807907,
+  valid: true,
+  handler: 2.099999964237213,
+  handlerReady: true,
+  save: 165.5999999642372,
+  grab: {
+    downToState: 8,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 33.10000002384186
+  }
+}
+500 note 0 {
+  ready: 33.90000003576279,
+  valid: true,
+  handler: 22,
+  handlerReady: true,
+  save: 184.10000002384186,
+  grab: {
+    downToState: 23.700000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.899999976158142
+  }
+}
+500 column 0 {
+  ready: 32.89999997615814,
+  valid: true,
+  handler: 11.699999988079071,
+  handlerReady: true,
+  save: 182.5999999642372,
+  grab: {
+    downToState: 18.69999998807907,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 32.69999998807907
+  }
+}
+50 note 0 {
+  ready: 31.200000047683716,
+  valid: true,
+  handler: 4.600000023841858,
+  handlerReady: true,
+  save: 164.9000000357628,
+  grab: {
+    downToState: 11.699999988079071,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.5
+  }
+}
+50 column 0 {
+  ready: 32.59999996423721,
+  valid: true,
+  handler: 2.099999964237213,
+  handlerReady: true,
+  save: 167.89999997615814,
+  grab: {
+    downToState: 7.800000011920929,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 33.40000003576279
+  }
+}
+500 note 0 {
+  ready: 33,
+  valid: true,
+  handler: 22.599999964237213,
+  handlerReady: true,
+  save: 182.29999995231628,
+  grab: {
+    downToState: 23.899999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.399999976158142
+  }
+}
+500 column 0 {
+  ready: 30.899999976158142,
+  valid: true,
+  handler: 12.5,
+  handlerReady: true,
+  save: 182.29999995231628,
+  grab: {
+    downToState: 15.099999964237213,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 38.30000001192093
+  }
+}
+50 note 0 {
+  ready: 33.69999998807907,
+  valid: true,
+  handler: 5.299999952316284,
+  handlerReady: true,
+  save: 167.19999998807907,
+  grab: {
+    downToState: 25,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 16.599999964237213
+  }
+}
+50 column 0 {
+  ready: 32.60000002384186,
+  valid: true,
+  handler: 2.600000023841858,
+  handlerReady: true,
+  save: 167.30000001192093,
+  grab: {
+    downToState: 5.399999976158142,
+    triggeringMoveHandler: 0,
+    resultProxy: 37.10000002384186
+  }
+}
+500 note 0 {
+  ready: 30.600000023841858,
+  valid: true,
+  handler: 20,
+  handlerReady: true,
+  save: 185.10000002384186,
+  grab: {
+    downToState: 13.5,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 18
+  }
+}
+500 column 0 {
+  ready: 35.30000001192093,
+  valid: true,
+  handler: 18.69999998807907,
+  handlerReady: true,
+  save: 192.39999997615814,
+  grab: {
+    downToState: 14.899999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 49.59999996423721
+  }
+}
+50 note 0 {
+  ready: 32.40000003576279,
+  valid: true,
+  handler: 5.699999988079071,
+  handlerReady: true,
+  save: 165.80000001192093,
+  grab: {
+    downToState: 29,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 14.800000011920929
+  }
+}
+50 column 0 {
+  ready: 32.59999996423721,
+  valid: true,
+  handler: 2.599999964237213,
+  handlerReady: true,
+  save: 165.79999995231628,
+  grab: {
+    downToState: 6.599999964237213,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 37.59999996423721
+  }
+}
+500 note 0 {
+  ready: 37.10000002384186,
+  valid: true,
+  handler: 24,
+  handlerReady: true,
+  save: 189,
+  grab: {
+    downToState: 25.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.100000023841858
+  }
+}
+500 column 0 {
+  ready: 34.60000002384186,
+  valid: true,
+  handler: 18.399999976158142,
+  handlerReady: true,
+  save: 187.39999997615814,
+  grab: {
+    downToState: 11.199999988079071,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 43.19999998807907
+  }
+}
+50 note 0 {
+  ready: 30,
+  valid: true,
+  handler: 6.199999988079071,
+  handlerReady: true,
+  save: 165.0999999642372,
+  grab: {
+    downToState: 22.80000001192093,
+    triggeringMoveHandler: 0,
+    resultProxy: 18.299999952316284
+  }
+}
+50 column 0 {
+  ready: 32.200000047683716,
+  valid: true,
+  handler: 3.100000023841858,
+  handlerReady: true,
+  save: 184.70000004768372,
+  grab: {
+    downToState: 9.700000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 42.10000002384186
+  }
+}
+500 note 0 {
+  ready: 69.10000002384186,
+  valid: true,
+  handler: 44.90000003576279,
+  handlerReady: true,
+  save: 202,
+  grab: {
+    downToState: 32.30000001192093,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.69999998807907
+  }
+}
+500 column 0 {
+  ready: 32.59999996423721,
+  valid: true,
+  handler: 14.5,
+  handlerReady: true,
+  save: 184.30000001192093,
+  grab: {
+    downToState: 10.100000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 41.30000001192093
+  }
+}
+50 note 0 {
+  ready: 30.900000035762787,
+  valid: true,
+  handler: 2.300000011920929,
+  handlerReady: true,
+  save: 166,
+  grab: {
+    downToState: 5,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 17.599999964237213
+  }
+}
+50 column 0 {
+  ready: 31.69999998807907,
+  valid: true,
+  handler: 2.600000023841858,
+  handlerReady: true,
+  save: 165.60000002384186,
+  grab: {
+    downToState: 4.199999988079071,
+    triggeringMoveHandler: 0,
+    resultProxy: 42.89999997615814
+  }
+}
+50 note 1 {
+  ready: 27.899999976158142,
+  valid: true,
+  handler: 2.199999988079071,
+  handlerReady: true,
+  save: 178.39999997615814,
+  grab: {
+    downToState: 15.200000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.899999976158142
+  }
+}
+50 column 1 {
+  ready: 33,
+  valid: true,
+  handler: 3.199999988079071,
+  handlerReady: true,
+  save: 165,
+  grab: {
+    downToState: 7.699999988079071,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16
+  }
+}
+50 note 2 {
+  ready: 33,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 166.60000002384186,
+  grab: {
+    downToState: 10.400000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.80000001192093
+  }
+}
+50 column 2 {
+  ready: 31.700000047683716,
+  valid: true,
+  handler: 2.900000035762787,
+  handlerReady: true,
+  save: 163.70000004768372,
+  grab: {
+    downToState: 6.800000011920929,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 40.59999996423721
+  }
+}
+50 note 3 {
+  ready: 32.09999996423721,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 166,
+  grab: {
+    downToState: 13.100000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 16.399999976158142
+  }
+}
+50 column 3 {
+  ready: 31.899999976158142,
+  valid: true,
+  handler: 2.800000011920929,
+  handlerReady: true,
+  save: 164.19999998807907,
+  grab: {
+    downToState: 4.799999952316284,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 42.59999996423721
+  }
+}
+50 note 4 {
+  ready: 33.5,
+  valid: true,
+  handler: 2,
+  handlerReady: true,
+  save: 165.89999997615814,
+  grab: {
+    downToState: 2.399999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 17.80000001192093
+  }
+}
+50 column 4 {
+  ready: 30.400000035762787,
+  valid: true,
+  handler: 2.800000011920929,
+  handlerReady: true,
+  save: 163.80000001192093,
+  grab: {
+    downToState: 5.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 40.5
+  }
+}
+500 note 0 {
+  ready: 28.799999952316284,
+  valid: true,
+  handler: 4.799999952316284,
+  handlerReady: true,
+  save: 194,
+  grab: {
+    downToState: 3.400000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.5
+  }
+}
+500 column 0 {
+  ready: 32.10000002384186,
+  valid: true,
+  handler: 15,
+  handlerReady: true,
+  save: 184.10000002384186,
+  grab: {
+    downToState: 11.099999964237213,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 41.09999996423721
+  }
+}
+500 note 1 {
+  ready: 32.19999998807907,
+  valid: true,
+  handler: 4.300000011920929,
+  handlerReady: true,
+  save: 184,
+  grab: {
+    downToState: 20,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 15.199999988079071
+  }
+}
+500 column 1 {
+  ready: 32.90000003576279,
+  valid: true,
+  handler: 13.700000047683716,
+  handlerReady: true,
+  save: 184.4000000357628,
+  grab: {
+    downToState: 2.5,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 39
+  }
+}
+500 note 2 {
+  ready: 26.5,
+  valid: true,
+  handler: 5,
+  handlerReady: true,
+  save: 192.0999999642372,
+  grab: {
+    downToState: 12.599999964237213,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 18.399999976158142
+  }
+}
+500 column 2 {
+  ready: 31,
+  valid: true,
+  handler: 13.600000023841858,
+  handlerReady: true,
+  save: 183.10000002384186,
+  grab: {
+    downToState: 14.399999976158142,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 40.90000003576279
+  }
+}
+500 note 3 {
+  ready: 28.19999998807907,
+  valid: true,
+  handler: 4.699999988079071,
+  handlerReady: true,
+  save: 195.69999998807907,
+  grab: {
+    downToState: 8.800000011920929,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.399999976158142
+  }
+}
+500 column 3 {
+  ready: 34.60000002384186,
+  valid: true,
+  handler: 13.700000047683716,
+  handlerReady: true,
+  save: 184.5,
+  grab: {
+    downToState: 5.5,
+    triggeringMoveHandler: 0,
+    resultProxy: 39.80000001192093
+  }
+}
+500 note 4 {
+  ready: 28.30000001192093,
+  valid: true,
+  handler: 5.699999988079071,
+  handlerReady: true,
+  save: 185.5,
+  grab: {
+    downToState: 17.69999998807907,
+    triggeringMoveHandler: 0,
+    resultProxy: 15.899999976158142
+  }
+}
+500 column 4 {
+  ready: 32.09999996423721,
+  valid: true,
+  handler: 14.800000011920929,
+  handlerReady: true,
+  save: 190.30000001192093,
+  grab: {
+    downToState: 11.799999952316284,
+    triggeringMoveHandler: 0,
+    resultProxy: 43.10000002384186
+  }
+}
+50 note 0 {
+  ready: 32.30000001192093,
+  valid: true,
+  handler: 6.800000011920929,
+  handlerReady: true,
+  save: 165.80000001192093,
+  grab: {
+    downToState: 21.19999998807907,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.399999976158142
+  }
+}
+50 column 0 {
+  ready: 33.40000003576279,
+  valid: true,
+  handler: 3,
+  handlerReady: true,
+  save: 167.5,
+  grab: {
+    downToState: 7,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 44.69999998807907
+  }
+}
+50 note 1 {
+  ready: 30.5,
+  valid: true,
+  handler: 5.599999964237213,
+  handlerReady: true,
+  save: 165.30000001192093,
+  grab: {
+    downToState: 22.399999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 17.399999976158142
+  }
+}
+50 column 1 {
+  ready: 31.200000047683716,
+  valid: true,
+  handler: 3.200000047683716,
+  handlerReady: true,
+  save: 166.70000004768372,
+  grab: {
+    downToState: 5.900000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 42.69999998807907
+  }
+}
+50 note 2 {
+  ready: 32.19999998807907,
+  valid: true,
+  handler: 5.699999988079071,
+  handlerReady: true,
+  save: 166.89999997615814,
+  grab: {
+    downToState: 23.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 17.19999998807907
+  }
+}
+50 column 2 {
+  ready: 33.5,
+  valid: true,
+  handler: 3.199999988079071,
+  handlerReady: true,
+  save: 167.5,
+  grab: {
+    downToState: 15.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 45.10000002384186
+  }
+}
+50 note 3 {
+  ready: 35.40000003576279,
+  valid: true,
+  handler: 6.300000011920929,
+  handlerReady: true,
+  save: 166.10000002384186,
+  grab: {
+    downToState: 20.19999998807907,
+    triggeringMoveHandler: 0,
+    resultProxy: 17.19999998807907
+  }
+}
+50 column 3 {
+  ready: 32.5,
+  valid: true,
+  handler: 3.199999988079071,
+  handlerReady: true,
+  save: 165,
+  grab: {
+    downToState: 20.100000023841858,
+    triggeringMoveHandler: 0,
+    resultProxy: 44.80000001192093
+  }
+}
+50 note 4 {
+  ready: 30.400000035762787,
+  valid: true,
+  handler: 7,
+  handlerReady: true,
+  save: 181,
+  grab: {
+    downToState: 21.5,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 15.699999988079071
+  }
+}
+50 column 4 {
+  ready: 31.099999964237213,
+  valid: true,
+  handler: 3.300000011920929,
+  handlerReady: true,
+  save: 164.5,
+  grab: {
+    downToState: 7.199999988079071,
+    triggeringMoveHandler: 0,
+    resultProxy: 42.19999998807907
+  }
+}
+500 note 0 {
+  ready: 42.39999997615814,
+  valid: true,
+  handler: 27.69999998807907,
+  handlerReady: true,
+  save: 200.39999997615814,
+  grab: {
+    downToState: 28.30000001192093,
+    triggeringMoveHandler: 0.19999998807907104,
+    resultProxy: 18.599999964237213
+  }
+}
+500 column 0 {
+  ready: 35.799999952316284,
+  valid: true,
+  handler: 19.899999976158142,
+  handlerReady: true,
+  save: 187.5,
+  grab: {
+    downToState: 6,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 42.80000001192093
+  }
+}
+500 note 1 {
+  ready: 41,
+  valid: true,
+  handler: 26.69999998807907,
+  handlerReady: true,
+  save: 202,
+  grab: {
+    downToState: 24.5,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.5
+  }
+}
+500 column 1 {
+  ready: 49.10000002384186,
+  valid: true,
+  handler: 16.5,
+  handlerReady: true,
+  save: 186.30000001192093,
+  grab: {
+    downToState: 12.099999964237213,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 41.09999996423721
+  }
+}
+500 note 2 {
+  ready: 39.5,
+  valid: true,
+  handler: 26.100000023841858,
+  handlerReady: true,
+  save: 200.4000000357628,
+  grab: {
+    downToState: 23.900000035762787,
+    triggeringMoveHandler: 0,
+    resultProxy: 15
+  }
+}
+500 column 2 {
+  ready: 31.599999964237213,
+  valid: true,
+  handler: 16.899999976158142,
+  handlerReady: true,
+  save: 185,
+  grab: {
+    downToState: 9.399999976158142,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 44.19999998807907
+  }
+}
+500 note 3 {
+  ready: 39.59999996423721,
+  valid: true,
+  handler: 26.19999998807907,
+  handlerReady: true,
+  save: 197,
+  grab: {
+    downToState: 14.700000047683716,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 16.100000023841858
+  }
+}
+500 column 3 {
+  ready: 32.80000001192093,
+  valid: true,
+  handler: 17.19999998807907,
+  handlerReady: true,
+  save: 185.10000002384186,
+  grab: {
+    downToState: 13.900000035762787,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 43.30000001192093
+  }
+}
+500 note 4 {
+  ready: 44.5,
+  valid: true,
+  handler: 29.5,
+  handlerReady: true,
+  save: 192.69999998807907,
+  grab: {
+    downToState: 22.69999998807907,
+    triggeringMoveHandler: 0.09999996423721313,
+    resultProxy: 16.399999976158142
+  }
+}
+500 column 4 {
+  ready: 33.90000003576279,
+  valid: true,
+  handler: 18.100000023841858,
+  handlerReady: true,
+  save: 189.60000002384186,
+  grab: {
+    downToState: 6.600000023841858,
+    triggeringMoveHandler: 0.10000002384185791,
+    resultProxy: 48
+  }
+}
+performance/round6/before.html small note 0 120 { ms: 0.5, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small column 0 60 { ms: 0.10000002384185791, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small note 1 120 { ms: 0.40000009536743164, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small column 1 60 { ms: 0.2999999523162842, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small note 2 120 { ms: 0, calls: 20, max: 0 }
+performance/round6/before.html small column 2 60 { ms: 0.30000001192092896, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small note 3 120 { ms: 0.30000001192092896, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small column 3 60 { ms: 0.49999988079071045, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small note 4 120 { ms: 0.19999998807907104, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html small column 4 60 { ms: 0.40000003576278687, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread note 0 160 { ms: 0.3999999165534973, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread column 0 100 { ms: 1.0000001788139343, calls: 20, max: 0.20000004768371582 }
+performance/round6/before.html spread note 1 160 { ms: 0.3999999761581421, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread column 1 100 { ms: 1.1999999284744263, calls: 20, max: 0.19999998807907104 }
+performance/round6/before.html spread note 2 160 { ms: 0.7000000476837158, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread column 2 100 { ms: 1, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread note 3 160 { ms: 0.5000000596046448, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread column 3 100 { ms: 1, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread note 4 160 { ms: 0.40000009536743164, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html spread column 4 100 { ms: 1.1000002026557922, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html dense note 0 220 { ms: 3.0000001192092896, calls: 20, max: 0.40000003576278687 }
+performance/round6/before.html dense column 0 40 { ms: 0.8000000715255737, calls: 20, max: 0.19999998807907104 }
+performance/round6/before.html dense note 1 220 { ms: 2.399999976158142, calls: 20, max: 0.20000004768371582 }
+performance/round6/before.html dense column 1 40 { ms: 0.7999998927116394, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html dense note 2 220 { ms: 2.4999998211860657, calls: 20, max: 0.19999998807907104 }
+performance/round6/before.html dense column 2 40 { ms: 1.1999998688697815, calls: 20, max: 0.19999998807907104 }
+performance/round6/before.html dense note 3 220 { ms: 2.2000001668930054, calls: 20, max: 0.20000004768371582 }
+performance/round6/before.html dense column 3 40 { ms: 0.9000000357627869, calls: 20, max: 0.10000002384185791 }
+performance/round6/before.html dense note 4 220 { ms: 1.8000000715255737, calls: 20, max: 0.19999998807907104 }
+performance/round6/before.html dense column 4 40 { ms: 1.1999998092651367, calls: 20, max: 0.10000002384185791 }
+peta-board.html small note 0 120 { ms: 0.49999988079071045, calls: 20, max: 0.10000002384185791 }
+peta-board.html small column 0 60 { ms: 0.5999999642372131, calls: 20, max: 0.10000002384185791 }
+peta-board.html small note 1 120 { ms: 0.30000001192092896, calls: 20, max: 0.10000002384185791 }
+peta-board.html small column 1 60 { ms: 0.19999998807907104, calls: 20, max: 0.10000002384185791 }
+peta-board.html small note 2 120 { ms: 0.19999998807907104, calls: 20, max: 0.10000002384185791 }
+peta-board.html small column 2 60 { ms: 0.3999999761581421, calls: 20, max: 0.10000002384185791 }
+peta-board.html small note 3 120 { ms: 0.5, calls: 20, max: 0.10000002384185791 }
+peta-board.html small column 3 60 { ms: 0.30000007152557373, calls: 20, max: 0.10000002384185791 }
+peta-board.html small note 4 120 { ms: 0.19999998807907104, calls: 20, max: 0.10000002384185791 }
+peta-board.html small column 4 60 { ms: 0.2999999523162842, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread note 0 160 { ms: 0.10000002384185791, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread column 0 100 { ms: 0.8000000715255737, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread note 1 160 { ms: 1.0000000596046448, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread column 1 100 { ms: 1, calls: 20, max: 0.20000004768371582 }
+peta-board.html spread note 2 160 { ms: 0.7999999523162842, calls: 20, max: 0.19999998807907104 }
+peta-board.html spread column 2 100 { ms: 0.9000000953674316, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread note 3 160 { ms: 0.800000011920929, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread column 3 100 { ms: 0.19999998807907104, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread note 4 160 { ms: 0.7000001072883606, calls: 20, max: 0.10000002384185791 }
+peta-board.html spread column 4 100 { ms: 0.30000007152557373, calls: 20, max: 0.10000002384185791 }
+peta-board.html dense note 0 220 { ms: 2.5, calls: 20, max: 0.20000004768371582 }
+peta-board.html dense column 0 40 { ms: 0.9000000357627869, calls: 20, max: 0.10000002384185791 }
+peta-board.html dense note 1 220 { ms: 2.199999988079071, calls: 20, max: 0.19999998807907104 }
+peta-board.html dense column 1 40 { ms: 0.40000003576278687, calls: 20, max: 0.10000002384185791 }
+peta-board.html dense note 2 220 { ms: 1.7999998927116394, calls: 20, max: 0.19999998807907104 }
+peta-board.html dense column 2 40 { ms: 0.9999998807907104, calls: 20, max: 0.19999998807907104 }
+peta-board.html dense note 3 220 { ms: 2.70000022649765, calls: 20, max: 0.20000004768371582 }
+peta-board.html dense column 3 40 { ms: 1.1999999284744263, calls: 20, max: 0.19999998807907104 }
+peta-board.html dense note 4 220 { ms: 1.9999998807907104, calls: 20, max: 0.19999998807907104 }
+peta-board.html dense column 4 40 { ms: 0.6999998688697815, calls: 20, max: 0.10000002384185791 }

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-08T16:53:14.650Z",
+  "checks": [
+    "settings-btn即時表示・フォーカス・Tab・Esc",
+    "help-btn即時表示・フォーカス・Tab・Esc",
+    "同一処理内の閉じる→再表示を古い処理で隠さない",
+    "編集・カレンダーの即時フォーカス・日付選択・閉じる・再表示",
+    "閉じた直後の新しい操作をフォーカス復帰で上書きしない",
+    "不正JSON・32MiB超過の拒否と既存データ保持"
+  ],
+  "errors": [],
+  "versions": {
+    "performance/before.html": "54979e5917e9c6305666f57e84a5d843debbdeca01a7ba397a7457f21790b822",
+    "peta-board.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa"
+  },
+  "version_provenance": "Verified preserved source hashes after run; HTML sources unchanged during measurement"
+}

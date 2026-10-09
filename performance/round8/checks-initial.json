@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-09T19:59:30.690Z",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "node": "v24.21.0",
+  "records": [
+    {
+      "name": "syntax/API/CI-Bash",
+      "exit": 0,
+      "stdout": "Application JS, 3 CSS blocks, 72 CJS and 6 Python files checked\n",
+      "stderr": ""
+    },
+    {
+      "name": "all owned JavaScript and extracted candidates",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "HTML application and two candidates",
+      "exit": 1,
+      "stdout": "",
+      "stderr": "node:internal/modules/cjs/loader:1568\n  throw err;\n  ^\n\nError: Cannot find module '/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/node_modules/html-validate/bin/html-validate.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)\n    at Module._load (node:internal/modules/cjs/loader:1341:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.21.0\n"
+    },
+    {
+      "name": "CSS all extracted blocks",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "format",
+      "exit": 0,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": ""
+    },
+    {
+      "name": "Python3.15 Ruff7/format7/output6",
+      "exit": 0,
+      "stdout": "All checks passed!\n7 files already formatted\nperformance/compare.py equal\nperformance/drag/report.py equal\nperformance/round2/compare.py equal\nperformance/round2/finalize.py equal\nperformance/round3/compare.py equal\nperformance/round3/finalize.py equal\n",
+      "stderr": ""
+    },
+    {
+      "name": "git diff --check",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "passed": false
+}

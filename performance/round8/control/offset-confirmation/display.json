@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-09T20:04:48.212Z",
+  "versions": {
+    "performance/round8/before.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2"
+  },
+  "bodyInternalScrollSizeExcluded": "overflow:hidden line-clamped body only; card/list scroll extent and visible pixels checked",
+  "results": [
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    }
+  ],
+  "accessibilityEqual": true,
+  "accessibilityDefinition": "semantic roles/names/values including complete StaticText; browser-internal InlineTextBox line fragments excluded because zero-height text stops wrapping"
+}

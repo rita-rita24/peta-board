@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09T19:19:11.576Z",
+  "node": "v24.21.0",
+  "python": "/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/.checks/python315-build/Python-3.15.0/python.exe",
+  "applicationSha256": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "records": [
+    {
+      "name": "syntax/obsolete/embedded/CI-Bash",
+      "exit": 0,
+      "stdout": "Application JS, 3 CSS blocks, 71 CJS and 6 Python files checked\n",
+      "stderr": ""
+    },
+    {
+      "name": "eslint/all-managed-JS",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "HTML",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "CSS3blocks",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "format",
+      "exit": 0,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": ""
+    },
+    {
+      "name": "Python315/Ruff7/output6",
+      "exit": 0,
+      "stdout": "All checks passed!\n7 files already formatted\nperformance/compare.py equal\nperformance/drag/report.py equal\nperformance/round2/compare.py equal\nperformance/round2/finalize.py equal\nperformance/round3/compare.py equal\nperformance/round3/finalize.py equal\n",
+      "stderr": ""
+    },
+    {
+      "name": "git diff --check",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "externalExclusions": [
+    "node_modules: third party pinned packages",
+    ".checks/python315-build: official CPython source/build",
+    ".checks/python-tools/.checks/python: external development runtimes"
+  ],
+  "frozenHtml": "Historical experiment inputs stay unchanged; managed live HTML and all tooling source checked",
+  "runnerCorrection": "Initial manual HTML invocation used nonexistent .js CLI path; corrected to package .mjs executable. Initial failure was command resolution, not an HTML diagnostic."
+}

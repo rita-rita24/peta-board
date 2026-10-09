@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09T00:45:02.557Z",
+  "cases": [
+    {
+      "label": "initial",
+      "count": 500
+    },
+    {
+      "label": "search 検証対象 abc",
+      "count": 250
+    },
+    {
+      "label": "search abc 検証対象",
+      "count": 250
+    },
+    {
+      "label": "search 付箋1",
+      "count": 111
+    },
+    {
+      "label": "search İ",
+      "count": 0
+    },
+    {
+      "label": "search 検証対象",
+      "count": 250
+    },
+    {
+      "label": "search ",
+      "count": 500
+    },
+    {
+      "label": "edited",
+      "count": 500
+    },
+    {
+      "label": "edited search 更新",
+      "count": 1
+    },
+    {
+      "label": "edited search 検証対象",
+      "count": 250
+    },
+    {
+      "label": "edited search ",
+      "count": 500
+    },
+    {
+      "label": "reordered",
+      "count": 500
+    },
+    {
+      "label": "column-renamed",
+      "count": 250
+    }
+  ],
+  "equal": true
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09T15:11:29.106Z",
+  "source": "performance/drag/before.html",
+  "version": "e53944306cbd9f088b5886d158807fdccec7f6d8f7e9a847ab91b5826eb1d8cb",
+  "browser": "154.0.8037.99",
+  "viewport": "1440x900",
+  "definition": "Native mouse: first note to head of second column / first column before third. Start pointerup capture; ready at second rAF with correct state+DOM; save indicator and reload verify persistence. Handler is synchronous pointerup processing. Each run independent browser context.",
+  "rows": [
+    {
+      "n": 50,
+      "type": "note",
+      "run": 0,
+      "ready": 32,
+      "valid": true,
+      "handler": 7.599999964237213,
+      "handlerReady": true,
+      "save": 165.19999998807907
+    },
+    {
+      "n": 50,
+      "type": "column",
+      "run": 0,
+      "ready": 32.19999998807907,
+      "valid": true,
+      "handler": 6.900000035762787,
+      "handlerReady": true,
+      "save": 166.5
+    },
+    {
+      "n": 500,
+      "type": "note",
+      "run": 0,
+      "ready": 133.0999999642372,
+      "valid": true,
+      "handler": 111.59999996423721,
+      "handlerReady": true,
+      "save": 184
+    },
+    {
+      "n": 500,
+      "type": "column",
+      "run": 0,
+      "ready": 129.89999997615814,
+      "valid": true,
+      "handler": 110.10000002384186,
+      "handlerReady": true,
+      "save": 183.80000001192093
+    }
+  ],
+  "errors": []
+}

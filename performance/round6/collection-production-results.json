@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-09T19:18:57.615Z",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "beforeVersions": {
+    "peta-board.html": "e26dcdac00045b34f59a800808c390a4b6d1386ada009e2c431a493f1ec0f055"
+  },
+  "afterVersions": {
+    "peta-board.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2"
+  },
+  "beforeDate": "2026-10-09T17:20:19.857Z",
+  "afterDate": "2026-10-09T19:00:05.240Z",
+  "definition": "Same canonical production file URL and fixture/browser/runner, different sampling epochs. e26dcd before collection changes -> final301436. Stage5 randomized temporary paired results support structural effect independently; this comparison alone does not establish causation. No field INP or physical display.",
+  "rows": [
+    {
+      "operation": "付箋削除の復元",
+      "metric": "handler",
+      "before": 196,
+      "after": 9.399999976158142,
+      "reductionMs": 186.60000002384186,
+      "reductionPercent": 95.20408164481728,
+      "beforeMin": 188.5,
+      "beforeMax": 222.4000000357628,
+      "afterMin": 9.299999952316284,
+      "afterMax": 10.300000011920929,
+      "trials": 5
+    },
+    {
+      "operation": "付箋削除の復元",
+      "metric": "frameReady",
+      "before": 235.39999997615814,
+      "after": 33.59999996423721,
+      "reductionMs": 201.80000001192093,
+      "reductionPercent": 85.72642312334736,
+      "beforeMin": 232.5999999642372,
+      "beforeMax": 267.2000000476837,
+      "afterMin": 33.30000001192093,
+      "afterMax": 34.59999996423721,
+      "trials": 5
+    },
+    {
+      "operation": "付箋削除の復元",
+      "metric": "savedMs",
+      "before": 293.80000001192093,
+      "after": 185.39999997615814,
+      "reductionMs": 108.40000003576279,
+      "reductionPercent": 36.89584752599199,
+      "beforeMin": 274.2999999523163,
+      "beforeMax": 346,
+      "afterMin": 183.29999995231628,
+      "afterMax": 185.9000000357628,
+      "trials": 5
+    },
+    {
+      "operation": "列削除の復元",
+      "metric": "handler",
+      "before": 194.4000000357628,
+      "after": 10.199999988079071,
+      "reductionMs": 184.20000004768372,
+      "reductionPercent": 94.7530864268505,
+      "beforeMin": 185.39999997615814,
+      "beforeMax": 226,
+      "afterMin": 10.100000023841858,
+      "afterMax": 11.200000047683716,
+      "trials": 5
+    },
+    {
+      "operation": "列削除の復元",
+      "metric": "frameReady",
+      "before": 240,
+      "after": 33.89999997615814,
+      "reductionMs": 206.10000002384186,
+      "reductionPercent": 85.87500000993411,
+      "beforeMin": 235.80000001192093,
+      "beforeMax": 283,
+      "afterMin": 33.69999998807907,
+      "afterMax": 34.69999998807907,
+      "trials": 5
+    },
+    {
+      "operation": "列削除の復元",
+      "metric": "savedMs",
+      "before": 270.80000001192093,
+      "after": 189.19999998807907,
+      "reductionMs": 81.60000002384186,
+      "reductionPercent": 30.132939446177893,
+      "beforeMin": 255.30000001192093,
+      "beforeMax": 310.5999999642372,
+      "afterMin": 188.80000001192093,
+      "afterMax": 190.5999999642372,
+      "trials": 5
+    },
+    {
+      "operation": "チェック項目復元",
+      "metric": "handler",
+      "before": 224.69999998807907,
+      "after": 2.300000011920929,
+      "reductionMs": 222.39999997615814,
+      "reductionPercent": 98.97641298974501,
+      "beforeMin": 182.60000002384186,
+      "beforeMax": 232.5,
+      "afterMin": 2.300000011920929,
+      "afterMax": 2.400000035762787,
+      "trials": 5
+    },
+    {
+      "operation": "チェック項目復元",
+      "metric": "frameReady",
+      "before": 285.30000001192093,
+      "after": 34.09999996423721,
+      "reductionMs": 251.20000004768372,
+      "reductionPercent": 88.04766913325889,
+      "beforeMin": 235.30000001192093,
+      "beforeMax": 287.5,
+      "afterMin": 33.10000002384186,
+      "afterMax": 35.10000002384186,
+      "trials": 5
+    },
+    {
+      "operation": "チェック項目復元",
+      "metric": "savedMs",
+      "before": 304.9000000357628,
+      "after": 188.9000000357628,
+      "reductionMs": 116,
+      "reductionPercent": 38.04526073676417,
+      "beforeMin": 260.4000000357628,
+      "beforeMax": 321.9000000357628,
+      "afterMin": 185.9000000357628,
+      "afterMax": 191.20000004768372,
+      "trials": 5
+    }
+  ]
+}

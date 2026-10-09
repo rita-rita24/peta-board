@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-09T16:04:24.942Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/modernization/before.html": "77ab5d2c45b696787a6ca5d71f030f7deff142fcfdd6dd2f6961e5fd47c25674",
+    "peta-board.html": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489"
+  },
+  "definition": "1440x900,50 notes,5 independent contexts per source, alternating AB/BA source order, same timeOrigin/rAF criteria as screens.cjs. Cold includes fixture serialization and IndexedDB creation, warm reload same context.",
+  "rows": [
+    {
+      "source": "performance/modernization/before.html",
+      "run": 0,
+      "cache": "cold",
+      "content": 61.10000002384186,
+      "interactive": 61.10000002384186
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 0,
+      "cache": "warm",
+      "content": 41.30000001192093,
+      "interactive": 41.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "run": 0,
+      "cache": "cold",
+      "content": 45.60000002384186,
+      "interactive": 45.60000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "run": 0,
+      "cache": "warm",
+      "content": 31,
+      "interactive": 31
+    },
+    {
+      "source": "peta-board.html",
+      "run": 1,
+      "cache": "cold",
+      "content": 43.10000002384186,
+      "interactive": 43.10000002384186
+    },
+    {
+      "source": "peta-board.html",
+      "run": 1,
+      "cache": "warm",
+      "content": 35.19999998807907,
+      "interactive": 35.19999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 1,
+      "cache": "cold",
+      "content": 45.60000002384186,
+      "interactive": 45.60000002384186
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 1,
+      "cache": "warm",
+      "content": 32,
+      "interactive": 32
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 2,
+      "cache": "cold",
+      "content": 68.69999998807907,
+      "interactive": 68.69999998807907
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 2,
+      "cache": "warm",
+      "content": 34.30000001192093,
+      "interactive": 34.30000001192093
+    },
+    {
+      "source": "peta-board.html",
+      "run": 2,
+      "cache": "cold",
+      "content": 57.69999998807907,
+      "interactive": 57.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "run": 2,
+      "cache": "warm",
+      "content": 36,
+      "interactive": 36
+    },
+    {
+      "source": "peta-board.html",
+      "run": 3,
+      "cache": "cold",
+      "content": 54.299999952316284,
+      "interactive": 54.299999952316284
+    },
+    {
+      "source": "peta-board.html",
+      "run": 3,
+      "cache": "warm",
+      "content": 30.099999964237213,
+      "interactive": 30.099999964237213
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 3,
+      "cache": "cold",
+      "content": 55.09999996423721,
+      "interactive": 55.09999996423721
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 3,
+      "cache": "warm",
+      "content": 30,
+      "interactive": 30
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 4,
+      "cache": "cold",
+      "content": 53.89999997615814,
+      "interactive": 53.89999997615814
+    },
+    {
+      "source": "performance/modernization/before.html",
+      "run": 4,
+      "cache": "warm",
+      "content": 34,
+      "interactive": 34
+    },
+    {
+      "source": "peta-board.html",
+      "run": 4,
+      "cache": "cold",
+      "content": 51.69999998807907,
+      "interactive": 51.69999998807907
+    },
+    {
+      "source": "peta-board.html",
+      "run": 4,
+      "cache": "warm",
+      "content": 33.69999998807907,
+      "interactive": 33.69999998807907
+    }
+  ]
+}

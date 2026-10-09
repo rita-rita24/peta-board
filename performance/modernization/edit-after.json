@@ -1,0 +1,5172 @@
+{
+  "date": "2026-10-09T15:56:40.053Z",
+  "source": "peta-board.html",
+  "version": "e1e807d63e82a144e55fb2c30c2cd88d990e27664afab75ef52db68593ed0489",
+  "browser": "154.0.8037.99",
+  "viewportHeight": 900,
+  "repeats": 5,
+  "definition": "One dense column, 50/500 notes. Search 共通 matches all titles; edited first title removes its result. Each field has 8 synchronous input events with two rAF settling. Handler measures synchronous processing; frameReady is a frame proxy, not actual paint or INP. Independent contexts. No artificial throttling.",
+  "rows": [
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 30.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.10000002384186
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 31.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 35.39999997615814
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.80000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 34.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.399999976158142
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.200000047683716
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 35.19999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34.10000002384186
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.89999997615814
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.10000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 31.30000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 35.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.10000002384186
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 35.200000047683716
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 27.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.80000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 31.700000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.30000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 35.10000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 1.0999999642372131,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.69999998807907
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2.5,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.399999976158142
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 31.600000023841858
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.799999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.90000003576279
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 1.5,
+          "frameReady": 29
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 35.299999952316284
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 31.19999998807907
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 31.900000035762787
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.90000003576279
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.200000047683716
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 31.600000023841858
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.59999996423721
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.59999996423721
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 1.699999988079071,
+          "frameReady": 22.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 31.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.799999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.69999998807907
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.799999952316284
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.40000003576279
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.10000002384186
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.80000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 1.600000023841858,
+          "frameReady": 23.600000023841858
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 50
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 50
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 50.09999996423721
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 50.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.699999988079071,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.89999997615814
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.59999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.700000047683716
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 50
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.799999952316284
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.700000047683716
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 50
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 50.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.799999952316284
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 34.89999997615814
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.599999964237213
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 48.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.400000035762787
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 48.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 33.10000002384186,
+          "frameReady": 65.30000001192093
+        },
+        {
+          "handler": 0.7999999523162842,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.8999999761581421,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.09999996423721
+        },
+        {
+          "handler": 0.7999999523162842,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 35.299999952316284
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 1,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.89999997615814
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 15.5,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.09999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.59999996423721
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.5
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 35.299999952316284
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 14.199999988079071,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.700000047683716
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.89999997615814
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 14.299999952316284,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 19.399999976158142,
+          "frameReady": 49.69999998807907
+        },
+        {
+          "handler": 0.800000011920929,
+          "frameReady": 31.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.399999976158142
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.90000003576279
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 375,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.69999998807907
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.09999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.39999997615814
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.799999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.69999998807907
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.700000047683716
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.700000047683716
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 34.59999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.10000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 35.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.90000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.09999996423721
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.699999988079071,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.700000047683716
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.60000002384186
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.600000023841858
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.400000035762787
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.399999976158142
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.39999997615814
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": false,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.59999996423721
+        }
+      ],
+      "cards": 50,
+      "summary": "付箋 50件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2.199999988079071,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.19999998807907
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.700000047683716
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.60000002384186
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 3.5,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.19999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 35
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.900000035762787
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.80000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2.300000011920929,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.5
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.80000001192093
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2.199999988079071,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34.700000047683716
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.200000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.59999996423721
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 2.5,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.10000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.5
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.10000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.10000002384185791,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 32.90000003576279
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 50,
+      "filtered": true,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.299999952316284
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.09999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.09999996423721313,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.10000002384186
+        }
+      ],
+      "cards": 49,
+      "summary": "検索結果 49件 / 付箋 50件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.60000002384186
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 35.80000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.7000000476837158,
+          "frameReady": 34.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.89999997615814
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.60000002384186
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.09999996423721
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 31.69999998807907
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 35.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 35.09999996423721
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.799999952316284
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.699999988079071,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.40000003576279
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 50.200000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.800000011920929,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.399999976158142
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.200000047683716
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.89999997615814
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 34.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 49
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 37.30000001192093
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.89999997615814
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 35.200000047683716
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.40000003576279
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": false,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 31.399999976158142
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 49.30000001192093
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 35.10000002384186
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32
+        }
+      ],
+      "cards": 500,
+      "summary": "付箋 500件 · 1列"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 13.899999976158142,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 31.799999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.700000047683716
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.40000003576279
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 34.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 31.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 31.600000023841858
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 32.59999996423721
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.10000002384186
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 0,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.60000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 31.69999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.5999999642372131,
+          "frameReady": 31.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 14,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32
+        },
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 31.80000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 31.899999976158142
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 35.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 35.09999996423721
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.59999996423721
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 34.89999997615814
+        },
+        {
+          "handler": 0.20000004768371582,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.90000003576279
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 1,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.299999952316284
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.700000047683716
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 12.100000023841858,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 2,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 11.700000047683716,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 32.69999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.39999997615814
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.19999998807907
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.40000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 3,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.200000047683716
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.30000001192093
+        },
+        {
+          "handler": 0.19999998807907104,
+          "frameReady": 33.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "title",
+      "samples": [
+        {
+          "handler": 16.599999964237213,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.10000002384186
+        },
+        {
+          "handler": 0.2999999523162842,
+          "frameReady": 35.09999996423721
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.10000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.39999997615814
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.80000001192093
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 34.09999996423721
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "body",
+      "samples": [
+        {
+          "handler": 0.5,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 32.89999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 35.09999996423721
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 32.80000001192093
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.19999998807907
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.90000003576279
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 32.5
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 32.30000001192093
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    },
+    {
+      "width": 1440,
+      "n": 500,
+      "filtered": true,
+      "run": 4,
+      "field": "checklist",
+      "samples": [
+        {
+          "handler": 0.6000000238418579,
+          "frameReady": 32.19999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 33.5
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.69999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.39999997615814
+        },
+        {
+          "handler": 0.3999999761581421,
+          "frameReady": 34.69999998807907
+        },
+        {
+          "handler": 0.5,
+          "frameReady": 34.200000047683716
+        },
+        {
+          "handler": 0.40000003576278687,
+          "frameReady": 33.60000002384186
+        },
+        {
+          "handler": 0.30000001192092896,
+          "frameReady": 33.10000002384186
+        }
+      ],
+      "cards": 499,
+      "summary": "検索結果 499件 / 付箋 500件"
+    }
+  ],
+  "errors": []
+}

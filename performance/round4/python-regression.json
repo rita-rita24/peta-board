@@ -1,0 +1,52 @@
+{
+  "python": "3.15.0 (main, Oct 10 2026, 02:34:36) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "records": [
+    {
+      "runner": "performance/compare.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/results.csv",
+        "performance/results.md"
+      ]
+    },
+    {
+      "runner": "performance/drag/report.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/drag/REPORT.md",
+        "performance/drag/results.csv"
+      ]
+    },
+    {
+      "runner": "performance/round2/compare.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/round2/results.csv",
+        "performance/round2/results.md"
+      ]
+    },
+    {
+      "runner": "performance/round2/finalize.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/round2/final-manifest.json"
+      ]
+    },
+    {
+      "runner": "performance/round3/compare.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/round3/results.csv",
+        "performance/round3/results.md"
+      ]
+    },
+    {
+      "runner": "performance/round3/finalize.py",
+      "equal": true,
+      "outputFiles": [
+        "performance/round3/final-manifest.json"
+      ]
+    }
+  ],
+  "definition": "Each historical runner executes before/after code in isolated copies using its matching archived HTML and evidence. Compare output bytes except JSON manifest top-level date. Original evidence untouched."
+}

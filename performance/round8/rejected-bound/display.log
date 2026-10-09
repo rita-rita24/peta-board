@@ -1,0 +1,13 @@
+320 5 false identical
+pixel mismatch 320 50 false resize shorter
+320 50 false identical
+320 500 false identical
+320 50 true identical
+/Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round8/display.cjs:162
+          throw Error(
+                ^
+
+Error: display geometry differs {"width":320,"count":500,"variant":true,"label":"resize taller","geometryEqual":false,"pixelsEqual":true}
+    at /Users/arita-ritsuki/Documents/ドキュメント/個人開発/peta-board/performance/round8/display.cjs:162:17
+
+Node.js v24.21.0

@@ -1,0 +1,22 @@
+{
+  "version": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+  "date": "2026-10-09T19:21:08.072Z",
+  "stages": [
+    {
+      "file": "performance/round6/production-drag-all.json",
+      "passed": true
+    },
+    {
+      "file": "performance/round6/production-drag-filtered.json",
+      "passed": true
+    },
+    {
+      "file": "performance/round6/drag-movement-before.json",
+      "passed": true
+    },
+    {
+      "file": "performance/round6/drag-movement-after.json",
+      "passed": true
+    }
+  ]
+}

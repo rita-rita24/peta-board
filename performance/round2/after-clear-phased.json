@@ -1,0 +1,1212 @@
+{
+  "date": "2026-10-09T01:08:30.334Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/round2/before.html": "8f1701691d10f1e7652817b615cfaf85d94733cd44a75c1c9655d9fde813faaa",
+    "peta-board.html": "a8dca0f57e2d88c7e31eedaee335eeabc4bba35caa43bc2a49cf5ce897b253df"
+  },
+  "definition": "same prior settings/help/editor/calendar then search and clear-button order; settle two frames; await rAF then identical 0..16ms phase delay; native interactive immediately after click/dispatch; content next opaque rAF (modal), two rAF (search/scroll)",
+  "rows": [
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 46.80000001192093,
+      "interactive": 46.5,
+      "startPhase": 3.800000000000182,
+      "targetPhase": 0
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 18.19999998807907,
+      "interactive": 2.899999976158142,
+      "startPhase": 3.2000000357629688,
+      "targetPhase": 0
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 40.90000003576279,
+      "interactive": 40.80000001192093,
+      "startPhase": 7.40000002384204,
+      "targetPhase": 0
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 16.900000035762787,
+      "interactive": 5,
+      "startPhase": 0.8000000000001819,
+      "targetPhase": 0
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 52,
+      "interactive": 51.69999998807907,
+      "startPhase": 5.900000000000091,
+      "targetPhase": 0
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 14.5,
+      "interactive": 3.599999964237213,
+      "startPhase": 2.500000023841949,
+      "targetPhase": 0
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 48.39999997615814,
+      "interactive": 48.299999952316284,
+      "startPhase": 1.900000011920838,
+      "targetPhase": 0
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 0,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 18.69999998807907,
+      "interactive": 2.899999976158142,
+      "startPhase": 1.29999998807898,
+      "targetPhase": 0
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 40.80000001192093,
+      "interactive": 40.30000001192093,
+      "startPhase": 16.99999997615805,
+      "targetPhase": 7
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 8.599999964237213,
+      "interactive": 2.5,
+      "startPhase": 9.20000001192102,
+      "targetPhase": 7
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 59.30000001192093,
+      "interactive": 59.10000002384186,
+      "startPhase": 20.199999976158324,
+      "targetPhase": 7
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 5.299999952316284,
+      "interactive": 4.099999964237213,
+      "startPhase": 11.600000023841858,
+      "targetPhase": 7
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 38.299999952316284,
+      "interactive": 38.09999996423721,
+      "startPhase": 12.600000047683352,
+      "targetPhase": 7
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 8.5,
+      "interactive": 2.5,
+      "startPhase": 8.600000023841858,
+      "targetPhase": 7
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 43.200000047683716,
+      "interactive": 43,
+      "startPhase": 11.89999998807889,
+      "targetPhase": 7
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 1,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 6.099999964237213,
+      "interactive": 6.099999964237213,
+      "startPhase": 13.200000023842222,
+      "targetPhase": 7
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 52.30000001192093,
+      "interactive": 52,
+      "startPhase": 17.899999952316648,
+      "targetPhase": 14
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.600000023841858,
+      "interactive": 3.600000023841858,
+      "startPhase": 21.09999997615796,
+      "targetPhase": 14
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 47.80000001192093,
+      "interactive": 47.69999998807907,
+      "startPhase": 17.100000000000364,
+      "targetPhase": 14
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 4.600000023841858,
+      "interactive": 4.5,
+      "startPhase": 16.10000001192111,
+      "targetPhase": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 60.200000047683716,
+      "interactive": 60,
+      "startPhase": 18.499999988079253,
+      "targetPhase": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 4.600000023841858,
+      "interactive": 4.399999976158142,
+      "startPhase": 15.800000011920929,
+      "targetPhase": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 51.89999997615814,
+      "interactive": 51.80000001192093,
+      "startPhase": 19.80000001192093,
+      "targetPhase": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 2,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 4.300000011920929,
+      "interactive": 4.199999988079071,
+      "startPhase": 15.499999976158051,
+      "targetPhase": 14
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 54.19999998807907,
+      "interactive": 54,
+      "startPhase": 9.59999997615796,
+      "targetPhase": 4
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 11.900000035762787,
+      "interactive": 4.400000035762787,
+      "startPhase": 5.799999952316284,
+      "targetPhase": 4
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 51.80000001192093,
+      "interactive": 51.59999996423721,
+      "startPhase": 20.29999998807898,
+      "targetPhase": 4
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 10.600000023841858,
+      "interactive": 5.5,
+      "startPhase": 8.599999952316466,
+      "targetPhase": 4
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 47,
+      "interactive": 46.69999998807907,
+      "startPhase": 8.800000011920929,
+      "targetPhase": 4
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 10.300000011920929,
+      "interactive": 4.5,
+      "startPhase": 6.800000000000182,
+      "targetPhase": 4
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 72.90000003576279,
+      "interactive": 72.69999998807907,
+      "startPhase": 13.39999998807889,
+      "targetPhase": 4
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 3,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 12.700000047683716,
+      "interactive": 3.5,
+      "startPhase": 6.09999997615796,
+      "targetPhase": 4
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 41.19999998807907,
+      "interactive": 40.80000001192093,
+      "startPhase": 19.29999997615778,
+      "targetPhase": 11
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.5,
+      "interactive": 3.300000011920929,
+      "startPhase": 14.199999964237577,
+      "targetPhase": 11
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 53.40000003576279,
+      "interactive": 53.200000047683716,
+      "startPhase": 18.09999997615796,
+      "targetPhase": 11
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 3.899999976158142,
+      "interactive": 2.699999988079071,
+      "startPhase": 14.300000000000182,
+      "targetPhase": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 53.30000001192093,
+      "interactive": 53.09999996423721,
+      "startPhase": 18.499999988079253,
+      "targetPhase": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.5,
+      "interactive": 3.399999976158142,
+      "startPhase": 15.199999988079071,
+      "targetPhase": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 44.80000001192093,
+      "interactive": 44.60000002384186,
+      "startPhase": 21.29999998807898,
+      "targetPhase": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 4,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 2.699999988079071,
+      "interactive": 2.699999988079071,
+      "startPhase": 16.800000035762878,
+      "targetPhase": 11
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 46.19999998807907,
+      "interactive": 46,
+      "startPhase": 11.599999988079162,
+      "targetPhase": 1
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 13.400000035762787,
+      "interactive": 3.800000011920929,
+      "startPhase": 3.799999976158233,
+      "targetPhase": 1
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 48.80000001192093,
+      "interactive": 48.60000002384186,
+      "startPhase": 2.40000002384204,
+      "targetPhase": 1
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 16.399999976158142,
+      "interactive": 3.800000011920929,
+      "startPhase": 2.300000023841676,
+      "targetPhase": 1
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 40.59999996423721,
+      "interactive": 40.5,
+      "startPhase": 10.100000035762605,
+      "targetPhase": 1
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 12.800000011920929,
+      "interactive": 3.400000035762787,
+      "startPhase": 5.000000011920747,
+      "targetPhase": 1
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 51.59999996423721,
+      "interactive": 51.39999997615814,
+      "startPhase": 4.500000011920747,
+      "targetPhase": 1
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 5,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 16.5,
+      "interactive": 2.100000023841858,
+      "startPhase": 2.499999976158506,
+      "targetPhase": 1
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 51.09999996423721,
+      "interactive": 50.69999998807907,
+      "startPhase": 16.89999998807889,
+      "targetPhase": 8
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 6,
+      "interactive": 3.199999988079071,
+      "startPhase": 10.899999999999636,
+      "targetPhase": 8
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 51.90000003576279,
+      "interactive": 51.80000001192093,
+      "startPhase": 17.599999988078707,
+      "targetPhase": 8
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 5.300000011920929,
+      "interactive": 3.600000023841858,
+      "startPhase": 11.799999988079435,
+      "targetPhase": 8
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 40.10000002384186,
+      "interactive": 39.69999998807907,
+      "startPhase": 12.60000001192111,
+      "targetPhase": 8
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 7.900000035762787,
+      "interactive": 2.600000023841858,
+      "startPhase": 10.60000001192111,
+      "targetPhase": 8
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 34.39999997615814,
+      "interactive": 34.30000001192093,
+      "startPhase": 14.799999976158233,
+      "targetPhase": 8
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 6,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 8.200000047683716,
+      "interactive": 2.700000047683716,
+      "startPhase": 10.199999952316375,
+      "targetPhase": 8
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 31.600000023841858,
+      "interactive": 31.200000047683716,
+      "startPhase": 20.599999952316466,
+      "targetPhase": 15
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 2.400000035762787,
+      "interactive": 2.300000011920929,
+      "startPhase": 18.899999964237395,
+      "targetPhase": 15
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 42.10000002384186,
+      "interactive": 41.90000003576279,
+      "startPhase": 21,
+      "targetPhase": 15
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 3.800000011920929,
+      "interactive": 3.700000047683716,
+      "startPhase": 21.90000000000009,
+      "targetPhase": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 37.5,
+      "interactive": 37.30000001192093,
+      "startPhase": 16.30000001192093,
+      "targetPhase": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.400000035762787,
+      "interactive": 3.300000011920929,
+      "startPhase": 19.30000001192093,
+      "targetPhase": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 38.80000001192093,
+      "interactive": 38.60000002384186,
+      "startPhase": 18.699999976158324,
+      "targetPhase": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 7,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 16.69999998807907,
+      "interactive": 3,
+      "startPhase": 17.199999999999818,
+      "targetPhase": 15
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 41.59999996423721,
+      "interactive": 41.299999952316284,
+      "startPhase": 9.600000000000364,
+      "targetPhase": 5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 7.900000035762787,
+      "interactive": 3.300000011920929,
+      "startPhase": 10.699999964237577,
+      "targetPhase": 5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 46.10000002384186,
+      "interactive": 45.89999997615814,
+      "startPhase": 8.299999976158233,
+      "targetPhase": 5
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 12.100000023841858,
+      "interactive": 4.400000035762787,
+      "startPhase": 5.69999995231592,
+      "targetPhase": 5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 47.10000002384186,
+      "interactive": 46.89999997615814,
+      "startPhase": 8.399999976158142,
+      "targetPhase": 5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 10.300000011920929,
+      "interactive": 3.100000023841858,
+      "startPhase": 8.099999964237213,
+      "targetPhase": 5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 43.80000001192093,
+      "interactive": 43.59999996423721,
+      "startPhase": 8.100000035762605,
+      "targetPhase": 5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 8,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 11.300000011920929,
+      "interactive": 4,
+      "startPhase": 6.000000035762696,
+      "targetPhase": 5
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 38.10000002384186,
+      "interactive": 37.80000001192093,
+      "startPhase": 14.399999976158142,
+      "targetPhase": 12
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.399999976158142,
+      "interactive": 3.300000011920929,
+      "startPhase": 16.5,
+      "targetPhase": 12
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 36.5,
+      "interactive": 36.39999997615814,
+      "startPhase": 21.79999998807898,
+      "targetPhase": 12
+    },
+    {
+      "source": "peta-board.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 3.900000035762787,
+      "interactive": 3.800000011920929,
+      "startPhase": 18.29999996423703,
+      "targetPhase": 12
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "confirmation",
+      "content": 30.80000001192093,
+      "interactive": 30.5,
+      "startPhase": 18.60000001192111,
+      "targetPhase": 12
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "cold",
+      "screen": "reset-confirm",
+      "content": 3.300000011920929,
+      "interactive": 2.599999964237213,
+      "startPhase": 15.500000011920747,
+      "targetPhase": 12
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "confirmation",
+      "content": 51,
+      "interactive": 50.80000001192093,
+      "startPhase": 15.59999997615796,
+      "targetPhase": 12
+    },
+    {
+      "source": "performance/round2/before.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "count": 500,
+      "run": 9,
+      "cache": "warm",
+      "screen": "reset-confirm",
+      "content": 5.600000023841858,
+      "interactive": 2.600000023841858,
+      "startPhase": 13.399999976158142,
+      "targetPhase": 12
+    }
+  ],
+  "errors": []
+}

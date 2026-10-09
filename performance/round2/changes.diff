@@ -1,0 +1,144 @@
+diff --git a/performance/round2/before.html b/peta-board.html
+index c17a6d1..62e0379 100644
+--- a/performance/round2/before.html
++++ b/peta-board.html
+@@ -403,6 +403,13 @@ kbd {
+   overflow: auto;
+ }
+ 
++/* 高密度列ではカードが最小高さ84pxまで縮む。題名・フッター・余白だけで
++   84pxを超えるため、この本文の表示領域は元のGridでも0pxになる。
++   全文と描画は維持し、不要な本文の内在サイズ計算だけを省く。 */
++.note-list.has-clipped-rows > .note-card.has-note-footer > .note-body {
++  contain: size;
++}
++
+ .note-card {
+   position: relative;
+   display: grid;
+@@ -3549,12 +3556,12 @@ body.gm {
+     renderBoardSummary();
+   }
+ 
+-  function renderBoardSummary() {
++  function renderBoardSummary(visibleByColumn = null) {
+     if (!storageReady) return;
+     const total = noteCount();
+     const searching = searchTerms().length > 0;
+     const visible = searching
+-      ? state.board.columns.reduce((count, column) => count + visibleNotesForColumn(column).length, 0)
++      ? state.board.columns.reduce((count, column) => count + (visibleByColumn?.get(column.id) ?? visibleNotesForColumn(column)).length, 0)
+       : total;
+     const summary = searching ? `検索結果 ${visible}件 / 付箋 ${total}件` : `付箋 ${total}件 · ${state.board.columns.length}列`;
+     const summaryElement = els.boardSummary;
+@@ -3708,7 +3715,12 @@ body.gm {
+ 
+   function renderBoard(preserveScroll = true, preservedInput = null) {
+     const restoreScroll = preserveScroll ? captureBoardScroll() : null;
+-    renderBoardSummary();
++    // 同じ同期描画内の検索結果を、件数表示と一覧で共有する。
++    // 状態・検索語が変わるたびに再計算し、保存や別タブ更新をまたぐキャッシュは持たない。
++    const visibleByColumn = searchTerms().length
++      ? new Map(state.board.columns.map((column) => [column.id, visibleNotesForColumn(column)]))
++      : null;
++    renderBoardSummary(visibleByColumn);
+     // ブラウザーの取り消し履歴を保つため、編集中の入力欄をDOMから取り外さない。
+     // 別タブ更新で編集中のフィールドが変わっていない場合だけpreservedInputを渡す。
+     const preservedColumn = preservedInput?.matches(".column-title") ? preservedInput.closest(".column") : null;
+@@ -3716,12 +3728,14 @@ body.gm {
+     let beforePreserved = Boolean(preservedColumn);
+ 
+     state.board.columns.forEach((column, index) => {
+-      const rendered = renderColumn(column, index);
++      const rendered = renderColumn(column, index, visibleByColumn?.get(column.id));
+       if (column.id === preservedColumn?.dataset.columnId) {
+         preservedColumn.querySelector(".column-count").textContent = rendered.querySelector(".column-count").textContent;
+         for (const selector of [".column-actions", ".note-list", ".column-footer"]) {
+           preservedColumn.querySelector(selector).replaceChildren(...rendered.querySelector(selector).childNodes);
+         }
++        // 入力欄を残す別タブ更新でも、更新後の表示件数に適用条件を合わせる。
++        updateClippedBodyRendering(preservedColumn.querySelector(".note-list"));
+         beforePreserved = false;
+       } else if (beforePreserved) els.board.insertBefore(rendered, preservedColumn);
+       else els.board.append(rendered);
+@@ -3746,8 +3760,14 @@ body.gm {
+     return searchTerms().length ? column.notes.filter((note) => noteMatches(note, column)) : column.notes;
+   }
+ 
+-  function renderColumnNoteList(list, column) {
+-    const visibleNotes = visibleNotesForColumn(column);
++  function updateClippedBodyRendering(list, count = list.querySelectorAll(".note-card").length) {
++    // 行の最小高さだけで画面より高くなる列は、本文を含むカードが必ず縮む。
++    // .note-cardのmin-height:84pxと対応する。全文・検索・描画は省略しない。
++    list.classList.toggle("has-clipped-rows", count * 84 > window.innerHeight);
++  }
++
++  function renderColumnNoteList(list, column, visibleNotes = visibleNotesForColumn(column)) {
++    updateClippedBodyRendering(list, visibleNotes.length);
+     if (visibleNotes.length) {
+       list.replaceChildren(...visibleNotes.map((note) => renderNote(note, column.id)));
+     } else {
+@@ -3759,7 +3779,7 @@ body.gm {
+     return visibleNotes.length;
+   }
+ 
+-  function renderColumn(column, index) {
++  function renderColumn(column, index, visibleNotes) {
+     const article = document.createElement("article");
+     article.className = "column";
+     article.dataset.columnId = column.id;
+@@ -3822,7 +3842,7 @@ body.gm {
+     const list = document.createElement("div");
+     list.className = "note-list";
+     list.dataset.columnId = column.id;
+-    const visibleCount = renderColumnNoteList(list, column);
++    const visibleCount = renderColumnNoteList(list, column, visibleNotes);
+     count.textContent = searchTerms().length ? `${visibleCount} / ${column.notes.length}` : `${column.notes.length}件`;
+     article.append(list);
+ 
+@@ -3883,7 +3903,8 @@ body.gm {
+     article.append(title);
+ 
+     // 本文に検索語がある場合は、下の一致箇所の抜粋で表示する。
+-    const bodyMatchesSearch = searchTerms().some((term) => note.body.toLowerCase().includes(term));
++    const bodyLower = searchTerms().length ? note.body.toLowerCase() : "";
++    const bodyMatchesSearch = searchTerms().some((term) => bodyLower.includes(term));
+     if (note.body.trim() && !bodyMatchesSearch) {
+       const body = document.createElement("p");
+       body.className = "note-body";
+@@ -3921,6 +3942,8 @@ body.gm {
+       footer.append(pill);
+     }
+     if (footer.childElementCount) {
++      // フッターの有無は描画時に確定しているため、:has()で再照合しない。
++      article.classList.add("has-note-footer");
+       footer.id = `note-meta-${note.id}`;
+       edit.setAttribute("aria-describedby", [edit.getAttribute("aria-describedby"), footer.id].filter(Boolean).join(" "));
+       article.append(footer);
+@@ -3932,11 +3955,12 @@ body.gm {
+         ["本文", note.body],
+         ...note.checklist.map((item) => ["チェック項目", item.text]),
+         ...note.tags.slice(3).map((tag) => ["タグ", tag])
+-      ].filter(([, value]) => searchTerms().some((term) => value.toLowerCase().includes(term)));
+-      fields.slice(0, 3).forEach(([label, value]) => {
++      ].map(([label, value]) => [label, value, value.toLowerCase()])
++        .filter(([, , lower]) => searchTerms().some((term) => lower.includes(term)));
++      fields.slice(0, 3).forEach(([label, value, lower]) => {
+         const line = document.createElement("p");
+-        const excerpt = value.length <= 160 ? value : searchTerms().filter((term) => value.toLowerCase().includes(term)).map((term) => {
+-          const index = value.toLowerCase().indexOf(term);
++        const excerpt = value.length <= 160 ? value : searchTerms().filter((term) => lower.includes(term)).map((term) => {
++          const index = lower.indexOf(term);
+           const start = Math.max(0, index - 24);
+           const end = Math.min(value.length, index + term.length + 48);
+           return `${start ? "…" : ""}${value.slice(start, end)}${end < value.length ? "…" : ""}`;
+@@ -5884,6 +5908,9 @@ body.gm {
+     bindDatePickerEvents();
+     bindChecklistActions();
+     bindBoardEvents();
++    window.addEventListener("resize", () => {
++      for (const list of els.board.querySelectorAll(".note-list")) updateClippedBodyRendering(list);
++    });
+     bindDragEvents();
+     bindKeyboardEvents();
+     bindTooltipEvents();
