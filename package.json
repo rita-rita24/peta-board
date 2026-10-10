@@ -9,7 +9,7 @@
   "scripts": {
     "check": "node scripts/check.mjs",
     "test": "node scripts/regression.mjs",
-    "format:check": "prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json .github/workflows/check.yml",
+    "format:check": "prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json",
     "lint": "eslint scripts performance .checks eslint.config.mjs",
     "validate:html": "html-validate peta-board.html",
     "validate:css": "stylelint '.checks/*.css'",

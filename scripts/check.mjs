@@ -49,18 +49,6 @@ const result = spawnSync(
   { stdio: "inherit" },
 );
 assert.equal(result.status, 0, "Python syntax check failed");
-const workflow = await readFile(".github/workflows/check.yml", "utf8");
-const shellBlocks = [
-  ...workflow.matchAll(/^        run: \|\n((?:          .*\n)+)/gm),
-];
-assert.equal(shellBlocks.length, 1, "Expected the Python build shell block");
-for (const [, block] of shellBlocks) {
-  const shell = spawnSync("bash", ["-n"], {
-    input: block.replace(/^          /gm, ""),
-    encoding: "utf8",
-  });
-  assert.equal(shell.status, 0, `CI Bash syntax: ${shell.stderr}`);
-}
 console.log(
   `Application JS, 3 CSS blocks, ${files.filter((file) => file.endsWith(".cjs")).length} CJS and ${python.length} Python files checked`,
 );

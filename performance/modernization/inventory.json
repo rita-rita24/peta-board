@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T20:09:30.929Z",
+  "date": "2026-10-10T07:49:46.630Z",
   "sourceFunctionCount": 213,
   "codeBlocks": {
     "html": 1,
@@ -7,13 +7,6 @@
     "javascript": 1
   },
   "entries": [
-    {
-      "path": ".github/workflows/check.yml",
-      "extension": ".yml",
-      "category": "tooling-source",
-      "bytes": 2480,
-      "sha256": "fb0989e70d4dc17b634753c0e1338661d90d595506ac39b6036343cef0918cfe"
-    },
     {
       "path": ".gitignore",
       "extension": "",
@@ -39,8 +32,8 @@
       "path": "README.md",
       "extension": ".md",
       "category": "documentation-or-evidence",
-      "bytes": 23004,
-      "sha256": "59964b70ad4b86ad4ba34b2b461d629555a1d403984b5b1e5b407e5dacd6c500"
+      "bytes": 23111,
+      "sha256": "dc579d7e007af34167383534dcf29ab507135cdb52970c601b8de1e46e1e7622"
     },
     {
       "path": "eslint.config.mjs",
@@ -60,8 +53,8 @@
       "path": "package.json",
       "extension": ".json",
       "category": "tooling-configuration",
-      "bytes": 1032,
-      "sha256": "75c235decbbacec2ce665e8f1449b228960bd31fb1d544bb3789ed319ce382ad"
+      "bytes": 1004,
+      "sha256": "5b6df40dbb9ace894c27fcf0eb91c95ad29f2cfadaf8b1ae16be573645ea85d5"
     },
     {
       "path": "performance/1440-after.png",
@@ -11008,8 +11001,8 @@
       "path": "scripts/check.mjs",
       "extension": ".mjs",
       "category": "tooling-source",
-      "bytes": 2421,
-      "sha256": "b8f1542f0c02ab71cfc0ab17e1aa0555c6dee01fb037e37fca2ed802eecbc962"
+      "bytes": 1949,
+      "sha256": "4b3d99915330f7754d084c69cff18d2fdfdeb51e90e38db34de58f2024110673"
     },
     {
       "path": "scripts/column-search.mjs",
