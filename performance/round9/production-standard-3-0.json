@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-11T12:07:50.584Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "peta-board.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2"
+  },
+  "allowedDifference": null,
+  "runnerSha256": "d9d953fcfd87422a3eec2489ff1889917e737969744dee0366f246d0ec84ab44",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "productionOnly": true,
+  "fixtureVariant": "standard",
+  "queries": [
+    "付箋1",
+    "通常",
+    "一致しない語",
+    "",
+    "検証"
+  ],
+  "repeats": 1,
+  "definition": "Actual local distribution file URL, recorded number of isolated contexts/condition; synthetic input CPU and correct-result-plus-two-rAF proxies. Sequential queries and warmup order fixed. No paired production rate without separate before and after datasets.",
+  "rows": [
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "付箋1",
+      "handler": 9.100000023841858,
+      "resultProxy": 151.70000004768372,
+      "cards": 111,
+      "behaviorSha256": "aa0c4d2a034694338c9eb6240e84064a35f461113119fcb284c4e9043df4fdae"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "通常",
+      "handler": 7.300000071525574,
+      "resultProxy": 49.90000009536743,
+      "cards": 250,
+      "behaviorSha256": "e969558ec3172983366783d7ea540fab335f3aa6892410ec5a821e816c8e755a"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "一致しない語",
+      "handler": 2.6999999284744263,
+      "resultProxy": 33.799999952316284,
+      "cards": 0,
+      "behaviorSha256": "7b28fbcd6c8045c9e20f6b94fc06d8e35988dd82a19c24f6cb571d90ec9f8ebf"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "",
+      "handler": 6.399999976158142,
+      "resultProxy": 133.39999997615814,
+      "cards": 500,
+      "behaviorSha256": "50dca0bf3bbc48f5e12bc851dbf73ac2987e0d0c27487f042edc27decd2ca10a"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "検証",
+      "handler": 15.100000023841858,
+      "resultProxy": 117.70000004768372,
+      "cards": 500,
+      "behaviorSha256": "f7b9cf3fdf1cba021f11540ab1c1fa8b5cdc0fa1bc1cf512eb184d1e94e94369"
+    }
+  ],
+  "errors": []
+}

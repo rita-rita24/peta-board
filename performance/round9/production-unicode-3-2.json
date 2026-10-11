@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11T12:08:48.065Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "peta-board.html": "4823f2e31fb6c8a1135d60fed668bd5132e8fce1f65a3e0053d23dc526319175"
+  },
+  "allowedDifference": null,
+  "runnerSha256": "d9d953fcfd87422a3eec2489ff1889917e737969744dee0366f246d0ec84ab44",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "productionOnly": true,
+  "fixtureVariant": "unicode",
+  "queries": [
+    "列"
+  ],
+  "repeats": 1,
+  "definition": "Actual local distribution file URL, recorded number of isolated contexts/condition; synthetic input CPU and correct-result-plus-two-rAF proxies. Sequential queries and warmup order fixed. No paired production rate without separate before and after datasets.",
+  "rows": [
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 29.09999990463257,
+      "resultProxy": 381.59999990463257,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    }
+  ],
+  "errors": []
+}

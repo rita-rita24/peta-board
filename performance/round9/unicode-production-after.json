@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-11T12:03:23.021Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "peta-board.html": "4823f2e31fb6c8a1135d60fed668bd5132e8fce1f65a3e0053d23dc526319175"
+  },
+  "allowedDifference": null,
+  "runnerSha256": "d9d953fcfd87422a3eec2489ff1889917e737969744dee0366f246d0ec84ab44",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "productionOnly": true,
+  "fixtureVariant": "unicode",
+  "queries": [
+    "列"
+  ],
+  "repeats": 5,
+  "definition": "Actual local distribution file URL, recorded number of isolated contexts/condition; synthetic input CPU and correct-result-plus-two-rAF proxies. Sequential queries and warmup order fixed. No paired production rate without separate before and after datasets.",
+  "rows": [
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 0,
+      "query": "列",
+      "handler": 6.399999976158142,
+      "resultProxy": 66.30000007152557,
+      "cards": 50,
+      "behaviorSha256": "a7d97a1107d7351d68eb5848863f2c229cb2e4447ce87580c58999c23eaaca04"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 1,
+      "query": "列",
+      "handler": 7.5,
+      "resultProxy": 66.29999995231628,
+      "cards": 50,
+      "behaviorSha256": "a7d97a1107d7351d68eb5848863f2c229cb2e4447ce87580c58999c23eaaca04"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 2,
+      "query": "列",
+      "handler": 6.800000071525574,
+      "resultProxy": 67.20000004768372,
+      "cards": 50,
+      "behaviorSha256": "a7d97a1107d7351d68eb5848863f2c229cb2e4447ce87580c58999c23eaaca04"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 3,
+      "query": "列",
+      "handler": 6.5,
+      "resultProxy": 67.20000004768372,
+      "cards": 50,
+      "behaviorSha256": "a7d97a1107d7351d68eb5848863f2c229cb2e4447ce87580c58999c23eaaca04"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 50,
+      "run": 4,
+      "query": "列",
+      "handler": 6,
+      "resultProxy": 67.69999992847443,
+      "cards": 50,
+      "behaviorSha256": "a7d97a1107d7351d68eb5848863f2c229cb2e4447ce87580c58999c23eaaca04"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 49.09999990463257,
+      "resultProxy": 666.2999999523163,
+      "cards": 500,
+      "behaviorSha256": "83978d5a5971662d4cba635c659a9f662c2680e33524295ddee12cc2b97e18e3"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 1,
+      "query": "列",
+      "handler": 50,
+      "resultProxy": 568.7999999523163,
+      "cards": 500,
+      "behaviorSha256": "83978d5a5971662d4cba635c659a9f662c2680e33524295ddee12cc2b97e18e3"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 2,
+      "query": "列",
+      "handler": 49.90000009536743,
+      "resultProxy": 583.2000000476837,
+      "cards": 500,
+      "behaviorSha256": "83978d5a5971662d4cba635c659a9f662c2680e33524295ddee12cc2b97e18e3"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 3,
+      "query": "列",
+      "handler": 54.299999952316284,
+      "resultProxy": 573.3999999761581,
+      "cards": 500,
+      "behaviorSha256": "83978d5a5971662d4cba635c659a9f662c2680e33524295ddee12cc2b97e18e3"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 375,
+      "count": 500,
+      "run": 4,
+      "query": "列",
+      "handler": 50.39999997615814,
+      "resultProxy": 583.2999999523163,
+      "cards": 500,
+      "behaviorSha256": "83978d5a5971662d4cba635c659a9f662c2680e33524295ddee12cc2b97e18e3"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 0,
+      "query": "列",
+      "handler": 7.299999952316284,
+      "resultProxy": 66.69999992847443,
+      "cards": 50,
+      "behaviorSha256": "e03d1414bae0e0a8af6427828ea61f2bdfae943b716543caebb394c54c8698f8"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 1,
+      "query": "列",
+      "handler": 5.799999952316284,
+      "resultProxy": 66.69999992847443,
+      "cards": 50,
+      "behaviorSha256": "e03d1414bae0e0a8af6427828ea61f2bdfae943b716543caebb394c54c8698f8"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 2,
+      "query": "列",
+      "handler": 6.899999976158142,
+      "resultProxy": 66.69999992847443,
+      "cards": 50,
+      "behaviorSha256": "e03d1414bae0e0a8af6427828ea61f2bdfae943b716543caebb394c54c8698f8"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 3,
+      "query": "列",
+      "handler": 6.299999952316284,
+      "resultProxy": 67.10000002384186,
+      "cards": 50,
+      "behaviorSha256": "e03d1414bae0e0a8af6427828ea61f2bdfae943b716543caebb394c54c8698f8"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 50,
+      "run": 4,
+      "query": "列",
+      "handler": 5.899999976158142,
+      "resultProxy": 66.59999990463257,
+      "cards": 50,
+      "behaviorSha256": "e03d1414bae0e0a8af6427828ea61f2bdfae943b716543caebb394c54c8698f8"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 48.200000047683716,
+      "resultProxy": 633.3000000715256,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 1,
+      "query": "列",
+      "handler": 49.10000002384186,
+      "resultProxy": 607.2999999523163,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 2,
+      "query": "列",
+      "handler": 51.300000071525574,
+      "resultProxy": 553.4000000953674,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 3,
+      "query": "列",
+      "handler": 50.10000002384186,
+      "resultProxy": 583.1000000238419,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    },
+    {
+      "source": "peta-board.html",
+      "width": 1440,
+      "count": 500,
+      "run": 4,
+      "query": "列",
+      "handler": 49.699999928474426,
+      "resultProxy": 590.8999999761581,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc"
+    }
+  ],
+  "errors": []
+}

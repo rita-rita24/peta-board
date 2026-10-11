@@ -10,6 +10,25 @@ const require = createRequire(import.meta.url);
 const engines = require("./runtime.cjs");
 const engine = process.env.BROWSER || "chromium";
 const fixture = require("./fixture.cjs");
+const variant = process.env.FIXTURE_VARIANT || "standard";
+const queries = process.env.QUERIES
+  ? JSON.parse(process.env.QUERIES)
+  : variant === "unicode"
+    ? ["列", "i", "\u0307", "aba", "😀", "İ ab", "", "一致しない語"]
+    : ["付箋1", "通常", "一致しない語", "", "検証"];
+function searchFixture(count) {
+  const data = fixture(count);
+  if (variant === "unicode") {
+    for (const note of data.board.columns.flatMap((column) => column.notes)) {
+      note.title += " İ ababa 😀";
+      note.body = "İ ababa 😀 ".repeat(300);
+      note.tags = ["仕事", "検証", "第3", "İtag", "ababa😀"];
+      for (const [index, item] of note.checklist.entries())
+        item.text = index % 2 ? "İ 確認" : "ababa 😀 確認";
+    }
+  }
+  return data;
+}
 const directory = process.env.EVIDENCE_DIR || "performance/round7";
 const productionOnly = Boolean(process.env.PRODUCTION_ONLY);
 const sources = productionOnly
@@ -45,9 +64,9 @@ try {
       ? { executablePath: process.env.CHROME_PATH }
       : {}),
   });
-  for (const width of [375, 1440])
-    for (const count of [50, 500])
-      for (let run = 0; run < 5; run++) {
+  for (const width of (process.env.WIDTHS || "375,1440").split(",").map(Number))
+    for (const count of (process.env.COUNTS || "50,500").split(",").map(Number))
+      for (let run = 0; run < Number(process.env.REPEATS || 5); run++) {
         for (const source of run % 2 ? sources.toReversed() : sources) {
           if (!productionOnly) await copyFile(source, target);
           const context = await browser.newContext({
@@ -63,7 +82,7 @@ try {
                   "petaborad.state.v1",
                   JSON.stringify(data),
                 ),
-              fixture(count),
+              searchFixture(count),
             );
             await page.goto(pathToFileURL(target).href);
             await page.waitForFunction(
@@ -73,20 +92,14 @@ try {
             );
             await page.locator("#search-input").focus();
             const samples = await page.evaluate(
-              async ({ allowClippedClass }) => {
+              async ({ allowClippedClass, queries }) => {
                 const frame = () =>
                   new Promise((resolve) => {
                     requestAnimationFrame(resolve);
                   });
                 const input = document.querySelector("#search-input");
                 const result = [];
-                for (const query of [
-                  "付箋1",
-                  "通常",
-                  "一致しない語",
-                  "",
-                  "検証",
-                ]) {
+                for (const query of queries) {
                   const shell =
                     document.querySelector("#kanban-board").parentElement;
                   shell.scrollLeft = 250;
@@ -156,14 +169,18 @@ try {
                 }
                 return result;
               },
-              { allowClippedClass: Boolean(process.env.ALLOW_CLIPPED_CLASS) },
+              {
+                allowClippedClass: Boolean(process.env.ALLOW_CLIPPED_CLASS),
+                queries,
+              },
             );
             for (const sample of samples) {
               const { handler, resultProxy, ...behavior } = sample;
               const key = JSON.stringify([width, count, run, sample.query]);
-              if (comparisons.has(key))
+              if (comparisons.has(key)) {
                 assert.deepEqual(behavior, comparisons.get(key), key);
-              else comparisons.set(key, behavior);
+                comparisons.delete(key);
+              } else if (!productionOnly) comparisons.set(key, behavior);
               rows.push({
                 source,
                 width,
@@ -185,6 +202,7 @@ try {
                 "saved",
             );
             assert.equal(await page.locator(".note-card").count(), count);
+            console.log(engine, variant, width, count, run, source, "passed");
           } finally {
             await context.close();
           }
@@ -206,9 +224,12 @@ try {
           .digest("hex"),
         url: pathToFileURL(target).href,
         productionOnly,
+        fixtureVariant: variant,
+        queries,
+        repeats: Number(process.env.REPEATS || 5),
         definition: productionOnly
-          ? "Actual local distribution file URL, five isolated contexts/condition; synthetic input CPU and correct-result-plus-two-rAF proxies. Sequential queries and warmup order fixed. No paired production rate without separate before and after datasets."
-          : "Same temporary file URL, AB/BA five independent contexts/condition. Five distinct sequential queries: matching title, body, no match, clear, all matching tags. Synchronous synthetic input CPU and correct result plus two rAF differ; no physical input/display. Full board markup, summary, focus, input selection, all list/shell scroll, visible IDs and full board state match before/after; reload restores all cards.",
+          ? "Actual local distribution file URL, recorded number of isolated contexts/condition; synthetic input CPU and correct-result-plus-two-rAF proxies. Sequential queries and warmup order fixed. No paired production rate without separate before and after datasets."
+          : "Same temporary file URL, AB/BA recorded number of independent contexts/condition. Sequential queries recorded in queries; fixtureVariant distinguishes standard and Unicode-expansion/overlap cases. Synchronous synthetic input CPU and correct result plus two rAF differ; no physical input/display. Full board markup, summary, focus, input selection, all list/shell scroll, visible IDs and full board state match before/after; reload restores all cards.",
         rows,
         errors,
       },

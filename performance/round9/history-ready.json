@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-11T12:18:40.637Z",
+  "browser": "154.0.8037.99",
+  "runnerSha256": "ad2ae21b15fc1018bdf40e7ad7298bf82319c3844495809fb6963cdc1fcd7521",
+  "versions": {
+    "performance/round9/before.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+    "peta-board.html": "4823f2e31fb6c8a1135d60fed668bd5132e8fce1f65a3e0053d23dc526319175"
+  },
+  "definition": "500 notes,1440x900,n5/source AB/BA. Browser epoch start in about:blank before goBack; endpoint is restored app ready/saved/500 cards and two rAF, captured inside pageshow, independent of controller wait polling. Includes automation command transport and initial one-rAF readiness check, not physical display. Controller elapsed separately includes goBack/wait/evaluate. Initial fixture unchanged during history navigation; narrower than continuous suite's preceding edits/calendar/wheel sequence.",
+  "rows": [
+    {
+      "source": "performance/round9/before.html",
+      "run": 0,
+      "displayProxy": 195.5,
+      "controllerElapsed": 456,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "peta-board.html",
+      "run": 0,
+      "displayProxy": 199.199951171875,
+      "controllerElapsed": 478,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "peta-board.html",
+      "run": 1,
+      "displayProxy": 197.499755859375,
+      "controllerElapsed": 455,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "performance/round9/before.html",
+      "run": 1,
+      "displayProxy": 195.900146484375,
+      "controllerElapsed": 446,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "performance/round9/before.html",
+      "run": 2,
+      "displayProxy": 208.2001953125,
+      "controllerElapsed": 458,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "peta-board.html",
+      "run": 2,
+      "displayProxy": 203.800048828125,
+      "controllerElapsed": 461,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "peta-board.html",
+      "run": 3,
+      "displayProxy": 211.89990234375,
+      "controllerElapsed": 463,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "performance/round9/before.html",
+      "run": 3,
+      "displayProxy": 188.39990234375,
+      "controllerElapsed": 439,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "performance/round9/before.html",
+      "run": 4,
+      "displayProxy": 203,
+      "controllerElapsed": 458,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    },
+    {
+      "source": "peta-board.html",
+      "run": 4,
+      "displayProxy": 199.2001953125,
+      "controllerElapsed": 447,
+      "persisted": false,
+      "stateSha256": "5dee64b4dc8bdf5c14b01cf9820a917b36c7aeeecdf67f7f3e6c08eed1388d20"
+    }
+  ],
+  "errors": []
+}

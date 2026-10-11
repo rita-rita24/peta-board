@@ -3647,9 +3647,15 @@ body.gm {
       parent.textContent = value;
       return;
     }
-    parent.replaceChildren();
-
     const lower = value.toLowerCase();
+    const matches = terms.map((term) => ({ term, index: lower.indexOf(term) }));
+    // 一致のない本文は標準のtextContentだけで反映する。
+    // Unicodeの位置対応表と強調範囲は、一致がある場合だけ必要になる。
+    if (matches.every((match) => match.index === -1)) {
+      parent.textContent = value;
+      return;
+    }
+    parent.replaceChildren();
     // 小文字化によって元の1文字が複数文字に展開される場合がある（例: İ → i＋結合点）。
     // 強調要素を作る前に、一致位置を元の文字全体の範囲へ対応付ける。
     // 通常の小文字化では位置が変わらないため、長い本文を多数表示するときに
@@ -3671,7 +3677,6 @@ body.gm {
     let cursor = 0;
     // 検索語ごとに次の一致位置を保持する。このフィールドに存在しない語について、
     // 他の語が見つかるたびに残りの本文全体を再検索しない。
-    const matches = terms.map((term) => ({ term, index: lower.indexOf(term) }));
     const ranges = [];
     while (true) {
       let matchIndex = -1;
@@ -3929,6 +3934,7 @@ body.gm {
   }
 
   function renderNote(note, columnId) {
+    const terms = searchTerms();
     const article = document.createElement("article");
     article.className = "note-card";
     article.draggable = false;
@@ -3958,8 +3964,8 @@ body.gm {
     article.append(title);
 
     // 本文に検索語がある場合は、下の一致箇所の抜粋で表示する。
-    const bodyLower = searchTerms().length ? note.body.toLowerCase() : "";
-    const bodyMatchesSearch = searchTerms().some((term) => bodyLower.includes(term));
+    const bodyLower = terms.length ? note.body.toLowerCase() : "";
+    const bodyMatchesSearch = terms.some((term) => bodyLower.includes(term));
     if (note.body.trim() && !bodyMatchesSearch) {
       const body = document.createElement("p");
       body.className = "note-body";
@@ -4003,18 +4009,19 @@ body.gm {
       edit.setAttribute("aria-describedby", [edit.getAttribute("aria-describedby"), footer.id].filter(Boolean).join(" "));
       article.append(footer);
     }
-    if (searchTerms().length) {
+    if (terms.length) {
       const context = document.createElement("div");
       context.className = "note-search-context";
-      const fields = [
-        ["本文", note.body],
-        ...note.checklist.map((item) => ["チェック項目", item.text]),
-        ...note.tags.slice(3).map((tag) => ["タグ", tag])
-      ].map(([label, value]) => [label, value, value.toLowerCase()])
-        .filter(([, , lower]) => searchTerms().some((term) => lower.includes(term)));
+      const fields = [];
+      const appendMatch = (label, value, lower = value.toLowerCase()) => {
+        if (terms.some((term) => lower.includes(term))) fields.push([label, value, lower]);
+      };
+      appendMatch("本文", note.body, bodyLower);
+      for (const item of note.checklist) appendMatch("チェック項目", item.text);
+      for (const tag of note.tags.slice(3)) appendMatch("タグ", tag);
       fields.slice(0, 3).forEach(([label, value, lower]) => {
         const line = document.createElement("p");
-        const excerpt = value.length <= 160 ? value : searchTerms().filter((term) => lower.includes(term)).map((term) => {
+        const excerpt = value.length <= 160 ? value : terms.filter((term) => lower.includes(term)).map((term) => {
           const index = lower.indexOf(term);
           const start = Math.max(0, index - 24);
           const end = Math.min(value.length, index + term.length + 48);

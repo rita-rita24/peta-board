@@ -1,0 +1,440 @@
+{
+  "date": "2026-10-11T12:09:02.280Z",
+  "browser": "154.0.8037.99",
+  "versions": {
+    "performance/round9/before.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+    "performance/round9/candidate-search.html": "4823f2e31fb6c8a1135d60fed668bd5132e8fce1f65a3e0053d23dc526319175"
+  },
+  "runnerSha256": "d9d953fcfd87422a3eec2489ff1889917e737969744dee0366f246d0ec84ab44",
+  "wrapperSha256": "b3a33fa2846af628538e31b3a463078972e608e7845d7e055fd90ac3d93c4353",
+  "url": "file:///Users/arita-ritsuki/Documents/%E3%83%88%E3%82%99%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/peta-board/peta-board.html",
+  "productionOnly": false,
+  "productionCompared": true,
+  "fixtureVariant": "unicode",
+  "definition": "Actual distribution file URL; five ABBA cycles, ten isolated browser contexts/source,1440x900,500 notes. Synthetic input CPU/correct-result-plus-two-rAF proxies; not physical input/display/INP. All behavior hashes compare exactly. Standard queries fixed in underlying runner; Unicode query is only 列. Release restored in finally even on failure.",
+  "observations": [
+    {
+      "cycle": 0,
+      "position": 0,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:10.489Z",
+      "file": "production-unicode-0-0.json",
+      "sha256": "ca93a94fd5cd5d1d134de9c2d84cffd35fa400630389d2b663a7b1ab940f80e8"
+    },
+    {
+      "cycle": 0,
+      "position": 1,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:13.138Z",
+      "file": "production-unicode-0-1.json",
+      "sha256": "693a3040e04918d1226876814d2cec47ffdede670b79cb83167f0db7e5e53b67"
+    },
+    {
+      "cycle": 0,
+      "position": 2,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:15.605Z",
+      "file": "production-unicode-0-2.json",
+      "sha256": "5419dfc8aa60e47b449135554a7260626bd361749e6927fc6a6ea86ac5019a00"
+    },
+    {
+      "cycle": 0,
+      "position": 3,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:18.143Z",
+      "file": "production-unicode-0-3.json",
+      "sha256": "6078de3c1cf6a668f08acc17bf1ef1c63aae92b6ca07eb660d1e123ee4104d1c"
+    },
+    {
+      "cycle": 1,
+      "position": 0,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:20.728Z",
+      "file": "production-unicode-1-0.json",
+      "sha256": "1cdb3c10eae81b5621cae6e88c745e0fb35c6456b30828eef91598f95ee1e361"
+    },
+    {
+      "cycle": 1,
+      "position": 1,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:23.388Z",
+      "file": "production-unicode-1-1.json",
+      "sha256": "ba7b449fa7c071d7e9632d7417f7955779cf284fee68befb02c6e944fda77811"
+    },
+    {
+      "cycle": 1,
+      "position": 2,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:25.983Z",
+      "file": "production-unicode-1-2.json",
+      "sha256": "562a2457a5ce75062ef691b540fc92a8963f67f5c182404c6591fae6bb997020"
+    },
+    {
+      "cycle": 1,
+      "position": 3,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:28.706Z",
+      "file": "production-unicode-1-3.json",
+      "sha256": "693bf33f15756d3e32e2aa0a887476e5699b2939d9fa05b433f062ea058a1c1b"
+    },
+    {
+      "cycle": 2,
+      "position": 0,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:31.358Z",
+      "file": "production-unicode-2-0.json",
+      "sha256": "4a7c6165242e16fb068abb8218bb24d3b0ca9dafe7559505f4ce492899b7b8ad"
+    },
+    {
+      "cycle": 2,
+      "position": 1,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:34.011Z",
+      "file": "production-unicode-2-1.json",
+      "sha256": "db001625402f5f201a8225eb14d5699e1c33fda9ee39670017ef8248c94dfb8f"
+    },
+    {
+      "cycle": 2,
+      "position": 2,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:36.773Z",
+      "file": "production-unicode-2-2.json",
+      "sha256": "e2fe3ee578522d055e771403b2b55e770b6cf489bfb4cf38c4ae2463c4f0da83"
+    },
+    {
+      "cycle": 2,
+      "position": 3,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:39.516Z",
+      "file": "production-unicode-2-3.json",
+      "sha256": "c4f37390a5125dff023643f2405148255d94b176d95866c2ac387fb28aee9861"
+    },
+    {
+      "cycle": 3,
+      "position": 0,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:42.289Z",
+      "file": "production-unicode-3-0.json",
+      "sha256": "384bf547d92f32381f011573a4f5d5ffff0e6ec7f5b5e503862e76de765ab587"
+    },
+    {
+      "cycle": 3,
+      "position": 1,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:45.305Z",
+      "file": "production-unicode-3-1.json",
+      "sha256": "4d645445cf146d16b29b186eeede6eec24072c39dbce10a36f893039d4bb4a4e"
+    },
+    {
+      "cycle": 3,
+      "position": 2,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:48.065Z",
+      "file": "production-unicode-3-2.json",
+      "sha256": "62a374e778a9bc55fd56003d19ea45a10bba3ae706458a71c36936f4ec2cd60b"
+    },
+    {
+      "cycle": 3,
+      "position": 3,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:50.944Z",
+      "file": "production-unicode-3-3.json",
+      "sha256": "f21bce2183bce30c18d72b64098453f37e8aee0f99ef06aae1544dd9148c1b49"
+    },
+    {
+      "cycle": 4,
+      "position": 0,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:08:53.673Z",
+      "file": "production-unicode-4-0.json",
+      "sha256": "9524749a374dbc023bcedce66f9ad995739cc550ea61223ef7a644d865145502"
+    },
+    {
+      "cycle": 4,
+      "position": 1,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:56.491Z",
+      "file": "production-unicode-4-1.json",
+      "sha256": "b27cb51a2b6ee5c482ea37ccbbbf557c5a034e6823b1eb673afff1682b7ec928"
+    },
+    {
+      "cycle": 4,
+      "position": 2,
+      "source": "performance/round9/candidate-search.html",
+      "date": "2026-10-11T12:08:59.175Z",
+      "file": "production-unicode-4-2.json",
+      "sha256": "37ab41e5bbcdf2c693aff22b55412b3659041e54d26fb503d7485efd61942978"
+    },
+    {
+      "cycle": 4,
+      "position": 3,
+      "source": "performance/round9/before.html",
+      "date": "2026-10-11T12:09:02.209Z",
+      "file": "production-unicode-4-3.json",
+      "sha256": "0a55fe88a4bc8beda501389edaf5781a670d3afd652e041fcb23dde73f4e0d8a"
+    }
+  ],
+  "rows": [
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 62.39999997615814,
+      "resultProxy": 382.89999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 0,
+      "position": 0
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 30.5,
+      "resultProxy": 383.2999999523163,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 0,
+      "position": 1
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 28.5,
+      "resultProxy": 349.39999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 0,
+      "position": 2
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 62.60000002384186,
+      "resultProxy": 399.90000009536743,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 0,
+      "position": 3
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 63.40000009536743,
+      "resultProxy": 399.7000000476837,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 1,
+      "position": 0
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 28.299999952316284,
+      "resultProxy": 366.7000000476837,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 1,
+      "position": 1
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 30.5,
+      "resultProxy": 383.39999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 1,
+      "position": 2
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 63.60000002384186,
+      "resultProxy": 400,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 1,
+      "position": 3
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 70.59999990463257,
+      "resultProxy": 416.89999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 2,
+      "position": 0
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 29,
+      "resultProxy": 366.7999999523163,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 2,
+      "position": 1
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 27.5,
+      "resultProxy": 383.40000009536743,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 2,
+      "position": 2
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 65.60000002384186,
+      "resultProxy": 433.40000009536743,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 2,
+      "position": 3
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 70.10000002384186,
+      "resultProxy": 399.5,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 3,
+      "position": 0
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 34.89999997615814,
+      "resultProxy": 449.89999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 3,
+      "position": 1
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 29.09999990463257,
+      "resultProxy": 381.59999990463257,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 3,
+      "position": 2
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 72.30000007152557,
+      "resultProxy": 432.3000000715256,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 3,
+      "position": 3
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 70.20000004768372,
+      "resultProxy": 448.3000000715256,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 4,
+      "position": 0
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 30.200000047683716,
+      "resultProxy": 400.10000002384186,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 4,
+      "position": 1
+    },
+    {
+      "source": "performance/round9/candidate-search.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 31.600000023841858,
+      "resultProxy": 384.39999997615814,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 4,
+      "position": 2
+    },
+    {
+      "source": "performance/round9/before.html",
+      "width": 1440,
+      "count": 500,
+      "run": 0,
+      "query": "列",
+      "handler": 69.89999997615814,
+      "resultProxy": 433.2999999523163,
+      "cards": 500,
+      "behaviorSha256": "6c80444b064fc78b47d637ddce2be8d3125d33896317055202f4eb344ca354cc",
+      "cycle": 4,
+      "position": 3
+    }
+  ],
+  "errors": []
+}

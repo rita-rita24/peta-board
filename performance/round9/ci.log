@@ -1,0 +1,117 @@
+
+> peta-board@1.0.0 ci
+> npm run check && npm run lint && npm run validate:html && npm run validate:css && npm run format:check && npm run python:check && npm test
+
+
+> peta-board@1.0.0 check
+> node scripts/check.mjs
+
+Application JS, 3 CSS blocks, 74 CJS and 6 Python files checked
+
+> peta-board@1.0.0 lint
+> eslint scripts performance .checks eslint.config.mjs
+
+
+> peta-board@1.0.0 validate:html
+> html-validate peta-board.html
+
+
+> peta-board@1.0.0 validate:css
+> stylelint '.checks/*.css'
+
+
+> peta-board@1.0.0 format:check
+> prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> peta-board@1.0.0 python:check
+> node scripts/check-python.mjs
+
+All checks passed!
+7 files already formatted
+performance/compare.py equal
+performance/drag/report.py equal
+performance/round2/compare.py equal
+performance/round2/finalize.py equal
+performance/round3/compare.py equal
+performance/round3/finalize.py equal
+
+> peta-board@1.0.0 test
+> node scripts/regression.mjs
+
+Checking chromium performance/round9/before.html 320
+Checking chromium performance/round9/before.html 375
+Checking chromium performance/round9/before.html 1440
+Checking chromium peta-board.html 320
+Checking chromium peta-board.html 375
+Checking chromium peta-board.html 1440
+Checking firefox performance/round9/before.html 320
+Checking firefox performance/round9/before.html 375
+Checking firefox performance/round9/before.html 1440
+Checking firefox peta-board.html 320
+Checking firefox peta-board.html 375
+Checking firefox peta-board.html 1440
+Checking webkit performance/round9/before.html 320
+Checking webkit performance/round9/before.html 375
+Checking webkit performance/round9/before.html 1440
+Checking webkit peta-board.html 320
+Checking webkit peta-board.html 375
+Checking webkit peta-board.html 1440
+[
+  '保存・再読み込み:50件',
+  '編集内容・本文・タグの即時反映',
+  '検索結果・抜粋・空結果・解除後の全件復帰',
+  'キーボード並べ替え・フォーカス',
+  '期限カレンダー・日付直接入力',
+  '別タブ更新の自動反映',
+  '確認キャンセルでデータ保持',
+  'バックアップ操作',
+  '0列の保存・再読み込み',
+  '破損保存データの退避・復旧',
+  'Web Locks非対応時の保存停止・警告'
+]
+[
+  'Escape cancels and suppresses accidental editor click',
+  'outside board clears preview and does not move',
+  'pointercancel preserves data and clears capture feedback',
+  'pointerup without pointermove uses final coordinates',
+  'column pointerup without pointermove reorders correctly',
+  'vertical edge autoscroll',
+  'horizontal edge autoscroll on 375px viewport',
+  'editor column selection updates note destination and drawer',
+  'lost pointer capture cancels without accidental editor',
+  'touch outside handle does not start dragging',
+  'synthetic touch handle starts and cancels dragging'
+]
+parity snapshots 72 geometry comparisons 7200
+Unload chromium performance/round6/before.html 0 passed
+Unload chromium peta-board.html 0 passed
+Unload firefox performance/round6/before.html 0 passed
+Unload firefox peta-board.html 0 passed
+Unload webkit performance/round6/before.html 0 passed
+Unload webkit peta-board.html 0 passed
+[
+  {
+    engine: 'chromium',
+    version: '154.0.8037.99',
+    snapshots: 102,
+    equal: true,
+    errors: []
+  },
+  {
+    engine: 'firefox',
+    version: '157.0',
+    snapshots: 102,
+    equal: true,
+    errors: []
+  },
+  {
+    engine: 'webkit',
+    version: '27.2',
+    snapshots: 102,
+    equal: true,
+    errors: []
+  }
+]

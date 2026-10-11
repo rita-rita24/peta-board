@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-11T12:03:33.673192+00:00",
+  "state": {
+    "permissions": {
+      "enabled": false,
+      "sha_pinning_required": false
+    },
+    "workflows": [],
+    "runs": [],
+    "artifacts": 0,
+    "caches": 0
+  },
+  "definition": "Read-only GitHub API inspection; Actions disabled, no workflows/runs/artifacts/caches. No Actions were added by this change."
+}

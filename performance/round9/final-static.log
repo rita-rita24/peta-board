@@ -1,0 +1,15 @@
+
+> peta-board@1.0.0 check
+> node scripts/check.mjs
+
+Application JS, 3 CSS blocks, 76 CJS and 6 Python files checked
+
+> peta-board@1.0.0 lint
+> eslint scripts performance .checks eslint.config.mjs
+
+
+> peta-board@1.0.0 format:check
+> prettier --check scripts/*.{mjs,cjs} performance/**/*.cjs performance/*.cjs package.json eslint.config.mjs .htmlvalidate.json .stylelintrc.json
+
+Checking formatting...
+All matched files use Prettier code style!

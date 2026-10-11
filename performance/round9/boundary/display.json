@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-11T11:19:46.024Z",
+  "engine": "chromium",
+  "browser": "154.0.8037.99",
+  "runnerSha256": "7e6df124bc067ffe897379444f041e13104f261e22c13974659872c0b2663307",
+  "versions": {
+    "performance/round9/before.html": "30143609a812f288974b3a84a93d1a07b544af5990c9f9fb3ca8696bee330bd2",
+    "performance/round9/candidate-inline.html": "6d174268382a6b7f66184969f41f0a16d259738e5caa92cfd60167d61930422b"
+  },
+  "bodyInternalScrollSizeExcluded": false,
+  "results": [
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "run": 0,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "run": 1,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 2,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "run": 3,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "initial",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "filtered threshold",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "horizontal last column",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "vertical bottom",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize taller",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "resize shorter",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "run": 4,
+      "width": 320,
+      "count": 500,
+      "variant": true,
+      "label": "larger font and five lines",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    }
+  ],
+  "accessibilityEqual": true,
+  "accessibilityDefinition": "Playwright board ariaSnapshot roles/names/text/values, exact comparison; visible pixels and all body/card/list dimensions and scroll also compared"
+}
